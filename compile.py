@@ -9,6 +9,7 @@ IGNORE_DIRS = [
     'parts'
 ]
 TEMPLATE_DIR = 'templates'
+ROOT = '//web.stanford.edu/archive/cs/cs106a/cs106a.1174'
 
 # Use the -t flag if you want to compile for local tests
 DEPLOY = not '-t' in sys.argv
@@ -48,7 +49,7 @@ class Compiler(object):
         
     def getPathToRoot(self, relativePath):
         if DEPLOY:
-            return '//web.stanford.edu/class/cs106a/'
+            return ROOT
         return self.getRelPathToRoot(relativePath)
 
     def getRelPathToRoot(self, relativePath):
