@@ -19,6 +19,10 @@ li {
   margin-bottom: 0px;
 }
 
+dd {
+    margin-bottom: 2.5em;
+}
+
 code {
     color:black;
     padding:0px;
@@ -35,6 +39,10 @@ code {
    top:450px;  /* your iframe height */
    margin-top:-450px;  /* your iframe height */
    z-index:9999;
+}
+
+.verticalLine {
+  border-left: thick solid #ff0000;
 }
 
 .subtleHeading {
