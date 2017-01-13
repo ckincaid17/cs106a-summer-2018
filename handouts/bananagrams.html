@@ -7,14 +7,14 @@
 <meta http-equiv="content-type" content="text/html; charset=UTF8">
 
 
-<link href="http://web.stanford.edu/class/cs106a/plugins/bootstrap-custom/css/bootstrap.min.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="http://web.stanford.edu/class/cs106a/style.css">
+<link href="../plugins/bootstrap-custom/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="../style.css">
 
 <!-- Java Script -->
-<script src="http://web.stanford.edu/class/cs106a/plugins/jquery.min.js"></script>
-<script src="http://web.stanford.edu/class/cs106a/plugins/moment.min.js"></script>
-<script src="http://web.stanford.edu/class/cs106a/plugins/bootstrap-custom/js/bootstrap.min.js"></script>
-<script src="http://web.stanford.edu/class/cs106a/plugins/ace/ace.js" type="text/javascript"></script>
+<script src="../plugins/jquery.min.js"></script>
+<script src="../plugins/moment.min.js"></script>
+<script src="../plugins/bootstrap-custom/js/bootstrap.min.js"></script>
+<script src="../plugins/ace/ace.js" type="text/javascript"></script>
 
 
 <!-- Stanford -->
@@ -35,7 +35,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand brand" href="http://web.stanford.edu/class/cs106a//">CS106A</a>
+      <a class="navbar-brand brand" href="..//">CS106A</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -47,21 +47,23 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Lectures <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://web.stanford.edu/class/cs106a/lectures/1-Welcome">1-Welcome</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/lectures/2-ControlFlow">2-Control Flow</a></li>
+            <li><a href="../lectures/1-Welcome">1-Welcome</a></li>
+            <li><a href="../lectures/2-ControlFlow">2-Control Flow</a></li>
+            <li><a href="../lectures/3-Decomposition">3-Decomposition</a></li>
           </ul>
         </li>
 
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Handouts <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/1 - General Information.pdf">1-General Information</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/2 - Course Placement.pdf">2-Course Placement</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/3 - Course Communication.pdf">3-Course Communication</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/4 - Honor Code.pdf">4-Honor Code</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/5 - Karel In Eclipse.pdf">5-Karel in Eclipse</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/6 - Assignment-1.pdf">6-Assignment-1</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/handouts/7 - Submitting Work.pdf">7-Submitting Work</a></li>
+            <li><a href="../handouts/1 - General Information.pdf">1-General Information</a></li>
+            <li><a href="../handouts/2 - Course Placement.pdf">2-Course Placement</a></li>
+            <li><a href="../handouts/3 - Course Communication.pdf">3-Course Communication</a></li>
+            <li><a href="../handouts/4 - Honor Code.pdf">4-Honor Code</a></li>
+            <li><a href="../handouts/5 - Karel In Eclipse.pdf">5-Karel in Eclipse</a></li>
+            <li><a href="../handouts/6 - Assignment-1.pdf">6-Assignment-1</a></li>
+            <li><a href="../handouts/7 - Submitting Work.pdf">7-Submitting Work</a></li>
+            <li><a href="../handouts/8 - Karel Examples.pdf">8-Karel Examples</a></li>
           </ul>
         </li>
         <li class="dropdown">
@@ -69,7 +71,7 @@
           <ul class="dropdown-menu">
            
             <li><a href="https://goo.gl/forms/x2HTAbJ8soIMCztg1">0-Who are you</a></li>
-            <li><a href="http://web.stanford.edu/class/cs106a/assn/karel.html">1-Karel</a></li>
+            <li><a href="../assn/karel.html">1-Karel</a></li>
           </ul>
         </li>
 
@@ -91,7 +93,7 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://web.stanford.edu/class/cs106a/schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
+        <li><a href="../schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
       </ul>
       
     </div><!-- /.navbar-collapse -->
@@ -130,7 +132,7 @@
 					This handout does two things. First it goes over the anagram example from lecture. Then I present the first ever (to the best of my knowledge) AI solver for Bananagrams
 				</p>
 				<center>
-					<img src = "http://web.stanford.edu/class/cs106a/img/handouts/banana/banana.jpg" style="max-width:80%"></img>
+					<img src = "../img/handouts/banana/banana.jpg" style="max-width:80%"></img>
 				</center>
 				<center>
 					<i>Bananagrams, which builds off of Anagrams</i>
@@ -219,13 +221,13 @@ string sortLetters(string s) {
                 </p>
 
                 <p>
-                    <img src = "http://web.stanford.edu/class/cs106a//img/handouts/banana/example.png" style="width:100%"></img>
+                    <img src = "..//img/handouts/banana/example.png" style="width:100%"></img>
                 </p>
 
                 <p>
                     Getting the best first word (similar to getting subsequent good words) is hard. You really want to try all combinations of including and excluding tiles. To solve this problem I used a thought process called Breadth First Search, which is similar to how you are going to solve Word Ladder.
                 </p>
-				<p>Bellow is the code. You can also peruse <a href="http://web.stanford.edu/class/cs106a//lectures/4-MapsSets/code/bananagrams/src/banagrams.cpp">bananagrams.cpp</a> if you want it as a file. I would consider this an example of CS106B expectations for style.
+				<p>Bellow is the code. You can also peruse <a href="..//lectures/4-MapsSets/code/bananagrams/src/banagrams.cpp">bananagrams.cpp</a> if you want it as a file. I would consider this an example of CS106B expectations for style.
 					The functions are generally bite size and nicely decompose the hard problem into smaller pieces. Functions are
 				    well named and have comments. I use const int instead of raw "magic" numbers. Enjoy.</p>
 				<pre class="editor">/*
