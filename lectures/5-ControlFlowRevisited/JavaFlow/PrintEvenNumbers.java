@@ -1,9 +1,8 @@
 /*
- * File: Hailstone.java
- * Name: 
- * Section Leader: 
+ * File: PrintEvenNumbers.java
  * --------------------
- * This file is the starter file for the Hailstone problem.
+ * Prints out the first 100 even numbers, using a for
+ * loop.
  */
 
 import acm.program.*;

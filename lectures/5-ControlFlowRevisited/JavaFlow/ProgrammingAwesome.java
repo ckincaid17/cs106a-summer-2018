@@ -1,9 +1,7 @@
 /*
- * File: Target.java
- * Name: 
- * Section Leader: 
- * -----------------
- * This file is the starter file for the Target problem.
+ * File: ProgrammingAwesome.java
+ * --------------------
+ * Draws some funky shapes.
  */
 
 import acm.graphics.*;

@@ -1,11 +1,8 @@
 /*
- * File: Target.java
- * Name: 
- * Section Leader: 
- * -----------------
- * This file is the starter file for the Target problem.
+ * File: SimpleGraphicsExample.java
+ * --------------------
+ * Draws a rectangle and an oval.
  */
-
 import acm.graphics.*;
 import acm.program.*;
 import java.awt.*;

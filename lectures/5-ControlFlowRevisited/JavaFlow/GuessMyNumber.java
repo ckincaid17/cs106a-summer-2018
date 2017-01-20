@@ -1,9 +1,8 @@
 /*
- * File: PythagoreanTheorem.java
- * Name: 
- * Section Leader: 
- * -----------------------------
- * This file is the starter file for the PythagoreanTheorem problem.
+ * File: GuessMyNumber.java
+ * --------------------
+ * Has the user try and guess a number between 0 and 100.
+ * Tells the user if their guess was too high or too low.
  */
 
 import acm.program.*;

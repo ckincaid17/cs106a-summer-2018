@@ -1,9 +1,9 @@
 /*
- * File: Hailstone.java
- * Name: 
- * Section Leader: 
+ * File: CarbonDatingSoln.java
  * --------------------
- * This file is the starter file for the Hailstone problem.
+ * This program calculates the age of a sample based on how much
+ * Carbon-14 is remaining. See:
+ * http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/cardat.html
  */
 
 import acm.program.*;

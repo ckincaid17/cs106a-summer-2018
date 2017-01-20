@@ -1,9 +1,9 @@
 /*
- * File: Hailstone.java
- * Name: 
- * Section Leader: 
+ * File: CarbonDating.java
  * --------------------
- * This file is the starter file for the Hailstone problem.
+ * This program calculates the age of a sample based on how much
+ * Carbon-14 is remaining. See:
+ * http://hyperphysics.phy-astr.gsu.edu/hbase/Nuclear/cardat.html
  */
 
 import acm.program.*;
@@ -20,6 +20,8 @@ public class CarbonDating extends ConsoleProgram {
 		
 		// get c14 from the user
 		double amount = readDouble("How much c14 in your sample? ");
+		
+		// calculate the age
 		double age = Math.log(amount / 13.6) / Math.log(0.5) * 5730;
 		println("Your sample is " + age + " years old");
 		
