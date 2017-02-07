@@ -1,8 +1,8 @@
-requirejs.config( { baseUrl: "web.stanford.edu/class/cs106a/js" });
-requirejs([ "breakout-win17/js/edu/stanford/cs/svm",
-            "breakout-win17/js/edu/stanford/cs/sjslib/core",
-            "breakout-win17/js/edu/stanford/cs/sjslib/graphics",
-            "breakout-win17/js/edu/stanford/cs/sjslib/util" ],
+requirejs.config( { baseUrl: "breakout-win17/js" });
+requirejs([ "edu/stanford/cs/svm",
+            "edu/stanford/cs/sjslib/core",
+            "edu/stanford/cs/sjslib/graphics",
+            "edu/stanford/cs/sjslib/util" ],
           function(svmpkg, core, graphics, util) {
              var pgm = new svmpkg.SVMProgram();
              var svm = pgm.getSVM();
