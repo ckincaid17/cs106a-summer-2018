@@ -47,7 +47,9 @@ public class ArrayLists_OpeningCrawl extends GraphicsProgram {
 	private ArrayList<GLabel> readOpeningCrawlFile(String crawlFilename) {
 		try {
 			BufferedReader rd = new BufferedReader(new FileReader(crawlFilename));
-
+			
+			ArrayList<GLabel> labelsList = new ArrayList<GLabel>();
+			
 			String line = rd.readLine();
 			while (line != null) {
 				
@@ -56,6 +58,7 @@ public class ArrayLists_OpeningCrawl extends GraphicsProgram {
 				line = rd.readLine();
 			}
 			rd.close();
+			return labelsList;
 		} catch (IOException e) {
 			throw new RuntimeException(e);
 		}

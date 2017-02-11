@@ -16,7 +16,7 @@ By taking the turnRight() command
 hostage, SuperKarel has forced all
 other Karels to turnLeft() three times.
 
-The Karels' only hope is to avoid code
+The Karels' only hope to avoid code
 bloat is to re-implement turnRight()
 themselves.  However, all Karels have
 forgotten how to write a Karel program.
