@@ -114,6 +114,10 @@
                     <p class="subtleHeading">ASSIGNMENTS</p>
 
                     <div class="well well-sm" style="margin-bottom:10px">
+                        <a href="{{pathToRoot}}assn/yahtzee.html">Assn 5: Yahtzee</a> 
+                    </div>
+
+                    <div class="well well-sm" style="margin-bottom:10px">
                         <a href="{{pathToRoot}}assn/hangman.html">Assn 4: Hangman</a> 
                     </div>
 
@@ -204,6 +208,7 @@
                         <p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Sun 8-10PM PST</p>
                         <p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Mon 6:30-7:30PM PST</p>
                         <p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Tues 7-8PM PST</p>
+                        <p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Wed 7-9PM PST</p>
 
                         <br />
                         Join Google Hangouts <a href="https://plus.google.com/hangouts/_/calendar/Y3MxOThzY3BkQGdtYWlsLmNvbQ.u7o1h874cspofvfbdnste1l1rc">here</a> at the times above.
@@ -245,6 +250,61 @@
                 <div>
 
                     <p class="subtleHeading">NEW ANNOUNCEMENTS</p>
+                </div>
+
+                <div class="well">
+                    <div class="newsfeedHeader">
+                        <div class="newsfeedTitle">Assignment 5: Yahtzee</div>
+                        <div class="moment">2017021710</div>
+                    </div>
+
+                    <p>
+                          In your fifth assignment you will program the classic game of Yahtzee! See the <a href="{{pathToRoot}}assn/yahtzee.html">assignment page</a> for the handout and starter code.  <strong>Assignment 5 YEAH hours will be Tuesday 2/21, 7:30-9PM in Bishop Auditorium </strong> (in Lathrop Library).   As a reminder, YEAH hours, or  “Your Early Assignment Help” hours, are optional sessions meant to provide additional help getting started with each assignment.  We hope to see you there!
+                    </p>
+
+                    <p>
+                        <img style="width:100%" src="{{pathToRoot}}img/assn/yahtzee.png"></img>
+                    </p>
+                </div>
+
+                <div class="well">
+                    <div class="newsfeedHeader">
+                        <div class="newsfeedTitle">Assignment 4 Correction</div>
+                        <div class="moment">2017021616</div>
+                    </div>
+
+                    <p>
+                          We found a small bug when running the Hangman starter code on Windows machines.  Specifically, due to the way Windows displays Eclipse programs, the height of the screen is 20 less than when running on a Mac.  For this reason, the constant Y value given for the incorrect guesses label (<code>INCORRECT_GUESSES_Y</code>) is off-screen.
+
+                          <br />
+
+                          To resolve this issue (for consistency, every student please do this, Mac or PC), <strong>PLEASE CHANGE <code>INCORRECT GUESSES_Y</code> and <code>PARTIALLY_GUESSED_Y</code> to the following:</strong>
+
+                          <br />
+                          <br />
+
+                          <code>  
+                          /* The y-location to display the partially guessed string */
+                          <br />
+                          private static final int PARTIALLY_GUESSED_Y = 430;
+                          <br />
+                          /* The y-location to display the incorrectly guessed letters */
+                          <br />
+                          private static final int INCORRECT_GUESSES_Y = 460;
+                          </code>
+
+                          <br />
+                          <br />
+
+                          The starter code on the website has also been updated to reflect this change.
+
+                          We apologize for the last-minute change; if you do not make the above change, you will not be penalized if your incorrect guesses label is offscreen, as long as you are positioning it correctly.  But the above change may help ensure that your calculations are correct.
+                    </p>
+                </div>
+
+                 <hr/>
+                <div>
+                    <p class="subtleHeading">OLD ANNOUNCEMENTS</p>
                 </div>
 
                 <div class="well">
@@ -308,11 +368,6 @@
                     </p>
                 </div>
 
-                 <hr/>
-                <div>
-                    <p class="subtleHeading">OLD ANNOUNCEMENTS</p>
-                </div>
-
                 <div class="well">
                     <div class="newsfeedHeader">
                         <div class="newsfeedTitle">Assignment 3 YEAH Hours Materials Posted</div>
@@ -326,7 +381,7 @@
 
                 <div class="well">
                     <div class="newsfeedHeader">
-                        <div class="newsfeedTitle">Assignment 3 Breakout</div>
+                        <div class="newsfeedTitle">Assignment 3: Breakout</div>
                         <div class="moment">2017013010</div>
                     </div>
 
