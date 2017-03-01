@@ -1,0 +1,6384 @@
+<!DOCTYPE html>
+<html class='pc chrome mac psc_dir-ltr psc_form-xlarge' dir='ltr' lang='en'>
+<!-- Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved. -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><body><table border='1' cellpadding='3' cellspacing='0'>
+<tr>
+<th>Notify</th><th>Photo</th><th>ID</th><th>Name</th><th>Email</th><th>Grade Basis</th><th>Units</th><th>Program and Plan</th><th>Level</th><th>Status Note</th></tr>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099172</td>
+<td  >Eicher,Seiji</td>
+<td  >keicher@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05812332</td>
+<td  >Sikder,Rafid</td>
+<td  >rsikd001@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Comput &amp; Math Engr - 
+Comput &amp; Math Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06135438</td>
+<td  >Chung,Dahee</td>
+<td  >dahee@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06132456</td>
+<td  >Thao,Pao</td>
+<td  >pthao@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094950</td>
+<td  >Henry,Daniel Richard</td>
+<td  >dhenry@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092255</td>
+<td  >McKenney,Kai Tashima</td>
+<td  >mckai@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093200</td>
+<td  >Martin,Caleb</td>
+<td  >calebm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092478</td>
+<td  >Jiang,Catherine Hui</td>
+<td  >cjiang98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096683</td>
+<td  >Wang,James M</td>
+<td  >jamesw97@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094504</td>
+<td  >Edsall,Nicole Elizabeth</td>
+<td  >nicole20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06138026</td>
+<td  >Hu,Xinlan Emily</td>
+<td  >xehu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06127968</td>
+<td  >Rtabi,Hasna</td>
+<td  >hasna@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06017106</td>
+<td  >Mediorreal,Laura Alejandra</td>
+<td  >laura97@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124725</td>
+<td  >Afable,Kristinely Gabriel</td>
+<td  >kafable@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06127507</td>
+<td  >Moolji,Natasha</td>
+<td  >nmoolji@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06125498</td>
+<td  >Bowen,Ellie Rose</td>
+<td  >ebowen@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06136391</td>
+<td  >Roper,Ellen</td>
+<td  >eroper@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099525</td>
+<td  >Kim,Alex Sean</td>
+<td  >akim5@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094880</td>
+<td  >Cooper,Bella Lou</td>
+<td  >bcooper5@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097413</td>
+<td  >Lee,So Young</td>
+<td  >lsoyoung@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06110344</td>
+<td  >Tokuyama,Donovan Woodward Yasaku</td>
+<td  >donovant@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06100921</td>
+<td  >Davis,Kea'a M Kalani</td>
+<td  >kmkdavis@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093337</td>
+<td  >Critchlow,Austin DuBos</td>
+<td  >acritchl@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06027646</td>
+<td  >Chi,Greg</td>
+<td  >gregchi@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06142565</td>
+<td  >Yap,Dian Ang</td>
+<td  >dianang7@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06130143</td>
+<td  >Lu,Rachel Zhang</td>
+<td  >rachlu8@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097068</td>
+<td  >Tu,Amanda Kim Mai</td>
+<td  >aktu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06105270</td>
+<td  >Jiang,Rena Yixuan</td>
+<td  >rena20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06142106</td>
+<td  >Huang,Jiamin</td>
+<td  >jhuang13@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093686</td>
+<td  >Lawrence,Bradley Baird</td>
+<td  >bradleyl@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094517</td>
+<td  >Darmstadt,Emilia Carol</td>
+<td  >emiliada@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06126529</td>
+<td  >Feuer,Samantha Victoria</td>
+<td  >sfeuer@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096724</td>
+<td  >Seay,Nicholas Brian</td>
+<td  >nseay@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096096</td>
+<td  >Wright,Gabby</td>
+<td  >gabby2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06147007</td>
+<td  >N'Jaka,Sanura Lela Zhané</td>
+<td  >sanura@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097985</td>
+<td  >Santos,Pablo Cesar</td>
+<td  >pxsantos@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06134494</td>
+<td  >Forro,Jenny</td>
+<td  >jforro@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06151255</td>
+<td  >Qiu,Helen</td>
+<td  >shiqiu21@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05928515</td>
+<td  >Koufakis,Emily Alexa</td>
+<td  >emilyk18@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BA)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06029623</td>
+<td  >Keys,Alli Michelle</td>
+<td  >allikeys@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Chemistry (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024644</td>
+<td  >Utz,Ashley</td>
+<td  >autz@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097153</td>
+<td  >Bond,Courtney Clare</td>
+<td  >ccbond@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094153</td>
+<td  >Foulke,Ryan Andrew</td>
+<td  >rfoulke@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06125091</td>
+<td  >Filice,Gianfranco</td>
+<td  >gfilice@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06145073</td>
+<td  >Durvasula,Samsara Pappu</td>
+<td  >samsarad@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097088</td>
+<td  >Riccitelli,Collin Jeffrey</td>
+<td  >criccite@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092827</td>
+<td  >Chaudhri,Vedi</td>
+<td  >vchaudhr@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099887</td>
+<td  >Topete,Jesseca Vanderloo</td>
+<td  >jtopete@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06100455</td>
+<td  >Govea Moreno,Luis Gerardo</td>
+<td  >lgovea@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098899</td>
+<td  >Varanasi,Vamsi Jaya</td>
+<td  >vamsijv@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096913</td>
+<td  >Duke,Sam Louis</td>
+<td  >sduke2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06159965</td>
+<td  >Owusu Agyeman,Kofi</td>
+<td  >kowusuag@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Energy Resources Engineer (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05862419</td>
+<td  >Xue,Alfred TongZhuang</td>
+<td  >axue@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Computer Science (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124981</td>
+<td  >Atkins,Cecilia Kei</td>
+<td  >catkins@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091680</td>
+<td  >Bywater,Lauren Caroline</td>
+<td  >lbywater@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124319</td>
+<td  >Guzman,Peter Indab</td>
+<td  >pguzman2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06145342</td>
+<td  >Taylor,Sarah Avery Claire</td>
+<td  >saraht20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097708</td>
+<td  >Ekmark,Andrew Curtis</td>
+<td  >aekmark@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05866792</td>
+<td  >Gian,Amanda Lynette</td>
+<td  >agian@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Biology (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099265</td>
+<td  >Verma,Medha</td>
+<td  >medhav@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06134159</td>
+<td  >Chang,Michelle</td>
+<td  >mchang21@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093583</td>
+<td  >Segre,Julien Stefanki</td>
+<td  >jssegre@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091773</td>
+<td  >Ringer,Joey Marques</td>
+<td  >josephr5@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097308</td>
+<td  >Archbold,Garry</td>
+<td  >garrya@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099352</td>
+<td  >Torrance,Gabrielle Ann</td>
+<td  >torran20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090586</td>
+<td  >Watson,Grant</td>
+<td  >gcwatson@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05974889</td>
+<td  >Xing,David</td>
+<td  >davidx@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Mathematics (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05999672</td>
+<td  >Ezquerro,Carlos Emiliano</td>
+<td  >carloslj@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06162993</td>
+<td  >Gibbons,Holden</td>
+<td  >holdeng@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097553</td>
+<td  >Stener,Julius Thomas</td>
+<td  >stenerj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06132235</td>
+<td  >Rosenzweig,David Marcus</td>
+<td  >davidr29@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06018968</td>
+<td  >Greenwald,Grace Sarah</td>
+<td  >gracegr@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06015871</td>
+<td  >Ramgopal,Kit Raya</td>
+<td  >kramgopa@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05895571</td>
+<td  >Gomez,Victoria Lucia</td>
+<td  >vgomez2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Biology (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06057984</td>
+<td  >Kim,Irene</td>
+<td  >ikim2@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+International Relat (BA)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094801</td>
+<td  >Roychowdhury,Anjali</td>
+<td  >aroyc@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06131494</td>
+<td  >Qu,Landy</td>
+<td  >xinyiqu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094464</td>
+<td  >Barnett,Lily Bigley</td>
+<td  >lilybarn@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06130773</td>
+<td  >Yan,Xueying</td>
+<td  >xueyingy@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06127009</td>
+<td  >Jiang,Tina</td>
+<td  >tinaj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06079467</td>
+<td  >Kowalski,Katherine Irena</td>
+<td  >kasia4@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06002309</td>
+<td  >Wilson,Alec Scott</td>
+<td  >alecw11@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06101892</td>
+<td  >Gonzalez,Daniela Veronica</td>
+<td  >daniela0@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06051688</td>
+<td  >Dziembaj,Roma</td>
+<td  >romad@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Symbolic Systems (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097442</td>
+<td  >Cromack,Harry</td>
+<td  >hcromack@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06074474</td>
+<td  >Ansah,Grace Adoley</td>
+<td  >gansah@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Chemical Engineering (BS)/Global Studies (MIN)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06126998</td>
+<td  >Amethier,Martin</td>
+<td  >amethier@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097394</td>
+<td  >Manuel,Tiffany Magsanoc</td>
+<td  >manuel14@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099572</td>
+<td  >Mysore,Kendra Tania</td>
+<td  >kmysore@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06105912</td>
+<td  >Shome,Pretom Roy</td>
+<td  >pshome@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139119</td>
+<td  >Meister,Erica Alexandra</td>
+<td  >ericam6@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06066178</td>
+<td  >Chamme,Moratwa Nareetsile Ronela</td>
+<td  >moratwa@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091618</td>
+<td  >Guo,Spencer Chen</td>
+<td  >scguo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06131617</td>
+<td  >Hong,Jihun</td>
+<td  >hjihun@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097827</td>
+<td  >Fort,Nic</td>
+<td  >nfort@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096813</td>
+<td  >Chau,Isabelle Julia</td>
+<td  >ichau@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092499</td>
+<td  >Li,Olivia</td>
+<td  >oli2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05909543</td>
+<td  >Fracisco,Patrick Alexander</td>
+<td  >fracisco@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06018172</td>
+<td  >Wang,Royce</td>
+<td  >roycew@stanford.edu</td>
+<td  >Letter</td>
+<td  >0.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)</td>
+<td  >Sophomore</td>
+<td  style="mso-number-format:\@;"  >Withdrawn</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098915</td>
+<td  >Yohannes,Hana Cecillia</td>
+<td  >hanay@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096157</td>
+<td  >Bustos,Carlos Enrique</td>
+<td  >cbustos@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146189</td>
+<td  >Perelson,Sigalit Jacqueline</td>
+<td  >sigalit@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06130221</td>
+<td  >Salamone,Anna McKillion</td>
+<td  >annasal@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092305</td>
+<td  >Cash,Micah</td>
+<td  >mcash@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06123596</td>
+<td  >Tieri,Emiliano</td>
+<td  >erodrig@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06059657</td>
+<td  >Busby,Julia Kirsten</td>
+<td  >jbusby@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06107082</td>
+<td  >El-Dehaibi,Nasreddine</td>
+<td  >ndehaibi@stanford.edu</td>
+<td  >Letter</td>
+<td  >4.00</td>
+<td  >Mechanical Engineer - 
+Mechanical Engineer (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091339</td>
+<td  >Hill,Jared Thomas</td>
+<td  >jthill42@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06072224</td>
+<td  >Schulz,Kelly Kristina</td>
+<td  >schulz19@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092481</td>
+<td  >Yu,Bianca</td>
+<td  >biancayu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096176</td>
+<td  >Kang,Sunwoo</td>
+<td  >swkang73@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099211</td>
+<td  >Livingston,Rip</td>
+<td  >edward7@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024793</td>
+<td  >Ritter,Brandon</td>
+<td  >ritter98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Mechanical Engineer (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090657</td>
+<td  >Bischoff,Paul William</td>
+<td  >paulieb3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06105909</td>
+<td  >Gurev,Sarah Faye</td>
+<td  >sgurev@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06022022</td>
+<td  >Xiong,Jou</td>
+<td  >jouxiong@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05940624</td>
+<td  >Serrano,Jose Cristian</td>
+<td  >jserran2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024013</td>
+<td  >Dayrit,Teresa Elena</td>
+<td  >tedayrit@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Materials Science &amp; Engr (BS)/Music (Min)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05936189</td>
+<td  >Richardson,Kady Dianne</td>
+<td  >kdrich@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+American Studies (BA)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06048967</td>
+<td  >El-Khazindar,Mimi Pilley</td>
+<td  >melkhaz@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06151051</td>
+<td  >Liu,Crystal</td>
+<td  >cliu02@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095318</td>
+<td  >Babauta,Justin</td>
+<td  >jbabauta@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06079617</td>
+<td  >Garcia,Javier Andres</td>
+<td  >jgar2811@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06138077</td>
+<td  >Tien,Kevin Thomas</td>
+<td  >kttien@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05788126</td>
+<td  >Smith,Allyson Beatrix</td>
+<td  >absmith3@stanford.edu</td>
+<td  >Letter</td>
+<td  >4.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124881</td>
+<td  >Bucquet,Alexandre Marius</td>
+<td  >bucqueta@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06086474</td>
+<td  >Traxler,Nathan Lyndon</td>
+<td  >nathant4@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06116400</td>
+<td  >Lu,Shiheng</td>
+<td  >shiheng@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Electrical Engineering - 
+Electrical Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096889</td>
+<td  >Friedman,Randy Parker</td>
+<td  >randypf@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05917229</td>
+<td  >Shiraev,Dennis Eric</td>
+<td  >dshiraev@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Law JD - 
+Law (JD)</td>
+<td  >Prof 2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091478</td>
+<td  >Rosenberg,Jacob Kannon</td>
+<td  >jr3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097259</td>
+<td  >Schoenfeld,Jack</td>
+<td  >jscho28@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06106894</td>
+<td  >Hong,Eva Evangeline</td>
+<td  >heejhong@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05597301</td>
+<td  >Storm,Erica Marie</td>
+<td  >estorm15@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Medicine MD - 
+Medicine (MD)</td>
+<td  >PreClnYr2+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06019992</td>
+<td  >Jorgensen,Rachel Jade</td>
+<td  >racheljj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091440</td>
+<td  >Schmittlein,Brigitte Leida</td>
+<td  >bschmitt@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05963401</td>
+<td  >Stickells,Laura Claire Zack</td>
+<td  >lauraczs@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Communication (BA)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05961716</td>
+<td  >Tytus,Jori Jayne</td>
+<td  >jtytus@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091901</td>
+<td  >Aranjo,Jeyla</td>
+<td  >jaranjo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092312</td>
+<td  >Stern,Maxine Aviva</td>
+<td  >mstern20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091896</td>
+<td  >Xue,Danna</td>
+<td  >dannaxue@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06025958</td>
+<td  >Hearn,Sophie Kennedy</td>
+<td  >shearn@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05878665</td>
+<td  >Szucs,Gergely</td>
+<td  >gergelys@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Mathematics - 
+Mathematics (PhD)</td>
+<td  >GradYear4+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06153082</td>
+<td  >Tan Wai Kit,Benjamin</td>
+<td  >bentwk@stanford.edu</td>
+<td  >Letter</td>
+<td  >4.00</td>
+<td  >Mgmt Sci &amp; Engineering - 
+Mgmt Sci &amp; Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099594</td>
+<td  >Jiang,Starr</td>
+<td  >yuchenj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091906</td>
+<td  >Haynes,Alli Lee</td>
+<td  >ahaynes@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098164</td>
+<td  >Garcia Becerra,Sergio</td>
+<td  >sgarciab@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093317</td>
+<td  >Sanchez,Karina Ann-Brazeau</td>
+<td  >karina5@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139810</td>
+<td  >Friedman,Alex</td>
+<td  >afriedma@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06101878</td>
+<td  >Fronsdal,Toren Lev</td>
+<td  >toren@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06021851</td>
+<td  >Smith,Bakari Connor</td>
+<td  >bakaris@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094252</td>
+<td  >MacFarlane,Jamie Robert Grant</td>
+<td  >jamiemac@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024295</td>
+<td  >Recinto,Jose Emmanuel Rosendo Togle</td>
+<td  >jrecinto@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06020975</td>
+<td  >Mewes,Paul</td>
+<td  >pmewes@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05999418</td>
+<td  >Borisenko,Jenia</td>
+<td  >evgeniya@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093029</td>
+<td  >Dhaliwal,Tania</td>
+<td  >tania98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05860929</td>
+<td  >Wang,Joy Yiran</td>
+<td  >jwang21@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Chemistry (BSH)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092148</td>
+<td  >Wang,Melinda Yanting</td>
+<td  >melwang@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06143987</td>
+<td  >Ahdout,Shawn</td>
+<td  >sahdout@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024602</td>
+<td  >Goldman,Danny</td>
+<td  >dannyg19@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06116215</td>
+<td  >Kingsfield,Will Fraser</td>
+<td  >willfk@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096484</td>
+<td  >Noland,Riley Patrick</td>
+<td  >rnoland@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06108715</td>
+<td  >Fu,Zhaoxin</td>
+<td  >zhaoxin@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097275</td>
+<td  >Rich,Kelsey Sarah</td>
+<td  >krich20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06003448</td>
+<td  >Fischer,Makenzie Ryann</td>
+<td  >mfisch@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06130109</td>
+<td  >Sentongo-Lukwago,Eric Jacob</td>
+<td  >esentong@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06149211</td>
+<td  >Fo,Katie</td>
+<td  >kfo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06106473</td>
+<td  >Shanderson,Ron Leslie</td>
+<td  >rshan@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >4.00</td>
+<td  >Cancer Biology - 
+Cancer Biology (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05938097</td>
+<td  >Stas,Pieter Constant</td>
+<td  >pjstas@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098324</td>
+<td  >Ostberg,Christian Petter</td>
+<td  >costberg@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06144797</td>
+<td  >Buday,Naomi</td>
+<td  >nbuday@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097794</td>
+<td  >Desai,Nimit</td>
+<td  >nimitd@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096318</td>
+<td  >Lee,Christopher</td>
+<td  >cwjl98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06113274</td>
+<td  >Te,Kimberly Alexis</td>
+<td  >kimte@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06115554</td>
+<td  >Zeng,Anna Shanshan</td>
+<td  >aszeng@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06144060</td>
+<td  >Marquez,Lauren Elizabeth</td>
+<td  >lmarquez@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06125983</td>
+<td  >Alate,Kaushal</td>
+<td  >kalate@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139432</td>
+<td  >Giron,Jose Miguel</td>
+<td  >jmgiron@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097329</td>
+<td  >Murray,Margaret Littlefield</td>
+<td  >mmurray4@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06151481</td>
+<td  >Barrios,James Jerome</td>
+<td  >jbarrio5@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Mgmt Sci &amp; Engineering - 
+Mgmt Sci &amp; Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139393</td>
+<td  >Thain,Loghan</td>
+<td  >loghan@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05932530</td>
+<td  >Gold,Jake Henry</td>
+<td  >jgold3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Earth Systems (BS)/Envir Systems Engr (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095101</td>
+<td  >Li,Karen</td>
+<td  >likaren@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092025</td>
+<td  >Gutwald,Matthew Joseph</td>
+<td  >mgutwald@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05928829</td>
+<td  >Werner,Sam Joshua</td>
+<td  >swerner2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06111344</td>
+<td  >Wang,Yingqi</td>
+<td  >ywang17@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05928261</td>
+<td  >Hilliard-Arce,Tomas Andres</td>
+<td  >tomas24@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BA)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092059</td>
+<td  >Howard,Michelle M</td>
+<td  >mmhoward@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091532</td>
+<td  >Malaspina,Erika Paige</td>
+<td  >emalasp@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090295</td>
+<td  >Lopes,Kira Mackenzie</td>
+<td  >klopes@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124824</td>
+<td  >Uresti,Emily Lidia</td>
+<td  >emuresti@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093447</td>
+<td  >Hougo,Drake Ryan</td>
+<td  >dhougo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06127540</td>
+<td  >Svolos,Michael Thomas</td>
+<td  >msvolos@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05903233</td>
+<td  >Verdeflor,Jade Amargo</td>
+<td  >jadev@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Human Biology (BAH)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06130637</td>
+<td  >Liu,Fan</td>
+<td  >fliu6@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097860</td>
+<td  >Gosakti,Tristan Ryan</td>
+<td  >tgosakti@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06162986</td>
+<td  >Powell,Victoria Lee</td>
+<td  >vpowell@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096294</td>
+<td  >Salvador,Blake James</td>
+<td  >bsalvado@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06019799</td>
+<td  >Dale,Nathan Joseph</td>
+<td  >ndale@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091952</td>
+<td  >Howard,Sean Nicholas</td>
+<td  >snhoward@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093822</td>
+<td  >Moon,Caroline</td>
+<td  >symoon15@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099708</td>
+<td  >Fischer,Erik John</td>
+<td  >erikf@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06141073</td>
+<td  >Lau,Alec</td>
+<td  >alau2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090974</td>
+<td  >Parson,JJ</td>
+<td  >jaelonp@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05943523</td>
+<td  >Baird,Corey Jacob</td>
+<td  >cbaird@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BA)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06121189</td>
+<td  >Tuck,Shi</td>
+<td  >tucks@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093463</td>
+<td  >Schwartz,Harry Rufino</td>
+<td  >hschwrtz@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096354</td>
+<td  >Hayden,Andrew Joseph</td>
+<td  >ahayden@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06078778</td>
+<td  >Prstic,Tamara</td>
+<td  >tprstic@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Psychology (BA)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05986691</td>
+<td  >Schultz,Dalton Chase</td>
+<td  >schuldal@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097497</td>
+<td  >Halper,Daniel</td>
+<td  >dhalper@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06119418</td>
+<td  >ZHANG,YIZHOU</td>
+<td  >yizhouz@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06121910</td>
+<td  >Hattis,Henry Daniel</td>
+<td  >henryol@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093307</td>
+<td  >Gonzalez,Hugo Enrique</td>
+<td  >hugonz20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05907358</td>
+<td  >Cuse,Conor Carlton</td>
+<td  >ccuse@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)/History (Min)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06031808</td>
+<td  >Virnich,Jack Philip</td>
+<td  >jvirnich@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Film and Media Studies (BA)/History (BA)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096512</td>
+<td  >Wang,Kate</td>
+<td  >katewang@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06020268</td>
+<td  >Melby,Grayson Grayson</td>
+<td  >gmelby@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06148221</td>
+<td  >Anley,Kay Tadele</td>
+<td  >kanley@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06131149</td>
+<td  >Wang,Grace Anne</td>
+<td  >grace98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091115</td>
+<td  >Cano Sostre,Nestor Arnau</td>
+<td  >nestorc@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06047248</td>
+<td  >Reyes,Eva</td>
+<td  >ereyes3@stanford.edu</td>
+<td  >Letter</td>
+<td  >0.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td  style="mso-number-format:\@;"  >Withdrawn</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05771519</td>
+<td  >Lang,David Nathan</td>
+<td  >dnlang86@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Education - 
+Education (PhD)</td>
+<td  >GradYear4+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094641</td>
+<td  >Tallman,Avery Elizabeth</td>
+<td  >averyt@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06152798</td>
+<td  >Ding,Ge</td>
+<td  >geding@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Mgmt Sci &amp; Engineering - 
+Mgmt Sci &amp; Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06133618</td>
+<td  >Wolfe,Sam Stephen</td>
+<td  >swolfe2@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05972538</td>
+<td  >Hnin,Yadanar Oo</td>
+<td  >yhnin@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06141816</td>
+<td  >Muni,Robert</td>
+<td  >rmuni@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06002669</td>
+<td  >Genender,Michael Ross</td>
+<td  >genender@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06109525</td>
+<td  >Thachil,Roshni Lisa</td>
+<td  >roshni20@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092551</td>
+<td  >Steele,Nick Allan</td>
+<td  >nsteele@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06026399</td>
+<td  >Coffey,Johnny Thomas Rhodes</td>
+<td  >jcoffey2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06058867</td>
+<td  >Taussig,Abigail</td>
+<td  >ataussig@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Chemical Engineering (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06110891</td>
+<td  >Eguchi,Raphael Ryuichi</td>
+<td  >reguchi@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Biochemistry - 
+Biochemistry (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092578</td>
+<td  >Turner,CJ Jordan</td>
+<td  >turner16@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098170</td>
+<td  >Ananthakumaraswamy,Valavan</td>
+<td  >valavan@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06147638</td>
+<td  >Fish,Maddy</td>
+<td  >madfish@stanford.edu</td>
+<td  >Letter</td>
+<td  >0.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td  style="mso-number-format:\@;"  >Withdrawn</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092326</td>
+<td  >Woods,Gen Rex</td>
+<td  >genwoods@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06140315</td>
+<td  >Phu,Tiffany</td>
+<td  >tiffphu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097869</td>
+<td  >Nowlan,Maggie Sheehan</td>
+<td  >mnowlan@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06142895</td>
+<td  >Ortez Bonilla,Kim</td>
+<td  >kortez@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06052077</td>
+<td  >Shi,Elliot Jianyang</td>
+<td  >eshi@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Political Science (BA)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095488</td>
+<td  >Liu,Weiran</td>
+<td  >wliu329@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06078362</td>
+<td  >Kumarasinghe,Raveen Lashlen</td>
+<td  >rkumaras@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124618</td>
+<td  >Kazdan,Josh Leib</td>
+<td  >jkazdan@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Physics (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06077697</td>
+<td  >Datta,Avoy</td>
+<td  >ad9697@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06104881</td>
+<td  >Hamilton,Emily</td>
+<td  >emham@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Cancer Biology - 
+Cancer Biology (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06000081</td>
+<td  >Chao,Emily Constance</td>
+<td  >ecchao@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06112574</td>
+<td  >Lewis,Courtney Michelle</td>
+<td  >courtlew@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Communication - 
+Communication (MA)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06050816</td>
+<td  >Gonzalez Sahab,Santi</td>
+<td  >sangonsa@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095461</td>
+<td  >Shankar,Nick Dylan</td>
+<td  >shankar8@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139996</td>
+<td  >Chow,Ying</td>
+<td  >yingchow@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094315</td>
+<td  >Thoenen,Jacob</td>
+<td  >jthoenen@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092409</td>
+<td  >Cen,Michelle</td>
+<td  >mcen@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06074092</td>
+<td  >Reid,Justin Quintin</td>
+<td  >jreid1@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06101959</td>
+<td  >Davis,Christian KeShawn</td>
+<td  >cdavis20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06147960</td>
+<td  >Dallakoti,Andrew Hari</td>
+<td  >andrewd3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06037230</td>
+<td  >Hashemi,Amir</td>
+<td  >amirhs@stanford.edu</td>
+<td  >Letter</td>
+<td  >4.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05653711</td>
+<td  >Quinn,Clare Elizabeth</td>
+<td  >cquinn19@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05266213</td>
+<td  >Fernandez Illescas,Silvia Maria</td>
+<td  >silviaf@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear4+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091139</td>
+<td  >Geer,Grant A</td>
+<td  >ggeer@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06181067</td>
+<td  >Li,Minqi</td>
+<td  >minqili@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06107378</td>
+<td  >Callan,Kylie Taylor</td>
+<td  >kcallan@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05951497</td>
+<td  >LaRue,Therese Suren</td>
+<td  >tlarue@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Biology - 
+Biology (PhD)</td>
+<td  >GradYear3</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06033778</td>
+<td  >Steelquist,Aaron Timothy</td>
+<td  >steelqat@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Geol &amp; Environ Sci - 
+Geol &amp; Environ Sci (PhD)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05996913</td>
+<td  >Neher,Charles</td>
+<td  >cneher2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06168465</td>
+<td  >Buckley,David Adam Finneron</td>
+<td  >dbuck@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06136280</td>
+<td  >Wu,David Wei</td>
+<td  >dwwu16@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097334</td>
+<td  >Enthoven,Meg Ann</td>
+<td  >meg3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06116602</td>
+<td  >Peña Brown,Nicolas Charles</td>
+<td  >nicopena@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094854</td>
+<td  >Jones,Mekhi Jonathan</td>
+<td  >mekhi@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099915</td>
+<td  >Williams,Isaiah</td>
+<td  >byronw@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06184101</td>
+<td  >Lee,Austin Christopher</td>
+<td  >acl050@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06079653</td>
+<td  >Gloger,Benjamin Jared</td>
+<td  >bgloger@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Law JD - 
+Law (JD)</td>
+<td  >Prof 2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06071382</td>
+<td  >Camacho,Angelica</td>
+<td  >angiec96@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05465924</td>
+<td  >Leal,Cristobal Alcalde</td>
+<td  >cleal@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06155071</td>
+<td  >Salomone,Anthony</td>
+<td  >salomone@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06156462</td>
+<td  >Do,Natalie</td>
+<td  >ngocd@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06104370</td>
+<td  >Pluquet,Annabelle</td>
+<td  >apluquet@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06155316</td>
+<td  >Davis,Thavon T.</td>
+<td  >thavon@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06157051</td>
+<td  >Humphrey,Lauren Elizabeth Aydon</td>
+<td  >lhumph@stanford.edu</td>
+<td  >Letter</td>
+<td  >4.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06186170</td>
+<td  >Salinero,Anna Lourdes</td>
+<td  >asal92@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05474418</td>
+<td  >Chen,Jialu</td>
+<td  >jialu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06126543</td>
+<td  >Cheruiyot,Victor</td>
+<td  >vcheruiy@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06128935</td>
+<td  >Miller,Priya Jain</td>
+<td  >priyajm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092052</td>
+<td  >Wang,Claire Liwei</td>
+<td  >clwang32@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06110156</td>
+<td  >Eboh,Obi Chiemeka</td>
+<td  >oeboh3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090797</td>
+<td  >Barry,Jake Jacob</td>
+<td  >jbarry17@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05593519</td>
+<td  >Wu,Xiaowei</td>
+<td  >wux@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Electrical Engineering - 
+Electrical Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05997805</td>
+<td  >Cook,Britiny Iris</td>
+<td  >britiny@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Sociology (BA)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092099</td>
+<td  >Luo,Emily Joan</td>
+<td  >emilyluo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098394</td>
+<td  >Kaperst,Joseph Tyler</td>
+<td  >jkaperst@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06102980</td>
+<td  >Gozzi,Alberto Pablo</td>
+<td  >agozzi@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05633569</td>
+<td  >Gaddam,Pragna</td>
+<td  >pragnag@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06111407</td>
+<td  >McCaffrey,Erin Francis</td>
+<td  >erinmcc@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Immunology - 
+Immunology (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06114993</td>
+<td  >Silvers,Thomas Reed</td>
+<td  >tsilvers@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >4.00</td>
+<td  >Cancer Biology - 
+Cancer Biology (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06128386</td>
+<td  >Burdge,Spencer Klein</td>
+<td  >sburdge@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06123564</td>
+<td  >Blum,Andrew</td>
+<td  >ablum20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146708</td>
+<td  >Kenney,Will Thomas</td>
+<td  >wkenney@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099093</td>
+<td  >Evans,Irie Otis</td>
+<td  >ievans@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06150727</td>
+<td  >Leblanc,Chloe</td>
+<td  >chloel@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06047945</td>
+<td  >Damoose,Reagan Hanh</td>
+<td  >rdamoose@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05861326</td>
+<td  >Lowet,Daniel Sloss</td>
+<td  >dlowet@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Human Biology (BSH)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024606</td>
+<td  >Whittell,Anna Calista</td>
+<td  >annaw3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06026494</td>
+<td  >Kirk,Anna Michelle</td>
+<td  >akirk19@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099896</td>
+<td  >Kaur,Amrita</td>
+<td  >amritak@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098197</td>
+<td  >Blanco,Alessandra Venezia</td>
+<td  >ablanco2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097118</td>
+<td  >Eilers,Jackson Graham</td>
+<td  >jeilers@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06088985</td>
+<td  >Thatcher,Cameron Arthur</td>
+<td  >cthatch@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06089040</td>
+<td  >Handley,Maverick Dayne</td>
+<td  >mhandley@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06113143</td>
+<td  >Streit,Wade</td>
+<td  >wstreit@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092623</td>
+<td  >Zhang,Carina</td>
+<td  >carinaz@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095929</td>
+<td  >Asdathorn,Siri Jo</td>
+<td  >sirijo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Art Practice(BA)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094851</td>
+<td  >Urban,Kelsey Taylor</td>
+<td  >kelseyu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06051282</td>
+<td  >Fernandez Yarte,Augusto</td>
+<td  >afytxr@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05633320</td>
+<td  >Grembi,Jessica Anne</td>
+<td  >jgrembi@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (PhD)</td>
+<td  >GradYear4+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06182845</td>
+<td  >Wee,Brendan</td>
+<td  >brendanmwee@gmail.com</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06192503</td>
+<td  >Damaso,Stephany Elaine</td>
+<td  >sdamaso@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06098845</td>
+<td  >Mazo González-Choren,Alejandra</td>
+<td  >amazog@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06049750</td>
+<td  >Mohamed-Hinds,Nicel Kibbibi</td>
+<td  >nicelm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06003702</td>
+<td  >Bashti,Amir Iraj-Khan</td>
+<td  >abashti@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06132060</td>
+<td  >Ravi,Roshini Nandakumar</td>
+<td  >roshini@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093158</td>
+<td  >Dairo,Temidayo Folorunso</td>
+<td  >temidayo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06060917</td>
+<td  >Ong,Tiffany</td>
+<td  >tiffanyo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092593</td>
+<td  >Moffitt,Christopher</td>
+<td  >cmoffitt@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06101120</td>
+<td  >Grullon,Ima</td>
+<td  >igrullon@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06192952</td>
+<td  >O'Grady,Kieran James</td>
+<td  >kierano@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06192947</td>
+<td  >Kolasa,Stanislaw</td>
+<td  >kolasas@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05748511</td>
+<td  >Almario,Santiago</td>
+<td  >santialm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06001418</td>
+<td  >Mason,Nancy Diane</td>
+<td  >nancy508@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06109597</td>
+<td  >Salinas,Rogelio</td>
+<td  >salin074@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05749676</td>
+<td  >Velcheva,Katerina Krasimirova</td>
+<td  >kati13@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Mathematics - 
+Mathematics (PhD)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097249</td>
+<td  >Rodriguez,Tony Cuevas</td>
+<td  >arod1729@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Physics (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06020246</td>
+<td  >Cohn,Daniel Roy</td>
+<td  >dancohn@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05938540</td>
+<td  >Tenekedjieva,Lea-Tereza Kirilova</td>
+<td  >lten@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Symbolic Systems (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06147066</td>
+<td  >Romero,Bryan Anthony</td>
+<td  >romero92@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05937068</td>
+<td  >Philippou,Alexa Irene</td>
+<td  >aphil723@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Political Science (BA)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093580</td>
+<td  >Stafford,Veronica Elizabeth</td>
+<td  >vstaffor@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06144731</td>
+<td  >Tran,Kevin</td>
+<td  >ktran23@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095289</td>
+<td  >Schaepe,Julia Marie</td>
+<td  >jschaepe@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095542</td>
+<td  >Patel,Aneri B</td>
+<td  >anerip@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097861</td>
+<td  >Kler,Aanikh Singh</td>
+<td  >akler@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05402773</td>
+<td  >Kwong,Laura Hsi</td>
+<td  >lakwong@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (PhD)</td>
+<td  >GradYear4+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06193534</td>
+<td  >Mou,Ye Fang Elsa</td>
+<td  >elsamou@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06193506</td>
+<td  >Stine,James</td>
+<td  >jrstine@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095313</td>
+<td  >So,Mitchell Palattao</td>
+<td  >mso2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06023968</td>
+<td  >Santos,Kelli</td>
+<td  >kasantos@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092428</td>
+<td  >Scott,Tessa Kaleiokahala</td>
+<td  >tessas@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094884</td>
+<td  >Westerfield,Ashley Danielle</td>
+<td  >ashleyw8@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06192205</td>
+<td  >Ortiz,Alejandro Alberto</td>
+<td  >aaortiz@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06129194</td>
+<td  >Dasgupta,Disha</td>
+<td  >disha01@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05910233</td>
+<td  >Xu,Johnny</td>
+<td  >johnnyx@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Human Biology (BAH)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092134</td>
+<td  >Mahadevan,Lavanya</td>
+<td  >lavanyam@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06053654</td>
+<td  >Ansere,McDavis Owusu</td>
+<td  >mcdavis@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06122408</td>
+<td  >Woods,Jennifer Dorothea</td>
+<td  >jwoods5@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Mgmt Sci &amp; Engineering - 
+Mgmt Sci &amp; Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06015761</td>
+<td  >Clarida,Russell</td>
+<td  >rclarida@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05690609</td>
+<td  >Lee,Nathan Richard</td>
+<td  >nlee92@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Applied Physics - 
+Applied Physics (PhD)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06153123</td>
+<td  >Wu,Jennifer</td>
+<td  >jwu15@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Education - 
+Education (MA)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06109528</td>
+<td  >Phan,Huanvy</td>
+<td  >huanvyp@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06063430</td>
+<td  >Saffari,Persiana Simone</td>
+<td  >psaffari@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Electrical Engineering (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092005</td>
+<td  >Joh,Suzanne Sunghi</td>
+<td  >sjoh98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05900105</td>
+<td  >Gamao,Valerie Gamayot</td>
+<td  >vgamao@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Mgmt Sci &amp; Engineering (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06157797</td>
+<td  >Chen,Celia Xinuo</td>
+<td  >xinuo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06042211</td>
+<td  >Lu,Yingdan</td>
+<td  >yingdan@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >East Asian Studies - 
+East Asian Studies (MA)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06149935</td>
+<td  >Fuentes,Alexander</td>
+<td  >fuentesa@stanford.edu</td>
+<td  >Letter</td>
+<td  >0.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td  style="mso-number-format:\@;"  >Withdrawn</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092488</td>
+<td  >Jain,Adi Raj</td>
+<td  >arjain@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06021043</td>
+<td  >Glick-Unterman,Jonah Martin</td>
+<td  >jglickun@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05619348</td>
+<td  >Park,Sangchul</td>
+<td  >sangchul@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Law JSM - 
+Law (JSM)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096964</td>
+<td  >Eykamp,Philip</td>
+<td  >peykamp@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06018611</td>
+<td  >Barry,Erin Taylor</td>
+<td  >ebarry2@stanford.edu</td>
+<td  >Letter</td>
+<td  >0.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td  style="mso-number-format:\@;"  >Withdrawn</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090724</td>
+<td  >Fletcher,Natalie Elise</td>
+<td  >nfletch@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05497046</td>
+<td  >Charania,Zarah</td>
+<td  >zarahc@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05935811</td>
+<td  >Zechnich,Katherine Christine</td>
+<td  >zechnich@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Anthropology (BA)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06022125</td>
+<td  >Walck,Jonathan Andrew</td>
+<td  >jwalck@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06163266</td>
+<td  >Parten,Kathryn</td>
+<td  >kpsu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06121679</td>
+<td  >Lau,Samantha Janelle Jiwei</td>
+<td  >slau94@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >East Asian Studies - 
+East Asian Studies (MA)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06151070</td>
+<td  >Rodriguez,Jeff J</td>
+<td  >jeffreyr@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06138237</td>
+<td  >Devens,Kelly</td>
+<td  >kdevens@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06144070</td>
+<td  >Mulbah,Sheck Bobby</td>
+<td  >smulbah@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099532</td>
+<td  >El-khalily,Mirna H</td>
+<td  >mirnae@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099700</td>
+<td  >Lopez Rosas,Maria Fernanda</td>
+<td  >mlopezro@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091794</td>
+<td  >White,Joel Archibald</td>
+<td  >jwhite56@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05591165</td>
+<td  >Ransom,Elliot Harris</td>
+<td  >ehransom@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Aeronautics &amp; Astronautics - 
+Aeronautics &amp; Astro (MS)</td>
+<td  >GradYear3</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099279</td>
+<td  >Hall,Sandro Roberto Levine</td>
+<td  >ahall2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139379</td>
+<td  >Hackett,Tony Robert</td>
+<td  >arh2020@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Classics (BA)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099738</td>
+<td  >Yang,Becky</td>
+<td  >beckyy@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05933370</td>
+<td  >Hamalainen,Rosa Emilia</td>
+<td  >rosaham@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099974</td>
+<td  >Miranda-Enriquez,Jailene</td>
+<td  >jailenem@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05914260</td>
+<td  >Tepanyan,Hayk</td>
+<td  >tehayk@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Computer Science (BS)/Statistics (Min)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06115565</td>
+<td  >Le,Ethan</td>
+<td  >ethanle@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05986159</td>
+<td  >Zhang,Zhong</td>
+<td  >zhongzh@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (Eng)/Civil &amp; Envir Engr (PhD)</td>
+<td  >GradYear3</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146634</td>
+<td  >Li,Xin</td>
+<td  >xli10@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Mgmt Sci &amp; Engineering - 
+Mgmt Sci &amp; Engineering (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05922013</td>
+<td  >Garcia Nieto,Pablo Eduardo</td>
+<td  >paedugar@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Biology - 
+Biology (PhD)</td>
+<td  >GradYear4+</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06104130</td>
+<td  >Soroka,Nick Alexander</td>
+<td  >nsoroka@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >4.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06027281</td>
+<td  >Sridhar,Kiran Sambhav</td>
+<td  >ksridhar@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06130421</td>
+<td  >Doan,Alex Dinh</td>
+<td  >doana@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146786</td>
+<td  >Martinez,Jasmin</td>
+<td  >jmart33@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05734039</td>
+<td  >Navarro Jr.,Alvaro</td>
+<td  >alvaronv@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BA)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092370</td>
+<td  >Liu,Adrian</td>
+<td  >adliu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06102343</td>
+<td  >Robinson,Spencer Laurence</td>
+<td  >spence98@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05862483</td>
+<td  >Vierra,Ben Matthew</td>
+<td  >bvierra@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Human Biology (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06168476</td>
+<td  >Amezquita,Justin Amaral</td>
+<td  >jaa35@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06201442</td>
+<td  >Clark,Annie Louise</td>
+<td  >alclark@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06201439</td>
+<td  >Ross,Daniel Paul</td>
+<td  >dross5@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091364</td>
+<td  >Cortes,Isaac Ismael</td>
+<td  >icortes@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06027487</td>
+<td  >Rasmussen,Trevor Jon</td>
+<td  >traz220@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06101682</td>
+<td  >Silva Roig,Frances</td>
+<td  >francess@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093776</td>
+<td  >Gordon,Remy Nathaniel</td>
+<td  >remyg@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05989226</td>
+<td  >Toba Villarreal,Apolinar</td>
+<td  >apolinar@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05592616</td>
+<td  >Dinh,Tam N</td>
+<td  >tamdn@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06132357</td>
+<td  >Enouiti,Youssef</td>
+<td  >yenouiti@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06114328</td>
+<td  >Long,Xianling</td>
+<td  >xianling@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Mgmt Sci &amp; Engineering - 
+Mgmt Sci &amp; Engineering (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06021378</td>
+<td  >Zeng,Edric Young</td>
+<td  >ezeng@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146833</td>
+<td  >Mercado,Jorge Iván</td>
+<td  >jorgeim@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05936564</td>
+<td  >Dominic,Joel Joseph</td>
+<td  >jdominic@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06126089</td>
+<td  >Johnson,Dylan Augustin</td>
+<td  >daj20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06091477</td>
+<td  >Alderton,Emma Brooke</td>
+<td  >alderton@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06136089</td>
+<td  >Dea,Saron</td>
+<td  >sarondea@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096255</td>
+<td  >Cremers,Collin John</td>
+<td  >ccremers@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06097650</td>
+<td  >Bae,Jennifer</td>
+<td  >jybae@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06136179</td>
+<td  >Sakata,Kylan Keiichi</td>
+<td  >kylan@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05905879</td>
+<td  >Maspons,Raymond Edward</td>
+<td  >raymondm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Economics (BA)/Film and Media Studies (BA)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06153821</td>
+<td  >Lu,Christopher Lin Xin</td>
+<td  >chrislu@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095644</td>
+<td  >Randhawa,Lily Kay</td>
+<td  >lkr0427@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06067216</td>
+<td  >Beecher,Ryan</td>
+<td  >rbeecher@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06145572</td>
+<td  >Whittaker,Lyndon</td>
+<td  >lyndonw@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06133671</td>
+<td  >Jassim,Yasmeen</td>
+<td  >yasmeenj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05830613</td>
+<td  >Patnaik,Ritish</td>
+<td  >rp2616@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Bioengineering - 
+Bioengineering (PhD)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06122758</td>
+<td  >Alamoudi,Omar Mohammad</td>
+<td  >alamoudi@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Geophysics - 
+Geophysics (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096450</td>
+<td  >Dobbins,Sarah</td>
+<td  >sd2020@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06140826</td>
+<td  >Narain,Anchit</td>
+<td  >anchitn@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05573443</td>
+<td  >Lakin,Eric Xavier</td>
+<td  >elakin@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06060563</td>
+<td  >Wang,Netta</td>
+<td  >nettaw@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146674</td>
+<td  >Kaya,Kris Anthony</td>
+<td  >kkaya23@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096987</td>
+<td  >Aldana,Bryan Omar</td>
+<td  >baldana@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06136727</td>
+<td  >Beleuz Neagu,Sabina Mihaela</td>
+<td  >sbeleuz@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Symbolic Systems (BS)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06126583</td>
+<td  >Fraher,Laura Susana</td>
+<td  >lfraher@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06158790</td>
+<td  >Vo-Phamhi,Jenny Minh-Ai</td>
+<td  >jennyvo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06150126</td>
+<td  >Villa-Renteria,Ivan</td>
+<td  >ivillar@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093985</td>
+<td  >Ratcliffe,Thomas Christopher</td>
+<td  >tcrat20@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06076982</td>
+<td  >Edwards,Mikayla</td>
+<td  >mikaylae@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Mgmt Sci &amp; Engineering (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06109552</td>
+<td  >Lim,Adrienne Kelly</td>
+<td  >aklim@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099179</td>
+<td  >Reed,Kyle Erikson</td>
+<td  >kylereed@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05908856</td>
+<td  >Menendez,Alicia Taylor</td>
+<td  >aliciatm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Indiv Des Major-Engr (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05946242</td>
+<td  >O'Leary,Daniel James</td>
+<td  >djolear@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Psychology - 
+Psychology (PhD)</td>
+<td  >GradYear3</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06165550</td>
+<td  >Roberts,Samori Omar</td>
+<td  >samori@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergrad General Non-Matric - 
+Ugrad Gen Non-Matric (NM)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06153158</td>
+<td  >Zhang,Ningyuan</td>
+<td  >ningyuan@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05710770</td>
+<td  >Lane,Jack</td>
+<td  >jblane@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Earth Systems (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06014559</td>
+<td  >Ewert,Jordan Matthew</td>
+<td  >jmewert2@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146780</td>
+<td  >Medler,Sabrina Marie</td>
+<td  >smedler@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06186172</td>
+<td  >Clark,Kenia</td>
+<td  >kenia@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05846746</td>
+<td  >Winkler,Ryan C</td>
+<td  >rcw2133@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06093341</td>
+<td  >Furfine,Sophia Lynn</td>
+<td  >sfurfine@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06105969</td>
+<td  >Dong,Grace XiaoQing</td>
+<td  >gdong@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06094557</td>
+<td  >Wang,Peggy</td>
+<td  >wangyuc@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Engineering (BS)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06069391</td>
+<td  >Golub,Jack Scott</td>
+<td  >golubj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06031667</td>
+<td  >SUN,Rachel</td>
+<td  >rasun@stanford.edu</td>
+<td  >Letter</td>
+<td  >4.00</td>
+<td  >East Asian Studies - 
+East Asian Studies (MA)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06126478</td>
+<td  >Sachdeva,Surbhi</td>
+<td  >surbhi3@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06133038</td>
+<td  >Zhao,Grace</td>
+<td  >gracez7@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06027611</td>
+<td  >McCann,Megan Rose</td>
+<td  >mmccann2@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06119194</td>
+<td  >Poh,Michelle Jeanne</td>
+<td  >mjpoh@stanford.edu</td>
+<td  >Letter</td>
+<td  >0.00</td>
+<td  >East Asian Studies - 
+East Asian Studies (MA)</td>
+<td  >GradYear1</td>
+<td  style="mso-number-format:\@;"  >Withdrawn</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05839277</td>
+<td  >Chalhoub,Kevin Nicolas</td>
+<td  >kchalhou@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05875344</td>
+<td  >Reeve,Marin Tyne</td>
+<td  >marinr@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Art History (BAH)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06096539</td>
+<td  >Jackson,Maya Minakshi</td>
+<td  >mayamj@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05786411</td>
+<td  >Praxis,Solveij Rosa</td>
+<td  >spraxis@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Anthropology (BA)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06102430</td>
+<td  >Bennion,Tobin</td>
+<td  >tbennion@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06146608</td>
+<td  >Majluf,Gonzalo Alonso</td>
+<td  >gmajluf@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05497744</td>
+<td  >Schreiber,Eric</td>
+<td  >erics1@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06124482</td>
+<td  >Kuppermann,Jacob Sujin</td>
+<td  >jkupperm@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06002888</td>
+<td  >McFaul,Cole B</td>
+<td  >cmcfaul@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06095576</td>
+<td  >Ramesh,Raja Narayanan</td>
+<td  >nramesh@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06090669</td>
+<td  >Jong,Kaitlyn Amanda</td>
+<td  >kjong117@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06073966</td>
+<td  >Shemtov,Noam</td>
+<td  >nshemtov@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06102918</td>
+<td  >Nannuru,Sushmitha</td>
+<td  >sush3191@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06104716</td>
+<td  >Barsukov,Artem</td>
+<td  >barsukov@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06024306</td>
+<td  >Arguello,Roberto Francisco</td>
+<td  >roberto6@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Sophomore</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099849</td>
+<td  >Osorio-Villatoro,Iris Yesenia</td>
+<td  >iosoriov@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06099085</td>
+<td  >Evans,Chloe</td>
+<td  >chloee@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06148803</td>
+<td  >Azam,Farhan</td>
+<td  >fazam@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05987448</td>
+<td  >Lozano Herrera,Daniel Fernando</td>
+<td  >lozanod@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Graduate Non-Degree-Option - 
+Graduate Non-Deg Option (NDO)</td>
+<td  >GradYear1</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05519879</td>
+<td  >Morra,Brittany</td>
+<td  >bmorra@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Civil &amp; Environmental Engr - 
+Civil &amp; Envir Engr (MS)</td>
+<td  >Grad Year2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06139889</td>
+<td  >Jopling,Angelica Mara</td>
+<td  >ajopling@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092662</td>
+<td  >Lumban-Tobing,Radek Benhard</td>
+<td  >radeklt@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05963859</td>
+<td  >Wang,Liqi</td>
+<td  >liqiw@stanford.edu</td>
+<td  >Letter</td>
+<td  >3.00</td>
+<td  >Economics - 
+Economics (PhD)</td>
+<td  >GradYear3</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06038812</td>
+<td  >Cooper,Eleanor</td>
+<td  >ewcooper@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >3.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06150540</td>
+<td  >Alkhamis,Ghufran</td>
+<td  >ghufran@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06138013</td>
+<td  >Mirhossaini,Cameron Jordan</td>
+<td  >cmirhoss@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06020846</td>
+<td  >Ko,Hee Joo</td>
+<td  >heejoo@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Junior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05988617</td>
+<td  >Pelly,James Richard</td>
+<td  >jpelly@stanford.edu</td>
+<td  >CR/NC</td>
+<td  >5.00</td>
+<td  >Business Administration - 
+Business Administration (MBA)</td>
+<td  >Prof 2</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >05822021</td>
+<td  >Serrano,Raymond</td>
+<td  >rserran1@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Science, Tech, &amp; Soc (BS)</td>
+<td  >Senior</td>
+<td>&nbsp;
+</td>
+<tr>
+<td  ></td>
+<td  ></td>
+<td  >06092799</td>
+<td  >Pontius,Wyatt Martin</td>
+<td  >wpontius@stanford.edu</td>
+<td  >Letter</td>
+<td  >5.00</td>
+<td  >Undergraduate Matriculated - 
+Undeclared (B)</td>
+<td  >Freshman</td>
+<td>&nbsp;
+</td>
+</table></body></html>
