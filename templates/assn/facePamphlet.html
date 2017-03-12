@@ -101,8 +101,12 @@
 					  	Answer: The comment was incorrect; we have corrected it to clarify that this method should return a list of that profile's friends.
 					  </li>
 					  <li class="list-group-item">
-					  	<b>Question: Everytime I try to run the server, I get a "ClassNotFound" exception. Help?</b><br/>
+					  	<b>Question: Every time I try to run the server, I get a "ClassNotFound" exception. Help?</b><br/>
 					  	Answer: This happens mostly to Section Leaders. Some old versions of Eclipse are set to compile to Java 6 (even though you most likely have the most up to date version of Java on your computer). I use features from Java 7 in the new library. You need to change Eclipse. Go to Eclipse -> Preferences, and under Java -> Compiler, set the target Java version to something more modern.
+					  </li>
+					  <li class="list-group-item">
+					  	<b>Question: Every time I try to run the server, I get an "UnsupportedClassVersionError".  Help?</b><br/>
+					  	Answer: This happens in rare instances when for some reason Eclipse is not configured to use the latest version of Java that you have installed.  To fix this, go to Eclipse -> Preferences, and under Java select "Installed JREs".  Click the "Search" button in the toolbar on the right, and then make sure "Java SE 8" is the installed JRE that has a checkmark next to it.  Then click "OK" and restart Eclipse.
 					  </li>
 					 
 					
