@@ -23,7 +23,7 @@ same directory structure as in the TEMPLATE_DIR directory.
 '''
 
 import os.path
-from plugins.bottle.bottle import SimpleTemplate
+from bottle.bottle import SimpleTemplate
 import sys
 
 IGNORE_DIRS = [
