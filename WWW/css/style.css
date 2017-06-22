@@ -1,9 +1,10 @@
 
 
-.container { max-width: 760px; } 
+.container { max-width: 880px; } 
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: medium;
   padding-top: 70px;
 }
 
