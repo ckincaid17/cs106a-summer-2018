@@ -153,7 +153,7 @@ Returns: the relative path to the root directory from the given relativePath.
 '''
 def getRelPathToRootFrom(relativePath):
     depth = depthFromRoot(relativePath)
-    pathToRoot = ''.join(['../' for i in range(depth)])
+    pathToRoot = './' + ''.join(['../' for i in range(depth)])
     return pathToRoot
 
 '''
