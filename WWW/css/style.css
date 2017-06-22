@@ -42,10 +42,6 @@ code {
    z-index:9999;
 }
 
-.verticalLine {
-  border-left: thick solid #ff0000;
-}
-
 .subtleHeading {
     font-size: 12px;
     font-weight: 700;
@@ -62,44 +58,19 @@ pre {-moz-tab-size: 3;} /* Code for Firefox */
 pre {-o-tab-size: 3;} /* Code for Opera 10.6-12.1 */
 pre {tab-size: 3;}
 
-.comment {
-  color:#006400;
-  font-weight:bold;
-}
-
-.moment{
+.moment {
   font-style:italic;
 }
 
-
-.well{
+.well {
     background-color: aliceblue;
         border-color: #bce8f1;
 }
-
-.secondHeading {
-  margin-top:20px;
-  margin-bottom:10px;
-}
-
 
 .input {
   color:red;
   font-style: bold;
 }
-
-.sidebarOuter {
-    position: relative;
-}
-@media (min-width: 760px) {
-    .sidebar {
-        width:160px;
-        
-    }
-}
-
-
-
 
 /* INDEX */
 
@@ -152,11 +123,6 @@ pre {tab-size: 3;}
     height: 100% !important;
 }
 
-.staffImg {
-  height:150px;
-}
-
-
 .calendarCell {
     height:210px;
     width:225px;
@@ -174,12 +140,4 @@ pre {tab-size: 3;}
   position:absolute;
   top:130px;
   color:hsl(0, 0%, 60%);
-}
-
-
-
-/* OVERVIEW */
-
-.overviewIcon {
-  margin-right:7px;
 }
