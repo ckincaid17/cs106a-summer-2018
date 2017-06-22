@@ -54,11 +54,9 @@
 	ago that element's timestamp was. -->	
 	<script type="text/javascript">
 		$( ".moment" ).each(function(i) {
-			var date = $(this).html()
-
-			var fromStr = moment(date, "YYYYMMDDHH").fromNow()
-
-			$(this).html(fromStr)
+			var date = $(this).html();
+			var fromStr = moment(date, "YYYYMMDDHH").fromNow();
+			$(this).html(fromStr);
 		});
 	</script>
 
