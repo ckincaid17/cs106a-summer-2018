@@ -35,7 +35,7 @@ assignment.
 
 - **Add lecture materials:** add the lecture materials to `WWW/lectures/` and
 update both `templates/parts/dropdowns/lecturesDropdownList.html` **and**
-`templates/schedule.html` with the lecture material links.
+`templates/parts/schedule-content.html` with the lecture material links.
 
 
 ## Compiling
