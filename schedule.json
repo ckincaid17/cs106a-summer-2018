@@ -1,5 +1,5 @@
 {
-	"days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+	"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
 	"weeks": [
 		[
 			{
@@ -18,6 +18,10 @@
 			{
 				"title": "Java 1",
 				"date": "June 29"
+			},
+			{
+				"type": "OFF",
+				"date": "June 30"
 			}
 		],
 		[
@@ -39,6 +43,10 @@
 			{
 				"title": "Methods 2",
 				"date": "July 6"
+			},
+			{
+				"type": "OFF",
+				"date": "July 7"
 			}
 		],
 		[
@@ -59,6 +67,10 @@
 			{
 				"title": "Graphics",
 				"date": "July 13"
+			},
+			{
+				"type": "OFF",
+				"date": "July 14"
 			}
 		],
 		[
@@ -79,6 +91,10 @@
 			{
 				"title": "Classes 1",
 				"date": "July 20"
+			},
+			{
+				"type": "OFF",
+				"date": "July 21"
 			}
 		],
 		[
@@ -97,9 +113,13 @@
 			},
 			{
 				"title": "2D Arrays",
-				"date": "July 27",
-				"due": "4 on 7/28",
-				"out": "5 on 7/28"
+				"date": "July 27"
+			},
+			{
+				"type": "OFF",
+				"date": "July 28",
+				"due": "4",
+				"out": "5"
 			}
 		],
 		[
@@ -117,9 +137,13 @@
 			},
 			{
 				"title": "Interactors",
-				"date": "August 3",
-				"due": "5 on 8/4",
-				"out": "6 on 8/4"
+				"date": "August 3"
+			},
+			{
+				"type": "OFF",
+				"date": "August 4",
+				"due": "5",
+				"out": "6"
 			}
 		],
 		[
@@ -139,7 +163,10 @@
 				"title": "Machine Learning 2",
 				"date": "August 10",
 				"due": "6 Part 1"
-
+			},
+			{
+				"type": "OFF",
+				"date": "August 11"
 			}
 		],
 		[
@@ -159,7 +186,12 @@
 			{
 				"type": "HOLIDAY",
 				"date": "August 17",
-				"title": "Exam Study Day (Final 8/18 12:15-3:15PM)"
+				"title": "Exam Study Day"
+			},
+			{
+				"type": "OFF",
+				"date": "August 18",
+				"title": "Final Exam 12:15PM-3:15PM"
 			}
 		]
 	]

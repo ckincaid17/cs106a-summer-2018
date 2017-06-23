@@ -33,7 +33,9 @@
         </div>
 
         <p class="subtleHeading">{{day["date"]}}</p>
-        {{lectureNumber}}: {{day["title"]}}
+
+        <!-- If there is a lecture number and title, show it -->
+        {{str(lectureNumber) + ":" if lectureNumber != None else ""}} {{day["title"] if "title" in day else ""}}
 
         <!-- If there is a filename, render links to the lecture materials -->
         % filename = day["filename"] if "filename" in day else None

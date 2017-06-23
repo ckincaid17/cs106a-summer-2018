@@ -59,9 +59,9 @@ objects representing each lecture that week.  Note that each week's length must
 match the length of the `days` array.  These lecture objects have the following
 keys (whose values are all strings):
 ```
-title (REQUIRED): the name of the lecture (or holiday)
 date (REQUIRED): the date string (e.g. "June 26") to display
-type (OPTIONAL): "HOLIDAY" if a holiday
+title (OPTIONAL): the name of the lecture (or event)
+type (OPTIONAL): "HOLIDAY" if a holiday, or "OFF" if no lecture
 due (OPTIONAL): the HW due today
 out (OPTIONAL): the HW due today
 read (OPTIONAL): the parts of the book (e.g. "Chapter 12") to read
