@@ -4,31 +4,26 @@
 		[
 			{
 				"title": "Welcome to CS106A",
-				"date": "June 26",
-				"filename": ""
+				"date": "June 26"
 			},
 			{
 				"title": "Programming with Karel",
-				"date": "June 27",
-				"filename": ""
+				"date": "June 27"
 			},
 			{
 				"title": "Problem-solving in Karel",
 				"date": "June 28",
-				"filename": "",
 				"out": "1"
 			},
 			{
 				"title": "Java 1",
-				"date": "June 29",
-				"filename": ""
+				"date": "June 29"
 			}
 		],
 		[
 			{
 				"title": "Java 2",
-				"date": "July 3",
-				"filename": ""
+				"date": "July 3"
 			},
 			{
 				"type": "HOLIDAY",
@@ -38,62 +33,52 @@
 			{
 				"title": "Methods 1",
 				"date": "July 5",
-				"filename": "",
 				"due": "1",
 				"out": "2"
 			},
 			{
 				"title": "Methods 2",
-				"date": "July 6",
-				"filename": ""
+				"date": "July 6"
 			}
 		],
 		[
 			{
 				"title": "Strings 1",
-				"date": "July 10",
-				"filename": ""
+				"date": "July 10"
 			},
 			{
 				"title": "Strings 2",
-				"date": "July 11",
-				"filename": ""
+				"date": "July 11"
 			},
 			{
 				"title": "Files",
 				"date": "July 12",
-				"filename": "",
 				"due": "2",
 				"out": "3"
 			},
 			{
 				"title": "Graphics",
-				"date": "July 13",
-				"filename": ""
+				"date": "July 13"
 			}
 		],
 		[
 			{
 				"title": "Animation",
-				"date": "July 17",
-				"filename": ""
+				"date": "July 17"
 			},
 			{
 				"title": "Events",
-				"date": "July 18",
-				"filename": ""
+				"date": "July 18"
 			},
 			{
 				"title": "Memory + Debugging",
 				"date": "July 19",
-				"filename": "",
 				"due": "3",
 				"out": "4"
 			},
 			{
 				"title": "Classes 1",
-				"date": "July 20",
-				"filename": ""
+				"date": "July 20"
 			}
 		],
 		[
@@ -104,18 +89,15 @@
 			},
 			{
 				"title": "Classes 2",
-				"date": "July 25",
-				"filename": ""
+				"date": "July 25"
 			},
 			{
 				"title": "Arrays",
-				"date": "July 26",
-				"filename": ""
+				"date": "July 26"
 			},
 			{
 				"title": "2D Arrays",
 				"date": "July 27",
-				"filename": "",
 				"due": "4 on 7/28",
 				"out": "5 on 7/28"
 			}
@@ -123,23 +105,19 @@
 		[
 			{
 				"title": "ArrayLists",
-				"date": "July 31",
-				"filename": ""
+				"date": "July 31"
 			},
 			{
 				"title": "HashMaps",
-				"date": "August 1",
-				"filename": ""
+				"date": "August 1"
 			},
 			{
 				"title": "Inheritance",
-				"date": "August 2",
-				"filename": ""
+				"date": "August 2"
 			},
 			{
 				"title": "Interactors",
 				"date": "August 3",
-				"filename": "",
 				"due": "5 on 8/4",
 				"out": "6 on 8/4"
 			}
@@ -147,23 +125,19 @@
 		[
 			{
 				"title": "Client/Server 1",
-				"date": "August 7",
-				"filename": ""
+				"date": "August 7"
 			},
 			{
 				"title": "Client/Server 2",
-				"date": "August 8",
-				"filename": ""
+				"date": "August 8"
 			},
 			{
 				"title": "Machine Learning 1",
-				"date": "August 9",
-				"filename": ""
+				"date": "August 9"
 			},
 			{
 				"title": "Machine Learning 2",
 				"date": "August 10",
-				"filename": "",
 				"due": "6 Part 1"
 
 			}
@@ -171,19 +145,16 @@
 		[
 			{
 				"title": "Standard Java",
-				"date": "August 14",
-				"filename": ""
+				"date": "August 14"
 			},
 			{
 				"title": "Final Exam Review 1",
 				"date": "August 15",
-				"filename": "",
 				"due": "6 Part 2"
 			},
 			{
 				"title": "Final Exam Review 2 / Wrapup",
-				"date": "August 16",
-				"filename": ""
+				"date": "August 16"
 			},
 			{
 				"type": "HOLIDAY",
