@@ -57,14 +57,15 @@ This is displayed as the header row in the schedule table.  E.g.
 `weeks` is a list containing data for each week.  Each week is itself a list of
 objects representing each lecture that week.  Note that each week's length must
 match the length of the `days` array.  These lecture objects have the following
-keys:
+keys (whose values are all strings):
 ```
-title (REQUIRED) (String): the name of the lecture (or holiday)
-date (REQUIRED) (String): the date string (e.g. "June 26") to display
-type (OPTIONAL) (String): "HOLIDAY" if a holiday
-due (OPTIONAL) (Int): the HW number due today
-read (OPTIONAL) (String): the parts of the book (e.g. "Chapter 12") to read
-filename (OPTIONAL) (String): the filename prefix for all material filepaths
+title (REQUIRED): the name of the lecture (or holiday)
+date (REQUIRED): the date string (e.g. "June 26") to display
+type (OPTIONAL): "HOLIDAY" if a holiday
+due (OPTIONAL): the HW due today
+out (OPTIONAL): the HW due today
+read (OPTIONAL): the parts of the book (e.g. "Chapter 12") to read
+filename (OPTIONAL): the filename prefix for all material filepaths
 ```
 
 Of note, `filename` is used as follows:
@@ -77,6 +78,9 @@ Holidays are grayed out in the calendar and not displayed in the dropdown.  All
 information is dynamically displayed from this JSON file for each lecture,
 including date, title, links to material, any HWs due, and any reading due;
 lectures are also numbered automatically.
+
+All lectures in this file are also displayed in the "Lectures" dropdown in the
+navbar.  Lectures without a `filename` display disabled links.
 
 
 ## Compiling
