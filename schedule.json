@@ -5,29 +5,28 @@
 			{
 				"title": "Welcome to CS106A",
 				"date": "June 26",
-				"filename": "Welcome"
+				"filename": ""
 			},
 			{
 				"title": "Programming with Karel",
 				"date": "June 27",
-				"read": "Karel Ch. 1-3",
 				"filename": ""
 			},
 			{
 				"title": "Problem-solving in Karel",
 				"date": "June 28",
-				"read": "Karel Ch. 4-6",
-				"filename": ""
+				"filename": "",
+				"out": "1"
 			},
 			{
-				"title": "",
+				"title": "Java 1",
 				"date": "June 29",
 				"filename": ""
 			}
 		],
 		[
 			{
-				"title": "",
+				"title": "Java 2",
 				"date": "July 3",
 				"filename": ""
 			},
@@ -37,146 +36,158 @@
 				"date": "July 4"
 			},
 			{
-				"title": "",
+				"title": "Methods 1",
 				"date": "July 5",
-				"filename": ""
+				"filename": "",
+				"due": "1",
+				"out": "2"
 			},
 			{
-				"title": "",
+				"title": "Methods 2",
 				"date": "July 6",
 				"filename": ""
 			}
 		],
 		[
 			{
-				"title": "",
+				"title": "Strings 1",
 				"date": "July 10",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Strings 2",
 				"date": "July 11",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Files",
 				"date": "July 12",
-				"filename": ""
+				"filename": "",
+				"due": "2",
+				"out": "3"
 			},
 			{
-				"title": "",
+				"title": "Graphics",
 				"date": "July 13",
 				"filename": ""
 			}
 		],
 		[
 			{
-				"title": "",
+				"title": "Animation",
 				"date": "July 17",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Events",
 				"date": "July 18",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Memory",
 				"date": "July 19",
-				"filename": ""
+				"filename": "",
+				"due": "3",
+				"out": "4"
 			},
 			{
-				"title": "",
+				"title": "Debugging",
 				"date": "July 20",
 				"filename": ""
 			}
 		],
 		[
 			{
-				"title": "",
+				"type": "HOLIDAY",
 				"date": "July 24",
-				"filename": ""
+				"title": "Exam Study Day (Midterm 7-9PM)"
 			},
 			{
-				"title": "",
+				"title": "Classes",
 				"date": "July 25",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Arrays",
 				"date": "July 26",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "2D Arrays",
 				"date": "July 27",
-				"filename": ""
+				"filename": "",
+				"due": "4 on 7/28",
+				"out": "5 on 7/28"
 			}
 		],
 		[
 			{
-				"title": "",
+				"title": "ArrayLists",
 				"date": "July 31",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "HashMaps",
 				"date": "August 1",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Inheritance",
 				"date": "August 2",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Interactors",
 				"date": "August 3",
-				"filename": ""
+				"filename": "",
+				"due": "5 on 8/4",
+				"out": "6 on 8/4"
 			}
 		],
 		[
 			{
-				"title": "",
+				"title": "Client/Server 1",
 				"date": "August 7",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Client/Server 2",
 				"date": "August 8",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Machine Learning 1",
 				"date": "August 9",
-				"filename": ""
+				"filename": "",
+				"due": "6 Part 1"
 			},
 			{
-				"title": "",
+				"title": "Machine Learning 2",
 				"date": "August 10",
 				"filename": ""
 			}
 		],
 		[
 			{
-				"title": "",
+				"title": "Standard Java",
 				"date": "August 14",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"title": "Final Exam Review 1",
 				"date": "August 15",
-				"filename": ""
+				"filename": "",
+				"due": "6 Part 2"
 			},
 			{
-				"title": "",
+				"title": "Final Exam Review 2 / Wrapup",
 				"date": "August 16",
 				"filename": ""
 			},
 			{
-				"title": "",
+				"type": "HOLIDAY",
 				"date": "August 17",
-				"filename": ""
+				"title": "Exam Study Day (Final 8/18 12:15-3:15PM)"
 			}
 		]
 	]
