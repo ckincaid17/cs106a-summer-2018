@@ -1,8 +1,15 @@
+<!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
 <tr>
 	<td class="calendarWeekCell">{{index}}</td>
 	<%
+		# Render each day, incrementing our lecture number only for non-holidays
 		for day in week:
-			if ('type' in day and day['type'] != 'HOLIDAY') or 'type' not in day:
+			if 'type' not in day or day['type'] != 'HOLIDAY':
 				include('templates/parts/schedule/scheduleDay.html', day=day, lectureNumber=lectureNumber)
 				lectureNumber += 1
 			else:
