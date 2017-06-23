@@ -5,35 +5,31 @@
 			{
 				"title": "Welcome to CS106A",
 				"date": "June 26",
-				"due": 1,
-				"read": "11.1-11.8",
 				"filename": "Welcome"
 			},
 			{
-				"title": "Control Flow",
+				"title": "Programming with Karel",
 				"date": "June 27",
-				"read": "Chapter 13",
-				"filename": "ControlFlow"
+				"read": "Karel Ch. 1-3",
+				"filename": "KarelProgramming"
 			},
 			{
-				"title": "Problem Decomposition",
+				"title": "Problem-solving in Karel",
 				"date": "June 28",
-				"due": 2,
-				"filename": "Decomposition"
+				"read": "Karel Ch. 4-6",
+				"filename": "KarelProblemSolving"
 			},
 			{
-				"title": "Intro to Java",
+				"title": "Introduction to Java",
 				"date": "June 29",
-				"read": "10.5-10.8",
-				"filename": "Java"
+				"filename": "JavaIntro"
 			}
 		],
 		[
 			{
-				"title": "Control Flow Revisited",
+				"title": "Revisiting Control Flow",
 				"date": "July 3",
-				"due": 3,
-				"filename": "ControlFlowRevisited"
+				"filename": "RevisitingControlFlow"
 			},
 			{
 				"type": "HOLIDAY",
@@ -41,25 +37,149 @@
 				"date": "July 4"
 			},
 			{
-				"title": "Simple Java",
+				"title": "Methods and Parameters",
 				"date": "July 5",
-				"read": "Chapter 12",
-				"filename": "SimpleJava"
+				"filename": "MethodsParameters",
+				"due": 1
 			},
 			{
-				"title": "Methods",
+				"title": "Methods and Return",
 				"date": "July 6",
-				"due": 4,
-				"filename": "Methods"
+				"filename": "MethodsReturn"
 			}
 		],
 		[
 			{
-				"title": "Test lecture",
+				"title": "Strings",
 				"date": "July 10",
-				"read": "Chapter 123",
-				"due": 5,
-				"filename": "test"
+				"filename": "Strings"
+			},
+			{
+				"title": "Problem-solving with Strings",
+				"date": "July 11",
+				"filename": "StringsProblemSolving"
+			},
+			{
+				"title": "File Processing",
+				"date": "July 12",
+				"filename": "Files",
+				"due": 2
+			},
+			{
+				"title": "Graphics",
+				"date": "July 13",
+				"filename": "Graphics"
+			}
+		],
+		[
+			{
+				"title": "Animation",
+				"date": "July 17",
+				"filename": "Animation"
+			},
+			{
+				"title": "Event-driven Programs",
+				"date": "July 18",
+				"filename": "Events",
+				"due": 3
+			},
+			{
+				"title": "",
+				"date": "July 19",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "July 20",
+				"filename": ""
+			}
+		],
+		[
+			{
+				"title": "",
+				"date": "July 24",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "July 25",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "July 26",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "July 27",
+				"filename": ""
+			}
+		],
+		[
+			{
+				"title": "",
+				"date": "July 31",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 1",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 2",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 3",
+				"filename": ""
+			}
+		],
+		[
+			{
+				"title": "",
+				"date": "August 7",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 8",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 9",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 10",
+				"filename": ""
+			}
+		],
+		[
+			{
+				"title": "",
+				"date": "August 14",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 15",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 16",
+				"filename": ""
+			},
+			{
+				"title": "",
+				"date": "August 17",
+				"filename": ""
 			}
 		]
 	]
