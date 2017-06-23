@@ -1,0 +1,13 @@
+<tr>
+	<td class="calendarWeekCell">{{index}}</td>
+	<%
+		for day in week:
+			if ('type' in day and day['type'] != 'HOLIDAY') or 'type' not in day:
+				include('templates/parts/schedule/scheduleDay.html', day=day, lectureNumber=lectureNumber)
+				lectureNumber += 1
+			else:
+				include('templates/parts/schedule/scheduleHoliday.html', day=day)
+			end
+		end
+	%>
+</tr>

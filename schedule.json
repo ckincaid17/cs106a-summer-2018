@@ -1,0 +1,57 @@
+{
+	"days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+	"weeks": [
+		[
+			{
+				"title": "Welcome to CS106A",
+				"date": "June 26",
+				"due": 1,
+				"read": "11.1-11.8",
+				"filename": "Welcome"
+			},
+			{
+				"title": "Control Flow",
+				"date": "June 27",
+				"read": "Chapter 13",
+				"filename": "ControlFlow"
+			},
+			{
+				"title": "Problem Decomposition",
+				"date": "June 28",
+				"due": 2,
+				"filename": "Decomposition"
+			},
+			{
+				"title": "Intro to Java",
+				"date": "June 29",
+				"read": "10.5-10.8",
+				"filename": "Java"
+			}
+		],
+		[
+			{
+				"title": "Control Flow Revisited",
+				"date": "July 3",
+				"due": 3,
+				"filename": "ControlFlowRevisited"
+			},
+			{
+				"type": "HOLIDAY",
+				"title": "July 4th",
+				"date": "July 4"
+			},
+			{
+				"title": "Simple Java",
+				"date": "July 5",
+				"read": "Chapter 12",
+				"filename": "SimpleJava"
+			},
+			{
+				"title": "Methods",
+				"date": "July 6",
+				"due": 4,
+				"filename": "Methods"
+			}
+		]
+	]
+}

@@ -26,7 +26,31 @@
 				</p>
                                 
 				<p>
-					%include templates/parts/schedule-content.html
+					<div class="table-responsive">
+					    <table class="table table-bordered">
+					        
+							<!-- Header row -->
+					        <thead>
+					            <tr>
+					                <th class="text-center">Week</th>
+					                % for day in schedule["days"]:
+					                	<th class="text-center">{{day}}</th>
+									% end
+					            </tr>
+					        </thead>
+							
+							<tbody>
+								<!-- Each week -->
+								<%
+									lectureNumber = 1
+									for i, week in enumerate(schedule["weeks"]):
+										data = include('templates/parts/schedule/scheduleWeek.html', week=week, index=i + 1, lectureNumber=lectureNumber)
+										lectureNumber = data['lectureNumber']
+									end
+								%>
+							</tbody>
+					    </table>
+					</div>
 				</p>
 			</div>
 		</div>

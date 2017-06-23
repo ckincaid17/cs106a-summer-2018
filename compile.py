@@ -25,6 +25,7 @@ same directory structure as in the TEMPLATE_DIR directory.
 import os.path
 from bottle.bottle import SimpleTemplate
 import sys
+import json
 
 IGNORE_DIRS = [
     'parts'
@@ -39,7 +40,7 @@ DEPLOY = not '-t' in sys.argv
 if '--output_dir' in sys.argv:
     OUTPUT_DIR = sys.argv[sys.argv.index('--output_dir') + 1]
 else:
-    OUTPUT_DIR = '.'
+    OUTPUT_DIR = 'WWW'
 
 '''
 FUNCTION: compile
@@ -53,11 +54,19 @@ hierarchy is preserved.
 -----------------
 ''' 
 def compile():
-    templateFilePaths = getTemplateFilePaths('')
-    print("\nCompiling:\n----------")
-    for templateFilePath in templateFilePaths:
-        outputPath = compileTemplate(templateFilePath)
-        print(templateFilePath + " -> " + outputPath)
+    # Read in the announcements and syllabus files
+    with open('announcements.json') as announcementsFile: 
+        announcementsData = json.load(announcementsFile)   
+        with open('schedule.json') as scheduleFile:
+            scheduleData = json.load(scheduleFile)
+
+            # Compile all templates
+            templateFilePaths = getTemplateFilePaths('')
+            print("\nCompiling:\n----------")
+            for templateFilePath in templateFilePaths:
+                outputPath = compileTemplate(templateFilePath, 
+                    announcementsData, scheduleData)
+                print(templateFilePath + " -> " + outputPath)
 
     print("\nDONE.\n")
 
@@ -107,19 +116,24 @@ FUNCTION: compileTemplate
 -------------------------
 Parameters:
     relativePath - the path within TEMPLATE_DIR of the template file to compile
+    announcementsData - the JSON object containing announcements data.  Passed
+                        in as a parameter to render the template.
+    scheduleData - the JSON object containing schedule data.  Passed in as a
+                    parameter to render the template.
 
 Returns: the path of the saved, compiled template file.
 
 Compiles the given template file using Bottle's SimpleTemplate class, passing
-in the pathToRoot as a template parameter.  Saves the compiled template to
-relativePath in the OUTPUT_DIR directory.
+in the pathToRoot, announcementsData and scheduleData as template parameters.
+Saves the compiled template to relativePath in the OUTPUT_DIR directory.
 -------------------------
 '''
-def compileTemplate(relativePath):
+def compileTemplate(relativePath, announcementsData, scheduleData):
     pathToRoot = getPathToRootFrom(relativePath)
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
     templateText = open(filePath).read()
-    compiledHtml = SimpleTemplate(templateText).render(pathToRoot = pathToRoot)
+    compiledHtml = SimpleTemplate(templateText).render(pathToRoot=pathToRoot,
+        announcements=announcementsData, schedule=scheduleData)
     compiledHtml = compiledHtml.encode('utf8')
 
     relativePath = os.path.join(OUTPUT_DIR, relativePath)
