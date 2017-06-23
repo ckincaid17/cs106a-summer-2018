@@ -98,7 +98,7 @@ python compile.py --output_dir myDirectory
 ```
 
 This does the same thing as the previous command, but compiles all website URLs
-based on the given ROOT constant in `compile.py` instead of local paths.
+based on the given ```ROOT``` constant in `compile.py` instead of local paths.
 
 You may also change any of the default compilation settings in `compile.py`,
 including:
