@@ -55,8 +55,9 @@ This is displayed as the header row in the schedule table.  E.g.
 ```
 
 `weeks` is a list containing data for each week.  Each week is itself a list of
-objects representing each lecture that week.  These lecture objects have the
-following keys:
+objects representing each lecture that week.  Note that each week's length must
+match the length of the `days` array.  These lecture objects have the following
+keys:
 ```
 title (REQUIRED) (String): the name of the lecture (or holiday)
 date (REQUIRED) (String): the date string (e.g. "June 26") to display
