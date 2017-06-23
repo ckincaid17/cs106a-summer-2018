@@ -74,7 +74,8 @@ Of note, `filename` is used as follows:
 - the lecture code ZIP is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip```
 
 Holidays are grayed out in the calendar and not displayed in the dropdown.  All
-information is dynamically displayed from this JSON file for each lecture;
+information is dynamically displayed from this JSON file for each lecture,
+including date, title, links to material, any HWs due, and any reading due;
 lectures are also numbered automatically.
 
 
