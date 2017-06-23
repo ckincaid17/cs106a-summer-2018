@@ -3,11 +3,15 @@
 	for i, week in enumerate(schedule["weeks"]):
 		for day in week:
 			if "type" not in day or ("type" in day and day["type"] != "HOLIDAY"):
-				filename = day["filename"]
+				filename = day["filename"] if "filename" in day else ""
 				title = day["title"]
 %>
-				<li><a href="{{pathToRoot}}lectures/{{filename}}">{{lectureNumber}}-{{title}}</a></li>
+%				if filename != "":
+					<li><a href="{{pathToRoot}}lectures/{{filename}}">{{lectureNumber}}-{{title}}</a></li>
+%				else:
+					<li class="disabled"><a>{{lectureNumber}}-{{title}}</a></li>
 <%
+				end
 				lectureNumber += 1
 			end
 		end
