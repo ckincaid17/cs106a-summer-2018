@@ -80,7 +80,8 @@ including date, title, links to material, any HWs due, and any reading due;
 lectures are also numbered automatically.
 
 All lectures in this file are also displayed in the "Lectures" dropdown in the
-navbar.  Lectures without a `filename` display disabled links.
+navbar, up to the first lecture without a filename.  Dividers are added between
+weeks.
 
 
 ## Compiling
