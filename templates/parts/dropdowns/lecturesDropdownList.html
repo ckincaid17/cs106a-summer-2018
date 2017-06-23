@@ -1,7 +1,18 @@
-<!--
-<li><a href="{{pathToRoot}}lectures/1-Welcome">1-Welcome</a></li>
-<li><a href="{{pathToRoot}}lectures/2-ControlFlow">2-Control Flow</a></li>
-<li><a href="{{pathToRoot}}lectures/3-Decomposition">3-Decomposition</a></li>
-<li class="divider"></li>
--->
-<li><a>Coming soon!</a></li>
+<%
+	lectureNumber = 1
+	for i, week in enumerate(schedule["weeks"]):
+		for day in week:
+			if "type" not in day or ("type" in day and day["type"] != "HOLIDAY"):
+				filename = day["filename"]
+				title = day["title"]
+%>
+				<li><a href="{{pathToRoot}}lectures/{{filename}}">{{lectureNumber}}-{{title}}</a></li>
+<%
+				lectureNumber += 1
+			end
+		end
+		if i < len(schedule["weeks"]) - 1:
+%>
+			<li class="divider"></li>
+%		end
+%	end

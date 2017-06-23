@@ -33,9 +33,49 @@ new handout.
 `templates/parts/dropdowns/assignmentsDropdownList.html` to list the new
 assignment.
 
-- **Add lecture materials:** add the lecture materials to `WWW/lectures/` and
-update both `templates/parts/dropdowns/lecturesDropdownList.html` **and**
-`templates/parts/schedule-content.html` with the lecture material links.
+- **Change the lecture schedule:** the lecture calendar and the lectures
+dropdown are both dynamically generated from the same JSON file,
+`schedule.json`.  This JSON file has the following format:
+
+```
+{
+	"days": ...,
+	"weeks": ...
+}
+```
+
+`days` maps to an array of strings naming each day on which there is lecture.
+This is displayed as the header row in the schedule table.  E.g.
+
+```
+{
+	"days": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+	"weeks": ...
+}
+```
+
+`weeks` is a list containing data for each week.  Each week is itself a list of
+objects representing each lecture that week.  These lecture objects have the
+following keys:
+```
+title (REQUIRED) (String): the name of the lecture (or holiday)
+date (REQUIRED) (String): the date string (e.g. "June 26") to display
+type (OPTIONAL) (String): "HOLIDAY" if a holiday
+due (OPTIONAL) (Int): the HW number due today
+read (OPTIONAL) (String): the parts of the book (e.g. "Chapter 12") to read
+filename (OPTIONAL) (String): the filename prefix used to generate all filepaths
+for this lecture's material.
+```
+
+Of note, `filename` is used as follows:
+- the lecture PPT is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx
+- the lecture PDF is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf
+- the lecture code folder is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}/
+- the lecture code ZIP is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}.zip
+
+Holidays are grayed out in the calendar and not displayed in the dropdown.  All
+information is dynamically displayed from this JSON file for each lecture;
+lectures are also numbered automatically.
 
 
 ## Compiling

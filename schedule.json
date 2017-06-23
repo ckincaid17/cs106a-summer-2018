@@ -52,6 +52,15 @@
 				"due": 4,
 				"filename": "Methods"
 			}
+		],
+		[
+			{
+				"title": "Test lecture",
+				"date": "July 10",
+				"read": "Chapter 123",
+				"due": 5,
+				"filename": "test"
+			}
 		]
 	]
 }
