@@ -83,18 +83,18 @@ lectures are also numbered automatically.
 To compile all references and links to test locally, from the root directory run
 
 ```
-python compile.py -t --output_dir WWW
+python compile.py -t --output_dir myDirectory
 ```
 
 This compiles all templates in the `templates/` folder and, preserving its
 directory structure and filenames, creates all HTML files in the given
 output directory.  If no output directory is specified, the files are outputted
-to the current directory.
+to the WWW/ directory.
 
 To compile all references and links to host, from the root directory run
 
 ```
-python compile.py --output_dir WWW
+python compile.py --output_dir myDirectory
 ```
 
 This does the same thing as the previous command, but compiles all website URLs
