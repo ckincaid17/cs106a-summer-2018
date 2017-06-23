@@ -89,7 +89,7 @@ python compile.py -t --output_dir myDirectory
 This compiles all templates in the `templates/` folder and, preserving its
 directory structure and filenames, creates all HTML files in the given
 output directory.  If no output directory is specified, the files are outputted
-to the WWW/ directory.
+to the ```WWW/``` directory.
 
 To compile all references and links to host, from the root directory run
 
