@@ -1,21 +1,36 @@
 <td class="calendarCell">
     <div style="position:relative">
         <div class="inOut">
-            % if "read" in day and "due" in day:
-                <br>{{"Read: " + day["read"]}}
-                <br>{{"Due: Assn #" + str(day["due"])}}
-            % elif "read" in day:
-                <br><br>{{"Read: " + day["read"]}}
-            % elif "due" in day:
-                <br><br>{{"Due: Assn #" + str(day["due"])}}
+            <%
+                lines = []
+
+                if "read" in day:
+                    lines.append("Read: " + day["read"])
+                end
+                if "due" in day:
+                    lines.append("Due: Assn. #" + day["due"])
+                end
+                if "out" in day:
+                    lines.append("Out: Assn. #" + day["out"])
+                end
+            %>
+
+            % if len(lines) == 3:
+                {{lines[0]}} <br /> {{lines[1]}} <br /> {{lines[2]}}
+            % elif len(lines) == 2:
+                <br /> {{lines[0]}} <br /> {{lines[1]}}
+            % elif len(lines) == 1:
+                <br /> <br /> {{lines[0]}}
             % end
         </div>
         <p class="subtleHeading">{{day["date"]}}</p>
         {{lectureNumber}}: {{day["title"]}}
-        % filename = day["filename"]
-        <p>
-            <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
-            <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}"><span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip">zip</a>)
-        </p>
+        % filename = day["filename"] if "filename" in day else ""
+        % if filename != "":
+            <p>
+                <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
+                <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}"><span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip">zip</a>)
+            </p>
+        % end
     </div>
 </td>
