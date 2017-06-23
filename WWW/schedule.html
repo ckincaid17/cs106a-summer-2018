@@ -18,7 +18,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/plugins/moment.min.js"></script>
-<script src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/plugins/ace/ace.js" type="text/javascript"></script>
 
 
 <!-- Stanford -->
@@ -48,42 +47,13 @@
             Lectures <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-					<li class="disabled"><a>1-Welcome to CS106A</a></li>
-					<li class="disabled"><a>2-Programming with Karel</a></li>
-					<li class="disabled"><a>3-Problem-solving in Karel</a></li>
-					<li class="disabled"><a>4-Java 1</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>5-Java 2</a></li>
-					<li class="disabled"><a>6-Methods 1</a></li>
-					<li class="disabled"><a>7-Methods 2</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>8-Strings 1</a></li>
-					<li class="disabled"><a>9-Strings 2</a></li>
-					<li class="disabled"><a>10-Files</a></li>
-					<li class="disabled"><a>11-Graphics</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>12-Animation</a></li>
-					<li class="disabled"><a>13-Events</a></li>
-					<li class="disabled"><a>14-Memory + Debugging</a></li>
-					<li class="disabled"><a>15-Classes 1</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>16-Classes 2</a></li>
-					<li class="disabled"><a>17-Arrays</a></li>
-					<li class="disabled"><a>18-2D Arrays</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>19-ArrayLists</a></li>
-					<li class="disabled"><a>20-HashMaps</a></li>
-					<li class="disabled"><a>21-Inheritance</a></li>
-					<li class="disabled"><a>22-Interactors</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>23-Client/Server 1</a></li>
-					<li class="disabled"><a>24-Client/Server 2</a></li>
-					<li class="disabled"><a>25-Machine Learning 1</a></li>
-					<li class="disabled"><a>26-Machine Learning 2</a></li>
-			<li class="divider"></li>
-					<li class="disabled"><a>27-Standard Java</a></li>
-					<li class="disabled"><a>28-Final Exam Review 1</a></li>
-					<li class="disabled"><a>29-Final Exam Review 2 / Wrapup</a></li>
+<!--
+	Generates a list of lecture links based on schedule.json.  Only renders up
+	to (and not including) the first lecture without a filename - it is assumed
+	that this marks the end of given lectures.  Adds a divider between each
+	week.  Skips holidays.
+	-->
+		<li><a>Coming soon!</a></li>
           </ul>
         </li>
         
@@ -180,147 +150,350 @@
 							
 							<tbody>
 								<!-- Each week -->
+<!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
 <tr>
 	<td class="calendarWeekCell">1</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">June 26</p>
         1: Welcome to CS106A
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">June 27</p>
         2: Programming with Karel
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> <br /> Out: Assn. #1
         </div>
+
         <p class="subtleHeading">June 28</p>
         3: Problem-solving in Karel
-    </div>
-</td><td class="calendarCell">
-    <div style="position:relative">
-        <div class="inOut">
 
-        </div>
-        <p class="subtleHeading">June 29</p>
-        4: Java 1
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
-	<td class="calendarWeekCell">2</td>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
+        <p class="subtleHeading">June 29</p>
+        4: Java 1
+
+        <!-- If there is a filename, render links to the lecture materials -->
+    </div>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
+	<td class="calendarWeekCell">2</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
+    <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <div class="inOut">
+
+        </div>
+
         <p class="subtleHeading">July 3</p>
         5: Java 2
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell" style="background-color:hsl(0, 0%, 95%)">
+</td><!--
+	Template that renders a single "holiday" calendar day grayed out
+	Assumes a "day" object with "date" (String) and "title" (String) fields.
+	-->
+<td class="calendarCell" style="background-color:hsl(0, 0%, 95%)">
     <div style="position:relative">
         <div class="inOut"></div>
         <p class="subtleHeading">July 4</p>
         Holiday: July 4th
         <br/>No Class
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> Due: Assn. #1 <br /> Out: Assn. #2
         </div>
+
         <p class="subtleHeading">July 5</p>
         6: Methods 1
-    </div>
-</td><td class="calendarCell">
-    <div style="position:relative">
-        <div class="inOut">
 
-        </div>
-        <p class="subtleHeading">July 6</p>
-        7: Methods 2
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
-	<td class="calendarWeekCell">3</td>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
+        <p class="subtleHeading">July 6</p>
+        7: Methods 2
+
+        <!-- If there is a filename, render links to the lecture materials -->
+    </div>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
+	<td class="calendarWeekCell">3</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
+    <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <div class="inOut">
+
+        </div>
+
         <p class="subtleHeading">July 10</p>
         8: Strings 1
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">July 11</p>
         9: Strings 2
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> Due: Assn. #2 <br /> Out: Assn. #3
         </div>
+
         <p class="subtleHeading">July 12</p>
         10: Files
-    </div>
-</td><td class="calendarCell">
-    <div style="position:relative">
-        <div class="inOut">
 
-        </div>
-        <p class="subtleHeading">July 13</p>
-        11: Graphics
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
-	<td class="calendarWeekCell">4</td>
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
+        <p class="subtleHeading">July 13</p>
+        11: Graphics
+
+        <!-- If there is a filename, render links to the lecture materials -->
+    </div>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
+	<td class="calendarWeekCell">4</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
+    <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <div class="inOut">
+
+        </div>
+
         <p class="subtleHeading">July 17</p>
         12: Animation
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">July 18</p>
         13: Events
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> Due: Assn. #3 <br /> Out: Assn. #4
         </div>
+
         <p class="subtleHeading">July 19</p>
         14: Memory + Debugging
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">July 20</p>
         15: Classes 1
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
 	<td class="calendarWeekCell">5</td>
+<!--
+	Template that renders a single "holiday" calendar day grayed out
+	Assumes a "day" object with "date" (String) and "title" (String) fields.
+	-->
 <td class="calendarCell" style="background-color:hsl(0, 0%, 95%)">
     <div style="position:relative">
         <div class="inOut"></div>
@@ -328,129 +501,305 @@
         Holiday: Exam Study Day (Midterm 7-9PM)
         <br/>No Class
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">July 25</p>
         16: Classes 2
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">July 26</p>
         17: Arrays
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> Due: Assn. #4 on 7/28 <br /> Out: Assn. #5 on 7/28
         </div>
+
         <p class="subtleHeading">July 27</p>
         18: 2D Arrays
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
 	<td class="calendarWeekCell">6</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">July 31</p>
         19: ArrayLists
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 1</p>
         20: HashMaps
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 2</p>
         21: Inheritance
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> Due: Assn. #5 on 8/4 <br /> Out: Assn. #6 on 8/4
         </div>
+
         <p class="subtleHeading">August 3</p>
         22: Interactors
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
 	<td class="calendarWeekCell">7</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 7</p>
         23: Client/Server 1
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 8</p>
         24: Client/Server 2
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 9</p>
         25: Machine Learning 1
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> <br /> Due: Assn. #6 Part 1
         </div>
+
         <p class="subtleHeading">August 10</p>
         26: Machine Learning 2
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td></tr><tr>
+</td></tr><!-- 
+	Template that renders a single week as a row in a table
+	Assumes a "week" parameter (list of lecture objects), an "index" parameter
+	(what number week we are), and a "lectureNumber" parameter (the number of
+	the first lecture in this week).
+	-->
+<tr>
 	<td class="calendarWeekCell">8</td>
+<!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
 <td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 14</p>
         27: Standard Java
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
                 <br /> <br /> Due: Assn. #6 Part 2
         </div>
+
         <p class="subtleHeading">August 15</p>
         28: Final Exam Review 1
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell">
+</td><!--
+    Template that renders a single cell for a single lecture day.  Assumes a
+    "day" parameter with a "date" (String) and "title" (String) field, and
+    optionally "read", "due", "out" and "filename" fields.  See the project
+    README for more information on the spec for schedule.json.
+    -->
+<td class="calendarCell">
     <div style="position:relative">
+
+        <!-- Render the lines for any reading, and HWs due or going out -->
         <div class="inOut">
 
         </div>
+
         <p class="subtleHeading">August 16</p>
         29: Final Exam Review 2 / Wrapup
+
+        <!-- If there is a filename, render links to the lecture materials -->
     </div>
-</td><td class="calendarCell" style="background-color:hsl(0, 0%, 95%)">
+</td><!--
+	Template that renders a single "holiday" calendar day grayed out
+	Assumes a "day" object with "date" (String) and "title" (String) fields.
+	-->
+<td class="calendarCell" style="background-color:hsl(0, 0%, 95%)">
     <div style="position:relative">
         <div class="inOut"></div>
         <p class="subtleHeading">August 17</p>
