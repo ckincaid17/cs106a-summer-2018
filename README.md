@@ -63,15 +63,14 @@ date (REQUIRED) (String): the date string (e.g. "June 26") to display
 type (OPTIONAL) (String): "HOLIDAY" if a holiday
 due (OPTIONAL) (Int): the HW number due today
 read (OPTIONAL) (String): the parts of the book (e.g. "Chapter 12") to read
-filename (OPTIONAL) (String): the filename prefix used to generate all filepaths
-for this lecture's material.
+filename (OPTIONAL) (String): the filename prefix for all material filepaths
 ```
 
 Of note, `filename` is used as follows:
-- the lecture PPT is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx
-- the lecture PDF is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf
-- the lecture code folder is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}/
-- the lecture code ZIP is assumed to be at {{pathToRoot}}lectures/{{filename}}/{{filename}}.zip
+- the lecture PPT is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx```
+- the lecture PDF is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf```
+- the lecture code folder is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}/```
+- the lecture code ZIP is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip```
 
 Holidays are grayed out in the calendar and not displayed in the dropdown.  All
 information is dynamically displayed from this JSON file for each lecture;
