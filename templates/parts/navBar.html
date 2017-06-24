@@ -31,7 +31,9 @@
             Handouts <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            %include templates/parts/dropdowns/handoutsDropdownList.html
+            % for handout in handouts:
+              <li><a href="{{pathToRoot}}{{handout[1]}}">{{handout[0]}}</a></li>
+            % end
           </ul>
         </li>
         
