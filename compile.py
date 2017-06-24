@@ -31,6 +31,10 @@ IGNORE_DIRS = [
     'parts'
 ]
 TEMPLATE_DIR = 'templates'
+
+# Assumed to be within OUTPUT_DIR
+HANDOUTS_DIR = 'handouts'
+
 ROOT = '//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/'
 
 # Use the -t flag if you want to compile for local tests
@@ -60,15 +64,44 @@ def compile():
         with open('schedule.json') as scheduleFile:
             scheduleData = json.load(scheduleFile)
 
+            handoutsData = searchHandoutsDirectory()
+
             # Compile all templates
             templateFilePaths = getTemplateFilePaths('')
             print("\nCompiling:\n----------")
             for templateFilePath in templateFilePaths:
                 outputPath = compileTemplate(templateFilePath, 
-                    announcementsData, scheduleData)
+                    announcementsData, scheduleData, handoutsData)
                 print(templateFilePath + " -> " + outputPath)
 
     print("\nDONE.\n")
+
+'''
+FUNCTION: searchHandoutsDirectory
+---------------------------------
+Parameters: NA
+Returns: a list of tuples containing information about the handouts in
+OUTPUT_DIR/HANDOUTS_DIR.  In particular, the tuples are of the format
+(handout name, URL).
+---------------------------------
+'''
+def searchHandoutsDirectory():
+    handoutsData = []
+    handoutsDirPath = OUTPUT_DIR + '/' + HANDOUTS_DIR + '/'
+    for fileName in os.listdir(handoutsDirPath):
+        filePath = os.path.join(HANDOUTS_DIR, fileName)
+
+        # The name is found by capitalizing each dashed word in the filename
+        # except for the first, which is the handout number.  E.g.
+        # 01-general-information.pdf -> 01-General Information
+        nameList = os.path.splitext(fileName)[0].split('-')
+        handoutNumber = int(nameList[0])
+        nameList = [word.capitalize() for word in nameList[1:]]
+        handoutName = str(handoutNumber) + ' - ' + ' '.join(nameList)
+
+        handoutsData.append((handoutName, filePath))
+
+    return handoutsData    
 
 '''
 FUNCTION: getTemplateFilePaths
@@ -120,20 +153,26 @@ Parameters:
                         in as a parameter to render the template.
     scheduleData - the JSON object containing schedule data.  Passed in as a
                     parameter to render the template.
+    handoutsData - the list of tuples of handout data.  Passed in as a parameter
+                    to render the template.
 
 Returns: the path of the saved, compiled template file.
 
 Compiles the given template file using Bottle's SimpleTemplate class, passing
-in the pathToRoot, announcementsData and scheduleData as template parameters.
-Saves the compiled template to relativePath in the OUTPUT_DIR directory.
+in the pathToRoot, announcementsData, scheduleData and handoutsData as template
+parameters.  Saves the compiled template to relativePath in the OUTPUT_DIR
+directory.
 -------------------------
 '''
-def compileTemplate(relativePath, announcementsData, scheduleData):
+def compileTemplate(relativePath, announcementsData, scheduleData,
+    handoutsData):
+
     pathToRoot = getPathToRootFrom(relativePath)
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
     templateText = open(filePath).read()
     compiledHtml = SimpleTemplate(templateText).render(pathToRoot=pathToRoot,
-        announcements=announcementsData, schedule=scheduleData)
+        announcements=announcementsData, schedule=scheduleData,
+        handouts=handoutsData)
     compiledHtml = compiledHtml.encode('utf8')
 
     relativePath = os.path.join(OUTPUT_DIR, relativePath)

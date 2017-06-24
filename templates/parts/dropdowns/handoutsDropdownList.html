@@ -1,5 +1,3 @@
-<!--
-<li><a href="{{pathToRoot}}handouts/1 - General Information.pdf">1-General Information</a></li>
-<li><a href="{{pathToRoot}}handouts/2 - Course Placement.pdf">2-Course Placement</a></li>
--->
-<li><a href="{{pathToRoot}}handouts/01-general-information.pdf">1-General Information</a></li>
+% for handout in handouts:
+	<li><a href="{{pathToRoot}}{{handout[1]}}">{{handout[0]}}</a></li>
+% end
