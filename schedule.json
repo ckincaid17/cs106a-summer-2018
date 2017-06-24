@@ -8,12 +8,12 @@
 			},
 			{
 				"title": "Programming with Karel",
-				"date": "June 27"
+				"date": "June 27",
+				"out": "1"
 			},
 			{
 				"title": "Problem-solving in Karel",
-				"date": "June 28",
-				"out": "1"
+				"date": "June 28"
 			},
 			{
 				"title": "Java 1",
@@ -84,13 +84,13 @@
 			},
 			{
 				"title": "Memory + Debugging",
-				"date": "July 19",
-				"due": "3",
-				"out": "4"
+				"date": "July 19"
 			},
 			{
 				"title": "Classes 1",
-				"date": "July 20"
+				"date": "July 20",
+				"due": "3",
+				"out": "4"
 			},
 			{
 				"type": "OFF",
@@ -161,8 +161,7 @@
 			},
 			{
 				"title": "Machine Learning 2",
-				"date": "August 10",
-				"due": "6 Part 1"
+				"date": "August 10"
 			},
 			{
 				"type": "OFF",
@@ -177,7 +176,7 @@
 			{
 				"title": "Final Exam Review 1",
 				"date": "August 15",
-				"due": "6 Part 2"
+				"due": "6"
 			},
 			{
 				"title": "Final Exam Review 2 / Wrapup",
