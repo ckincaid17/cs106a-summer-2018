@@ -93,11 +93,11 @@ def searchHandoutsDirectory():
 
         # The name is found by capitalizing each dashed word in the filename
         # except for the first, which is the handout number.  E.g.
-        # 01-general-information.pdf -> 01-General Information
+        # 1-general-information.pdf -> 1-General Information
         nameList = os.path.splitext(fileName)[0].split('-')
-        handoutNumber = int(nameList[0])
+        handoutNumber = nameList[0]
         nameList = [word.capitalize() for word in nameList[1:]]
-        handoutName = str(handoutNumber) + ' - ' + ' '.join(nameList)
+        handoutName = handoutNumber + ' - ' + ' '.join(nameList)
 
         handoutsData.append((handoutName, filePath))
 
