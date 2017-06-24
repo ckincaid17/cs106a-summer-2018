@@ -24,7 +24,8 @@ formatting.
 - **Adding non-section handouts:** add the handout to `WWW/handouts/`, with the
 naming style `NUMBER-DASHEDNAME.extension`.  E.g. `01-general-information.pdf`.
 Any handouts in this folder will be automatically listed in the "Handouts"
-dropdown with the format `NUMBER - NAME`.  E.g. `1 - General Information`.
+dropdown with the format `NUMBER - CAMELCASENAME`.
+E.g. `1 - General Information`.
 
 - **Adding section handouts:** add the handout to `WWW/section-handouts/` and
 update `templates/parts/dropdowns/sectionMaterialsDropdownList.html` to list the
