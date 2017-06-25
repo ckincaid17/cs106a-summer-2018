@@ -1,0 +1,38 @@
+<h2>Installing Eclipse in Windows</h2>
+<p>
+    (Note that these screenshots are for Windows, even though they were taken on a Mac) Our version of Eclipse will only work on Windows 7 (2009) or higher. If you don't have a supported version of the operating system, you'll need to either upgrade or do your class work on a cluster machine. You can check your version of Windows using <a href="https://support.microsoft.com/en-sg/help/13443/windows-which-operating-system">these instructions</a>.
+</p>
+<ol>
+	<!-- These instructions are Windows-specific -->
+    <li>
+        Remove any older copies of the Java Runtime Environment that may be installed on your system.
+        <ol type="a">
+            <li>
+                <strong>If you have Windows 10:</strong> click on <strong>Start</strong> (the Windows icon in the lower left-hand corner), click on <strong>Settings</strong> (the gear-shaped icon), then select <strong>Apps &amp; Features</strong>.
+                <br/>
+                <strong>Otherwise</strong>: Click on <strong>Start</strong>, then click on <strong>Control Panel</strong>, then select <strong>Programs and Features</strong>.
+            </li>
+            <li>
+                From the list of programs you see, uninstall any occurrences of Java/J2SE Runtime Environment, Java SDK, Java SE Development Kit or Java Update. Note that the exact program name may be slightly different or include a version number, but you generally want to remove anything that includes the text: Java/J2SE Runtime Environment, Java SDK, Java SE Development Kit or Java Update. To remove a program, click on the program name to highlight it and click the the <strong>Uninstall</strong> button.
+            </li>
+        </ol>
+    </li>
+    <li>
+        <a href="https://web.stanford.edu/dept/cs_edu/eclipse/jdk_win64.exe">Download and install the Java SDK for Windows</a>
+    </li>
+    <li>
+        <a href="https://web.stanford.edu/dept/cs_edu/eclipse/eclipse_win64.zip">Download the Windows version of Eclipse</a>
+    </li>
+    <li>
+        Extract the contents of the file by right-clicking on it, selecting the <strong>Extract All...</strong> option and typing <strong>C:\Program Files</strong> as the location to extract the files to. Then continue following the steps in the extraction process.
+    </li>
+    <li>
+        Create a shortcut to Eclipse on your Desktop for easy access: Open the <strong>C:\Program Files\eclipse</strong> directory, and right-click and drag the eclipse.exe file (the Eclipse application) to your desktop and then select the option <strong>Create shortcut here</strong>.
+    </li>
+    <li>
+        Double-click on the Desktop shortcut to open Eclipse.
+    </li>
+
+	<!-- These instructions are platform-agnostic -->
+    %include templates/parts/eclipse/generalInstallation.html
+</ol>
