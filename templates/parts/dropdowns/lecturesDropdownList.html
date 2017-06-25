@@ -38,7 +38,7 @@
 					filename = day["filename"]
 					title = day["title"]
 %>
-					<li><a href="lectures/{{filename}}">{{lectureNumber}}-{{title}}</a></li>
+					<li><a href="{{pathToRoot}}lectures/{{filename}}">{{lectureNumber}}-{{title}}</a></li>
 <%
 					lectureNumber += 1
 				end

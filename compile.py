@@ -5,19 +5,20 @@ FILE: compile.py
 ----------------
 Template compiler that compiles all .html template files in the TEMPLATE_DIR
 directory below, excluding IGNORE_DIRS, and outputs with the same filenames to
-the OUTPUT_DIR directory.  Example usage:
+the OUTPUT_DIR directory.  Use -t to compile for running locally; otherwise,
+templates are compiled to be hosted at the ROOT url.  Example usage:
+
+> python compile.py -t --output_dir WWW
+
+Compiles all template files using local paths, and outputs the compiled files to
+the WWW directory.  The compiled files in WWW/ have the same directory structure
+as in the TEMPLATE_DIR directory.
 
 > python compile.py
 
-Compiles all template files and outputs the compiled files to WWW/.
-The compiled files in WWW/ have the same directory structure as in the
-TEMPLATE_DIR directory.
-
-> python compile.py  --output_dir myDirectory
-
-Compiles all template files and outputs the compiled files to myDirectory.  The
-compiled files in the current directory have the same directory structure as in
-the TEMPLATE_DIR directory.
+Compiles all template files using ROOT path, and outputs the compiled files to
+the *current* directory.  The compiled files in the current directory have the
+same directory structure as in the TEMPLATE_DIR directory.
 ----------------
 '''
 
@@ -33,6 +34,11 @@ TEMPLATE_DIR = 'templates'
 
 # Assumed to be within OUTPUT_DIR
 HANDOUTS_DIR = 'handouts'
+
+ROOT = '//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/'
+
+# Use the -t flag if you want to compile for local tests
+DEPLOY = not '-t' in sys.argv
 
 # Use the --output_dir flag to optionally specify where compiled files go
 if '--output_dir' in sys.argv:
@@ -152,15 +158,18 @@ Parameters:
 Returns: the path of the saved, compiled template file.
 
 Compiles the given template file using Bottle's SimpleTemplate class, passing
-in announcementsData, scheduleData and handoutsData as template parameters.
-Saves the compiled template to relativePath in the OUTPUT_DIR directory.
+in the pathToRoot, announcementsData, scheduleData and handoutsData as template
+parameters.  Saves the compiled template to relativePath in the OUTPUT_DIR
+directory.
 -------------------------
 '''
 def compileTemplate(relativePath, announcementsData, scheduleData,
     handoutsData):
+
+    pathToRoot = getPathToRootFrom(relativePath)
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
     templateText = open(filePath).read()
-    compiledHtml = SimpleTemplate(templateText).render(
+    compiledHtml = SimpleTemplate(templateText).render(pathToRoot=pathToRoot,
         announcements=announcementsData, schedule=scheduleData,
         handouts=handoutsData)
     compiledHtml = compiledHtml.encode('utf8')
@@ -169,6 +178,52 @@ def compileTemplate(relativePath, announcementsData, scheduleData,
     makePath(relativePath)
     open(relativePath, 'wb').write(compiledHtml)
     return relativePath
+
+'''
+FUNCTION: getPathToRootFrom
+---------------------------
+Parameters:
+    relativePath - the path to start at when calculating the path to the root
+
+Returns: the path to the root directory from the given relativePath.
+---------------------------
+'''
+def getPathToRootFrom(relativePath):
+    if DEPLOY:
+        return ROOT
+    return getRelPathToRootFrom(relativePath)
+
+'''
+FUNCTION: getRelPathToRootFrom
+------------------------------
+Parameters:
+    relativePath - the path to start at when calculating the path to the root
+
+Returns: the relative path to the root directory from the given relativePath.
+    Concatenates "../" for each level down from the root.
+------------------------------
+'''
+def getRelPathToRootFrom(relativePath):
+    depth = depthFromRoot(relativePath)
+    pathToRoot = './' + ''.join(['../' for i in range(depth)])
+    return pathToRoot
+
+'''
+FUNCTION: depthFromRoot
+-----------------------
+Parameters:
+    filePath - the path for which to calculate the depth
+
+Returns: the number of levels filePath is from the root level.
+    E.g. 'index.html' -> 0
+         'stuff/index.html' -> 1
+         'stuff/moreStuff/index.html' -> 2
+-----------------------
+'''
+def depthFromRoot(filePath):
+    rootPath = os.path.dirname(filePath)
+    if len(rootPath) == 0: return 0
+    return depthFromRoot(rootPath) + 1
     
 '''
 FUNCTION: makePath

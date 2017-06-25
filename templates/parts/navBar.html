@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand brand" href="">CS 106A</a>
+      <a class="navbar-brand brand" href="{{pathToRoot}}">CS 106A</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -32,7 +32,7 @@
           </a>
           <ul class="dropdown-menu">
             % for handout in handouts:
-              <li><a href="{{handout[1]}}">{{handout[0]}}</a></li>
+              <li><a href="{{pathToRoot}}{{handout[1]}}">{{handout[0]}}</a></li>
             % end
           </ul>
         </li>
@@ -59,7 +59,7 @@
       
       <!-- Schedule button -->
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
+        <li><a href="{{pathToRoot}}schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
       </ul>
       
     </div>

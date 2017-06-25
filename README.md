@@ -88,23 +88,25 @@ weeks.
 
 
 ## Compiling
-To compile all references and links, from the root directory run
+To compile all references and links to test locally, from the root directory run
 
 ```
-python compile.py
+python compile.py -t --output_dir myDirectory
 ```
 
 This compiles all templates in the `templates/` folder and, preserving its
-directory structure and filenames, creates all HTML files in `WWW/` directory.
+directory structure and filenames, creates all HTML files in the given
+output directory.  If no output directory is specified, the files are outputted
+to the ```WWW/``` directory.
 
-If you'd like to specify another output directory, you can type:
+To compile all references and links to host, from the root directory run
 
 ```
 python compile.py --output_dir myDirectory
 ```
 
-This does the same thing as the previous command, but outputs all files to the
-specified directory.
+This does the same thing as the previous command, but compiles all website URLs
+based on the given ```ROOT``` constant in `compile.py` instead of local paths.
 
 You may also change any of the default compilation settings in `compile.py`,
 including:
@@ -122,5 +124,6 @@ To host the compiled site locally, from the `WWW/` directory run
 
 `python -m SimpleHTTPServer`
 
-This will host the site on `localhost:8000`.
+This will host the site on `localhost:8000`.  Make sure to compile using the
+`-t` flag beforehand; otherwise the paths will not function properly!
 
