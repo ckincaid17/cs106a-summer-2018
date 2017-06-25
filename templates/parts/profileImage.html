@@ -1,0 +1,14 @@
+<!-- Thumbnail box that displays the photo and info for a single section leader.
+Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+person is stored in images/staff/SUNET.jpg. -->
+<div class="col-md-3 col-sm-4 col-xs-6 thumb">
+	<div class="thumbnail">
+		<img style="width:112px;" class="img-circle" src="{{pathToRoot}}images/staff/{{sunet}}.jpg" alt="{{name}}">
+		<div>
+			<h4 style="text-align: center;">
+				{{name}}
+				<a href="mailto:{{sunet}}@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+			</h4>
+		</div>
+	</div>
+</div>

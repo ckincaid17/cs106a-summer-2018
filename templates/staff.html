@@ -1,0 +1,95 @@
+<!-- Displays information about the instructor, Head TA, and all SLs -->
+
+<!-- Header -->
+<div class="row">
+    <div class="col-xs-12">
+        <div id="pageHeader">
+            <h1>Course Staff</h1>
+        </div>
+        <hr/>
+    </div>
+</div>
+
+<!-- Instructor and Head TA images -->
+<div class="row">
+    <div class="col-md-1 col-xs-0"></div>
+    <div class="col-md-5 col-xs-6">
+        <div class="thumbnail">
+            <img src="{{pathToRoot}}images/staff/troccoli.jpg" alt="Nick Troccoli">
+            <div class="caption">
+                <h3>Instructor: <i>Nick Troccoli</i></h3>
+                <span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:troccoli@stanford.edu">troccoli@stanford.edu</a><br />
+                <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>Gates B02<br/>
+                <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>TBD<br/>
+                <p>
+                    The instructor teaches lectures and manages the overall course.
+                    Contact the instructor if you have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Head TA.  In addition to at his office hours, please feel free to ask Nick questions before/after any lecture.
+
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-5 col-xs-6">
+        <div class="thumbnail">
+            <img src="{{pathToRoot}}images/staff/rbedi.jpg" alt="Rishi Bedi">
+            <div class="caption">
+                <h3>Head TA: <i>Rishi Bedi</i></h3>
+                <span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:rbedi@stanford.edu">rbedi@stanford.edu</a><br>
+                <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>Gates B02<br/>
+                <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>TBD<br/>
+
+                <p>
+                    The Head TA helps manage the section leaders and also oversees important course activities such as grading and section problems. 
+                    Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-1 col-xs-0"></div>
+</div>
+
+<!-- Section Leaders -->
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Section Leaders</h3>
+        <p>
+            Your section leader is your primary point of contact if you need help with homework, grading, section or most other course issues.  To find out who your section leader is, or the time/place of your section, log in to <a href="https://cs198.stanford.edu">the CS 198 website</a>.
+        </p>
+    </div>
+
+    <!-- Generate HTML thumbnail elements for each SL -->
+    <%
+        sls = [
+            "Aleksander Dash (adash)",
+            "Canyon Robins (crobins)",
+            "Conner Smith (csmith95)",
+            "Emily Ling (eling8)",
+            "Farah Uraizee (farah)",
+            "Garrick Fernandez (gfaerr)",
+            "Gus Torres da Silva (gdasilva)",
+            "Guy Blanc (gblanc)",
+            "Jared Bitz (jbitz)",
+            "Jestin Ma (jestinm)",
+            "Kate Rydberg (rydbergk)",
+            "Katherine Erdman (kerdman)",
+            "Keanu Spies (keanus)",
+            "Michael Hazard (cmhazard)",
+            "Mirae Parker (miraep8)",
+            "Nick Negrete (nnegrete)",
+            "Nolan Handali (nolanh)",
+            "Pras Ramakrishnan (pras1712)",
+            "Regina Nguyen (renguyen)",
+            "Tobin Bell (trfbell)",
+            "Tyler Yep (tyep)",
+            "Wil Kautz (wkautz)"
+        ]
+
+        for sl in sls:
+            name = sl[0:sl.index("(") - 1]
+            sunet = sl[sl.index("(") + 1: -1]
+
+            include('templates/parts/profileImage.html', name=name, sunet=sunet)
+        end
+    %>
+</div>
