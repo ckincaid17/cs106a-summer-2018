@@ -17,32 +17,30 @@
             <strong>Assignments are due at 11AM</strong> on the dates specified.
         </p>
 
-        <p>
-            <div class="table-responsive">
-                <table class="table table-bordered">
+        <div class="table-responsive">
+            <table class="table table-bordered">
 
-                    <!-- Header row -->
-                    <thead>
-                        <tr>
-                            <th class="text-center">Week</th>
-                            % for day in schedule["days"]:
+                <!-- Header row -->
+                <thead>
+                    <tr>
+                        <th class="text-center">Week</th>
+                        % for day in schedule["days"]:
                             <th class="text-center">{{day}}</th>
-                            % end
-                        </tr>
-                    </thead>
+                        % end
+                    </tr>
+                </thead>
 
-                    <tbody>
-                        <!-- Each week -->
-                        <%
-                            lectureNumber = 1
-                            for i, week in enumerate(schedule["weeks"]):
-                                data = include('templates/parts/schedule/scheduleWeek.html', week=week, index=i + 1, lectureNumber=lectureNumber)
-                                lectureNumber = data['lectureNumber']
-                            end
-                        %>
-                    </tbody>
-                </table>
-            </div>
-        </p>
+                <tbody>
+                    <!-- Each week -->
+                    <%
+                        lectureNumber = 1
+                        for i, week in enumerate(schedule["weeks"]):
+                            data = include('templates/parts/schedule/scheduleWeek.html', week=week, index=i + 1, lectureNumber=lectureNumber)
+                            lectureNumber = data['lectureNumber']
+                        end
+                    %>
+                </tbody>
+            </table>
+        </div>
     </div>
 </div>
