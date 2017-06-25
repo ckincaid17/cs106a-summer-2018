@@ -115,6 +115,8 @@ including:
 ROOT - the root URL for the hosted version of this website
 OUTPUT_DIR - the default output directory for compiled files
 TEMPLATE_DIR - the directory to compile
+ROOT_TEMPLATE - the "meta-template" containing the <head>, footer, etc. inside
+which all other templates are rendered.
 IGNORE_DIRS - directories within TEMPLATE_DIR that should be ignored
 ```
 

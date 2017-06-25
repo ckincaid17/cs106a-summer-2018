@@ -1,73 +1,58 @@
-<head>
-	%include templates/parts/header.html
-</head>
-<body>
-	%include templates/parts/navBar.html
+<!-- Header -->
+<div class="row">
+    <div class="col-sm-12">
+        <div id="pageHeader">
+            <h1>Course Schedule</h1>
+        </div>
+        <hr/>
+    </div>
+</div>
 
-	<div class="container">
-			
-		<!-- Header -->
-		<div class="row">
-			<div class="col-sm-12">
-				<div id="pageHeader">
-					<h1>
-						Course Schedule
-					</h1>
-				</div>
-				<hr/>
-			</div>
-		</div>
-				
-		<!-- Schedule -->
-		<div class="row">
-			<div class="col-sm-12">
-				<p>
-					This schedule is subject to change by the course staff at any time.<br />
-					<strong>Assignments are due at 11AM</strong> on the dates specified.
-				</p>
-                                
-				<p>
-					<div class="table-responsive">
-					    <table class="table table-bordered">
-					        
-							<!-- Header row -->
-					        <thead>
-					            <tr>
-					                <th class="text-center">Week</th>
-					                % for day in schedule["days"]:
-					                	<th class="text-center">{{day}}</th>
-									% end
-					            </tr>
-					        </thead>
-							
-							<tbody>
-								<!-- Each week -->
-								<%
-									lectureNumber = 1
-									for i, week in enumerate(schedule["weeks"]):
-										data = include('templates/parts/schedule/scheduleWeek.html', week=week, index=i + 1, lectureNumber=lectureNumber)
-										lectureNumber = data['lectureNumber']
-									end
-								%>
-							</tbody>
-					    </table>
-					</div>
-				</p>
-			</div>
-		</div>
+<!-- Schedule -->
+<div class="row">
+    <div class="col-sm-12">
+        <p>
+            This schedule is subject to change by the course staff at any time.
+            <br />
+            <strong>Assignments are due at 11AM</strong> on the dates specified.
+        </p>
 
-		%include templates/parts/footer.html
-	</div>
+        <p>
+            <div class="table-responsive">
+                <table class="table table-bordered">
 
-	<!-- Script that goes and changes each "moment" element to display how long
-	ago that element's timestamp was. -->	
-	<script type="text/javascript">
-		$( ".moment" ).each(function( i ) {
-			var date = $(this).html()
+                    <!-- Header row -->
+                    <thead>
+                        <tr>
+                            <th class="text-center">Week</th>
+                            % for day in schedule["days"]:
+                            <th class="text-center">{{day}}</th>
+                            % end
+                        </tr>
+                    </thead>
 
-			var fromStr = moment(date, "YYYYMMDD").fromNow()
+                    <tbody>
+                        <!-- Each week -->
+                        <%
+                            lectureNumber = 1
+                            for i, week in enumerate(schedule["weeks"]):
+                                data = include('templates/parts/schedule/scheduleWeek.html', week=week, index=i + 1, lectureNumber=lectureNumber)
+                                lectureNumber = data['lectureNumber']
+                            end
+                        %>
+                    </tbody>
+                </table>
+            </div>
+        </p>
+    </div>
+</div>
 
-			$(this).html(fromStr)
-		  });
-	</script>
-</body>
+<!-- Script that goes and changes each "moment" element to display how long
+            ago that element's timestamp was. -->
+<script type="text/javascript">
+    $(".moment").each(function(i) {
+        var date = $(this).html();
+        var fromStr = moment(date, "YYYYMMDD").fromNow();
+        $(this).html(fromStr);
+    });
+</script>

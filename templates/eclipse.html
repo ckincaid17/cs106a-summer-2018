@@ -1,115 +1,104 @@
-<head>
-    %include templates/parts/header.html
-</head>
-
-<body>
-    %include templates/parts/navBar.html
-    <div class="container">
-
-        <!-- Header -->
-        <div class="row">
-            <div class="col-xs-12">
-                <div id="pageHeader">
-                    <h1>
-                    Eclipse
-                </h1>
-                </div>
-                <hr/>
-            </div>
+<!-- Header -->
+<div class="row">
+    <div class="col-xs-12">
+        <div id="pageHeader">
+            <h1>
+            Eclipse
+        </h1>
         </div>
-
-        <!-- Overview -->
-        <div class="row">
-            <div class="col-sm-8">
-                <p>
-                    In CS 106A, we'll be using Stanford's customized version of Eclipse to build our programs. Eclipse is an enormously popular industrial strength Java environment with many features. Fortunately, Eclipse is also open source -- anyone is free to change Eclipse to work the way they want. We have taken advantage of that freedom to install special Stanford features into Eclipse, tailoring it specifically for CS 106A. This document gives instructions on how to get started using Stanford Eclipse. Please pay close attention to these instructions and do not skip steps!
-                    <br />
-                    <br /> If you run into any trouble installing Eclipse, please feel free to stop by the Eclipse Troubleshooting session.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <div class="well">
-                    <b>Eclipse Troubleshooting Session</b>
-                    <br/>
-                    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Wednesday, June 28
-                    <br/>
-                    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 7-11PM
-                    <br/>
-                    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> LaIR
-                    <br/>
-                </div>
-            </div>
-        </div>
-
         <hr/>
+    </div>
+</div>
 
-        <!-- Show a 4-panel collapsible "accordion" containing various Eclipse instructions -->
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-
-            <!-- Instructions for installing on Mac -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="macInstallationHeading">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseMacInstallation" aria-expanded="false" aria-controls="collapseMacInstallation">
-                    Mac Installation
-                    </a>
-                </h4>
-                </div>
-                <div id="collapseMacInstallation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="macInstallationHeading">
-                    <div class="panel-body">
-                        %include templates/parts/eclipse/macInstallation.html
-                    </div>
-                </div>
-            </div>
-
-            <!-- Instructions for installing on Windows -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="windowsInstallationHeading">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseWindowsInstallation" aria-expanded="false" aria-controls="collapseWindowsInstallation">
-                    Windows Installation
-                    </a>
-                </h4>
-                </div>
-                <div id="collapseWindowsInstallation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="windowsInstallationHeading">
-                    <div class="panel-body">
-                        %include templates/parts/eclipse/windowsInstallation.html
-                    </div>
-                </div>
-            </div>
-
-            <!-- Instructions for importing and running projects -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="importingRunningHeading">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseImportingRunning" aria-expanded="false" aria-controls="collapseImportingRunning">
-                    Importing and Running Projects
-                    </a>
-                </h4>
-                </div>
-                <div id="collapseImportingRunning" class="panel-collapse collapse" role="tabpanel" aria-labelledby="importingRunningHeading">
-                    <div class="panel-body">
-                        %include templates/parts/eclipse/importingRunning.html
-                    </div>
-                </div>
-            </div>
-
-            <!-- Instructions for submitting projects -->
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="submittingHeading">
-                    <h4 class="panel-title">
-                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSubmitting" aria-expanded="false" aria-controls="collapseSubmitting">
-                    Submitting Projects
-                    </a>
-                </h4>
-                </div>
-                <div id="collapseSubmitting" class="panel-collapse collapse" role="tabpanel" aria-labelledby="submittingHeading">
-                    <div class="panel-body">
-                        %include templates/parts/eclipse/submitting.html
-                    </div>
-                </div>
-            </div>
-
-            %include templates/parts/footer.html
+<!-- Overview -->
+<div class="row">
+    <div class="col-sm-8">
+        <p>
+            In CS 106A, we'll be using Stanford's customized version of Eclipse to build our programs. Eclipse is an enormously popular industrial strength Java environment with many features. Fortunately, Eclipse is also open source -- anyone is free to change Eclipse to work the way they want. We have taken advantage of that freedom to install special Stanford features into Eclipse, tailoring it specifically for CS 106A. This document gives instructions on how to get started using Stanford Eclipse. Please pay close attention to these instructions and do not skip steps!
+            <br />
+            <br /> If you run into any trouble installing Eclipse, please feel free to stop by the Eclipse Troubleshooting session.
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <div class="well">
+            <b>Eclipse Troubleshooting Session</b>
+            <br/>
+            <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Wednesday, June 28
+            <br/>
+            <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 7-11PM
+            <br/>
+            <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> LaIR
+            <br/>
         </div>
-</body>
+    </div>
+</div>
+
+<hr/>
+
+<!-- Show a 4-panel collapsible "accordion" containing various Eclipse instructions -->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+    <!-- Instructions for installing on Mac -->
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="macInstallationHeading">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseMacInstallation" aria-expanded="false" aria-controls="collapseMacInstallation">
+            Mac Installation
+            </a>
+        </h4>
+        </div>
+        <div id="collapseMacInstallation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="macInstallationHeading">
+            <div class="panel-body">
+                %include templates/parts/eclipse/macInstallation.html
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions for installing on Windows -->
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="windowsInstallationHeading">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseWindowsInstallation" aria-expanded="false" aria-controls="collapseWindowsInstallation">
+            Windows Installation
+            </a>
+        </h4>
+        </div>
+        <div id="collapseWindowsInstallation" class="panel-collapse collapse" role="tabpanel" aria-labelledby="windowsInstallationHeading">
+            <div class="panel-body">
+                %include templates/parts/eclipse/windowsInstallation.html
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions for importing and running projects -->
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="importingRunningHeading">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseImportingRunning" aria-expanded="false" aria-controls="collapseImportingRunning">
+            Importing and Running Projects
+            </a>
+        </h4>
+        </div>
+        <div id="collapseImportingRunning" class="panel-collapse collapse" role="tabpanel" aria-labelledby="importingRunningHeading">
+            <div class="panel-body">
+                %include templates/parts/eclipse/importingRunning.html
+            </div>
+        </div>
+    </div>
+
+    <!-- Instructions for submitting projects -->
+    <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="submittingHeading">
+            <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSubmitting" aria-expanded="false" aria-controls="collapseSubmitting">
+            Submitting Projects
+            </a>
+        </h4>
+        </div>
+        <div id="collapseSubmitting" class="panel-collapse collapse" role="tabpanel" aria-labelledby="submittingHeading">
+            <div class="panel-body">
+                %include templates/parts/eclipse/submitting.html
+            </div>
+        </div>
+    </div>
+</div>

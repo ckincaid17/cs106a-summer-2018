@@ -1,3 +1,126 @@
+<!--
+	A template used for every page - contains the header, nav bar, a container div, and the footer.
+	templateFile should contain the filepath to the template to render within this template.
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang = "EN" xml:lang = "EN" dir = "ltr">
+	<head>
+		<title>CS 106A</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+		<meta http-equiv="content-type" content="text/xml; charset=UTF8">
+
+		<!-- stop the web browser from ever caching this page or its images -->
+		<meta http-equiv="cache-control" content="max-age=0" />
+		<meta http-equiv="cache-control" content="no-cache" />
+		<meta http-equiv="expires" content="0" />
+		<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+		<meta http-equiv="pragma" content="no-cache" />
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/css/style.css">
+
+		<!-- JavaScript -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+
+
+		<!-- Stanford -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+<nav class="navbar navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand brand" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/">CS 106A</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+
+        <!-- Lectures dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Lectures <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+<!--
+	Generates a list of lecture links based on schedule.json.  Only renders up
+	to (and not including) the first lecture without a filename - it is assumed
+	that this marks the end of given lectures.  Adds a divider between each
+	week.  Skips holidays.
+	-->
+		<li><a>Coming soon!</a></li>
+          </ul>
+        </li>
+        
+        <!-- Handouts dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            Handouts <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+              <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/1-General-Information.pdf">1 - General Information</a></li>
+              <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/1B-SCPD-Information.pdf">1B - SCPD Information</a></li>
+              <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/2-The-Honor-Code.pdf">2 - The Honor Code</a></li>
+          </ul>
+        </li>
+        
+        <!-- Assignments dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Assignments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+<!--
+<li><a href="https://goo.gl/forms/x2HTAbJ8soIMCztg1">0-Who are you</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/karel.html">1-Karel</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/simpleJava.html">2-Simple Java</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/breakout.html">3-Breakout</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/hangman.html">4-Hangman</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/yahtzee.html">5-Yahtzee</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/nameSurfer.html">6-NameSurfer</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/facePamphlet.html">7-FacePamphlet</a></li>
+-->
+<li><a>Coming soon!</a></li>          </ul>
+        </li>
+
+        <!-- Section dropdown -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+<!--
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/9 - Section-1.pdf">Section Handout 1</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/9a - Section-1-solutions.pdf">Section 1 Solutions</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/Section8.zip">Section 8 Code</a></li>
+<li class="divider"></li>
+-->
+<li><a>Coming soon!</a></li>            <li class="divider"></li>
+            <li class="disabled"><a href="https://cs198.stanford.edu/cs106/auth/section/Signup.aspx?class=1">Signups open 6/25 @ 5PM</a></li>
+            <li class="disabled"><a href="https://cs198.stanford.edu/cs106/auth/section/ViewSections.aspx?class=1">List of all section times/locations</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <!-- Schedule button -->
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>		<div class="container">
 <head>
 
 <title>CS 106A</title>
@@ -357,3 +480,17 @@
 	</script>
 
 </body>
+<div class="row">
+	<div class="col-xs-12">
+		<hr>
+
+		<div class="footer">
+			<p class="text-center">
+				&#169; Stanford 2017 &#124; Created by Chris Piech, updated by Nick Troccoli.<br/>
+				CS106A has been developed over decades by many talented teachers. 
+			</p>
+		</div>
+	</div>
+</div>		</div>
+	</body>
+</html>
