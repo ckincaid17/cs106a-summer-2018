@@ -3,7 +3,7 @@
 	templateFile should contain the filepath to the template to render within this template.
 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
 		<title>CS 106A</title>
 
@@ -23,6 +23,18 @@
 		<!-- Stanford -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
+
+		<!-- Script that goes and changes each "moment" element to display how long
+		            ago that element's timestamp was. -->
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$(".moment").each(function(i) {
+				    var date = $(this).html();
+				    var fromStr = moment(date, "YYYYMMDD").fromNow();
+				    $(this).html(fromStr);
+				});
+			});
+		</script>
 	</head>
 
 	<body>
@@ -389,14 +401,4 @@
 
 		</div>
 	</body>
-
-	<!-- Script that goes and changes each "moment" element to display how long
-	            ago that element's timestamp was. -->
-	<script type="text/javascript">
-	    $(".moment").each(function(i) {
-	        var date = $(this).html();
-	        var fromStr = moment(date, "YYYYMMDD").fromNow();
-	        $(this).html(fromStr);
-	    });
-	</script>
 </html>
