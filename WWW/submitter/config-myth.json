@@ -1,0 +1,15 @@
+{
+    "min_version": "2.0.0",
+    "assignments_url": "https://web.stanford.edu/class/cs198/cgi-bin/paperless/public/assn.php?class=cs106a",
+
+    "full_name_cmd": "getent passwd `whoami` | cut -d: -f5",
+    "grade_tmpl": "/afs/ir/class/cs106a/WWW/submitter/GRADE.txt",
+    "git_path": null,
+    "submit_path": "/afs/ir/class/cs106a/submissions",
+    "server": {
+        "host": "myth.stanford.edu",
+        "port": 22,
+        "auth": "password,keyboard-interactive",
+        "key": ""
+    }
+}
