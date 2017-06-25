@@ -1,0 +1,20 @@
+<div class="panel-group style-accordion" role="tablist" aria-multiselectable="true">
+    % for category in categories:
+        % spacelessCategory = category.replace(" ", "")
+
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="{{spacelessCategory}}Heading">
+                <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{spacelessCategory}}" aria-expanded="false" aria-controls="collapse{{spacelessCategory}}">
+                {{category}}
+                </a>
+            </h4>
+            </div>
+            <div id="collapse{{spacelessCategory}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading">
+                <div class="panel-body">
+                    %include('templates/parts/style/' + spacelessCategory + '.html')
+                </div>
+            </div>
+        </div>
+    % end
+</div>

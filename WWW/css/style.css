@@ -58,6 +58,10 @@ pre {-moz-tab-size: 3;} /* Code for Firefox */
 pre {-o-tab-size: 3;} /* Code for Opera 10.6-12.1 */
 pre {tab-size: 3;}
 
+.style-accordion {
+  padding-top: 20pt;
+}
+
 .moment {
   font-style:italic;
 }
