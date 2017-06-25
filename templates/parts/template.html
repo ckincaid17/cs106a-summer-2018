@@ -29,7 +29,30 @@
 		%include templates/parts/navBar.html
 		<div class="container">
 			%include(templateFile, pathToRoot=pathToRoot, schedule=schedule, handouts=handouts, announcements=announcements)
-			%include templates/parts/footer.html
+			
+			<!-- Footer -->
+			<div class="row">
+				<div class="col-xs-12">
+					<hr>
+					<div class="footer">
+						<p class="text-center">
+							&#169; Stanford 2017 &#124; Created by Chris Piech, updated by Nick Troccoli.<br/>
+							CS106A has been developed over decades by many talented teachers. 
+						</p>
+					</div>
+				</div>
+			</div>
+
 		</div>
 	</body>
+
+	<!-- Script that goes and changes each "moment" element to display how long
+	            ago that element's timestamp was. -->
+	<script type="text/javascript">
+	    $(".moment").each(function(i) {
+	        var date = $(this).html();
+	        var fromStr = moment(date, "YYYYMMDD").fromNow();
+	        $(this).html(fromStr);
+	    });
+	</script>
 </html>

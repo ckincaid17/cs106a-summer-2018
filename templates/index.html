@@ -1,7 +1,7 @@
 <!-- Home page header -->
 <div class="row" id="indexHead">
     <div class="col-xs-12">
-        <div id="logo"><img id="logoImg" src="img/logo.gif" /></div>
+        <div id="logo"><img id="logoImg" src="img/logo.gif" alt="Stanford Logo" /></div>
         <div id="headerText" style="padding-bottom:15px;">
             <div id="title">
                 CS 106A: Programming Methodology
@@ -41,13 +41,3 @@
         %include templates/parts/sidebar.html
     </div>
 </div>
-
-<!-- Script that goes and changes each "moment" element to display how long
-            ago that element's timestamp was. -->
-<script type="text/javascript">
-    $(".moment").each(function(i) {
-        var date = $(this).html();
-        var fromStr = moment(date, "YYYYMMDDHH").fromNow();
-        $(this).html(fromStr);
-    });
-</script>

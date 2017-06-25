@@ -1,15 +1,3 @@
-<head>
-
-	%include templates/parts/header.html
-
-</head>
-<body>
-
-	<!-- Navigation Bar -->
-	%include templates/parts/navBar.html
-
-	<div class="container">
-			
 		<!-- Header -->
 		<div class="row">
 			<div class="col-sm-12">
@@ -237,23 +225,3 @@
 				<!--<hr/>-->
 			</div>
 		</div>
-
-
-	
-
-		%include templates/parts/footer.html
-
-	</div>
-
-	<script type="text/javascript">
-		$( ".moment" ).each(function( i ) {
-			var date = $(this).html()
-
-			var fromStr = moment(date, "YYYYMMDD").fromNow()
-
-			$(this).html(fromStr)
-		  });
-		//alert(moment("20160101", "YYYYMMDD").fromNow())
-	</script>
-
-</body>
