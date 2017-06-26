@@ -93,8 +93,8 @@ def searchHandoutsDirectory():
     handoutsData = []
     handoutsDirPath = OUTPUT_DIR + '/' + HANDOUTS_DIR + '/'
     for fileName in os.listdir(handoutsDirPath):
-        if fileName.startswith("."): continue
         filePath = os.path.join(HANDOUTS_DIR, fileName)
+        if os.path.isdir(filePath) or fileName.startswith("."): continue
 
         # The name is found by separating each dashed word in the filename
         # except for the first, which is the handout number.  E.g.
