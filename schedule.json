@@ -122,15 +122,15 @@
 			},
 			{
 				"type": "OFF",
-				"date": "July 28",
-				"due": "4",
-				"out": "5"
+				"date": "July 28"
 			}
 		],
 		[
 			{
 				"title": "ArrayLists",
-				"date": "July 31"
+				"date": "July 31",
+				"due": "4",
+				"out": "5"
 			},
 			{
 				"title": "HashMaps",
@@ -146,15 +146,15 @@
 			},
 			{
 				"type": "OFF",
-				"date": "August 4",
-				"due": "5",
-				"out": "6"
+				"date": "August 4"
 			}
 		],
 		[
 			{
 				"title": "Client/Server 1",
-				"date": "August 7"
+				"date": "August 7",
+				"due": "5",
+				"out": "6"
 			},
 			{
 				"title": "Client/Server 2",
