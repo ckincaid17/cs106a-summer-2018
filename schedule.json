@@ -3,9 +3,10 @@
 	"weeks": [
 		[
 			{
-				"title": "Welcome to CS106A",
+				"title": "Welcome to CS 106A",
 				"date": "June 26",
-				"read": "Karel Ch. 1-2"
+				"read": "Karel Ch. 1-2",
+				"filename": "Lecture1"
 			},
 			{
 				"title": "Programming with Karel",

@@ -1,4 +1,0 @@
-Roses are red.
-Violets are blue.
-I am a text file!
-How are you?
