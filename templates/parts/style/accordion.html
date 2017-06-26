@@ -1,16 +1,22 @@
-<div class="panel-group style-accordion" role="tablist" aria-multiselectable="true">
+<!-- Accordion of style categories that expand to show content.  The content is
+taken from the template file with the same name as the category but without spaces.
+E.g. "Whitespace and Indentation" would come from "WhitespaceandIndentation.html".
+
+Assumes a list of category names in category, and a unique index for this accordion in index.
+-->
+<div class="panel-group style-accordion" id="style-accordion-{{index}}" role="tablist" aria-multiselectable="true">
     % for category in categories:
         % spacelessCategory = category.replace(" ", "")
 
         <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="{{spacelessCategory}}Heading">
+            <div class="panel-heading" role="tab" id="{{spacelessCategory}}Heading-{{index}}">
                 <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{spacelessCategory}}" aria-expanded="false" aria-controls="collapse{{spacelessCategory}}">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#style-accordion-{{index}}" href="#collapse{{spacelessCategory}}-{{index}}" aria-expanded="false" aria-controls="collapse{{spacelessCategory}}-{{index}}">
                 {{category}}
                 </a>
             </h4>
             </div>
-            <div id="collapse{{spacelessCategory}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading">
+            <div id="collapse{{spacelessCategory}}-{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading-{{index}}">
                 <div class="panel-body">
                     %include('templates/parts/style/' + spacelessCategory + '.html')
                 </div>

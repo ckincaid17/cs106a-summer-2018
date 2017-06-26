@@ -11,10 +11,6 @@ p {
   text-align: justify;
 }
 
-pre {
-  background-color: white;
-}
-
 li {
   text-align: justify;
   margin-bottom: 0px;
@@ -163,4 +159,35 @@ pre {tab-size: 3;}
     div#sidebarLeft {
         display: none;
     }
+}
+
+/* Code formatting */
+.code-comment {
+  color: #008800;
+}
+
+pre {
+  background-color: #f8f8ff;
+  border: 1px dashed #ccccff;
+  border-radius: 4px;
+}
+pre.code-bad {
+  background-color: #fff8f8;
+  background-color: #ffcccc;
+}
+pre.code-good {
+  background-color: #f8fff8;
+  background-color: #ccffcc;
+}
+pre.code-bad strong, pre.code-good strong {
+  color: #000099;
+}
+
+pre strong, pre em {
+  color: #000099;
+  font-weight: bold;
+  font-style: normal;
+}
+pre.code-bad strong, pre.code-bad em {
+  color: #660000;
 }

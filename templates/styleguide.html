@@ -25,6 +25,7 @@
         </p>
 
         <p style="margin-bottom: 2em">
+            Work in progress.<br/>
             <em>Last updated Sun 2017/06/25</em>
         </p>
     </div>
@@ -43,34 +44,31 @@
         <%
             categories = [
                 "Whitespace and Indentation",
-                "Naming",
                 "Methods",
                 "Control Statements",
                 "Comments",
                 "Forbidden Java Features"
             ]
-            include('templates/parts/style/accordion.html', categories=categories)
+            include('templates/parts/style/accordion.html', categories=categories, index=0)
         %>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="assn2to4">
         <%
             categories = [
                 "Whitespace and Indentation",
-                "Naming",
                 "Methods",
                 "Control Statements",
                 "Comments",
                 "Variables",
                 "Exceptions"
             ]
-            include('templates/parts/style/accordion.html', categories=categories)
+            include('templates/parts/style/accordion.html', categories=categories, index=1)
         %>
     </div>
     <div role="tabpanel" class="tab-pane fade" id="assn5to6">
         <%
             categories = [
                 "Whitespace and Indentation",
-                "Naming",
                 "Methods",
                 "Control Statements",
                 "Comments",
@@ -78,7 +76,7 @@
                 "Exceptions",
                 "Classes"
             ]
-            include('templates/parts/style/accordion.html', categories=categories)
+            include('templates/parts/style/accordion.html', categories=categories, index=2)
         %>
     </div>
 </div>
