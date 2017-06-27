@@ -66,6 +66,7 @@
 	week.  Skips holidays.
 	-->
 					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1">1-Welcome to CS 106A</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2">2-Programming with Karel</a></li>
                     </ul>
                 </li>
 
@@ -187,22 +188,42 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Read: Karel Ch. 1-2
-        </div>
-
         <p class="subtleHeading">June 26</p>
 
         <!-- If there is a lecture number and title, show it -->
         1: Welcome to CS 106A
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Read: Karel Ch. 1-2
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
             <p>
                 <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pdf">pdf</a>)<br/>
-                <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1"><span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.zip">zip</a>)
             </p>
+        
+
+        <div class="modal fade" id="practiceModal1" tabindex="-1" role="dialog" aria-labelledby="practiceLabel1">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel1">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -212,19 +233,56 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Read: Karel Ch. 3-4
-        </div>
 
         <p class="subtleHeading">June 27</p>
 
         <!-- If there is a lecture number and title, show it -->
         2: Programming with Karel
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Read: Karel Ch. 3-4
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+            <p>
+                <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pdf">pdf</a>)<br/>
+                    <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2"><span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.zip">zip</a>)
+            </p>
+        
+            <p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal2">
+                  Practice
+                </button>
+            </p>
+
+        <div class="modal fade" id="practiceModal2" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel2">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MeetKarel">MeetKarel</a></li>
+                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers">ThreeBeepers</a></li>
+                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/karelLoop1">KarelLoop1</a></li>
+                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Sweeper">Sweeper</a></li>
+                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Racetrack">Racetrack</a></li>
+                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/RoadRepairKarel">RoadRepair</a></li>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -234,19 +292,40 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Read: Karel Ch. 5-6 <br /> Out: Assn. 1
-        </div>
 
         <p class="subtleHeading">June 28</p>
 
         <!-- If there is a lecture number and title, show it -->
         3: Problem-solving in Karel
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Read: Karel Ch. 5-6 <br /> Out: Assn. 1
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal3" tabindex="-1" role="dialog" aria-labelledby="practiceLabel3">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel3">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -256,19 +335,40 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Read: Java Ch. 1, 2.1 - 2.4, 3.1 - 3.4
-        </div>
 
         <p class="subtleHeading">June 29</p>
 
         <!-- If there is a lecture number and title, show it -->
         4: Introduction to Java
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Read: Java Ch. 1, 2.1 - 2.4, 3.1 - 3.4
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal4" tabindex="-1" role="dialog" aria-labelledby="practiceLabel4">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel4">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -279,17 +379,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">June 30</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -308,17 +429,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 3</p>
 
         <!-- If there is a lecture number and title, show it -->
         5: Java 2
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal5" tabindex="-1" role="dialog" aria-labelledby="practiceLabel5">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel5">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
 	Template that renders a single "holiday" calendar day grayed out
@@ -340,18 +482,39 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Due: Assn. 1 <br /> Out: Assn. 2
-        </div>
-
         <p class="subtleHeading">July 5</p>
 
         <!-- If there is a lecture number and title, show it -->
         6: Methods 1
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Due: Assn. 1 <br /> Out: Assn. 2
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal6" tabindex="-1" role="dialog" aria-labelledby="practiceLabel6">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel6">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -361,18 +524,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 6</p>
 
         <!-- If there is a lecture number and title, show it -->
         7: Methods 2
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal7" tabindex="-1" role="dialog" aria-labelledby="practiceLabel7">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel7">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -383,17 +567,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 7</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -412,17 +617,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 10</p>
 
         <!-- If there is a lecture number and title, show it -->
         8: Strings 1
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal8" tabindex="-1" role="dialog" aria-labelledby="practiceLabel8">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel8">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -432,18 +658,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 11</p>
 
         <!-- If there is a lecture number and title, show it -->
         9: Strings 2
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal9" tabindex="-1" role="dialog" aria-labelledby="practiceLabel9">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel9">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -453,19 +700,40 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Due: Assn. 2 <br /> Out: Assn. 3
-        </div>
 
         <p class="subtleHeading">July 12</p>
 
         <!-- If there is a lecture number and title, show it -->
         10: Files
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Due: Assn. 2 <br /> Out: Assn. 3
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal10" tabindex="-1" role="dialog" aria-labelledby="practiceLabel10">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel10">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -475,18 +743,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 13</p>
 
         <!-- If there is a lecture number and title, show it -->
         11: Graphics
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal11" tabindex="-1" role="dialog" aria-labelledby="practiceLabel11">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel11">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -497,17 +786,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 14</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -526,17 +836,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 17</p>
 
         <!-- If there is a lecture number and title, show it -->
         12: Animation
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal12" tabindex="-1" role="dialog" aria-labelledby="practiceLabel12">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel12">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -546,18 +877,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 18</p>
 
         <!-- If there is a lecture number and title, show it -->
         13: Events
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal13" tabindex="-1" role="dialog" aria-labelledby="practiceLabel13">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel13">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -567,18 +919,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 19</p>
 
         <!-- If there is a lecture number and title, show it -->
         14: Memory + Debugging
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal14" tabindex="-1" role="dialog" aria-labelledby="practiceLabel14">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel14">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -588,19 +961,40 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Due: Assn. 3 <br /> Out: Assn. 4
-        </div>
 
         <p class="subtleHeading">July 20</p>
 
         <!-- If there is a lecture number and title, show it -->
         15: Classes 1
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Due: Assn. 3 <br /> Out: Assn. 4
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal15" tabindex="-1" role="dialog" aria-labelledby="practiceLabel15">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel15">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -611,17 +1005,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 21</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -651,17 +1066,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 25</p>
 
         <!-- If there is a lecture number and title, show it -->
         16: Classes 2
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal16" tabindex="-1" role="dialog" aria-labelledby="practiceLabel16">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel16">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -671,18 +1107,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 26</p>
 
         <!-- If there is a lecture number and title, show it -->
         17: Arrays
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal17" tabindex="-1" role="dialog" aria-labelledby="practiceLabel17">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel17">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -692,18 +1149,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">July 27</p>
 
         <!-- If there is a lecture number and title, show it -->
         18: 2D Arrays
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal18" tabindex="-1" role="dialog" aria-labelledby="practiceLabel18">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel18">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -714,17 +1192,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">July 28</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -743,18 +1242,39 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Due: Assn. 4 <br /> Out: Assn. 5
-        </div>
-
         <p class="subtleHeading">July 31</p>
 
         <!-- If there is a lecture number and title, show it -->
         19: ArrayLists
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Due: Assn. 4 <br /> Out: Assn. 5
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal19" tabindex="-1" role="dialog" aria-labelledby="practiceLabel19">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel19">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -764,18 +1284,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">August 1</p>
 
         <!-- If there is a lecture number and title, show it -->
         20: HashMaps
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal20" tabindex="-1" role="dialog" aria-labelledby="practiceLabel20">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel20">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -785,18 +1326,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">August 2</p>
 
         <!-- If there is a lecture number and title, show it -->
         21: Inheritance
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal21" tabindex="-1" role="dialog" aria-labelledby="practiceLabel21">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel21">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -806,18 +1368,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">August 3</p>
 
         <!-- If there is a lecture number and title, show it -->
         22: Interactors
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal22" tabindex="-1" role="dialog" aria-labelledby="practiceLabel22">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel22">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -828,17 +1411,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">August 4</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -857,18 +1461,39 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Due: Assn. 5 <br /> Out: Assn. 6
-        </div>
-
         <p class="subtleHeading">August 7</p>
 
         <!-- If there is a lecture number and title, show it -->
         23: Client/Server 1
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Due: Assn. 5 <br /> Out: Assn. 6
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal23" tabindex="-1" role="dialog" aria-labelledby="practiceLabel23">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel23">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -878,18 +1503,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">August 8</p>
 
         <!-- If there is a lecture number and title, show it -->
         24: Client/Server 2
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal24" tabindex="-1" role="dialog" aria-labelledby="practiceLabel24">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel24">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -899,18 +1545,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">August 9</p>
 
         <!-- If there is a lecture number and title, show it -->
         25: Machine Learning 1
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal25" tabindex="-1" role="dialog" aria-labelledby="practiceLabel25">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel25">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -920,18 +1587,39 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
 
         <p class="subtleHeading">August 10</p>
 
         <!-- If there is a lecture number and title, show it -->
         26: Machine Learning 2
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal26" tabindex="-1" role="dialog" aria-labelledby="practiceLabel26">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel26">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -942,17 +1630,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">August 11</p>
 
         <!-- If there is a lecture number and title, show it -->
          
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -971,17 +1680,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">August 14</p>
 
         <!-- If there is a lecture number and title, show it -->
         27: Standard Java
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal27" tabindex="-1" role="dialog" aria-labelledby="practiceLabel27">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel27">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -991,19 +1721,40 @@
     -->
 <td class="calendarCell">
     <div style="position:relative">
-
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-                Due: Assn. 6
-        </div>
 
         <p class="subtleHeading">August 15</p>
 
         <!-- If there is a lecture number and title, show it -->
         28: Final Exam Review 1
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+                Due: Assn. 6
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal28" tabindex="-1" role="dialog" aria-labelledby="practiceLabel28">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel28">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -1014,17 +1765,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">August 16</p>
 
         <!-- If there is a lecture number and title, show it -->
         29: Final Exam Review 2 / Wrapup
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModal29" tabindex="-1" role="dialog" aria-labelledby="practiceLabel29">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel29">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td><!--
 	Template that renders a single "holiday" calendar day grayed out
@@ -1046,17 +1818,38 @@
 <td class="calendarCell">
     <div style="position:relative">
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
-
-        </div>
-
         <p class="subtleHeading">August 18</p>
 
         <!-- If there is a lecture number and title, show it -->
          Final Exam 12:15PM-3:15PM
 
+        <!-- Render the lines for any reading, and HWs due or going out -->
+        <p style="color:hsl(0, 0%, 60%);">
+
+        </p>
+
         <!-- If there is a filename, render links to the lecture materials -->
+        
+
+        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td></tr>                </tbody>
             </table>

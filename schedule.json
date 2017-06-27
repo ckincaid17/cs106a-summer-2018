@@ -6,12 +6,22 @@
 				"title": "Welcome to CS 106A",
 				"date": "June 26",
 				"read": "Karel Ch. 1-2",
-				"filename": "Lecture1"
+				"filename": "Lecture1",
+				"code": false
 			},
 			{
 				"title": "Programming with Karel",
 				"date": "June 27",
-				"read": "Karel Ch. 3-4"
+				"read": "Karel Ch. 3-4",
+				"filename": "Lecture2",
+				"practice": [
+					["MeetKarel", "http://www.codestepbystep.com/problem/view/java/karel/MeetKarel"],
+					["ThreeBeepers", "http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers"],
+					["KarelLoop1", "http://www.codestepbystep.com/problem/view/java/karel/karelLoop1"],
+					["Sweeper", "http://www.codestepbystep.com/problem/view/java/karel/Sweeper"],
+					["Racetrack", "http://www.codestepbystep.com/problem/view/java/karel/Racetrack"],
+					["RoadRepair", "http://www.codestepbystep.com/problem/view/java/karel/RoadRepairKarel"]
+				]
 			},
 			{
 				"title": "Problem-solving in Karel",

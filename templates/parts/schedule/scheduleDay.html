@@ -7,8 +7,13 @@
 <td class="calendarCell">
     <div style="position:relative">
 
+        <p class="subtleHeading">{{day["date"]}}</p>
+
+        <!-- If there is a lecture number and title, show it -->
+        {{str(lectureNumber) + ":" if lectureNumber != None else ""}} {{day["title"] if "title" in day else ""}}
+
         <!-- Render the lines for any reading, and HWs due or going out -->
-        <div class="inOut">
+        <p style="color:hsl(0, 0%, 60%);">
             <%
                 lines = []
 
@@ -30,20 +35,50 @@
             % elif len(lines) == 1:
                 {{lines[0]}}
             % end
-        </div>
-
-        <p class="subtleHeading">{{day["date"]}}</p>
-
-        <!-- If there is a lecture number and title, show it -->
-        {{str(lectureNumber) + ":" if lectureNumber != None else ""}} {{day["title"] if "title" in day else ""}}
+        </p>
 
         <!-- If there is a filename, render links to the lecture materials -->
         % filename = day["filename"] if "filename" in day else None
         % if filename != None:
             <p>
                 <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
-                <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}"><span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip">zip</a>)
+                % if "code" not in day or day["code"]:
+                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}"><span class="sidebaricon glyphicon glyphicon-leaf" aria-hidden="true" title="pdf"></span> Code</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip">zip</a>)
+                % end
             </p>
         % end
+        
+        % practice = day["practice"] if "practice" in day else []
+        % if practice != []:
+            <p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal{{lectureNumber}}">
+                  Practice
+                </button>
+            </p>
+        % end
+
+        <div class="modal fade" id="practiceModal{{lectureNumber}}" tabindex="-1" role="dialog" aria-labelledby="practiceLabel{{lectureNumber}}">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="practiceLabel{{lectureNumber}}">Practice Problems</h4>
+              </div>
+              <div class="modal-body">
+                <p>Practice with these additional problems on CodeStepByStep:</p>
+                <ul>
+                    % for practiceProblem in practice:
+                        <li><a href="{{practiceProblem[1]}}">{{practiceProblem[0]}}</a></li>
+                    % end
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 </td>
