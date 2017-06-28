@@ -12,6 +12,27 @@
         <!-- If there is a lecture number and title, show it -->
         {{str(lectureNumber) + ":" if lectureNumber != None else ""}} {{day["title"] if "title" in day else ""}}
 
+        <!-- If there is a filename, render links to the lecture materials -->
+        % filename = day["filename"] if "filename" in day else None
+        % if filename != None:
+            <p>
+                <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
+                % if "code" not in day or day["code"]:
+                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
+                % end
+            </p>
+        % end
+        
+        % practice = day["practice"] if "practice" in day else []
+        % if practice != []:
+            <p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal{{lectureNumber}}">
+                  Practice
+                </button>
+            </p>
+        % end
+
         <!-- Render the lines for any reading, and HWs due or going out -->
         <p style="color:hsl(0, 0%, 60%);">
             <%
@@ -36,27 +57,6 @@
                 {{lines[0]}}
             % end
         </p>
-
-        <!-- If there is a filename, render links to the lecture materials -->
-        % filename = day["filename"] if "filename" in day else None
-        % if filename != None:
-            <p>
-                <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
-                % if "code" not in day or day["code"]:
-                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
-                % end
-            </p>
-        % end
-        
-        % practice = day["practice"] if "practice" in day else []
-        % if practice != []:
-            <p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal{{lectureNumber}}">
-                  Practice
-                </button>
-            </p>
-        % end
 
         <div class="modal fade" id="practiceModal{{lectureNumber}}" tabindex="-1" role="dialog" aria-labelledby="practiceLabel{{lectureNumber}}">
           <div class="modal-dialog" role="document">

@@ -24,10 +24,18 @@
 				]
 			},
 			{
-				"title": "Problem-solving in Karel",
+				"title": "Problem-solving with Karel",
 				"date": "June 28",
 				"read": "Karel Ch. 5-6",
-				"out": "1"
+				"out": "1",
+				"filename": "Lecture3",
+				"practice": [
+					["HurdleJumper", "http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper"],
+					["Roomba", "http://www.codestepbystep.com/problem/view/java/karel/Roomba"],
+					["BeeperCollector", "http://www.codestepbystep.com/problem/view/java/karel/BeeperCollector"],
+					["MazeRunner", "http://www.codestepbystep.com/problem/view/java/karel/MazeRunner"],
+					["DoubleBeepers", "http://www.codestepbystep.com/problem/view/java/karel/DoubleBeepers"]
+				]
 			},
 			{
 				"title": "Introduction to Java",
