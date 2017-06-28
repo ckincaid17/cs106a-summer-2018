@@ -20,7 +20,7 @@
 		<code>run</code> As a Concise Summary
 	</dt>
 	<dd>
-		<p>As much as possible, avoid having much of your program's functionality directly in <code>run</code>.  Instead, have <code>run</code> call other methods that perform the functionality.  In this way, <code>run</code> is easy to read and forms a concise summary of the overall behavior of the program.</p>
+		<p>As much as possible, avoid having much of your program's functionality directly in <code>run</code>.  Instead, have <code>run</code> call other methods that perform the functionality.  For example, run should not directly call <code>move</code>.  In this way, <code>run</code> is easy to read and forms a concise summary of the overall behavior of the program.</p>
 	</dd>
 
 	<!-- Redundancy -->
@@ -36,7 +36,7 @@
 		Long Methods
 	</dt>
 	<dd>
-		<p>If you have a single method that is very long, break it apart into smaller sub-methods. The definition of "very long" is vague, but at least for CS 106A a method longer than 20-30 lines is too long. If you try to describe the method's purpose and find yourself using the word "and" a lot, that probably means the method does too many things and should be split into sub-methods.</p>
+		<p>Each method should perform a single, clear, coherent task.  No one method should do too large a share of the overall work.  If you have a single method that is very long, break it apart into smaller sub-methods. As a rough estimate, a method whose body (excluding the header and closing brace) has more than 20 lines is too long.  If you try to describe the method's purpose and find yourself using the word "and" a lot, that probably means the method does too many things and should be split into sub-methods.</p>
 	</dd>
 
 	<!-- Short methods -->
@@ -44,7 +44,7 @@
 		Short Methods
 	</dt>
 	<dd>
-		<p>It is not useful to make a method that simply calls one other existing method.  But it can be useful to have a short method if it wraps another method in some additional control flow.</p>
+		<p>It is not useful to make a method that simply calls one other existing method.  But it can be useful to have a short method if it wraps another method with some additional control flow.</p>
 
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
