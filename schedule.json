@@ -186,12 +186,12 @@
 				"date": "August 8"
 			},
 			{
-				"title": "Machine Learning 1",
+				"title": "TBD",
 				"date": "August 9"
 			},
 			{
-				"title": "Machine Learning 2",
-				"date": "August 10"
+				"title": "Standard Java",
+				"date": "August 14"
 			},
 			{
 				"type": "OFF",
@@ -200,17 +200,18 @@
 		],
 		[
 			{
-				"title": "Standard Java",
-				"date": "August 14"
-			},
-			{
 				"title": "Final Exam Review 1",
-				"date": "August 15",
-				"due": "6"
+				"date": "August 15"
 			},
 			{
 				"title": "Final Exam Review 2 / Wrapup",
-				"date": "August 16"
+				"date": "August 16",
+				"due": "6"
+			},
+			{
+				"type": "HOLIDAY",
+				"date": "August 17",
+				"title": "Exam Study Day"
 			},
 			{
 				"type": "HOLIDAY",
