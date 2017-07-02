@@ -4,9 +4,10 @@
 FILE: compile.py
 ----------------
 Template compiler that compiles all .html template files in the TEMPLATE_DIR
-directory below, excluding IGNORE_DIRS, and outputs with the same filenames to
-the OUTPUT_DIR directory.  Use -t to compile for running locally; otherwise,
-templates are compiled to be hosted at the ROOT url.  Example usage:
+directory below (excluding .tpl files, which are partial templates), and outputs
+with the same filenames to the OUTPUT_DIR directory.  Use -t to compile for
+running locally; otherwise, templates are compiled to be hosted at the ROOT url.
+Example usage:
 
 > python compile.py -t --output_dir WWW
 
@@ -27,9 +28,6 @@ from bottle.bottle import SimpleTemplate
 import sys
 import json
 
-IGNORE_DIRS = [
-    'parts'
-]
 TEMPLATE_DIR = 'templates'
 
 # Assumed to be within OUTPUT_DIR
@@ -107,12 +105,11 @@ FUNCTION: getTemplateFilePaths
 Parameters:
     templateRoot - the folder within TEMPLATE_DIR to get file paths for
 
-Returns: a list of template file paths from within the given directory within
-    TEMPLATE_DIR.
+Returns: a list of .html template file paths from within the given directory
+within TEMPLATE_DIR.  Ignores .tpl files, which are partial templates.
 ------------------------------
 '''
 def getTemplateFilePaths(templateRoot):
-    if templateRoot in IGNORE_DIRS: return []
     paths = []
     templateDirPath = os.path.join(TEMPLATE_DIR, templateRoot)
     for fileName in os.listdir(templateDirPath):

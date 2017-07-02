@@ -94,10 +94,10 @@ To compile all references and links to test locally, from the root directory run
 python compile.py -t --output_dir myDirectory
 ```
 
-This compiles all templates in the `templates/` folder and, preserving its
-directory structure and filenames, creates all HTML files in the given
-output directory.  If no output directory is specified, the files are outputted
-to the ```WWW/``` directory.
+This compiles all templates in the `templates/` folder ending with .html (.tpl
+files are partial templates) and, preserving its directory structure and
+filenames, creates all HTML files in the given output directory.  If no output
+directory is specified, the files are outputted to the ```WWW/``` directory.
 
 To compile all references and links to host, from the root directory run
 
@@ -114,8 +114,8 @@ including:
 ```
 ROOT - the root URL for the hosted version of this website
 OUTPUT_DIR - the default output directory for compiled files
-TEMPLATE_DIR - the directory to compile
-IGNORE_DIRS - directories within TEMPLATE_DIR that should be ignored
+TEMPLATE_DIR - the directory of templates to compile
+HANDOUTS_DIR - the directory within OUTPUT_DIR containing handout PDFs
 ```
 
 
