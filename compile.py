@@ -32,13 +32,15 @@ IGNORE_DIRS = [
 ]
 TEMPLATE_DIR = 'templates'
 
-# This is the "meta-template" that is used to render every other template.  It contains the
-# header, nav bar, and footer displayed on every page.
-ROOT_TEMPLATE =  SimpleTemplate(open(os.path.join(TEMPLATE_DIR, "parts/template.html")).read())
+# This is the "meta-template" that is used to render every other template.
+# It contains the header, nav bar, and footer displayed on every page.
+ROOT_TEMPLATE =  SimpleTemplate(open(os.path.join(TEMPLATE_DIR,
+    "parts/template.html")).read())
 
 # Assumed to be within OUTPUT_DIR
 HANDOUTS_DIR = 'handouts'
 
+# The root URL at which this webpage is hosted
 ROOT = '//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/'
 
 # Use the -t flag if you want to compile for local tests
@@ -62,21 +64,18 @@ hierarchy is preserved.
 -----------------
 ''' 
 def compile():
-    # Read in the announcements and syllabus files
-    with open('announcements.json') as announcementsFile: 
-        announcementsData = json.load(announcementsFile)   
-        with open('schedule.json') as scheduleFile:
-            scheduleData = json.load(scheduleFile)
+    # Read in the syllabus files
+    with open('schedule.json') as scheduleFile:
+        scheduleData = json.load(scheduleFile)
+        handoutsData = searchHandoutsDirectory()
 
-            handoutsData = searchHandoutsDirectory()
-
-            # Compile all templates
-            templateFilePaths = getTemplateFilePaths('')
-            print("\nCompiling:\n----------")
-            for templateFilePath in templateFilePaths:
-                outputPath = compileTemplate(templateFilePath, 
-                    announcementsData, scheduleData, handoutsData)
-                print(templateFilePath + " -> " + outputPath)
+        # Compile all templates
+        templateFilePaths = getTemplateFilePaths('')
+        print("\nCompiling:\n----------")
+        for templateFilePath in templateFilePaths:
+            outputPath = compileTemplate(templateFilePath, scheduleData,
+                handoutsData)
+            print(templateFilePath + " -> " + outputPath)
 
     print("\nDONE.\n")
 
@@ -153,8 +152,6 @@ FUNCTION: compileTemplate
 -------------------------
 Parameters:
     relativePath - the path within TEMPLATE_DIR of the template file to compile
-    announcementsData - the JSON object containing announcements data.  Passed
-                        in as a parameter to render the template.
     scheduleData - the JSON object containing schedule data.  Passed in as a
                     parameter to render the template.
     handoutsData - the list of tuples of handout data.  Passed in as a parameter
@@ -163,12 +160,12 @@ Parameters:
 Returns: the path of the saved, compiled template file.
 
 Compiles the given template file within the ROOT_TEMPLATE, passing in the
-pathToRoot, announcementsData, scheduleData and handoutsData as template
+pathToRoot, scheduleData and handoutsData as template
 parameters.  Saves the compiled template to relativePath in the OUTPUT_DIR
 directory.
 -------------------------
 '''
-def compileTemplate(relativePath, announcementsData, scheduleData,
+def compileTemplate(relativePath, scheduleData,
     handoutsData):
     
     # Render this template within the ROOT_TEMPLATE
@@ -176,8 +173,7 @@ def compileTemplate(relativePath, announcementsData, scheduleData,
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
     compiledHtml = ROOT_TEMPLATE.render(templateFile=filePath,
         pathToRoot=pathToRoot,
-        schedule=scheduleData, handouts=handoutsData,
-        announcements=announcementsData)
+        schedule=scheduleData, handouts=handoutsData)
     compiledHtml = compiledHtml.encode('utf8')
 
     relativePath = os.path.join(OUTPUT_DIR, relativePath)
