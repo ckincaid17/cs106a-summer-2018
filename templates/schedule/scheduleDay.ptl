@@ -15,9 +15,10 @@
         % if filename != None:
             <p>
                 % if "slides" not in day or day["slides"]:
-                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
+                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf"><span class="sidebaricon glyphicon glyphicon-blackboard"></span> Slides</a>
                 % end
                 % if "code" not in day or day["code"]:
+                    <br/>
                     <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
                 % end
             </p>
