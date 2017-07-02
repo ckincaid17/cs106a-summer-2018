@@ -1,4 +1,4 @@
-% rebase('templates/parts/template.tpl', title='CS 106A')
+% rebase('templates/parts/template.ptl', title='CS 106A')
 
 <!-- Home page header -->
 <div class="row" id="indexHead">
@@ -33,15 +33,15 @@
 <div class="row">
     <!-- Only shown on large screens (see css) -->
     <div class="col-sm-3" id="sidebarLeft">
-        %include templates/parts/sidebar.tpl
+        %include templates/parts/sidebar.ptl
     </div>
 
     <div class="col-sm-9">
-        %include templates/parts/announcements.tpl
+        %include templates/parts/announcements.ptl
     </div>
     
     <!-- Only shown on small screens (see css) -->
     <div class="col-sm-3" id="sidebarRight">
-        %include templates/parts/sidebar.tpl
+        %include templates/parts/sidebar.ptl
     </div>
 </div>

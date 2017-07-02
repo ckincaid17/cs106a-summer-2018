@@ -94,7 +94,7 @@ To compile all references and links to test locally, from the root directory run
 python compile.py -t --output_dir myDirectory
 ```
 
-This compiles all templates in the `templates/` folder ending with .html (.tpl
+This compiles all templates in the `templates/` folder ending with .html (.ptl
 files are partial templates) and, preserving its directory structure and
 filenames, creates all HTML files in the given output directory.  If no output
 directory is specified, the files are outputted to the ```WWW/``` directory.

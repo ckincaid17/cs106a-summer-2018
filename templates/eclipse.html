@@ -1,4 +1,4 @@
-% rebase('templates/parts/template.tpl', title='CS 106A | Eclipse')
+% rebase('templates/parts/template.ptl', title='CS 106A | Eclipse')
 
 <!-- Header -->
 <div class="row">
@@ -52,7 +52,7 @@
             </div>
             <div id="collapse{{panel[1]}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{panel[1]}}Heading">
                 <div class="panel-body">
-                    %include('templates/parts/eclipse/' + panel[1] + '.tpl')
+                    %include('templates/parts/eclipse/' + panel[1] + '.ptl')
                 </div>
             </div>
         </div>

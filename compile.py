@@ -4,7 +4,7 @@
 FILE: compile.py
 ----------------
 Template compiler that compiles all .html template files in the TEMPLATE_DIR
-directory below (excluding .tpl files, which are partial templates), and outputs
+directory below (excluding .ptl files, which are partial templates), and outputs
 with the same filenames to the OUTPUT_DIR directory.  Use -t to compile for
 running locally; otherwise, templates are compiled to be hosted at the ROOT url.
 Example usage:
@@ -106,7 +106,7 @@ Parameters:
     templateRoot - the folder within TEMPLATE_DIR to get file paths for
 
 Returns: a list of .html template file paths from within the given directory
-within TEMPLATE_DIR.  Ignores .tpl files, which are partial templates.
+within TEMPLATE_DIR.  Ignores .ptl files, which are partial templates.
 ------------------------------
 '''
 def getTemplateFilePaths(templateRoot):

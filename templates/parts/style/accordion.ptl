@@ -1,6 +1,6 @@
 <!-- Accordion of style categories that expand to show content.  The content is
 taken from the template file with the same name as the category but without spaces.
-E.g. "Whitespace and Indentation" would come from "WhitespaceandIndentation.tpl".
+E.g. "Whitespace and Indentation" would come from "WhitespaceandIndentation.ptl".
 
 Assumes a list of category names in category, and a unique index for this accordion in index.
 -->
@@ -19,7 +19,7 @@ Assumes a list of category names in category, and a unique index for this accord
             </div>
             <div id="collapse{{spacelessCategory}}-{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading-{{index}}">
                 <div class="panel-body">
-                    %include('templates/parts/style/' + spacelessCategory + '.tpl')
+                    %include('templates/parts/style/' + spacelessCategory + '.ptl')
                 </div>
             </div>
         </div>
