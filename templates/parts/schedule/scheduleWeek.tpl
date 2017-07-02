@@ -10,11 +10,11 @@
 		# Render each day, incrementing our lecture number only for non-holidays
 		for day in week:
 			if 'type' in day and day['type'] == 'HOLIDAY':
-				include('templates/parts/schedule/scheduleHoliday.html', day=day)
+				include('templates/parts/schedule/scheduleHoliday.tpl', day=day)
 			elif 'type' in day and day['type'] == 'OFF':
-				include('templates/parts/schedule/scheduleDay.html', day=day, lectureNumber=None)
+				include('templates/parts/schedule/scheduleDay.tpl', day=day, lectureNumber=None)
 			else:
-				include('templates/parts/schedule/scheduleDay.html', day=day, lectureNumber=lectureNumber)
+				include('templates/parts/schedule/scheduleDay.tpl', day=day, lectureNumber=lectureNumber)
 				lectureNumber += 1
 			end
 		end

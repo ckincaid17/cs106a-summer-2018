@@ -21,7 +21,7 @@
 						Lectures <span class="caret"></span>
 		  			</a>
                     <ul class="dropdown-menu">
-                        %include templates/parts/dropdowns/lecturesDropdownList.html
+                        %include templates/parts/dropdowns/lecturesDropdownList.tpl
                     </ul>
                 </li>
 
@@ -43,7 +43,7 @@
                     	Assignments <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        %include templates/parts/dropdowns/assignmentsDropdownList.html
+                        %include templates/parts/dropdowns/assignmentsDropdownList.tpl
                         <li class="divider"></li>
                         <li><a href="{{pathToRoot}}styleguide.html">Style Guide</a></li>
                     </ul>
@@ -55,7 +55,7 @@
                     	Section <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-                        %include templates/parts/dropdowns/sectionMaterialsDropdownList.html
+                        %include templates/parts/dropdowns/sectionMaterialsDropdownList.tpl
                         <li class="divider"></li>
                         <li><a href="https://cs198.stanford.edu/cs198/auth/section/SwitchSection.aspx?class=1">Late Section Signup</a></li>
                         <li><a href="https://cs198.stanford.edu/cs198/auth/section/RemoteSignup.aspx?class=1">Late SCPD Signup</a></li>

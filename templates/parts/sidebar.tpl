@@ -83,14 +83,14 @@
 	<div class="staffBox col-xs-6 col-sm-12">
 		<img src="{{pathToRoot}}images/staff/troccoli.jpg" style="width:100%" alt="Nick Troccoli" />
 		Instructor: Nick Troccoli<br />
-		%include templates/parts/troccoliInfo.html
+		%include templates/parts/troccoliInfo.tpl
 	</div>
 
 	<!-- Head TA -->
 	<div class="staffBox col-xs-6 col-sm-12">
 		<img src="{{pathToRoot}}images/staff/rbedi.jpg" style="width:100%" alt="Rishi Bedi" />
 		Head TA: Rishi Bedi<br />
-		%include templates/parts/rbediInfo.html
+		%include templates/parts/rbediInfo.tpl
 	</div>
 </div>
 <hr/>

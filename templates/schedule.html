@@ -1,4 +1,4 @@
-% rebase('templates/parts/template.html', title='CS 106A | Schedule')
+% rebase('templates/parts/template.tpl', title='CS 106A | Schedule')
 
 <!-- Header -->
 <div class="row">
@@ -39,7 +39,7 @@
                     <%
                         lectureNumber = 1
                         for i, week in enumerate(schedule["weeks"]):
-                            data = include('templates/parts/schedule/scheduleWeek.html', week=week, index=i + 1, lectureNumber=lectureNumber)
+                            data = include('templates/parts/schedule/scheduleWeek.tpl', week=week, index=i + 1, lectureNumber=lectureNumber)
                             lectureNumber = data['lectureNumber']
                         end
                     %>

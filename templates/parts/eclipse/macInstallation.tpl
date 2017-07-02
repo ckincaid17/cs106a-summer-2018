@@ -25,5 +25,5 @@
     </li>
 
 	<!-- These instructions are platform-agnostic -->
-    %include templates/parts/eclipse/generalInstallation.html
+    %include templates/parts/eclipse/generalInstallation.tpl
 </ol>
