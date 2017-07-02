@@ -19,7 +19,7 @@ Assumes a list of category names in category, and a unique index for this accord
             </div>
             <div id="collapse{{spacelessCategory}}-{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading-{{index}}">
                 <div class="panel-body">
-                    %include('templates/parts/style/' + spacelessCategory + '.ptl')
+                    %include('templates/style/' + spacelessCategory + '.ptl')
                 </div>
             </div>
         </div>

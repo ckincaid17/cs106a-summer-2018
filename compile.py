@@ -66,6 +66,7 @@ def compile():
         templateFilePaths = getTemplateFilePaths('')
         print("\nCompiling:\n----------")
         for templateFilePath in templateFilePaths:
+            print("Compiling " + templateFilePath + "...")
             outputPath = compileTemplate(templateFilePath, scheduleData,
                 handoutsData)
             print(templateFilePath + " -> " + outputPath)

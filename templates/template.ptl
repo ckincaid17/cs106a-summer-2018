@@ -27,7 +27,7 @@
 	</head>
 
 	<body>
-		%include templates/parts/navBar.ptl
+		%include templates/navbar/navBar.ptl
 		<div class="container">
 			
 			{{!base}}

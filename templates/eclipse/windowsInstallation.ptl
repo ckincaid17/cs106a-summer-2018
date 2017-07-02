@@ -35,5 +35,5 @@
     </li>
 
 	<!-- These instructions are platform-agnostic -->
-    %include templates/parts/eclipse/generalInstallation.ptl
+    %include templates/eclipse/generalInstallation.ptl
 </ol>
