@@ -75,7 +75,6 @@ notes (OPTIONAL): a list of strings to display in gray on this calendar day,
 Of note, `filename` is used as follows:
 - the lecture PPT is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx```
 - the lecture PDF is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf```
-- the lecture code folder is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}/```
 - the lecture code ZIP is assumed to be at ```{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip```
 
 Holidays are grayed out in the calendar and not displayed in the dropdown.  All
@@ -116,8 +115,6 @@ including:
 ROOT - the root URL for the hosted version of this website
 OUTPUT_DIR - the default output directory for compiled files
 TEMPLATE_DIR - the directory to compile
-ROOT_TEMPLATE - the "meta-template" containing the <head>, footer, etc. inside
-which all other templates are rendered.
 IGNORE_DIRS - directories within TEMPLATE_DIR that should be ignored
 ```
 

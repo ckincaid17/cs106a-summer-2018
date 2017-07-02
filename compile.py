@@ -32,11 +32,6 @@ IGNORE_DIRS = [
 ]
 TEMPLATE_DIR = 'templates'
 
-# This is the "meta-template" that is used to render every other template.
-# It contains the header, nav bar, and footer displayed on every page.
-ROOT_TEMPLATE =  SimpleTemplate(open(os.path.join(TEMPLATE_DIR,
-    "parts/template.html")).read())
-
 # Assumed to be within OUTPUT_DIR
 HANDOUTS_DIR = 'handouts'
 
@@ -73,9 +68,10 @@ def compile():
         templateFilePaths = getTemplateFilePaths('')
         print("\nCompiling:\n----------")
         for templateFilePath in templateFilePaths:
+            print(templateFilePath + " -> ")
             outputPath = compileTemplate(templateFilePath, scheduleData,
                 handoutsData)
-            print(templateFilePath + " -> " + outputPath)
+            print(outputPath)
 
     print("\nDONE.\n")
 
@@ -159,20 +155,17 @@ Parameters:
 
 Returns: the path of the saved, compiled template file.
 
-Compiles the given template file within the ROOT_TEMPLATE, passing in the
-pathToRoot, scheduleData and handoutsData as template
-parameters.  Saves the compiled template to relativePath in the OUTPUT_DIR
-directory.
+Compiles the given template file, passing in the pathToRoot, scheduleData and
+handoutsData as template parameters.  Saves the compiled template to
+relativePath in the OUTPUT_DIR directory.
 -------------------------
 '''
 def compileTemplate(relativePath, scheduleData,
     handoutsData):
-    
-    # Render this template within the ROOT_TEMPLATE
     pathToRoot = getPathToRootFrom(relativePath)
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
-    compiledHtml = ROOT_TEMPLATE.render(templateFile=filePath,
-        pathToRoot=pathToRoot,
+    templateText = open(filePath).read()
+    compiledHtml = SimpleTemplate(templateText).render(pathToRoot=pathToRoot,
         schedule=scheduleData, handouts=handoutsData)
     compiledHtml = compiledHtml.encode('utf8')
 
