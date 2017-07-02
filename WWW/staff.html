@@ -16,23 +16,12 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/index.js"></script>
 
 
 		<!-- Stanford -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
-
-		<!-- Script that goes and changes each "moment" element to display how long
-		            ago that element's timestamp was. -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".moment").each(function(i) {
-				    var date = $(this).html();
-				    var fromStr = moment(date, "YYYYMMDD").fromNow();
-				    $(this).html(fromStr);
-				});
-			});
-		</script>
 	</head>
 
 	<body>
@@ -189,7 +178,7 @@
     <div class="col-xs-12">
         <h3>Section Leaders</h3>
         <p>
-            Your section leader is your primary point of contact if you need help with homework, grading, section or most other course issues.  To find out who your section leader is, or the time/place of your section, log in to <a href="https://cs198.stanford.edu">the CS 198 website</a>.
+            Your section leader is your primary point of contact if you need help with homework, grading, section or most other course issues.  To find out who your section leader is, or the time/place of your section, click on the "View My Section" link in the "Section" dropdown at the top.
             <br />
             <br />
             Section leaders also have weekly helper hours at the LaIR.  Click <a href="https://cs198.stanford.edu/lair/shifts">here</a> to view the current LaIR helper schedule.
@@ -199,293 +188,315 @@
     </div>
 
     <!-- Generate HTML thumbnail elements for each SL -->
-<!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/adash.jpg" alt="Aleksander Dash">
-		<div>
-			<h4 style="text-align: center;">
-				Aleksander Dash
-				<a href="mailto:adash@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/crobins.jpg" alt="Canyon Robins">
-		<div>
-			<h4 style="text-align: center;">
-				Canyon Robins
-				<a href="mailto:crobins@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/csmith95.jpg" alt="Conner Smith">
-		<div>
-			<h4 style="text-align: center;">
-				Conner Smith
-				<a href="mailto:csmith95@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/eling8.jpg" alt="Emily Ling">
-		<div>
-			<h4 style="text-align: center;">
-				Emily Ling
-				<a href="mailto:eling8@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/farah.jpg" alt="Farah Uraizee">
-		<div>
-			<h4 style="text-align: center;">
-				Farah Uraizee
-				<a href="mailto:farah@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/gfaerr.jpg" alt="Garrick Fernandez">
-		<div>
-			<h4 style="text-align: center;">
-				Garrick Fernandez
-				<a href="mailto:gfaerr@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/gdasilva.jpg" alt="Gus Torres da Silva">
-		<div>
-			<h4 style="text-align: center;">
-				Gus Torres da Silva
-				<a href="mailto:gdasilva@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/gblanc.jpg" alt="Guy Blanc">
-		<div>
-			<h4 style="text-align: center;">
-				Guy Blanc
-				<a href="mailto:gblanc@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/jbitz.jpg" alt="Jared Bitz">
-		<div>
-			<h4 style="text-align: center;">
-				Jared Bitz
-				<a href="mailto:jbitz@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/jestinm.jpg" alt="Jestin Ma">
-		<div>
-			<h4 style="text-align: center;">
-				Jestin Ma
-				<a href="mailto:jestinm@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/rydbergk.jpg" alt="Kate Rydberg">
-		<div>
-			<h4 style="text-align: center;">
-				Kate Rydberg
-				<a href="mailto:rydbergk@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/kerdman.jpg" alt="Katherine Erdman">
-		<div>
-			<h4 style="text-align: center;">
-				Katherine Erdman
-				<a href="mailto:kerdman@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/keanus.jpg" alt="Keanu Spies">
-		<div>
-			<h4 style="text-align: center;">
-				Keanu Spies
-				<a href="mailto:keanus@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/cmhazard.jpg" alt="Michael Hazard">
-		<div>
-			<h4 style="text-align: center;">
-				Michael Hazard
-				<a href="mailto:cmhazard@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/miraep8.jpg" alt="Mirae Parker">
-		<div>
-			<h4 style="text-align: center;">
-				Mirae Parker
-				<a href="mailto:miraep8@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/nnegrete.jpg" alt="Nick Negrete">
-		<div>
-			<h4 style="text-align: center;">
-				Nick Negrete
-				<a href="mailto:nnegrete@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/nolanh.jpg" alt="Nolan Handali">
-		<div>
-			<h4 style="text-align: center;">
-				Nolan Handali
-				<a href="mailto:nolanh@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/pras1712.jpg" alt="Pras Ramakrishnan">
-		<div>
-			<h4 style="text-align: center;">
-				Pras Ramakrishnan
-				<a href="mailto:pras1712@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/renguyen.jpg" alt="Regina Nguyen">
-		<div>
-			<h4 style="text-align: center;">
-				Regina Nguyen
-				<a href="mailto:renguyen@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/trfbell.jpg" alt="Tobin Bell">
-		<div>
-			<h4 style="text-align: center;">
-				Tobin Bell
-				<a href="mailto:trfbell@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/tyep.jpg" alt="Tyler Yep">
-		<div>
-			<h4 style="text-align: center;">
-				Tyler Yep
-				<a href="mailto:tyep@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div><!-- Thumbnail box that displays the photo and info for a single section leader.
-Requires a name, pathToRoot and sunet parameter. Assumes an image for this
-person is stored in images/staff/SUNET.jpg. -->
-<div class="col-md-3 col-sm-4 col-xs-6 thumb">
-	<div class="thumbnail">
-		<img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/wkautz.jpg" alt="Wil Kautz">
-		<div>
-			<h4 style="text-align: center;">
-				Wil Kautz
-				<a href="mailto:wkautz@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
-			</h4>
-		</div>
-	</div>
-</div></div>			
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/adash.jpg" alt="Aleksander Dash">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Aleksander Dash
+                            <a href="mailto:adash@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/crobins.jpg" alt="Canyon Robins">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Canyon Robins
+                            <a href="mailto:crobins@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/csmith95.jpg" alt="Conner Smith">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Conner Smith
+                            <a href="mailto:csmith95@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/eling8.jpg" alt="Emily Ling">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Emily Ling
+                            <a href="mailto:eling8@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/farah.jpg" alt="Farah Uraizee">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Farah Uraizee
+                            <a href="mailto:farah@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/gfaerr.jpg" alt="Garrick Fernandez">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Garrick Fernandez
+                            <a href="mailto:gfaerr@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/gdasilva.jpg" alt="Gus Torres da Silva">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Gus Torres da Silva
+                            <a href="mailto:gdasilva@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/gblanc.jpg" alt="Guy Blanc">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Guy Blanc
+                            <a href="mailto:gblanc@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/jbitz.jpg" alt="Jared Bitz">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Jared Bitz
+                            <a href="mailto:jbitz@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/jestinm.jpg" alt="Jestin Ma">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Jestin Ma
+                            <a href="mailto:jestinm@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/rydbergk.jpg" alt="Kate Rydberg">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Kate Rydberg
+                            <a href="mailto:rydbergk@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/kerdman.jpg" alt="Katherine Erdman">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Katherine Erdman
+                            <a href="mailto:kerdman@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/keanus.jpg" alt="Keanu Spies">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Keanu Spies
+                            <a href="mailto:keanus@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/cmhazard.jpg" alt="Michael Hazard">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Michael Hazard
+                            <a href="mailto:cmhazard@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/miraep8.jpg" alt="Mirae Parker">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Mirae Parker
+                            <a href="mailto:miraep8@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/nnegrete.jpg" alt="Nick Negrete">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Nick Negrete
+                            <a href="mailto:nnegrete@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/nolanh.jpg" alt="Nolan Handali">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Nolan Handali
+                            <a href="mailto:nolanh@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/pras1712.jpg" alt="Pras Ramakrishnan">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Pras Ramakrishnan
+                            <a href="mailto:pras1712@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/renguyen.jpg" alt="Regina Nguyen">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Regina Nguyen
+                            <a href="mailto:renguyen@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/trfbell.jpg" alt="Tobin Bell">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Tobin Bell
+                            <a href="mailto:trfbell@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/tyep.jpg" alt="Tyler Yep">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Tyler Yep
+                            <a href="mailto:tyep@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- Thumbnail box that displays the photo and info for a single section leader.
+            Requires a name, pathToRoot and sunet parameter. Assumes an image for this
+            person is stored in images/staff/SUNET.jpg. -->
+            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+                <div class="thumbnail">
+                    <img style="width:112px;" class="img-circle" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/staff/wkautz.jpg" alt="Wil Kautz">
+                    <div>
+                        <h4 style="text-align: center;">
+                            Wil Kautz
+                            <a href="mailto:wkautz@stanford.edu"><span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+</div>			
 			<!-- Footer -->
 			<div class="row">
 				<div class="col-xs-12">

@@ -16,23 +16,12 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/index.js"></script>
 
 
 		<!-- Stanford -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
-
-		<!-- Script that goes and changes each "moment" element to display how long
-		            ago that element's timestamp was. -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".moment").each(function(i) {
-				    var date = $(this).html();
-				    var fromStr = moment(date, "YYYYMMDD").fromNow();
-				    $(this).html(fromStr);
-				});
-			});
-		</script>
 	</head>
 
 	<body>
@@ -171,6 +160,7 @@
             <div class="panel-heading" role="tab" id="macInstallationHeading">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapsemacInstallation" aria-expanded="false" aria-controls="collapsemacInstallation">
                 <h4 class="panel-title">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
                     Mac Installation
                 </h4>
                 </a>
@@ -260,6 +250,7 @@
             <div class="panel-heading" role="tab" id="windowsInstallationHeading">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapsewindowsInstallation" aria-expanded="false" aria-controls="collapsewindowsInstallation">
                 <h4 class="panel-title">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
                     Windows Installation
                 </h4>
                 </a>
@@ -359,6 +350,7 @@
             <div class="panel-heading" role="tab" id="importingRunningHeading">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapseimportingRunning" aria-expanded="false" aria-controls="collapseimportingRunning">
                 <h4 class="panel-title">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
                     Importing and Running Projects
                 </h4>
                 </a>
@@ -441,6 +433,7 @@
             <div class="panel-heading" role="tab" id="submittingHeading">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapsesubmitting" aria-expanded="false" aria-controls="collapsesubmitting">
                 <h4 class="panel-title">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
                     Submitting Projects
                 </h4>
                 </a>
@@ -492,6 +485,7 @@
             <div class="panel-heading" role="tab" id="debuggerHeading">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapsedebugger" aria-expanded="false" aria-controls="collapsedebugger">
                 <h4 class="panel-title">
+                    <span class="glyphicon glyphicon-chevron-up"></span>
                     Using the Debugger
                 </h4>
                 </a>
@@ -570,12 +564,13 @@ For a walkthrough of how to use these steps to debug a sample Karel program, see
         Q: Eclipse is showing an error in the Console "Could not save C++ lib configuration file".  Do I need to worry about this?
     </dt>
     <dd>
-        No.  This error should not affect the running of your programs, and you can ignore it.
+        A: No.  This error should not affect the running of your programs, and you can ignore it.
     </dd>
     <dt id="newFile">
         Q: I want to create another file/program within this project.  How do I do this?
     </dt>
     <dd>
+        A:
         <ol>
             <li>Right-click on "default package" within the <code>src</code> folder, and go to <strong>New -> Class</strong>.</li>
             <li>
@@ -606,7 +601,7 @@ For a walkthrough of how to use these steps to debug a sample Karel program, see
         <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="View Toggle" />
         <br />
     </dd>
-    <dt>
+    <dt id="importError">
         Q: Help!  Eclipse is not letting me import a project.  It gives me a warning at the top that "Some projects cannot be imported".
         <br />
         <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importError.png" alt="Import Error" />

@@ -29,7 +29,7 @@ E.g. `1 - General Information`.
 
 - **Adding section handouts:** add the handout to `WWW/section-handouts/` and
 update `templates/parts/dropdowns/sectionMaterialsDropdownList.html` to list the
-new handout.
+new handout or other materials.
 
 - **Add a new assignment:** add the assignment page template to
 `templates/assignments/` and update
@@ -65,10 +65,11 @@ keys (whose values are all strings):
 date (REQUIRED): the date string (e.g. "June 26") to display
 title (OPTIONAL): the name of the lecture (or event)
 type (OPTIONAL): "HOLIDAY" if a holiday, or "OFF" if no lecture
-due (OPTIONAL): the HW due today
-out (OPTIONAL): the HW due today
-read (OPTIONAL): the parts of the book (e.g. "Chapter 12") to read
 filename (OPTIONAL): the filename prefix for all material filepaths
+code (OPTIONAL): if false, does not show the "Code" link for this day
+slides (OPTIONAL): if false, does not show the "Slides" links for this day
+notes (OPTIONAL): a list of strings to display in gray on this calendar day,
+				 each on its own line.
 ```
 
 Of note, `filename` is used as follows:

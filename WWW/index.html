@@ -16,23 +16,12 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/index.js"></script>
 
 
 		<!-- Stanford -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
-
-		<!-- Script that goes and changes each "moment" element to display how long
-		            ago that element's timestamp was. -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".moment").each(function(i) {
-				    var date = $(this).html();
-				    var fromStr = moment(date, "YYYYMMDD").fromNow();
-				    $(this).html(fromStr);
-				});
-			});
-		</script>
 	</head>
 
 	<body>
@@ -167,6 +156,7 @@
 
 <!-- Home page body -->
 <div class="row">
+    <!-- Only shown on large screens (see css) -->
     <div class="col-sm-3" id="sidebarLeft">
 <!-- Resources -->
 <div>
@@ -407,16 +397,9 @@
 	<div class="google-maps">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.3968667895306!2d-122.17638518469231!3d37.427728379824046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ac97723cb%3A0xa6e8fc1a7a5f2c29!2sNVIDIA+Auditorium!5e0!3m2!1sen!2sus!4v1498094148969" width="600" height="450" style="border:0" allowfullscreen></iframe>
 	</div>
-</div>
-
-<!-- Old announcements -->
-<!--
-<hr/>
-<div>
-	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
-</div>
--->    </div>
-
+</div>    </div>
+    
+    <!-- Only shown on small screens (see css) -->
     <div class="col-sm-3" id="sidebarRight">
 <!-- Resources -->
 <div>

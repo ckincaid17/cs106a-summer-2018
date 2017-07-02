@@ -10,30 +10,18 @@
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
-		<link rel="stylesheet" type="text/css" href="./../css/style.css" />
+		<link rel="stylesheet" type="text/css" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/css/style.css" />
 
 		<!-- JavaScript -->
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="./../js/moment.min.js"></script>
-		<script type="text/javascript" src="./../js/index.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/index.js"></script>
 
 
 		<!-- Stanford -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
-
-		<!-- Script that goes and changes each "moment" element to display how long
-		            ago that element's timestamp was. -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".moment").each(function(i) {
-				    var date = $(this).html();
-				    var fromStr = moment(date, "YYYYMMDD").fromNow();
-				    $(this).html(fromStr);
-				});
-			});
-		</script>
 	</head>
 
 	<body>
@@ -47,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand brand" href="./../">CS 106A</a>
+            <a class="navbar-brand brand" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/">CS 106A</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -66,10 +54,10 @@
 	that this marks the end of given lectures.  Adds a divider between each
 	week.  Skips holidays.
 	-->
-					<li><a href="./../lectures/Lecture1/Lecture1.pdf">1 - Welcome to CS 106A</a></li>
-					<li><a href="./../lectures/Lecture2/Lecture2.pdf">2 - Programming with Karel</a></li>
-					<li><a href="./../lectures/Lecture3/Lecture3.pdf">3 - Problem-solving with Karel</a></li>
-					<li><a href="./../lectures/Lecture4/Lecture4.pdf">4 - Introduction to Java</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pdf">1 - Welcome to CS 106A</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pdf">2 - Programming with Karel</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.pdf">3 - Problem-solving with Karel</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.pdf">4 - Introduction to Java</a></li>
                     </ul>
                 </li>
 
@@ -79,11 +67,11 @@
 						Handouts <span class="caret"></span>
 		  			</a>
                     <ul class="dropdown-menu">
-                    	    <li><a href="./../handouts/1-General-Information.pdf">1 - General Information</a></li>
-                    	    <li><a href="./../handouts/1B-SCPD-Information.pdf">1B - SCPD Information</a></li>
-                    	    <li><a href="./../handouts/2-The-Honor-Code.pdf">2 - The Honor Code</a></li>
-                    	    <li><a href="./../handouts/3-Programming-with-Karel.pdf">3 - Programming with Karel</a></li>
-                    	    <li><a href="./../handouts/4-Debugging-with-Karel.pdf">4 - Debugging with Karel</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/1-General-Information.pdf">1 - General Information</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/1B-SCPD-Information.pdf">1B - SCPD Information</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/2-The-Honor-Code.pdf">2 - The Honor Code</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/3-Programming-with-Karel.pdf">3 - Programming with Karel</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/4-Debugging-with-Karel.pdf">4 - Debugging with Karel</a></li>
                     </ul>
                 </li>
 
@@ -95,16 +83,16 @@
                     <ul class="dropdown-menu">
 <!--
 <li><a href="https://goo.gl/forms/x2HTAbJ8soIMCztg1">0-Who are you</a></li>
-<li><a href="./../assn/karel.html">1-Karel</a></li>
-<li><a href="./../assn/simpleJava.html">2-Simple Java</a></li>
-<li><a href="./../assn/breakout.html">3-Breakout</a></li>
-<li><a href="./../assn/hangman.html">4-Hangman</a></li>
-<li><a href="./../assn/yahtzee.html">5-Yahtzee</a></li>
-<li><a href="./../assn/nameSurfer.html">6-NameSurfer</a></li>
-<li><a href="./../assn/facePamphlet.html">7-FacePamphlet</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/karel.html">1-Karel</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/simpleJava.html">2-Simple Java</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/breakout.html">3-Breakout</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/hangman.html">4-Hangman</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/yahtzee.html">5-Yahtzee</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/nameSurfer.html">6-NameSurfer</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assn/facePamphlet.html">7-FacePamphlet</a></li>
 -->
-<li><a href="./../assignments/karel.html">1 - Karel the Robot</a></li>                        <li class="divider"></li>
-                        <li><a href="./../styleguide.html">Style Guide</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/karel.html">1 - Karel the Robot</a></li>                        <li class="divider"></li>
+                        <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/styleguide.html">Style Guide</a></li>
                     </ul>
                 </li>
 
@@ -114,9 +102,9 @@
                     	Section <span class="caret"></span>
                     </a>
                     <ul class="dropdown-menu">
-<li><a href="./../section/1/Section1.pdf">Section 1 Handout</a></li>
-<li><a href="./../section/1/Section1-Solutions.pdf">Section 1 Solutions</a></li>
-<li><a href="./../section/1/Section1.zip">Section 1 Code</a></li>                        <li class="divider"></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/1/Section1.pdf">Section 1 Handout</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/1/Section1-Solutions.pdf">Section 1 Solutions</a></li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/1/Section1.zip">Section 1 Code</a></li>                        <li class="divider"></li>
                         <li><a href="https://cs198.stanford.edu/cs198/auth/section/SwitchSection.aspx?class=1">Late Section Signup</a></li>
                         <li><a href="https://cs198.stanford.edu/cs198/auth/section/RemoteSignup.aspx?class=1">Late SCPD Signup</a></li>
                         <li><a href="https://cs198.stanford.edu/cs198/auth/section/SwitchSection.aspx?class=1">Individual Section Swap</a></li>
@@ -129,7 +117,7 @@
 
             <!-- Schedule button -->
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="./../schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
+                <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/schedule.html"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
             </ul>
 
         </div>
@@ -140,17 +128,19 @@
 			<div class="col-sm-12">
 				<div id="pageHeader">
 					<h1>
-						Assignment 4: Hangman
+						Assignment 7: FacePamphlet
 					</h1>
-					<p class="subtleHeading"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Due: Friday, Feb 17th, 10:30A.M.</p>
+					<p class="subtleHeading"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Due: Friday, March 17th, 5P.M.</p>
 					
-					<p class="subtleHeading"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>YEAH Hours: Thursday, Feb. 9th, 7:30-9P.M. in Bishop Auditorium</p>
+					<p class="subtleHeading"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>YEAH Hours: Thurs, Mar. 9th, 7:00-8P.M. in Hewlett 200 (note new time and location!)</p>
 
 				</div>
 				<hr/>
 
+				<div class="alert alert-info"><b>Important:</b> As noted in the General Information handout, we will not be accepting late submissions for assignment 7, even if you have late days.</div>
+
 				<!--<center>
-				<img style="width:80%" src="./../images/overview/overview.png">	
+				<img style="width:80%" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/overview/overview.png">	
 			</center>-->
 			</div>
 		</div>
@@ -163,7 +153,7 @@
 			<div class="col-sm-12">
 				<p>
 					<center>
-					<img style="max-width:100%" src="./../images/assignments/hangman.png"></img>
+					<img style="max-width:100%" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/assignments/facePamphlet.png"></img>
 				</center>
 					<br/><br/>
 				</p>
@@ -172,39 +162,12 @@
 					<div class="col-sm-12">
 						<center>
 							<p style="text-align:center">
-								<i>Your fourth assignment will give you practice with Strings and file reading.</i>
+								<i>Your last assignment will give you practice with Classes and collections. You will also learn how to write a program that interacts with the internet.</i>
 							</p>
 							<br />
 							<br />
 							<p>
 								<strong>This assignment may (optionally) be done in pairs.</strong>  As a reminder, you may only pair up with others with the same section time and location.
-							</p>
-							<br />
-							<br />
-							<p>
-							      <strong>NOTE:</strong> We found a small bug when running the Hangman starter code on Windows machines.  Specifically, due to the way Windows displays Eclipse programs, the height of the screen is 20 less than when running on a Mac.  For this reason, the constant Y value given for the incorrect guesses label (<code>INCORRECT_GUESSES_Y</code>) is off-screen.
-
-							      To resolve this issue (for consistency, every student please do this, Mac or PC), <strong>PLEASE CHANGE <code>INCORRECT GUESSES_Y</code> and <code>PARTIALLY_GUESSED_Y</code> to the following:</strong>
-
-							      <br />
-							      <br />
-
-							      <code>  
-							      /* The y-location to display the partially guessed string */
-							      <br />
-							      private static final int PARTIALLY_GUESSED_Y = 430;
-							      <br />
-							      /* The y-location to display the incorrectly guessed letters */
-							      <br />
-							      private static final int INCORRECT_GUESSES_Y = 460;
-							      </code>
-
-							      <br />
-							      <br />
-
-							      The starter code below has also been updated to reflect this change.
-
-							      We apologize for the last-minute change; if you do not make the above change, you will not be penalized if your incorrect guesses label is offscreen, as long as you are positioning it correctly.  But the above change may help ensure that your calculations are correct.
 							</p>
 						</center>
 
@@ -213,21 +176,71 @@
 
 				
 				<h2>Assignment Files</h2>
+				<hr/>
 				<p>
 					<div class="row">
-						<div class="col-sm-2"><a href="./../handouts/20 - Assignment-4.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;margin-left:0px"></span><br><span style="margin-left:0px">Assn Handout</span></a>
+						<div class="col-sm-2"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/32-assignment-7.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;margin-left:0px"></span><br><span style="margin-left:0px">Assn Handout</span></a>
 						</div>
-						<div class="col-sm-2"><a href="./../handouts/YEAH4.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;margin-left:0px"></span><br><span style="margin-left:0px">YEAH Hours Slides</span></a>
+						<div class="col-sm-2"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/YEAH7.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;margin-left:0px"></span><br><span style="margin-left:0px">YEAH Hours Slides</span></a>
 						</div>
 						<div class="col-sm-2">
-							<a href="./../assignments/Assignment4.zip"><span class="glyphicon glyphicon-leaf" aria-hidden="true" style="font-size: 5em;margin-left:5px"></span><br>
+							<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/Assignment7.zip"><span class="glyphicon glyphicon-leaf" aria-hidden="true" style="font-size: 5em;margin-left:5px"></span><br>
 					Starter Code</a>
+						</div>
+
+						<div class="col-sm-2">
+							<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/Assignment7Extension.zip"><span class="glyphicon glyphicon-leaf" aria-hidden="true" style="font-size: 5em;margin-left:5px"></span><br>
+					Client (Extra Credit) Starter Code</a>
 						</div>
 						
 						
 					</div>
 					<br/>
 				</p>
+
+				<h2>Frequently asked questions and errata</h2>
+				<hr/>
+				<p>
+					<div class="alert alert-info"><b>FAQ:</b> Since parts of this assignment are new (previously there was no over-internet communication) there may be questions or issues that come up. We will keep a list of them here.</div>
+				</p>
+				<p>
+					<ul class="list-group">
+					 <li class="list-group-item">
+					 	<b>Question: Previous assignments were due at 10:30am, is this one really due at 5pm?</b><br/>
+					  	Answer: Yes. Consider it a 6 hour extension.
+					 </li>
+					  <li class="list-group-item">
+					  	<b>Question: Why does the comment for FacePamphletProfile's getFriends() method say we should return an iterator when the return type is a list?</b><br/>
+					  	Answer: The comment was incorrect; we have corrected it to clarify that this method should return a list of that profile's friends.
+					  </li>
+					  <li class="list-group-item">
+					  	<b>Question: Every time I try to run the server, I get a "ClassNotFound" exception. Help?</b><br/>
+					  	Answer: This happens mostly to Section Leaders. Some old versions of Eclipse are set to compile to Java 6 (even though you most likely have the most up to date version of Java on your computer). I use features from Java 7 in the new library. You need to change Eclipse. Go to Eclipse -> Preferences, and under Java -> Compiler, set the target Java version to something more modern.
+					  </li>
+					  <li class="list-group-item">
+					  	<b>Question: Every time I try to run the server, I get an "UnsupportedClassVersionError".  Help?</b><br/>
+					  	Answer: This happens in rare instances when for some reason Eclipse is not configured to use the latest version of Java that you have installed.  To fix this, go to Eclipse -> Preferences, and under Java select "Installed JREs".  Click the "Search" button in the toolbar on the right, and then make sure "Java SE 8" is the installed JRE that has a checkmark next to it.  Then click "OK" and restart Eclipse.
+					  </li>
+					  <li class="list-group-item">
+					  	<b>Question: On Windows, the provided client program doesn't seem to work when setting profile pictures.  Help?</b><br/>
+					  	Answer: This is a known bug that has been fixed in the latest version of the client JAR in the starter code.  Please redownload it and see if that fixes the problem.
+					  </li>
+					  <li class="list-group-item">
+					  	<b>Question: What does it mean if one of the ServerTester tests fails with an "Unexpected end of file from server" error?</b><br/>
+					  	Answer: This usually happens when the server crashes when sending a response.  Check Eclipse for crash messages and see if you can figure out what the issue is.
+					  </li>
+					  <li class="list-group-item">
+					  	<b>Question: I'm on a Mac and can't run the client JAR file from Eclipse - it gives me an error message.  What should I do?</b><br/>
+					  	Answer: macOS's security restrictions sometimes prevent you from running software from unidentified developers (but you can trust us :) ).  To get around this, find the JAR file on your computer (wherever you downloaded the starter code to), <strong>right click</strong> on the file, and click "Open".
+					  </li>
+					 
+					
+					</ul>
+				</p>
+				<p>
+				Have a question not covered here? Send me an email.
+				</p>
+				
 
 				
 

@@ -31,6 +31,7 @@
 
 <!-- Home page body -->
 <div class="row">
+    <!-- Only shown on large screens (see css) -->
     <div class="col-sm-3" id="sidebarLeft">
         %include templates/parts/sidebar.html
     </div>
@@ -38,7 +39,8 @@
     <div class="col-sm-9">
         %include templates/parts/announcements.html
     </div>
-
+    
+    <!-- Only shown on small screens (see css) -->
     <div class="col-sm-3" id="sidebarRight">
         %include templates/parts/sidebar.html
     </div>

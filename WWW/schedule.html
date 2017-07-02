@@ -16,23 +16,12 @@
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/index.js"></script>
 
 
 		<!-- Stanford -->
 		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
 		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
-
-		<!-- Script that goes and changes each "moment" element to display how long
-		            ago that element's timestamp was. -->
-		<script type="text/javascript">
-			$(document).ready(function() {
-				$(".moment").each(function(i) {
-				    var date = $(this).html();
-				    var fromStr = moment(date, "YYYYMMDD").fromNow();
-				    $(this).html(fromStr);
-				});
-			});
-		</script>
 	</head>
 
 	<body>
@@ -184,9 +173,7 @@
 	<td class="calendarWeekCell">1</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -198,41 +185,18 @@
 
         <!-- If there is a filename, render links to the lecture materials -->
             <p>
-                <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pdf">pdf</a>)<br/>
+                    <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pdf">pdf</a>)<br/>
             </p>
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Read: Karel Ch. 1-2
-        </p>
-
-        <div class="modal fade" id="practiceModal1" tabindex="-1" role="dialog" aria-labelledby="practiceLabel1">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel1">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Read: Karel Ch. 1-2
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -244,7 +208,7 @@
 
         <!-- If there is a filename, render links to the lecture materials -->
             <p>
-                <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pdf">pdf</a>)<br/>
+                    <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pdf">pdf</a>)<br/>
                     <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
             </p>
         
@@ -255,43 +219,41 @@
                 </button>
             </p>
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
+            <!-- Modal displaying practice problems -->
+            <div class="modal fade" id="practiceModal2" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="practiceLabel2">Practice Problems</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Practice with these additional problems on CodeStepByStep:</p>
+                    <ul>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MeetKarel">MeetKarel</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers">ThreeBeepers</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/karelLoop1">KarelLoop1</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Sweeper">Sweeper</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Racetrack">Racetrack</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/RoadRepairKarel">RoadRepair</a></li>
+                    </ul>
 
-                Read: Karel Ch. 3-4
-        </p>
-
-        <div class="modal fade" id="practiceModal2" tabindex="-1" role="dialog" aria-labelledby="practiceLabel2">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel2">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MeetKarel">MeetKarel</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers">ThreeBeepers</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/karelLoop1">KarelLoop1</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Sweeper">Sweeper</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Racetrack">Racetrack</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/RoadRepairKarel">RoadRepair</a></li>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Read: Karel Ch. 3-4
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -303,7 +265,7 @@
 
         <!-- If there is a filename, render links to the lecture materials -->
             <p>
-                <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.pdf">pdf</a>)<br/>
+                    <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.pdf">pdf</a>)<br/>
                     <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
             </p>
         
@@ -314,42 +276,42 @@
                 </button>
             </p>
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
+            <!-- Modal displaying practice problems -->
+            <div class="modal fade" id="practiceModal3" tabindex="-1" role="dialog" aria-labelledby="practiceLabel3">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="practiceLabel3">Practice Problems</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Practice with these additional problems on CodeStepByStep:</p>
+                    <ul>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper">HurdleJumper</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Roomba">Roomba</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/BeeperCollector">BeeperCollector</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MazeRunner">MazeRunner</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/karel/DoubleBeepers">DoubleBeepers</a></li>
+                    </ul>
 
-                Read: Karel Ch. 5-6 <br /> Out: Assn. 1
-        </p>
-
-        <div class="modal fade" id="practiceModal3" tabindex="-1" role="dialog" aria-labelledby="practiceLabel3">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel3">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper">HurdleJumper</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/Roomba">Roomba</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/BeeperCollector">BeeperCollector</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/MazeRunner">MazeRunner</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/karel/DoubleBeepers">DoubleBeepers</a></li>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Read: Karel Ch. 5-6
+                        <br />
+                    Out: Assn. 1
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -361,7 +323,7 @@
 
         <!-- If there is a filename, render links to the lecture materials -->
             <p>
-                <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.pdf">pdf</a>)<br/>
+                    <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.pdf">pdf</a>)<br/>
                     <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
             </p>
         
@@ -372,41 +334,39 @@
                 </button>
             </p>
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
+            <!-- Modal displaying practice problems -->
+            <div class="modal fade" id="practiceModal4" tabindex="-1" role="dialog" aria-labelledby="practiceLabel4">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="practiceLabel4">Practice Problems</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Practice with these additional problems on CodeStepByStep:</p>
+                    <ul>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/basics/FearTheTree">FearTheTree</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&amp;embedded=false&amp;problem=expressionsNumbers1">ExpressionsNumbers1</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&amp;embedded=false&amp;problem=expressionsStrings1">ExpressionsStrings1</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/basics/InchesToCentimeters">InchesToCentimeters</a></li>
+                    </ul>
 
-                Read: Java Ch. 1, 2.1 - 2.4, 3.1 - 3.4
-        </p>
-
-        <div class="modal fade" id="practiceModal4" tabindex="-1" role="dialog" aria-labelledby="practiceLabel4">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel4">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/basics/FearTheTree">FearTheTree</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&amp;embedded=false&amp;problem=expressionsNumbers1">ExpressionsNumbers1</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&amp;embedded=false&amp;problem=expressionsStrings1">ExpressionsStrings1</a></li>
-                        <li><a href="http://www.codestepbystep.com/problem/view/java/basics/InchesToCentimeters">InchesToCentimeters</a></li>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Read: Java Ch. 1, 2.1 - 2.4, 3.1 - 3.4
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -419,30 +379,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -454,9 +391,7 @@
 	<td class="calendarWeekCell">2</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -469,30 +404,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal5" tabindex="-1" role="dialog" aria-labelledby="practiceLabel5">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel5">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
 	Template that renders a single "holiday" calendar day grayed out
@@ -507,9 +419,7 @@
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -522,37 +432,16 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Due: Assn. 1 <br /> Out: Assn. 2
-        </p>
-
-        <div class="modal fade" id="practiceModal6" tabindex="-1" role="dialog" aria-labelledby="practiceLabel6">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel6">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Due: Assn. 1
+                        <br />
+                    Out: Assn. 2
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -565,36 +454,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal7" tabindex="-1" role="dialog" aria-labelledby="practiceLabel7">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel7">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -607,30 +471,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -642,9 +483,7 @@
 	<td class="calendarWeekCell">3</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -657,36 +496,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal8" tabindex="-1" role="dialog" aria-labelledby="practiceLabel8">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel8">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -699,36 +513,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal9" tabindex="-1" role="dialog" aria-labelledby="practiceLabel9">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel9">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -741,37 +530,16 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Due: Assn. 2 <br /> Out: Assn. 3
-        </p>
-
-        <div class="modal fade" id="practiceModal10" tabindex="-1" role="dialog" aria-labelledby="practiceLabel10">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel10">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Due: Assn. 2
+                        <br />
+                    Out: Assn. 3
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -784,36 +552,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal11" tabindex="-1" role="dialog" aria-labelledby="practiceLabel11">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel11">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -826,30 +569,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -861,9 +581,7 @@
 	<td class="calendarWeekCell">4</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -876,36 +594,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal12" tabindex="-1" role="dialog" aria-labelledby="practiceLabel12">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel12">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -918,36 +611,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal13" tabindex="-1" role="dialog" aria-labelledby="practiceLabel13">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel13">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -960,36 +628,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal14" tabindex="-1" role="dialog" aria-labelledby="practiceLabel14">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel14">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1002,37 +645,16 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Due: Assn. 3 <br /> Out: Assn. 4
-        </p>
-
-        <div class="modal fade" id="practiceModal15" tabindex="-1" role="dialog" aria-labelledby="practiceLabel15">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel15">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Due: Assn. 3
+                        <br />
+                    Out: Assn. 4
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1045,30 +667,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -1091,9 +690,7 @@
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1106,36 +703,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal16" tabindex="-1" role="dialog" aria-labelledby="practiceLabel16">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel16">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1148,36 +720,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal17" tabindex="-1" role="dialog" aria-labelledby="practiceLabel17">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel17">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1190,36 +737,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal18" tabindex="-1" role="dialog" aria-labelledby="practiceLabel18">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel18">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1232,30 +754,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -1267,9 +766,7 @@
 	<td class="calendarWeekCell">6</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1282,37 +779,16 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Due: Assn. 4 <br /> Out: Assn. 5
-        </p>
-
-        <div class="modal fade" id="practiceModal19" tabindex="-1" role="dialog" aria-labelledby="practiceLabel19">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel19">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Due: Assn. 4
+                        <br />
+                    Out: Assn. 5
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1325,36 +801,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal20" tabindex="-1" role="dialog" aria-labelledby="practiceLabel20">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel20">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1367,36 +818,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal21" tabindex="-1" role="dialog" aria-labelledby="practiceLabel21">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel21">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1409,36 +835,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal22" tabindex="-1" role="dialog" aria-labelledby="practiceLabel22">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel22">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1451,30 +852,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -1486,9 +864,7 @@
 	<td class="calendarWeekCell">7</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1501,37 +877,16 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Due: Assn. 5 <br /> Out: Assn. 6
-        </p>
-
-        <div class="modal fade" id="practiceModal23" tabindex="-1" role="dialog" aria-labelledby="practiceLabel23">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel23">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Due: Assn. 5
+                        <br />
+                    Out: Assn. 6
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1544,36 +899,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal24" tabindex="-1" role="dialog" aria-labelledby="practiceLabel24">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel24">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1586,36 +916,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal25" tabindex="-1" role="dialog" aria-labelledby="practiceLabel25">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel25">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1628,36 +933,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal26" tabindex="-1" role="dialog" aria-labelledby="practiceLabel26">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel26">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1670,30 +950,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr><!-- 
 	Template that renders a single week as a row in a table
@@ -1705,9 +962,7 @@
 	<td class="calendarWeekCell">8</td>
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1720,36 +975,11 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModal27" tabindex="-1" role="dialog" aria-labelledby="practiceLabel27">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel27">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1762,31 +992,10 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-                Due: Assn. 6
-        </p>
-
-        <div class="modal fade" id="practiceModal28" tabindex="-1" role="dialog" aria-labelledby="practiceLabel28">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel28">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    Due: Assn. 6
+            </p>
     </div>
 </td><!--
 	Template that renders a single "holiday" calendar day grayed out
@@ -1812,9 +1021,7 @@
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -1827,30 +1034,7 @@
         <!-- If there is a filename, render links to the lecture materials -->
         
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-
-        </p>
-
-        <div class="modal fade" id="practiceModalNone" tabindex="-1" role="dialog" aria-labelledby="practiceLabelNone">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabelNone">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              </div>
-            </div>
-          </div>
-        </div>
+        <!-- Render the lines for any notes for today -->
     </div>
 </td></tr>                </tbody>
             </table>

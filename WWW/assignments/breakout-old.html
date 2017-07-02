@@ -123,137 +123,93 @@
         </div>
     </div>
 </nav>		<div class="container">
-<title>CS 106A | Assignment 1</title>
+<style type="text/css" media="screen">
+  	#canvas {
+    	overflow: hide;
+    	border: solid 1px black;
+    	background-color: white;
+    	width: 360px;
+    	height: 600px;
+  	}
+</style>
+
 <!-- Header -->
 <div class="row">
-	<div class="col-xs-12">
+	<div class="col-sm-12">
 		<div id="pageHeader">
-			<h1>Assignment 1: Karel the Robot</h1>
-			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
-				Due: Wednesday, July 5th, 11AM
-			</p>
-			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
-				Must be done individually
-			</p>
+			<h1>
+				Assignment 3: Breakout
+			</h1>
+			<p class="subtleHeading"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Due: Wednesday, Feb 8th, 10:30A.M.</p>
+
+			<p class="subtleHeading"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>YEAH Hours: Tuesday, Jan 31st, 7:30-9P.M. Bishop Auditorium</p>
+
 		</div>
 		<hr/>
+
+		<!--<center>
+		<img style="width:80%" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/overview/overview.png">	
+	</center>-->
 	</div>
 </div>
-
-<!-- Image -->
+		
 <div class="row">
-	<div class="col-xs-12">
-		<p style="text-align: center;"><img src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/assignments/karel.jpg" /></p>
-	</div>
-</div>
-
-<!-- Caption -->
-<div class="row">
-	<div class="col-xs-12">
-		<p style="text-align:center">
-			<i>Your first assignment consists of four Karel programs.</i>
-		</p>
-	</div>
-</div>
-
-<!-- Description -->
-<div class="row">
-	<div class="col-xs-12">
-		<h2>Getting Started</h2>
+	<div class="col-sm-12">
 		<p>
-			There is a starter project including all of these problems that you can access using the link below. Since this is the first assignment, we will ask you a few questions about the Honor Code before you can download the starter project. Once you have the starter code set up, edit the program files so that the assignment actually does what it’s supposed to do (see the assignment handout), which will involve a cycle of coding, testing, and debugging until everything works. The final step is to submit your assignment.
+			<center>
+			<img style="max-width:70%" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/assignments/breakout.png"></img>
+		</center>
+			<br/><br/>
 		</p>
+
+		<div class="row">
+			<div class="col-sm-12">
+				<center>
+					<p style="text-align:center">
+						<i>In your third assignment you will program a game called Breakout.</i>
+					</p>
+				</center>
+
+			</div>
+		</div>
+
+		
+		<h2>Assignment Files</h2>
 		<p>
-			You should write the code for your solution on your own. This assignment is <b>not</b> a pair assignment.
+			<div class="row">
+				<div class="col-sm-2"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/15 - Assignment-3.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;margin-left:0px"></span><br><span style="margin-left:0px">Assn Handout</span></a>
+				</div>
+				<div class="col-sm-2"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/YEAH3.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;margin-left:0px"></span><br><span style="margin-left:0px">YEAH Hours Slides</span></a>
+				</div>
+				<div class="col-sm-2">
+					<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/Assignment3.zip"><span class="glyphicon glyphicon-leaf" aria-hidden="true" style="font-size: 5em;margin-left:5px"></span><br>
+			Starter Code</a>
+				</div>
+				
+				
+			</div>
+			<br/>
 		</p>
-		<p><strong>Note:</strong> You may only use <strong>concepts covered in the Karel coursereader</strong> to solve these problems. In particular, you may not use Java concepts you may have learned previously such as variables, parameters, <strong>return</strong>, <strong>break</strong>, etc. If you have any questions about what is ok/not ok to use, please feel free to ask.
+
+		
+
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-12">
+		<h2>Assignment Demo</h2>
+		<div id="canvas"></div>
+		<script data-main="breakout-win17/Breakout.js" src="breakout-win17/js/requirejs/require.js"></script>
+		<p>
+			<b>NOTE: The colors and appearance of the bricks in this demo are slightly <br>
+			different than how you are asked to configure them in the <br>
+			assignment handout.  You should use the colors and positioning specified <br>
+			in the assignment handout and not in this demo.<br>
+			This demo is just to show you how the actual game works.
+			</b>
 		</p>
 	</div>
-</div>
-
-<!-- Assignment Files -->
-<h2>Assignment Files</h2>
-<div class="row">
-	<div class="col-xs-3">
-		<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/assignments/Assignment1.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Handout</span></a>
-	</div>
-	<div class="col-xs-3">
-		<a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfEBeYV-BBv2dwYpVSis699CfZ-L6rHrT0YNeMp0luB5RWiJQ/viewform?usp=sf_link"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Starter Code</span></a>
-	</div>
-</div>
-
-<!-- Resources -->
-<h2>Other Resources</h2>
-<div class="row">
-	<div class="col-sm-2 col-xs-3"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/eclipse.html"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>Eclipse Guide</span></a>
-	</div>
-	<div class="col-sm-2 col-xs-3"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/3-Programming-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Karel Handout</span></a>
-	</div>
-	<div class="col-sm-2 col-xs-3"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/4-Debugging-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Debugging with Karel</span></a>
-	</div>
-	<div class="col-sm-2 col-xs-3"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/2-The-Honor-Code.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>The Honor Code</span></a>
-	</div>
-	<div class="col-sm-2 col-xs-3"><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/resources/karel-the-robot-learns-java.pdf"><span class="glyphicon glyphicon-book" aria-hidden="true" style="font-size: 5em;"></span><br><span>Karel Coursereader</span></a>
-	</div>
-</div>
-
-<!-- FAQ -->
-<h2>F.A.Q.</h2>
-<dl>
-	<dt id="worlds">
-		Q: When I run a program like <code>CollectNewspaperKarel</code>, the world that loads is not the correct one for the problem.  Help!
-	</dt>
-	<dd>
-		A: Please redownload the starter project from <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/resources/CS106A-Assignment1.ip">here</a>; this is a known issue that has been fixed.  On your computer, you can copy the <code>src/</code> folder in your current project into the new project, and then delete your existing project from Eclipse (right-click on the project and select "Delete") and import your new project.
-	</dd>
-	<dt id="eclipsebroken">
-		Q: I'm having trouble getting Eclipse to work!  Help!
-	</dt>
-	<dd>
-		A: Please make sure you followed the instructions in our Eclipse Guide above.  If you are still having trouble, please come to Nick or Rishi's office hours, or stop by the LaIR.
-	</dd>
-	<dt id="eclipserefresh">
-		Q: Eclipse is giving me a strange message about a file being "out of sync" with the file system.
-		It says I can press F5 to refresh the file.  What does this mean?
-	</dt>
-	<dd>
-		A: This happens if you edit/change your file outside of Eclipse. Just press F5 and Eclipse will show you the newest version of the file.
-	</dd>
-	<dt id="renamefiles">
-		Q: I didn't like the program name, such as <code>CollectNewspaperKarel</code>, so I renamed it to my own name such as <code>DaveIsGreat</code>.
-		That is okay, right?
-	</dt>
-	<dd>
-		A: No. For grading purposes, we need you to leave the program names the way we named them.
-	</dd>
-	<dt id="turnin">
-		Q: How do I turn in the assignment?
-		How do I know if my submission was successful?
-	</dt>
-	<dd>
-		A: Please see the Eclipse Guide link above for more information about submitting.
-	</dd>
-	<dt id="infiniteloop">
-		Q: Why doesn't my Karel program say "finished running" at the bottom when it is done?
-	</dt>
-	<dd>
-		A: This is often because your program contains an infinite loop. For example, the following loop walks Karel from (1,1) all the way to the right edge, but when he gets there, the loop doesn't stop:
-		<pre>while (leftIsClear()) {
-    if (frontIsClear()) {
-        move();
-    }
-}
-</pre>
-	</dd>
-	<dt id="pregrade">
-		Q: Will my solution get full credit?
-		Is it written in the style you want?
-		Will I get marked off for this code?
-	</dt>
-	<dd>
-		A: In general we cannot answer these kinds of questions. We call this "pre-grading." The section leader/TA/instructor can't look over your entire program for mistakes or tell you exactly what things you will get marked off for; we don't have the resources to provide such a service, and even if we did, we want you to learn how to gain these intuitions on your own. We'll grade you on the guidelines in the homework document and style guide, and we can help you with specific issues and questions about your code, but we cannot pre-evaluate your entire program for you or give you advance warning about every possible mistake or violation.
-	</dd>
-</dl>			
+</div>			
 			<!-- Footer -->
 			<div class="row">
 				<div class="col-xs-12">

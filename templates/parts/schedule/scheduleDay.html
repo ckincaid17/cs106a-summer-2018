@@ -1,8 +1,6 @@
 <!--
     Template that renders a single cell for a single lecture day.  Assumes a
-    "day" parameter with a "date" (String) and "title" (String) field, and
-    optionally "read", "due", "out" and "filename" fields.  See the project
-    README for more information on the spec for schedule.json.
+    "day" parameter with fields specified in the project README.
     -->
 <td class="calendarCell">
     <div style="position:relative">
@@ -16,69 +14,60 @@
         % filename = day["filename"] if "filename" in day else None
         % if filename != None:
             <p>
-                <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
+                % if "slides" not in day or day["slides"]:
+                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pptx"><span class="sidebaricon glyphicon glyphicon-blackboard" aria-hidden="true" title="pdf"></span> Slides</a> (<a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">pdf</a>)<br/>
+                % end
                 % if "code" not in day or day["code"]:
                     <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
                 % end
             </p>
         % end
         
-        % practice = day["practice"] if "practice" in day else []
-        % if practice != []:
+        % practice = day["practice"] if "practice" in day else None
+        % if practice != None:
             <p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal{{lectureNumber}}">
                   Practice
                 </button>
             </p>
-        % end
 
-        <!-- Render the lines for any reading, and HWs due or going out -->
-        <p style="color:hsl(0, 0%, 60%);">
-            <%
-                lines = []
+            <!-- Modal displaying practice problems -->
+            <div class="modal fade" id="practiceModal{{lectureNumber}}" tabindex="-1" role="dialog" aria-labelledby="practiceLabel{{lectureNumber}}">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="practiceLabel{{lectureNumber}}">Practice Problems</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Practice with these additional problems on CodeStepByStep:</p>
+                    <ul>
+                        % for practiceProblem in practice:
+                            <li><a href="{{practiceProblem[1]}}">{{practiceProblem[0]}}</a></li>
+                        % end
+                    </ul>
 
-                if "read" in day:
-                    lines.append("Read: " + day["read"])
-                end
-                if "due" in day:
-                    lines.append("Due: Assn. " + day["due"])
-                end
-                if "out" in day:
-                    lines.append("Out: Assn. " + day["out"])
-                end
-            %>
-
-            % if len(lines) == 3:
-                {{lines[0]}} <br /> {{lines[1]}} <br /> {{lines[2]}}
-            % elif len(lines) == 2:
-                {{lines[0]}} <br /> {{lines[1]}}
-            % elif len(lines) == 1:
-                {{lines[0]}}
-            % end
-        </p>
-
-        <div class="modal fade" id="practiceModal{{lectureNumber}}" tabindex="-1" role="dialog" aria-labelledby="practiceLabel{{lectureNumber}}">
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="practiceLabel{{lectureNumber}}">Practice Problems</h4>
-              </div>
-              <div class="modal-body">
-                <p>Practice with these additional problems on CodeStepByStep:</p>
-                <ul>
-                    % for practiceProblem in practice:
-                        <li><a href="{{practiceProblem[1]}}">{{practiceProblem[0]}}</a></li>
-                    % end
-                </ul>
-
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
+        % end
+
+        <!-- Render the lines for any notes for today -->
+        % notes = day["notes"] if "notes" in day else None
+        % if notes != None:
+            <p style="color:hsl(0, 0%, 60%);">
+                % for i, note in enumerate(notes):
+                    {{note}}
+                    % if i < len(notes) - 1:
+                        <br />
+                    % end
+                % end
+            </p>
+        % end
     </div>
 </td>
