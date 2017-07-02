@@ -566,6 +566,27 @@ For a walkthrough of how to use these steps to debug a sample Karel program, see
 <!-- FAQ -->
 <h2>FAQ</h2>
 <dl>
+    <dt id="libError">
+        Q: Eclipse is showing an error in the Console "Could not save C++ lib configuration file".  Do I need to worry about this?
+    </dt>
+    <dd>
+        No.  This error should not affect the running of your programs, and you can ignore it.
+    </dd>
+    <dt id="newFile">
+        Q: I want to create another file/program within this project.  How do I do this?
+    </dt>
+    <dd>
+        <ol>
+            <li>Right-click on "default package" within the <code>src</code> folder, and go to <strong>New -> Class</strong>.</li>
+            <li>
+                In the "Name" field, enter the name for your new file.  Click "Finish".
+                <br />
+                <img style="width:50%;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/newClass.png" alt="Add New Class" />
+                <br />
+            </li>
+            <li>This will create a new file in your project.  Replace the code in that file with the code you would like to include.</li>
+        </ol>
+    </dd>
     <dt id="plugin">
         Q: Help!  I don't see the "running person", submit, import, etc. icons or the "Stanford Menu" in my Eclipse.
     </dt>
@@ -578,23 +599,23 @@ For a walkthrough of how to use these steps to debug a sample Karel program, see
     <dd>
         A: Click the "Reset" button in the Stanford Menu to reset to the default view.
         <br />
-        <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
         <br />
         You may also be in Debugger mode instead of Editor mode; use the Stanford Menu to go back to Editor mode.
         <br />
-        <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="View Toggle" />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="View Toggle" />
         <br />
     </dd>
     <dt>
-        Q: Help!  Eclipse is not letting me import a project into eclipse.  It gives me a warning at the top that "Some projects cannot be imported".
+        Q: Help!  Eclipse is not letting me import a project.  It gives me a warning at the top that "Some projects cannot be imported".
         <br />
-        <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importError.png" alt="Import Error" />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importError.png" alt="Import Error" />
         <br />
     </dt>
     <dd>
         A: This is because a project with that name is already imported into Eclipse. If you would like to import this project, you must first delete the existing project by right-clicking the project in the sidebar and selecting "Delete".  You can then choose whether to delete the project from your computer as well, or just delete the project from Eclipse.
         <br />
-        <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/deleteProject.png" alt="Delete project" />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/deleteProject.png" alt="Delete project" />
         <br />
     </dd>
 </dl>			
