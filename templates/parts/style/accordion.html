@@ -10,11 +10,12 @@ Assumes a list of category names in category, and a unique index for this accord
 
         <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="{{spacelessCategory}}Heading-{{index}}">
-                <h4 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#style-accordion-{{index}}" href="#collapse{{spacelessCategory}}-{{index}}" aria-expanded="false" aria-controls="collapse{{spacelessCategory}}-{{index}}">
-                {{category}}
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        {{category}}
+                    </h4>
                 </a>
-            </h4>
             </div>
             <div id="collapse{{spacelessCategory}}-{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading-{{index}}">
                 <div class="panel-body">
