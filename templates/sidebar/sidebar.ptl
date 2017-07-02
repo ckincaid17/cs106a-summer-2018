@@ -8,7 +8,7 @@
 	
 	<!-- Eclipse -->		
 	<img src="images/icons/eclipse-icon.png" class="sidebaricon" alt="icon">
-	<a href="{{pathToRoot}}eclipse.html">Eclipse</a><br/>
+	<a href="{{pathToRoot}}eclipse">Eclipse</a><br/>
 
 	<!-- Course Staff -->		
 	<span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
@@ -20,7 +20,7 @@
 
 	<!-- Pair Programming -->
 	<span class="sidebaricon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-	<a href="{{pathToRoot}}pair.html">Pair Programming</a> <br/>
+	<a href="{{pathToRoot}}assignments/pair.html">Pair Programming</a> <br/>
 
 	<!-- LaIR schedule -->
 	<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
