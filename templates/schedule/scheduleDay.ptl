@@ -19,7 +19,7 @@
                 % end
                 % if "code" not in day or day["code"]:
                     <br/>
-                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip"><span class="sidebaricon glyphicon glyphicon-folder-open" aria-hidden="true" title="pdf"></span> Code</a>
+                    <a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.zip"><span class="sidebaricon glyphicon glyphicon-folder-open"></span> Code</a>
                 % end
             </p>
         % end
