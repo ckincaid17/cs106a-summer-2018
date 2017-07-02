@@ -9,7 +9,7 @@ $(document).ready(function(){
 	// goes and changes each "moment" element to display how long ago that element's timestamp was.
 	$(".moment").each(function(i) {
 	    var date = $(this).html();
-	    var fromStr = moment(date, "YYYYMMDD").fromNow();
+	    var fromStr = moment(date, "YYYYMMDDHH").fromNow();
 	    $(this).html(fromStr);
 	});
 });
