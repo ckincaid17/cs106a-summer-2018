@@ -6,7 +6,8 @@ follows:
 
 ```
 bottle/ - the source files for Bottle, the library used to compile templates
-templates/ - the uncompiled Bottle templates
+templates/ - the uncompiled Bottle templates (.html represent actual pages,
+.ptl represent 'partials' that are used within other files)
 WWW/ - the output folder containing compiled pages and other static resources
 compile.py - the template compilation script
 ```
