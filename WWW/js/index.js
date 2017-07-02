@@ -12,4 +12,17 @@ $(document).ready(function(){
 	    var fromStr = moment(date, "YYYYMMDDHH").fromNow();
 	    $(this).html(fromStr);
 	});
+
+	// highlight today in the schedule calendar
+	var todayDateComponents = moment().format("MMM DD").split(" ");
+	var todayMonth = todayDateComponents[0];
+	var todayDay = parseInt(todayDateComponents[1]);
+	$(".calendarDate").each(function(i) {
+		var dateComponents = $(this).html().split(" ");
+		var month = dateComponents[0];
+		var day = parseInt(dateComponents[1]);
+		if (month.startsWith(todayMonth) && todayDay == day) {
+			$(this).css("background-color", "hsl(55, 100%, 50%)");
+		}
+	});
 });

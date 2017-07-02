@@ -5,7 +5,7 @@
 <td class="calendarCell" style="background-color:hsl(0, 0%, 95%)">
     <div style="position:relative">
         <div class="inOut"></div>
-        <p class="subtleHeading">{{day["date"]}}</p>
+        <p class="subtleHeading calendarDate">{{day["date"]}}</p>
         Holiday: {{day["title"]}}
         <br/>No Class
     </div>
