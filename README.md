@@ -18,8 +18,8 @@ subparts of various pages.  Here are the relevant files for various tasks you
 may want to do:
 
 - **Posting announcements:** add a `<div class="well">` element to
-`templates/parts/announcements.html` containing your announcement.  See existing
-announcements, as well as `templates/parts/announcements-old.html`, for example
+`templates/announcements.html` containing your announcement.  See existing
+announcements, as well as `templates/announcements-old.html`, for example
 formatting.
 
 - **Adding non-section handouts:** add the handout to `WWW/handouts/`, with the
@@ -29,12 +29,12 @@ dropdown with the format `NUMBER - SEPARATED_NAME`.
 E.g. `1 - General Information`.
 
 - **Adding section handouts:** add the handout to `WWW/section-handouts/` and
-update `templates/parts/dropdowns/sectionMaterialsDropdownList.html` to list the
+update `templates/navbar/sectionMaterialsDropdownList.html` to list the
 new handout or other materials.
 
 - **Add a new assignment:** add the assignment page template to
 `templates/assignments/` and update
-`templates/parts/dropdowns/assignmentsDropdownList.html` to list the new
+`templates/navbar/assignmentsDropdownList.html` to list the new
 assignment.
 
 - **Change the lecture schedule:** the lecture calendar and the lectures
