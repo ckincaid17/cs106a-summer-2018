@@ -3,6 +3,18 @@
 	<p class="subtleHeading">NEW ANNOUNCEMENTS</p>
 </div>
 
+<!-- Holiday -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">July 4 Holiday</div>
+		<div class="moment">2017070309</div>
+	</div>
+
+	<p>
+		As a reminder, because of the July 4 holiday, we will not have lecture tomorrow.  Additionally, there will be no helper hours or office hours tomorrow; they will resume on Wednesday 7/5.
+	</p>
+</div>
+
 <!-- Debugging -->
 <div class="well">
 	<div class="newsfeedHeader">
