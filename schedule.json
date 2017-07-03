@@ -68,12 +68,11 @@
 				"date": "July 3",
 				"filename": "Lecture5",
 				"practice": [
-					["numberLoopse3", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops3"],
+					["numberLoops3", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops3"],
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
 					["NumberSquare", "http://www.codestepbystep.com/problem/view/java/loops/NumberSquare"],
 					["RangeOfNumbers", "http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers"],
-					["SentinelSum", "http://www.codestepbystep.com/problem/view/java/loops/SentinelSum"],
-					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"]
+					["SentinelSum", "http://www.codestepbystep.com/problem/view/java/loops/SentinelSum"]
 				],
 				"notes": [
 					"Read: Java Ch. 3.4-4.6"
