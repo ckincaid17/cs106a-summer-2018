@@ -66,6 +66,7 @@
 			{
 				"title": "Booleans, Control Flow and Scope",
 				"date": "July 3",
+				"filename": "Lecture5",
 				"practice": [
 					["numberLoopse3", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops3"],
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
@@ -75,7 +76,7 @@
 					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"]
 				],
 				"notes": [
-					"Read: Java Ch. 3.4-4.6, 6.1"
+					"Read: Java Ch. 3.4-4.6"
 				]
 			},
 			{

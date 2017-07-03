@@ -10,7 +10,7 @@
 	# Find how many weeks we should show
 	maxWeekNum = -1
 	for week in schedule["weeks"]:
-		nonHolidays = [day for day in week if "type" not in day or day["type"] != "HOLIDAY"]
+		nonHolidays = [day for day in week if "type" not in day or (day["type"] != "HOLIDAY" and day["type"] != "OFF")]
 		weekFilenames = [day["filename"] if "filename" in day else None for day in nonHolidays]
 
 		# If this week has no lectures we need to add, stop here
