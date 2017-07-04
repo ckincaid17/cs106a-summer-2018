@@ -7,6 +7,14 @@
 		<p>Give methods descriptive names, such as <code>walkToEdge</code> or <code>grabAllBeepers</code>.  Avoid one-letter names or non-descriptive names, like <code>x</code> or <code>go</code> or <code>method1</code>.</p>
 	</dd>
 
+	<!-- private -->
+	<dt>
+		Methods Should Be Private
+	</dt>
+	<dd>
+		<p>Unless explicitly specified, all methods you write should be <code>private</code>, not <code>public</code>.</p>
+	</dd>
+
 	<!-- Capitalization -->
 	<dt>
 		Capitalization
@@ -71,7 +79,7 @@ public void safePickup() {
 		Recursion
 	</dt>
 	<dd>
-		<p>Recursion (which you'll learn about in CS 106B/X) is when methods call themselves.  Mutual recursion is where you have two methods that each call the other to form a cycle of calls.  In CS 106A assignments, we discourage recursion or mutual recursion, as it is sometimes tricky to understand and debug, even though it can allow for elegant solutions.  In many cases, however, recursion can be replaced with a <code>for</code> or <code>while</code> loop instead.</p>
+		<p>Recursion (which you'll learn about in CS 106B/X) is when methods call themselves.  Mutual recursion is where you have two methods that each call the other to form a cycle of calls.  In CS 106A assignments, we discourage recursion or mutual recursion, as it is sometimes tricky to understand and debug, even though it can allow for elegant solutions.  In many cases, recursion can be replaced with a <code>for</code> or <code>while</code> loop instead.</p>
 
 		<!-- recursion -->
 		<div class="row">

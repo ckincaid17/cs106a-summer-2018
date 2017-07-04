@@ -1,25 +1,27 @@
-<!-- Accordion of style categories that expand to show content.  The content is
-taken from the template file with the same name as the category but without spaces.
-E.g. "Whitespace and Indentation" would come from "WhitespaceandIndentation.ptl".
+<!-- Accordion of style categories that expand to show content.
 
-Assumes a list of category names in category, and a unique index for this accordion in index.
+Assumes a list of tuples in 'category', with each tuple representing a collapsible
+section to display.  tuple[0] is the section name, tuple[1] is the name of the
+file prefix (no filetype extension) containing that section's content.
+
+Also assumes a unique index for this accordion in 'index'.
 -->
 <div class="panel-group style-accordion" id="style-accordion-{{index}}" role="tablist" aria-multiselectable="true">
     % for category in categories:
-        % spacelessCategory = category.replace(" ", "")
+        % categoryPrefix = category[1]
 
         <div class="panel panel-default">
-            <div class="panel-heading" role="tab" id="{{spacelessCategory}}Heading-{{index}}">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#style-accordion-{{index}}" href="#collapse{{spacelessCategory}}-{{index}}" aria-expanded="false" aria-controls="collapse{{spacelessCategory}}-{{index}}">
+            <div class="panel-heading" role="tab" id="{{categoryPrefix}}Heading-{{index}}">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#style-accordion-{{index}}" href="#collapse{{categoryPrefix}}-{{index}}" aria-expanded="false" aria-controls="collapse{{categoryPrefix}}-{{index}}">
                     <h4 class="panel-title">
                         <span class="glyphicon glyphicon-chevron-up"></span>
-                        {{category}}
+                        {{category[0]}}
                     </h4>
                 </a>
             </div>
-            <div id="collapse{{spacelessCategory}}-{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{spacelessCategory}}Heading-{{index}}">
+            <div id="collapse{{categoryPrefix}}-{{index}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{categoryPrefix}}Heading-{{index}}">
                 <div class="panel-body">
-                    %include('templates/style/' + spacelessCategory + '.ptl')
+                    %include('templates/style/' + categoryPrefix + '.ptl')
                 </div>
             </div>
         </div>
