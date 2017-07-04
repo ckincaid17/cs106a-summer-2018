@@ -20,14 +20,14 @@
 			<div class="col-xs-12 col-sm-6">
 				<pre class="code-bad">
 <span class="code-comment">// bad</span>
-if (grade >= 90) {
-    println("You got an A!");
+if (points >= 90) {
+    println("You got Gold!");
 }
-if (grade >= 80 &amp;&amp; grade < 90) {
-    println("You got a B!");
+if (grade >= 70 &amp;&amp; grade &lt; 90) {
+    println("You got Silver!");
 }
-if (grade >= 70 &amp;&amp; grade < 80) {
-    println("You got a C!");
+if (grade >= 50 &amp;&amp; grade &lt; 70) {
+    println("You got Bronze!");
 }
 ...
 </pre>
@@ -36,11 +36,11 @@ if (grade >= 70 &amp;&amp; grade < 80) {
 				<pre class="code-good">
 <span class="code-comment">// good</span>
 if (grade >= 90) {
-    println("You got an A!");
-} <em>else if</em> (grade >= 80) {
-    println("You got a B!");
+    println("You got Gold!");
 } <em>else if</em> (grade >= 70) {
-    println("You got a C!");
+    println("You got Silver!");
+} <em>else if</em> (grade >= 50) {
+    println("You got Bronze!");
 }
 ...
 </pre>
