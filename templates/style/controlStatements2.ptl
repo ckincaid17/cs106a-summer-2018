@@ -53,7 +53,7 @@ if (points >= 90) {
 		Testing booleans
 	</dt>
 	<dd>
-		<p>Don't test whether a <code>boolean</code> value is <code>==</code> or <code>!=</code> to <code>true</code> or <code>false</code>.</p>
+		<p>Don't test whether a <code>boolean</code> value is <code>==</code> or <code>!=</code> to <code>true</code> or <code>false</code>.  It's not necessary!  Remember that all booleans (expressions and variables) evaluate to <code>true</code> or <code>false</code> on their own.</p>
 		<div class="row">
 			<div class="col-xs-12 col-sm-6">
 				<pre class="code-bad">
