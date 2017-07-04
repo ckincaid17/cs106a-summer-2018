@@ -13,6 +13,11 @@
         Enter your SUNet ID and password, and then click the <strong>Authenticate</strong> button. Then click <strong>Next</strong>.
     </li>
     <li>
+        (Written by Rishi, Head TA) On the next screen, you may encounter a field asking for an additional "passcode".  This passcode is an additional security step called "two-factor authentication", or "two-step", and is used university-wide.  It provides your account with additional security as it requires you to not only have your username and password, but also a unique code, usually uniquely generated each time via text message or app.  If you do not already have two-factor authentication set up, please see the Stanford <a href="https://uit.stanford.edu/service/webauth/twostep">online guide</a> for help setting it up, and for common questions.
+        <br/>
+        <img style="width:50rem" src="{{pathToRoot}}images/eclipse/twoStep.png" alt="Stanford Two Step Auth" />
+    </li>
+    <li>
         Select the assignment number for which you are making a submission, and then click <strong>Next</strong>.
     </li>
     <li>
