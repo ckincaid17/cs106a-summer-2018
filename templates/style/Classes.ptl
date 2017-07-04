@@ -26,7 +26,7 @@ public class Player {
 		Initialize Instance Variables in Constructors
 	</dt>
 	<dd>
-		<p>Don't initialize instnace variables where they are declared; instead, initialize them in the constructor.</p>
+		<p>Don't initialize instance variables where they are declared; instead, initialize them in the constructor.</p>
 		<pre>
 public class Player {
 	<del>private int numberOfLives = 10;</del>
@@ -74,7 +74,7 @@ public class Player {
 		Instance vs. Static
 	</dt>
 	<dd>
-		<p>A static variable in a class is a single occurrence shared by that class and all of its objects.  An instance variable is one that each object has its own copy of.  When designing your class, any data that should be unique to each object should be instance variables.  This still holds even if the assignment only happens to construct one instance of your class.</p>
+		<p>A static variable in a class is a single occurrence shared by that class and all of its objects.  An instance variable is one that each object has its own copy of.  When designing your class, any data that should be unique to each object should be an instance variable.  This still holds even if the assignment only happens to construct one instance of your class.</p>
 		<pre>
 public class Player {
 	<del>private static int numberOfLives;</del>  <span class="code-comment"></span>// all players share one life count (bad)
