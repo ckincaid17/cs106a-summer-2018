@@ -68,9 +68,7 @@
 				"date": "July 3",
 				"filename": "Lecture5",
 				"practice": [
-					["numberLoops3", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops3"],
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
-					["NumberSquare", "http://www.codestepbystep.com/problem/view/java/loops/NumberSquare"],
 					["RangeOfNumbers", "http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers"],
 					["SentinelSum", "http://www.codestepbystep.com/problem/view/java/loops/SentinelSum"]
 				],
@@ -90,6 +88,15 @@
 					"Read: Java Ch. 5.1-5.4",
 					"Due: Assn. 1",
 					"Out: Assn. 2"
+				],
+				"practice": [
+					["NumberSquare", "http://www.codestepbystep.com/problem/view/java/loops/NumberSquare"],
+					["numberLoops3", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops3"],
+					["boxOfStars", "http://www.codestepbystep.com/problem/view/java/parameters/boxOfStars"],
+					["triangle", "http://www.codestepbystep.com/problem/view/java/parameters/triangle"],
+					["ParameterMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ParameterMystery1"],
+					["Investment", "http://www.codestepbystep.com/problem/view/java/parameters/Investment"],
+					["BMI", "http://www.codestepbystep.com/problem/view/java/parameters/BMI"]
 				]
 			},
 			{
