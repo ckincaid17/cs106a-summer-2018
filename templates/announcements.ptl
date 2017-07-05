@@ -3,6 +3,29 @@
 	<p class="subtleHeading">NEW ANNOUNCEMENTS</p>
 </div>
 
+<!-- Assignment 2 -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">Assignment 2: Intro to Java</div>
+		<div class="moment">2017070511</div>
+	</div>
+
+	<div class="media">
+		<div class="media-left">
+			<div style="width:80px;">
+				<img class="media-object" alt="Java" src="{{pathToRoot}}images/assignments/java.png" style="width:80px">
+			</div>
+		</div>
+		
+		<div class="media-body">
+			<p>
+				For your second assignment, you will write a series of Java console programs. These programs will give you practice with concepts like variables, methods, control flow, and more.  See the <a href="{{pathToRoot}}assignments/introtojava.html">assignment page</a> for more details.
+				The assignment is due Wednesday, July 12th, but make sure to get started early!
+			</p>
+		</div>
+	</div>
+</div>
+
 <!-- Holiday -->
 <div class="well">
 	<div class="newsfeedHeader">
@@ -56,6 +79,10 @@
 		<li><strong>CLaIR queue:</strong> Sign up for the "Conceptual LaIR" (CLaIR) queue if you have a conceptual question about an assignment or material.  Note that <i>you are not allowed to ask questions about your code</i> (e.g. debugging questions) in the CLaIR queue; only conceptual questions.</li>
 		<li><strong>Standard queue:</strong> Sign up for the standard queue if you have a question that does not fit in the above categories, such as a more in-depth debugging question about your code.
 	</ul>
+</div>
+
+<div>
+	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
 </div>
 
 <!-- Assignment 1 -->
@@ -113,10 +140,6 @@
 	<p>
 		As mentioned in lecture today, as a small portion of your section participation grade we are asking each student to provide brief feedback on <strong> 2 assigned lectures</strong> throughout the quarter.  The feedback should only take a few minutes, and will be used to understand how the course is going, and to help make it better.  You will receive an email with a link to the feedback form <strong>before lecture</strong> on each day to which you are assigned.  We greatly appreciate any feedback you have to improve the course!
 	</p>
-</div>
-
-<div>
-	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
 </div>
 
 <!-- Section signups -->
