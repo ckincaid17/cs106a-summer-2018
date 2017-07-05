@@ -84,6 +84,7 @@
 			{
 				"title": "Control Flow and Parameters",
 				"date": "July 5",
+				"code": false,
 				"filename": "Lecture6",
 				"notes": [
 					"Read: Java Ch. 5.1-5.4",
