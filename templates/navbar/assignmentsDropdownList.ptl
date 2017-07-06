@@ -9,4 +9,4 @@
 <li><a href="{{pathToRoot}}assn/facePamphlet.html">7-FacePamphlet</a></li>
 -->
 <li><a href="{{pathToRoot}}assignments/karel.html">1 - Karel the Robot</a></li>
-<li><a href="{{pathToRoot}}assignments/introtojava.html">2 - Intro to Java</a></li>
+<li><a href="{{pathToRoot}}assignments/introToJava.html">2 - Intro to Java</a></li>
