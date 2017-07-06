@@ -108,7 +108,12 @@
 				"practice": [
 					["boxOfStars", "http://www.codestepbystep.com/problem/view/java/parameters/boxOfStars"],
 					["triangle", "http://www.codestepbystep.com/problem/view/java/parameters/triangle"],
-					["ParameterMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ParameterMystery1"]
+					["ParameterMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ParameterMystery1"],
+					["sumOfRange", "http://www.codestepbystep.com/problem/view/java/parameters/sumOfRange"],
+					["factorial", "http://www.codestepbystep.com/problem/view/java/parameters/factorial"],
+					["ReturnMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ReturnMystery1"],
+					["isPrimeNumber", "http://www.codestepbystep.com/problem/view/java/parameters/isPrimeNumber"],
+					["threeConsecutive", "http://www.codestepbystep.com/problem/view/java/parameters/threeConsecutive"]
 				],
 				"filename": "Lecture7"
 			},
