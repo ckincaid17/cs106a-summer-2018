@@ -28,7 +28,7 @@ Any handouts in this folder will be automatically listed in the "Handouts"
 dropdown with the format `NUMBER - SEPARATED_NAME`.
 E.g. `1 - General Information`.
 
-- **Adding section materials:** make a new folder of that section number and add
+- **Adding section materials:** make a new folder of that section number in `WWW/section/` and add
 materials according to the following naming conventions:
 	- `Section[NUM].pdf` - handout
 	- `Section[NUM].zip` - solution code
@@ -130,6 +130,7 @@ ROOT - the root URL for the hosted version of this website
 OUTPUT_DIR - the default output directory for compiled files
 TEMPLATE_DIR - the directory of templates to compile
 HANDOUTS_DIR - the directory within OUTPUT_DIR containing handout PDFs
+SECTION_DIR - the directory within OUTPUT_DIR containing each week's section materials
 ```
 
 
