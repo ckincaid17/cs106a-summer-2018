@@ -32,6 +32,7 @@ TEMPLATE_DIR = 'templates'
 
 # Assumed to be within OUTPUT_DIR
 HANDOUTS_DIR = 'handouts'
+SECTION_DIR = 'section'
 
 # The root URL at which this webpage is hosted
 ROOT = '//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/'
@@ -61,6 +62,7 @@ def compile():
     with open('schedule.json') as scheduleFile:
         scheduleData = json.load(scheduleFile)
         handoutsData = searchHandoutsDirectory()
+        sectionData = searchSectionDirectory()
 
         # Compile all templates
         templateFilePaths = getTemplateFilePaths('')
@@ -68,7 +70,7 @@ def compile():
         for templateFilePath in templateFilePaths:
             print("Compiling " + templateFilePath + "...")
             outputPath = compileTemplate(templateFilePath, scheduleData,
-                handoutsData)
+                handoutsData, sectionData)
             print(templateFilePath + " -> " + outputPath)
 
     print("\nDONE.\n")
@@ -98,7 +100,29 @@ def searchHandoutsDirectory():
 
         handoutsData.append((handoutName, filePath))
 
-    return handoutsData    
+    return handoutsData 
+
+'''
+FUNCTION: searchSectionDirectory
+---------------------------------
+Parameters: NA
+Returns: a list of URLs to section materials.  materials[i] is the path to
+the folder containing section i+1's materials.  Assumes that the following files
+are in each directory:
+    - Section[i+1]-Solutions.pdf
+    - Section[i+1].pdf
+    - Section[i}1].zip
+    - info.json
+---------------------------------
+'''
+def searchSectionDirectory():
+    sectionDirPath = OUTPUT_DIR + '/' + SECTION_DIR + '/'
+    paths = []
+    for fileName in os.listdir(sectionDirPath):
+        if not fileName.startswith("."):
+            paths.append(os.path.join(sectionDirPath, fileName))
+    paths.sort()
+    return paths
 
 '''
 FUNCTION: getTemplateFilePaths
@@ -149,21 +173,22 @@ Parameters:
                     parameter to render the template.
     handoutsData - the list of tuples of handout data.  Passed in as a parameter
                     to render the template.
+    sectionData - the list of section folders.  Passed in as a parameter to
+                    render the template.
 
 Returns: the path of the saved, compiled template file.
 
-Compiles the given template file, passing in the pathToRoot, scheduleData and
-handoutsData as template parameters.  Saves the compiled template to
-relativePath in the OUTPUT_DIR directory.
+Compiles the given template file, passing in the pathToRoot, scheduleData,
+handoutsData and sectionData as template parameters.  Saves the compiled
+template to relativePath in the OUTPUT_DIR directory.
 -------------------------
 '''
-def compileTemplate(relativePath, scheduleData,
-    handoutsData):
+def compileTemplate(relativePath, scheduleData, handoutsData, sectionData):
     pathToRoot = getPathToRootFrom(relativePath)
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
     templateText = open(filePath).read()
     compiledHtml = SimpleTemplate(templateText).render(pathToRoot=pathToRoot,
-        schedule=scheduleData, handouts=handoutsData)
+        schedule=scheduleData, handouts=handoutsData, sections=sectionData)
     compiledHtml = compiledHtml.encode('utf8')
 
     relativePath = os.path.join(OUTPUT_DIR, relativePath)

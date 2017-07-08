@@ -28,9 +28,22 @@ Any handouts in this folder will be automatically listed in the "Handouts"
 dropdown with the format `NUMBER - SEPARATED_NAME`.
 E.g. `1 - General Information`.
 
-- **Adding section handouts:** add the handout to `WWW/section-handouts/` and
-update `templates/navbar/sectionMaterialsDropdownList.html` to list the
-new handout or other materials.
+- **Adding section materials:** make a new folder of that section number and add
+materials according to the following naming conventions:
+	- `Section[NUM].pdf` - handout
+	- `Section[NUM].zip` - solution code
+	- `Section[NUM]-Solutions.pdf` - solution handout
+
+You must also add an `info.json` file to the directory that looks as follows:
+```
+{
+	"solutionsDate": "2017063017"
+}
+```
+This timestamp should be when the solution materials will be made available.
+The solution handout and code will be visible in the Section dropdown from that
+date onwards.  The section handout will be visible as soon as it is added to the
+repository.
 
 - **Add a new assignment:** add the assignment page template to
 `templates/assignments/` and update

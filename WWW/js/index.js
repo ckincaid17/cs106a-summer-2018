@@ -25,4 +25,13 @@ $(document).ready(function(){
 			$(this).css("background-color", "hsl(55, 100%, 50%)");
 		}
 	});
+
+	// only show section solutions if they should be released
+	$(".section-solutions").each(function(i) {
+	    var dateStr = $(this).attr("data-solutions-release");
+	    var releaseDate = moment(dateStr, "YYYYMMDDHH");
+	    if (!releaseDate.isSameOrBefore(moment())) {
+	    	$(this).empty();
+	    }
+	});
 });
