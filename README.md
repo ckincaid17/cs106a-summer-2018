@@ -130,6 +130,7 @@ ROOT - the root URL for the hosted version of this website
 OUTPUT_DIR - the default output directory for compiled files
 TEMPLATE_DIR - the directory of templates to compile
 HANDOUTS_DIR - the directory within OUTPUT_DIR containing handout PDFs
+SECTION_DIR - the directory within OUTPUT_DIR containing each week's section materials
 ```
 
 
