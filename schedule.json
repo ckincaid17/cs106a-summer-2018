@@ -148,7 +148,7 @@
 					"Read: Java Ch. 8.5"
 				],
 				"practice": [
-					["Caesar Cipher", "http://www.codestepbystep.com/problem/view/java/strings/CaesarCipher"],
+					["CaesarCipher", "http://www.codestepbystep.com/problem/view/java/strings/CaesarCipher"],
 					["NameGame", "http://www.codestepbystep.com/problem/view/java/strings/NameGame"],
 					["swapPairs", "http://www.codestepbystep.com/problem/view/java/strings/swapPairs"],
 					["containsTwice", "http://www.codestepbystep.com/problem/view/java/strings/containsTwice"],
