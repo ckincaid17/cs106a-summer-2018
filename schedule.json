@@ -124,12 +124,18 @@
 		],
 		[
 			{
-				"title": "Strings 1",
-				"date": "July 10"
+				"title": "Characters and Strings",
+				"date": "July 10",
+				"notes": [
+					"Read: Java Ch. 8.1-8.4"
+				]
 			},
 			{
-				"title": "Strings 2",
-				"date": "July 11"
+				"title": "Problem-Solving with Strings",
+				"date": "July 11",
+				"notes": [
+					"Read: Java Ch. 8.5"
+				]
 			},
 			{
 				"title": "Files",
