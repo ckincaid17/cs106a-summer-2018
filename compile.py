@@ -106,13 +106,14 @@ def searchHandoutsDirectory():
 FUNCTION: searchSectionDirectory
 ---------------------------------
 Parameters: NA
-Returns: a list of URLs to section materials.  materials[i] is the path to
-the folder containing section i+1's materials.  Assumes that the following files
-are in each directory:
+Returns: a list of section material tuples: (path, solutionsReleaseDateString).
+The path is the path to the folder containing section i+1's materials.  The date
+string is read from info.json and is a "YYYYMMDDHH" string of when the solution 
+materials should be released.  Assumes the following are in each directory:
     - Section[i+1]-Solutions.pdf
     - Section[i+1].pdf
-    - Section[i}1].zip
-    - info.json
+    - Section[i+1].zip
+    - info.json with the format { solutionsDate: "YYYYMMDDHH" }
 ---------------------------------
 '''
 def searchSectionDirectory():
@@ -120,7 +121,15 @@ def searchSectionDirectory():
     paths = []
     for fileName in os.listdir(sectionDirPath):
         if not fileName.startswith("."):
-            paths.append(os.path.join(sectionDirPath, fileName))
+            filePath = os.path.join(sectionDirPath, fileName)
+            with open(filePath + '/info.json', 'rb') as infoFile:
+                info = json.load(infoFile)
+                solutionsDate = info['solutionsDate']
+                paths.append((
+                        os.path.join(SECTION_DIR, fileName), 
+                        solutionsDate
+                    )
+                )
     paths.sort()
     return paths
 
