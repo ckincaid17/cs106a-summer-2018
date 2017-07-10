@@ -130,6 +130,7 @@
 					"Read: Java Ch. 8.1-8.4"
 				],
 				"code": false,
+				"filename": "Lecture8",
 				"practice": [
 					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"],
 					["Roulette", "http://www.codestepbystep.com/problem/view/java/parameters/Roulette"],
