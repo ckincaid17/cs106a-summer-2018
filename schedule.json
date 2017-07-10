@@ -129,11 +129,10 @@
 				"notes": [
 					"Read: Java Ch. 8.1-8.4"
 				],
+				"code": false,
 				"practice": [
 					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"],
 					["Roulette", "http://www.codestepbystep.com/problem/view/java/parameters/Roulette"],
-					["Reverse", "http://www.codestepbystep.com/problem/view/java/strings/reverse"],
-					["isPalindrome", "http://www.codestepbystep.com/problem/view/java/strings/isPalindrome"],
 					["convertToAltCaps", "http://www.codestepbystep.com/problem/view/java/strings/convertToAltCaps"],
 					["isVowel", "http://www.codestepbystep.com/problem/view/java/strings/isVowel"],
 					["repeat", "http://www.codestepbystep.com/problem/view/java/strings/repeat"],
@@ -148,8 +147,9 @@
 					"Read: Java Ch. 8.5"
 				],
 				"practice": [
+					["Reverse", "http://www.codestepbystep.com/problem/view/java/strings/reverse"],
+					["isPalindrome", "http://www.codestepbystep.com/problem/view/java/strings/isPalindrome"],
 					["CaesarCipher", "http://www.codestepbystep.com/problem/view/java/strings/CaesarCipher"],
-					["NameGame", "http://www.codestepbystep.com/problem/view/java/strings/NameGame"],
 					["swapPairs", "http://www.codestepbystep.com/problem/view/java/strings/swapPairs"],
 					["containsTwice", "http://www.codestepbystep.com/problem/view/java/strings/containsTwice"],
 					["nameDiamond", "http://www.codestepbystep.com/problem/view/java/strings/nameDiamond"]
