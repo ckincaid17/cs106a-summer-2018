@@ -147,6 +147,7 @@
 				"notes": [
 					"Read: Java Ch. 8.5"
 				],
+				"filename": "Lecture9",
 				"practice": [
 					["Reverse", "http://www.codestepbystep.com/problem/view/java/strings/reverse"],
 					["isPalindrome", "http://www.codestepbystep.com/problem/view/java/strings/isPalindrome"],
