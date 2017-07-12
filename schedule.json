@@ -161,11 +161,16 @@
 				"title": "File Reading",
 				"date": "July 12",
 				"filename": "Lecture10",
-				"code": false,
 				"notes": [
 					"Read: Java Ch. 12.4",
 					"Due: Assn. 2",
 					"Out: Assn. 3"
+				],
+				"practice": [
+					["flipCoins", "http://www.codestepbystep.com/problem/view/java/fileio/flipCoins"],
+					["Weather", "http://www.codestepbystep.com/problem/view/java/fileio/Weather"],
+					["Election", "http://www.codestepbystep.com/problem/view/java/fileio/Election"],
+					["Hours", "http://www.codestepbystep.com/problem/view/java/fileio/Hours"]
 				]
 			},
 			{
