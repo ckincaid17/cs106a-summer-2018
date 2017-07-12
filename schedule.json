@@ -160,6 +160,8 @@
 			{
 				"title": "File Reading",
 				"date": "July 12",
+				"filename": "Lecture10",
+				"code": false,
 				"notes": [
 					"Read: Java Ch. 12.4",
 					"Due: Assn. 2",
