@@ -175,7 +175,16 @@
 			},
 			{
 				"title": "Graphics",
-				"date": "July 13"
+				"notes": [
+					"Read: Java Ch. 9.1-9.3"
+				],
+				"date": "July 13",
+				"filename": "Lecture11",
+				"practice": [
+					["SmileyFace", "http://www.codestepbystep.com/problem/view/java/graphics/SmileyFace"],
+					["CircleLoops", "http://www.codestepbystep.com/problem/view/java/graphics/CircleLoops"],
+					["PumpkinPie", "http://www.codestepbystep.com/problem/view/java/graphics/PumpkinPie"]
+				]
 			},
 			{
 				"type": "OFF",
