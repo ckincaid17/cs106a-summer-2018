@@ -193,19 +193,22 @@
 		],
 		[
 			{
-				"title": "Animation",
+				"title": "More Graphics",
+				"notes": [
+					"Read: Java Ch. 9.1-9.3"
+				],
 				"date": "July 17"
 			},
 			{
-				"title": "Events",
+				"title": "Animation",
 				"date": "July 18"
 			},
 			{
-				"title": "Memory + Debugging",
+				"title": "Events",
 				"date": "July 19"
 			},
 			{
-				"title": "Classes 1",
+				"title": "Memory and Debugging",
 				"date": "July 20",
 				"notes": [
 					"Due: Assn. 3",
@@ -224,15 +227,15 @@
 				"title": "Exam Study Day (Midterm 7-9PM)"
 			},
 			{
-				"title": "Classes 2",
+				"title": "Classes 1",
 				"date": "July 25"
 			},
 			{
-				"title": "Arrays",
+				"title": "Classes 2",
 				"date": "July 26"
 			},
 			{
-				"title": "2D Arrays",
+				"title": "Arrays",
 				"date": "July 27"
 			},
 			{
@@ -242,7 +245,7 @@
 		],
 		[
 			{
-				"title": "ArrayLists",
+				"title": "2D Arrays",
 				"date": "July 31",
 				"notes": [
 					"Due: Assn. 4",
@@ -250,15 +253,15 @@
 				]
 			},
 			{
-				"title": "HashMaps",
+				"title": "ArrayLists",
 				"date": "August 1"
 			},
 			{
-				"title": "Inheritance",
+				"title": "HashMaps",
 				"date": "August 2"
 			},
 			{
-				"title": "Interactors",
+				"title": "Inheritance",
 				"date": "August 3"
 			},
 			{
@@ -268,7 +271,7 @@
 		],
 		[
 			{
-				"title": "Client/Server 1",
+				"title": "Interactors",
 				"date": "August 7",
 				"notes": [
 					"Due: Assn. 5",
@@ -276,7 +279,7 @@
 				]
 			},
 			{
-				"title": "Client/Server 2",
+				"title": "TBD",
 				"date": "August 8"
 			},
 			{
