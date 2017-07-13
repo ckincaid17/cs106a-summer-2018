@@ -33,6 +33,9 @@
 <%	
 	else:
 		for i in range(maxWeekNum + 1):
+%>
+			<li class="dropdown-header">Week {{i+1}}</li>
+<%
 			for day in schedule["weeks"][i]:
 				if ("type" not in day or (day["type"] != "HOLIDAY")) and "filename" in day:
 					filename = day["filename"]

@@ -59,9 +59,9 @@
                     <ul class="dropdown-menu">
                         %include templates/navbar/sectionMaterialsDropdownList.ptl
                         <li class="divider"></li>
-                        <li><a href="https://cs198.stanford.edu/cs198/auth/default.aspx">View My Section</a></li>
-                        <li><a href="https://cs198.stanford.edu/cs198/auth/section/ViewSections.aspx?class=1">List of all section times/locations</a></li>
-                        <li><a href="https://cs198.stanford.edu/cs198/auth/section/DropClass.aspx?class=1">Drop Section</a></li>
+                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/default.aspx">View My Section</a></li>
+                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/ViewSections.aspx?class=1">List of all section times/locations</a></li>
+                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/DropClass.aspx?class=1">Drop Section</a></li>
                     </ul>
                 </li>
             </ul>
