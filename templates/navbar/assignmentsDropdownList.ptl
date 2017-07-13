@@ -10,3 +10,4 @@
 -->
 <li><a href="{{pathToRoot}}assignments/karel.html">1 - Karel the Robot</a></li>
 <li><a href="{{pathToRoot}}assignments/introToJava.html">2 - Intro to Java</a></li>
+<li><a href="{{pathToRoot}}assignments/hangman.html">3 - Hangman</a></li>
