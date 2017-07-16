@@ -201,11 +201,25 @@
 			},
 			{
 				"title": "Animation",
+				"notes": [
+					"read: Java Ch. 6"
+				],
 				"date": "July 18"
 			},
 			{
 				"title": "Events",
-				"date": "July 19"
+				"date": "July 19",
+				"notes": [
+					"read: Java. Ch. 10.1-10.3"
+				],
+				"practice": [
+					["GoogleyEyes", "http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes"],
+					["Frogger", "http://www.codestepbystep.com/problem/view/java/graphics/Frogger"],
+					["PicturePanel", "http://www.codestepbystep.com/problem/view/java/graphics/PicturePanel"],
+					["ShapeStamper", "http://www.codestepbystep.com/problem/view/java/graphics/ShapeStamper"],
+					["CircleJumper", "http://www.codestepbystep.com/problem/view/java/graphics/CircleJumper"],
+					["TicTacToe", "http://www.codestepbystep.com/problem/view/java/graphics/TicTacToe"]
+				]
 			},
 			{
 				"title": "Memory and Debugging",

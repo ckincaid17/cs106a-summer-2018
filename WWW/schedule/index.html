@@ -927,6 +927,9 @@ materials.  See README for more info.
         
 
         <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    read: Java Ch. 6
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
@@ -942,8 +945,44 @@ materials.  See README for more info.
 
         <!-- If there is a filename, render links to the lecture materials -->
         
+            <p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary btn-xs" data-toggle="modal" data-target="#practiceModal14">
+                  Practice
+                </button>
+            </p>
+
+            <!-- Modal displaying practice problems -->
+            <div class="modal fade" id="practiceModal14" tabindex="-1" role="dialog" aria-labelledby="practiceLabel14">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="practiceLabel14">Practice Problems</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>Practice with these additional problems on CodeStepByStep:</p>
+                    <ul>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes">GoogleyEyes</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/Frogger">Frogger</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/PicturePanel">PicturePanel</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/ShapeStamper">ShapeStamper</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/CircleJumper">CircleJumper</a></li>
+                            <li><a href="http://www.codestepbystep.com/problem/view/java/graphics/TicTacToe">TicTacToe</a></li>
+                    </ul>
+
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
         <!-- Render the lines for any notes for today -->
+            <p style="color:hsl(0, 0%, 60%);">
+                    read: Java. Ch. 10.1-10.3
+            </p>
     </div>
 </td><!--
     Template that renders a single cell for a single lecture day.  Assumes a
