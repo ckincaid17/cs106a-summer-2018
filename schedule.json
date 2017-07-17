@@ -194,15 +194,16 @@
 		[
 			{
 				"title": "More Graphics",
+				"filename": "Lecture12",
 				"notes": [
-					"Read: Java Ch. 9.1-9.3"
+					"Read: Java Ch. 9.4"
 				],
 				"date": "July 17"
 			},
 			{
 				"title": "Animation",
 				"notes": [
-					"read: Java Ch. 6"
+					"Read: Java Ch. 9"
 				],
 				"date": "July 18"
 			},
@@ -210,7 +211,7 @@
 				"title": "Events",
 				"date": "July 19",
 				"notes": [
-					"read: Java. Ch. 10.1-10.3"
+					"read: Java. Ch. 10.1-10.4"
 				],
 				"practice": [
 					["GoogleyEyes", "http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes"],
