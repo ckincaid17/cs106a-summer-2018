@@ -10,37 +10,52 @@
 
 <!-- Info/Dates -->
 <div class="row">
-	<div class="col-xs-0 col-sm-2"></div>
-	<div class="col-xs-6 col-sm-4">
+
+	<div class="col-xs-6">
 	    <div class="well">
 	        <b>Exam</b>
-	        <br/>
+	        <br />
 	        <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Monday, July 24
-	        <br/>
+	        <br />
 
 	        <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 7-9PM PST
-	        <br/>
+	        <br />
 
 	        <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> Hewlett 200
-	        <br/>
+	        <br />
+	        <br />
+
+	        <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+	        <div class="google-maps">
+	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.345197243158!2d-122.1750263848679!3d37.42894923975373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ae177cc91%3A0x5351ffed56456da8!2sWilliam+R.+Hewlett+Teaching+Center%2C+370+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500400060838" width="600" height="450" style="border:0" allowfullscreen></iframe>
+	        </div>
 	    </div>
 	</div>
-	<div class="col-xs-6 col-sm-4">
+	<div class="col-xs-6">
 	    <div class="well">
-	        <b>Review Session</b>
-	        <br/>
+	        <b>Review Session (recorded)</b>
+	        <br />
 	        <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Friday, July 21
-	        <br/>
+	        <br />
 
 	        <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 3:30-4:50PM PST
-	        <br/>
+	        <br />
 
-	        <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> Gates B03 (recorded)
-	        <br/>
+	        <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> Gates B03 (basement)
+	        <br />
+	        <br />
+	        <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+	        <div class="google-maps">
+	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783500653!2d-122.17568493444799!3d37.4301523298236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500425297459" width="600" height="450" style="border:0" allowfullscreen></iframe>
+	        </div>
 	    </div>
 	</div>
-	<div class="col-xs-0 col-sm-2"></div>
+
 </div>
+
+<p style="margin-bottom: 2em">
+	<em>Updated 7/18 5PM PST: added Exam Strategies section, clarified that try/catch is covered on the midterm (see "Scanner and File Processing" in Material Covered), requested that if you use pencil on the exam, please write <i>firmly</i> so your work is readable (see "Grading" in Logistics), and added note that you may use sample code methods/classes included in the books by citing where the code is from (see "Grading" in Logistics).</em>
+</p>
 
 <!-- Logistics -->
 <h2>Logistics</h2>
@@ -67,7 +82,9 @@
 
 	<p>We will provide ample blank pages after every problem in which to write your solutions.  An answer to a problem not in the designated answer pages for that problem will <i>not receive any credit.</i></p>
 
-	</li>
+	<p>You may write in pencil or pen on the exam, however as we mention in the <i>Exam Strategies</i> section further down, we highly recommend you <i>write in pencil.</i>  <i>Please make sure to write firmly</i> so that your writing is not too light and can be easily read.</p>
+
+	<p>If you know of a method/class in the Karel coursereader or textbook that would help (for example, from an included sample problem or from sample code - this does not pertain to code <i>in</i> the Stanford Libraries such as turnAround(), getWidth(), setColor, etc.), you can simply cite what section/chapter it is from and use it. You do not need to rewrite it.</p></li>
 </ul>
 
 
@@ -90,7 +107,7 @@
 
 	<li><p><strong>Strings and <code>char</code>:</strong> given a piece of Java code that interacts with text, evaluate it and write its output/results; and/or, write Java code that processes strings and characters to produce a given result.</p></li>
 
-	<li><p><strong>Scanner and File Processing:</strong> write Java code that uses a Scanner to read data from a file in a given format and produce a particular result.</p></li>
+	<li><p><strong>Scanner and File Processing:</strong> write Java code that uses a Scanner (and try/catch) to read data from a file in a given format and produce a particular result.</p></li>
 
 	<li><p><strong>GraphicsPrograms:</strong> write Java code to implement a graphics program with certain behavior using Stanford's libraries; this may include drawing shapes such as GRect, GOval, etc., animation, and/or handling mouse events.</p></li>
 </ul>
@@ -133,7 +150,7 @@
 
 <p><strong>Consider the point value of each question.</strong> Divide the total minutes by the total number of points to figure the time per point and use that as guide when allocating your time across the problems. You may want to reserve a little time for checking your work at the end as well.</p>
 
-<p><strong>Leverage the materials you bring with you.</strong> If you know of a method/class in the Karel coursereader or textbook that would help, you can simply cite what section/chapter it is from and use it. You do not need to rewrite it.</p>
+<p><strong>Leverage the materials you bring with you.</strong> If you know of a method/class in the Karel coursereader or textbook that would help (for example, from an included sample problem or from sample code - this does not pertain to code <i>in</i> the Stanford Libraries such as turnAround(), getWidth(), setColor, etc.), you can simply cite what section/chapter it is from and use it. You do not need to rewrite it.</p>
 
 <p><strong>Style and decomposition are secondary to correctness.</strong> Unlike the assignments where we hold you to high standards in all areas, for an exam, unless a question explicitly says otherwise, your responses will only be graded on functionality. Decomposition and style are thus somewhat de-emphasized. However, good design may make it easier for you to get the functionality correct and require less code, which takes less time and has fewer opportunities for errors. Moreover, when a solution is incorrect, good stylistic practices such as commenting may help us determine what you were trying to do and award partial credit.</p>
 
@@ -143,7 +160,7 @@
 
 <p><strong>Syntax is not that important if it is clear what you mean.</strong> We won't trouble you about most small syntax errors (forgetting semi-colons, misspellings, etc.) as long as your intentions are clear. Having said that, if your syntax errors cause ambiguity, we might not get the correct meaning. For example, if we see a for statement followed by two lines, where both lines are vaguely indented or a third line has been added in after the fact, but you forgot curly braces, we may be confused. If there are braces around all the lines, it will be clear you intended both to be a part of the loop body, but without the braces, we can’t be sure and it may make your answer incorrect.</p>
 
-<p><strong>Write in pencil.</strong> CS exams done in pen are often messy. Your first draft may have “typos” (e.g., missing parameters in method call, statements out of order), and in pencil, you can easily erase to make the necessary corrections. In pen, it is hard to make such changes and still keep your intentions clear.</p>
+<p><strong>Write in (firm) pencil.</strong> CS exams done in pen are often messy. Your first draft may have “typos” (e.g., missing parameters in method call, statements out of order), and in pencil, you can easily erase to make the necessary corrections. In pen, it is hard to make such changes and still keep your intentions clear.  Make sure to write firmly so that your handwriting is not too light and can be read!</p>
 
 <p><strong>Cross out abandoned attempts rather than erasing them.</strong> As it usually turns out on a CS exam, you will have false starts on a problem — you try one strategy and hit a dead end. You try something else and then
 realize you actually were closer to the right solution the first time. If you haven’t erased your first attempt, you can always go back to it. Once you work out a better answer, cross out your earlier attempt. When you cross out work, please direct us to where you have written the solution you want graded instead. If you forget to cross out your bad attempt and hence appear to have two answers, we reserve the right to pick which one to grade.</p>
