@@ -11,7 +11,7 @@
 	</div>
 
 	<p>
-		The midterm is coming up <strong>Monday, July 24 7-9PM PST in Hewlett 200</strong>.  For detailed information, including material to study, exam policies, and practice material, please see the <a href="{{pathToRoot}}exams/midterm.html">midterm info webpage</a>, also linked to in the sidebar at left.
+		The midterm is coming up <strong>Monday, July 24 7-9PM PST in Hewlett 200</strong>, and a recorded review session will be held on <strong>Friday, July 21 3:30-4:50PM PST in Gates B03</strong>.  For detailed information, including material to study, exam policies, and practice material, please see the midterm info webpage, linked to in the sidebar at left.
 	</p>
 	<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
 	<div class="google-maps">
