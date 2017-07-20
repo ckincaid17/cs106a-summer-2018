@@ -231,6 +231,10 @@
 				"notes": [
 					"Due: Assn. 3",
 					"Out: Assn. 4"
+				],
+				"practice": [
+					["UFOGame (see lecture code)", ""],
+					["GoogleyEyes", "http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes"]
 				]
 			},
 			{
