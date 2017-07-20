@@ -11,7 +11,7 @@
 	</div>
 
 	<p>
-		<img style="width:100%" src="{{pathToRoot}}images/assignments/breakout.png"></img>
+		<img style="width:100%" alt="Breakout" src="{{pathToRoot}}images/assignments/breakout.png" />
 	</p>
 
 	<p>
@@ -53,7 +53,7 @@
 	<div class="media">
 		<div class="media-left">
 			<div style="width:80px;">
-				<img class="media-object" alt="Hangman" src="{{pathToRoot}}images/assignments/hangman.png" style="width:80px">
+				<img class="media-object" alt="Hangman" src="{{pathToRoot}}images/assignments/hangman.png" style="width:80px" />
 			</div>
 		</div>
 		
@@ -102,7 +102,7 @@
 	<div class="media">
 		<div class="media-left">
 			<div style="width:80px;">
-				<img class="media-object" alt="Java" src="{{pathToRoot}}images/assignments/java.png" style="width:80px">
+				<img class="media-object" alt="Java" src="{{pathToRoot}}images/assignments/java.png" style="width:80px" />
 			</div>
 		</div>
 		
@@ -180,7 +180,7 @@
 	<div class="media">
 		<div class="media-left">
 			<div style="width:80px;">
-				<img class="media-object" alt="Karel the Robot" src="{{pathToRoot}}images/assignments/karel.png" style="width:80px">
+				<img class="media-object" alt="Karel the Robot" src="{{pathToRoot}}images/assignments/karel.png" style="width:80px" />
 			</div>
 		</div>
 		
