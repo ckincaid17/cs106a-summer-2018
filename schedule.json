@@ -225,7 +225,8 @@
 				]
 			},
 			{
-				"title": "Memory and Debugging",
+				"title": "Events and Memory",
+				"filename": "Lecture15",
 				"date": "July 20",
 				"notes": [
 					"Due: Assn. 3",
