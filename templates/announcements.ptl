@@ -3,7 +3,19 @@
 	<p class="subtleHeading">NEW ANNOUNCEMENTS</p>
 </div>
 
-<!-- Assignment 2 -->
+<!-- Assignment 4 -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">Midterm Review Session Materials</div>
+		<div class="moment">2017072118</div>
+	</div>
+
+	<p>
+		Thanks to everyone who came to the midterm review session today!  A recording of the session is now available at the "Lecture Videos" link to the left.  A copy of the slides from today are also available on the Midterm page under "Practice Materials".
+	</p>
+</div>
+
+<!-- Assignment 4 -->
 <div class="well">
 	<div class="newsfeedHeader">
 		<div class="newsfeedTitle">Assignment 4: Artistry and Breakout</div>
