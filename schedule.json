@@ -213,7 +213,7 @@
 				"date": "July 19",
 				"filename": "Lecture14",
 				"notes": [
-					"read: Java. Ch. 10.1-10.4"
+					"read: Java Ch. 10.1-10.4"
 				],
 				"practice": [
 					["GoogleyEyes", "http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes"],
@@ -249,15 +249,35 @@
 				"title": "Exam Study Day (Midterm 7-9PM)"
 			},
 			{
-				"title": "Classes 1",
-				"date": "July 25"
-			},
-			{
-				"title": "Classes 2",
-				"date": "July 26"
-			},
-			{
 				"title": "Arrays",
+				"date": "July 25",
+				"notes": [
+					"read: Java Ch. 11.1-11.5"
+				],
+				"practice": [
+					["mystery1", "http://www.codestepbystep.com/problem/view/java/arrays/mystery1"],
+					["print", "http://www.codestepbystep.com/problem/view/java/arrays/print"],
+					["computeAverage", "http://www.codestepbystep.com/problem/view/java/arrays/computeAverage"],
+					["sorted", "http://www.codestepbystep.com/problem/view/java/arrays/sorted"],
+					["countDuplicates", "http://www.codestepbystep.com/problem/view/java/arrays/countDuplicates"],
+					["switchPairs", "http://www.codestepbystep.com/problem/view/java/arrays/switchPairs"]
+				]
+			},
+			{
+				"title": "2D Arrays",
+				"date": "July 26",
+				"notes": [
+					"read: Java Ch. 11.6-11.7"
+				],
+				"practice": [
+					["array2dMystery2", "http://www.codestepbystep.com/problem/view/java/arrays/2d/array2dMystery2"],
+					["isUnique", "http://www.codestepbystep.com/problem/view/java/arrays/2d/isUnique"],
+					["matrixSum", "http://www.codestepbystep.com/problem/view/java/arrays/2d/matrixSum"],
+					["wideFlip", "http://www.codestepbystep.com/problem/view/java/arrays/2d/wideFlip"]
+				]
+			},
+			{
+				"title": "More Arrays",
 				"date": "July 27"
 			},
 			{
@@ -267,7 +287,7 @@
 		],
 		[
 			{
-				"title": "2D Arrays",
+				"title": "ArrayLists",
 				"date": "July 31",
 				"notes": [
 					"Due: Assn. 4",
@@ -275,15 +295,15 @@
 				]
 			},
 			{
-				"title": "ArrayLists",
+				"title": "HashMaps",
 				"date": "August 1"
 			},
 			{
-				"title": "HashMaps",
+				"title": "Classes",
 				"date": "August 2"
 			},
 			{
-				"title": "Inheritance",
+				"title": "More Classes",
 				"date": "August 3"
 			},
 			{
