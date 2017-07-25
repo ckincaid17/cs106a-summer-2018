@@ -254,6 +254,7 @@
 				"notes": [
 					"read: Java Ch. 11.1-11.5"
 				],
+				"filename": "Lecture16",
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/arrays/mystery1"],
 					["print", "http://www.codestepbystep.com/problem/view/java/arrays/print"],
