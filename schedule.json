@@ -270,6 +270,7 @@
 				"notes": [
 					"read: Java Ch. 11.6-11.7"
 				],
+				"filename": "Lecture17",
 				"practice": [
 					["array2dMystery2", "http://www.codestepbystep.com/problem/view/java/arrays/2d/array2dMystery2"],
 					["isUnique", "http://www.codestepbystep.com/problem/view/java/arrays/2d/isUnique"],
