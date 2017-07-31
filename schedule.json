@@ -291,22 +291,38 @@
 		[
 			{
 				"title": "ArrayLists",
+				"filename": "Lecture19",
 				"date": "July 31",
+				"practice": [
+					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
+					["switchPairs", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/switchPairs"],
+					["removeRange", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/removeRange"]
+				],
 				"notes": [
+					"read: Java Ch. 11.8",
 					"Due: Assn. 4",
 					"Out: Assn. 5"
 				]
 			},
 			{
 				"title": "HashMaps",
+				"notes": [
+					"read: Java Ch. 13.2"
+				],
 				"date": "August 1"
 			},
 			{
 				"title": "Classes",
+				"notes": [
+					"read: Java Ch. 6"
+				],
 				"date": "August 2"
 			},
 			{
 				"title": "More Classes",
+				"notes": [
+					"read: Java Ch. 6"
+				],
 				"date": "August 3"
 			},
 			{
