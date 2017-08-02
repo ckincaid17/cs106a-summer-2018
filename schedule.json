@@ -319,8 +319,13 @@
 			},
 			{
 				"title": "Classes",
+				"filename": "Lecture21",
 				"notes": [
 					"read: Java Ch. 6"
+				],
+				"practice": [
+					["Circle", "http://www.codestepbystep.com/problem/view/java/classes/Circle"],
+					["Date", "http://www.codestepbystep.com/problem/view/java/classes/Date"]
 				],
 				"date": "August 2"
 			},
