@@ -334,6 +334,11 @@
 				"notes": [
 					"read: Java Ch. 6"
 				],
+				"practice": [
+					["BankAccount-transactionFee", "http://www.codestepbystep.com/problem/view/java/classes/BankAccount%2DtransactionFee"],
+					["Clock-advance", "http://www.codestepbystep.com/problem/view/java/classes/Clock%2Dadvance"]
+				],
+				"filename": "Lecture22",
 				"date": "August 3"
 			},
 			{
