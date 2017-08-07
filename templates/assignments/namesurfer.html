@@ -1,0 +1,151 @@
+% rebase('templates/template.ptl', title='CS 106A | Assignment 6')
+
+<!-- Header -->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="pageHeader">
+			<h1>Assignment 6: NameSurfer</h1>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
+				Due: Tuesday, August 15, 11AM PST
+			</p>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
+				May be done in pairs
+			</p>
+		</div>
+		<hr/>
+
+
+		<div class="alert alert-info"><b>Important:</b> As noted in the General Information handout, we will not be accepting any late submissions for this assignment, even if you have late days remaining.</div>
+	</div>
+</div>
+
+<!-- Image -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align: center;"><img style="width: 100%;" alt="ImageShop" src="{{pathToRoot}}images/assignments/namesurfer.png" /></p>
+	</div>
+</div>
+
+<!-- Caption -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align:center">
+			<i>Your sixth assignment is a baby name graphing program that will give you practice with data structures, classes and interactors.</i>
+		</p>
+	</div>
+</div>
+
+<!-- Description -->
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Getting Started</h2>
+		<p>
+			There is a starter project including all of these problems that you can access using the link below. Once you have the starter code set up, edit the program files so that the assignment actually does what it’s supposed to do (see the assignment handout), which will involve a cycle of coding, testing, and debugging until everything works. The final step is to submit your assignment.
+		</p>
+		<p>
+			This assignment may (optionally) be done in pairs.  <strong>As a reminder, you may only pair up with others with the same section time and location.</strong>
+		</p>
+	</div>
+</div>
+
+<!-- Assignment Files -->
+<h2>Assignment Files</h2>
+<p>To run the demo, download the zip file below and unzip, and double-click the enclosed JAR file to run.  If you are unable to run it by double-clicking, right-click on the demo JAR file and click "Open".</p>
+<div class="row">
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}handouts/assignments/Assignment6.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Handout</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment6.zip"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Starter Code</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment6-Demo.zip"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Demo</span></a>
+	</div>
+</div>
+
+<!-- Output files -->
+<h2>Output Files</h2>
+<p>If you would like to view them separately, the output image files, which are already included in the starter code in the <code>output</code> folder, are listed below as well.  For more example output, please see the demo program, linked above.  In the demo, you can go to File->Save and save images of the graph to compare to.</p>
+<ul>
+	<li><a href="{{pathToRoot}}resources/namesurfer/initial.png">Initial graph</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/alfonzo.png">Graphing "Alfonzo"</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/emily.png">Graphing "Emily"</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/lisa.png">Graphing "Lisa"</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/alfonzo-emily.png">Graphing "Alfonzo" and "Emily"</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/lisa-martin.png">Graphing "Lisa" and "Martin"</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/lisa-martin-stephanie.png">Graphing "Lisa", "Martin" and "Stephanie"</a>
+	<li><a href="{{pathToRoot}}resources/namesurfer/lisa-martin-stephanie-kelly.png">Graphing "Lisa", "Martin", "Stephanie" and "Kelly"</a>
+
+</ul>
+
+<!-- Resources -->
+<h2>Other Resources</h2>
+<p>Note: the "Debugging with Karel" handout still provides valuable debugging tips for Java programs!  In particular, the debugger functions identically for Karel and Java programs.  You can also mouse over variables while the program is paused in the debugger to view their current value (super useful for arrays!)</p>
+<div class="row">
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}eclipse"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>Eclipse Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}style/"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>Style Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/4-Debugging-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Debugging with Karel</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/2-The-Honor-Code.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>The Honor Code</span></a>
+	</div>
+</div>
+
+<!-- FAQ -->
+<h2>F.A.Q.</h2>
+<dl>
+	<dt id="println">
+		Q: I am trying to use println to debug my program, but it's not working.  Why not?
+	</dt>
+	<dd>
+		A: You can certainly debug using print statements in this assignment (or the debugger!), and we encourage it.  But not all files in this assignment are programs (some just define new variable types!), so you cannot call <code>println</code>.  To get around this, instead of writing just <code>println</code>, you need to write <code>System.out.println</code>, and the output will appear in the "Console" tab at the bottom of your Eclipse window.
+	</dd>
+	<dt id="int">
+		Q: Why is it that all of my calculations in NameSurferGraph come out with a result of 0?
+	</dt>
+	<dd>
+		A: This could be because you are using integer division, or you are calling getWidth() or getHeight() before the canvas has been added to the screen.
+	</dd>
+	<dt id="eclipsebroken">
+		Q: I'm having trouble getting Eclipse to work!  Help!
+	</dt>
+	<dd>
+		A: Please make sure you followed the instructions in our Eclipse Guide above.  If you are still having trouble, please come to Nick or Rishi's office hours, or stop by the LaIR.
+	</dd>
+	<dt id="eclipserefresh">
+		Q: Eclipse is giving me a strange message about a file being "out of sync" with the file system.
+		It says I can press F5 to refresh the file.  What does this mean?
+	</dt>
+	<dd>
+		A: This happens if you edit/change your file outside of Eclipse. Just press F5 and Eclipse will show you the newest version of the file.
+	</dd>
+	<dt id="renamefiles">
+		Q: I didn't like the program name, such as <code>NameSurfer</code>, so I renamed it to my own name such as <code>DaveIsGreat</code>.
+		That is okay, right?
+	</dt>
+	<dd>
+		A: No. For grading purposes, we need you to leave the program names the way we named them.
+	</dd>
+	<dt id="turnin">
+		Q: How do I turn in the assignment?
+		How do I know if my submission was successful?
+	</dt>
+	<dd>
+		A: Please see the Eclipse Guide link above for more information about submitting.
+	</dd>
+	<dt id="infiniteloop">
+		Q: Why doesn't my Java program say "[completed]" in the top status bar when it is done?
+	</dt>
+	<dd>
+		A: This is often because your program contains an infinite loop.  Make sure all of your loops are terminating properly when your program is finished!  Also see the debugging handout above for how to use the Eclipse debugger to track down and squash bugs.
+	</dd>
+	<dt id="pregrade">
+		Q: Will my solution get full credit?
+		Is it written in the style you want?
+		Will I get marked off for this code?
+	</dt>
+	<dd>
+		A: In general we cannot answer these kinds of questions. We call this "pre-grading." The section leader/TA/instructor can't look over your entire program for mistakes or tell you exactly what things you will get marked off for; we don't have the resources to provide such a service, and even if we did, we want you to learn how to gain these intuitions on your own. We'll grade you on the guidelines in the homework document and style guide, and we can help you with specific issues and questions about your code, but we cannot pre-evaluate your entire program for you or give you advance warning about every possible mistake or violation.
+	</dd>
+</dl>

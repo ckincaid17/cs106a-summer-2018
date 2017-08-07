@@ -13,3 +13,4 @@
 <li><a href="{{pathToRoot}}assignments/hangman.html">3 - Hangman</a></li>
 <li><a href="{{pathToRoot}}assignments/breakout.html">4 - Artistry and Breakout</a></li>
 <li><a href="{{pathToRoot}}assignments/imageshop.html">5 - ImageShop</a></li>
+<li><a href="{{pathToRoot}}assignments/namesurfer.html">6 - NameSurfer</a></li>
