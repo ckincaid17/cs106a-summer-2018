@@ -350,22 +350,26 @@
 			{
 				"title": "Interactors",
 				"date": "August 7",
+				"practice": [
+					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
+				],
+				"filename": "Lecture23",
 				"notes": [
 					"Due: Assn. 5",
 					"Out: Assn. 6"
 				]
 			},
 			{
-				"title": "TBD",
+				"title": "NameSurfer",
 				"date": "August 8"
 			},
 			{
-				"title": "TBD",
+				"title": "Life After CS106A, Part 1",
 				"date": "August 9"
 			},
 			{
-				"title": "Standard Java",
-				"date": "August 14"
+				"title": "Life After CS106A, Part 2",
+				"date": "August 10"
 			},
 			{
 				"type": "OFF",
@@ -375,18 +379,18 @@
 		[
 			{
 				"title": "Final Exam Review 1",
-				"date": "August 15"
+				"date": "August 14"
 			},
 			{
 				"title": "Final Exam Review 2 / Wrapup",
-				"date": "August 16",
+				"date": "August 15",
 				"notes": [
 					"Due: Assn. 6"
 				]
 			},
 			{
 				"type": "HOLIDAY",
-				"date": "August 17",
+				"date": "August 16",
 				"title": "Exam Study Day"
 			},
 			{
