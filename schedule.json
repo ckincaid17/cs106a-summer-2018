@@ -348,7 +348,7 @@
 		],
 		[
 			{
-				"title": "Interactors",
+				"title": "GCanvas and Interactors",
 				"date": "August 7",
 				"practice": [
 					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
@@ -361,7 +361,11 @@
 				]
 			},
 			{
-				"title": "NameSurfer",
+				"title": "Interactors and NameSurfer",
+				"filename": "Lecture24",
+				"notes": [
+					"read: Java Ch. 10.5-10.6"
+				],
 				"date": "August 8"
 			},
 			{
