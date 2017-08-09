@@ -3,6 +3,33 @@
 	<p class="subtleHeading">NEW ANNOUNCEMENTS</p>
 </div>
 
+<!-- Lunches -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">CS 106A Lunches</div>
+		<div class="moment">2017080912</div>
+	</div>
+
+	<p>
+		Next week on <strong>Wednesday, 8/16 @ 12PM</strong> and <strong>Thursday, 8/17 @ 12PM</strong>, we will be hosting "CS 106A lunches"!  These are informal lunches with the course staff to give you a chance to get lunch, hang out, and ask any questions you may have (about anything!).  Rishi and Nick will be attending, as well as various Section Leaders from both 106A and 106B (the followup course to CS 106A).  Each lunch will be at a different dining hall on campus, and details will be announced early next week.  If you have any financial concerns about attending, please contact Nick or Rishi.
+	</p>
+</div>
+
+<!-- Honor Code -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">The Honor Code</div>
+		<div class="moment">2017080912</div>
+	</div>
+
+	<p>
+		As mentioned in class today during the Honor Code discussion, if you wish to retract any of your assignments for any reason whatsoever, please send Nick an email (email at left) saying which assignment(s) you wish to retract.  We will, no questions asked, retract that assignment and give you a 0 for that assignment.  In particular, if there were any Honor Code issues with that assignment, retracting will remove it and we will no longer consider it an Honor Code issue.  Note that you may not retract just parts of assignments, and we do not provide an opportunity to redo that assignment.
+	</p>
+	<p>
+		If you have any questions about the Honor Code, please see the Honor Code handout under the "Handouts" tab.  Also feel free to come talk to us if you have any questions about the Honor Code, retractions, or anything else.
+	</p>
+</div>
+
 <!-- Assignment 6 -->
 <div class="well">
 	<div class="newsfeedHeader">
@@ -19,6 +46,10 @@
 	</p>
 </div>
 
+<div>
+	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
+</div>
+
 <!-- Midterm Results -->
 <div class="well">
 	<div class="newsfeedHeader">
@@ -29,10 +60,6 @@
 	<p>
 		The midterm exams have been graded, and individual scores have been released via <a href="https://www.gradescope.com">Gradescope</a>, an online course grading website.  Please see the <a href="{{pathToRoot}}exams/midterm.html">midterm webpage</a> for more information about exam regrades, statistics and scores.  Regrades will be accepted until <strong>1PM on Wednesday, August 9, 2017</strong>.
 	</p>
-</div>
-
-<div>
-	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
 </div>
 
 <!-- Assignment 5 -->
