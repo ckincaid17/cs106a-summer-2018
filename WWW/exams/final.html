@@ -211,160 +211,96 @@ materials.  See README for more info.
 			
 			
 <!-- Header -->
-<div class="row">
-    <div class="col-sm-12">
-        <div id="pageHeader">
-            <h1>
-				Final Exam Information
-			</h1>
-        </div>
-        <hr/>
-    </div>
+<div id="pageHeader">
+    <h1>
+		Final Exam Information
+	</h1>
 </div>
+<hr/>
+
+<div class="alert alert-danger">
+	For a variety of reasons (including university policy), there will be <strong>no alternate time</strong> for the final exam (other than for OAE accommodations). Please make sure that you can attend the final exam at the specified time.
+</div>
+
+<!-- Info/Dates -->
+<div class="row">
+	<div class="col-xs-6">
+		<div class="well">
+    		<b>Exam</b>
+    		<br/>
+    		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Friday, August 18
+    		<br/>
+
+    		<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 12:15-3:15PM
+    		<br/>
+
+    		<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> TBD
+    		<br/>
+		</div>
+	</div>
+	<div class="col-xs-6">
+		<div class="well">
+    		<b>Review Session</b>
+    		<br/>
+    		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Mon/Tue, August 14-15
+    		<br/>
+
+		    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Lecture (11:30AM-12:20PM)
+    		<br/>
+
+   			<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> NVIDIA Auditorium
+    		<br/>
+		</div>
+	</div>
+</div>
+
+<!-- Materials -->
+<h2>Practice Materials</h2>
+<p><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/resources/final/SyntaxReferenceSheet.pdf">Syntax Reference Sheet</a></p>
+<p>Practice exams coming soon...</p>
+<p>Sample final exam(s) posted here are intended to be similar to the actual final. The number of problems and type of problems on the actual exam will be relatively similar to what is seen on these practice exams, though we do not promise that it will be exactly the same in length or in difficulty.</p>
+<p>Section Handouts and CodeStepByStep lecture practice problems (on the schedule page) are also great ways to practice relevant material.</p>
 
 <!-- Logistics -->
-<div class="row">
-    <div class="col-sm-12">
-        <div class="alert alert-success">
-            <b>Check back later:</b> We will fill this page will all relevant details closer to the exam date.
-        </div>
-        <h2>Logistics</h2>
-        <div class="row">
-            <div class="col-sm-8">
-                <p>
-                    The CS106A final exam is Friday, August 18 from 12:15PM to 3:15PM. We will provide more details (what the exam covers, practice exams) closer to the exam.
-                </p>
-                <p>
-                    For a variety of reasons (including university policy), there will be no alternate time for the final exam. Please make sure that you can attend the final exam at the specified time before enrolling in the class.
-                </p>
-            </div>
+<h2>Logistics</h2>
+<p>
+	The logistics for the final exam are the same as for the midterm exam (except for the updated syntax reference sheet above); please see <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/exams/midterm.html#logistics">the midterm logistics</a> section for more information.
+</p>
 
-            <div class="col-sm-4">
-                <div class="well">
-                    <b>Exam</b>
-                    <br/>
-                    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Friday, August 18
-                    <br/>
 
-                    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 12:15-3:15PM
-                    <br/>
+<!-- Material Covered -->
+<h2>Material Covered</h2>
+<p>The final focuses on material taught since the time of the midterm, including the following concepts listed below.  However, programming is inherently cumulative in that new topics build upon old ones. So you may be asked to solve problems that involve, though not necessarily focus primarily upon, past topics such as strings, int, double, boolean, random numbers, loops, if/else, parameters, return, expressions, variables, constants, file input with Scanner, and so on.  Note that you may be asked to <i>read</i> code (look at a piece of existing code and answer questions about it, such as writing its output) and/or <i>write</i> code (write a piece of code such as a method or short program that solves a given problem).</p>
 
-                    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> TBD
-                    <br/>
-                </div>
-                <div class="well">
-                    <b>Review Session</b>
-                    <br/>
-                    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Mon/Tue, August 14-15
-                    <br/>
+<ul>
+	<li><p><strong>GraphicsPrograms:</strong> write Java code to implement a graphics program with certain behavior using Stanford's libraries; this may include drawing shapes such as GRect, GOval, etc., animation, and/or handling mouse events. (Though this topic was covered before the midterm, Breakout, which gave practice with this, was due after the midterm)</p></li>
+	<li><p><strong>Arrays:</strong> interpret/write code that uses a 1D array to solve a problem.</p></li>
+	<li><p><strong>2D Arrays:</strong> interpret/write code that uses a 2D array (possibly from the pixels of a graphical image, possibly not) to solve a problem.</p></li>
+	<li><p><strong>Collections:</strong> interpret/write code that uses the collections <code>ArrayList</code> and/or <code>HashMap</code> to solve a problem.</p></li>
+	<li><p><strong>Objects and Classes:</strong> interpret/write a class and/or add behavior to an existing class.</p></li>
+	<li><p><strong>Inheritance:</strong> interpret/write a class that extends another class, such as GCanvas.</p></li>
+	<li><p><strong>Interactors:</strong> interpret/write a program that uses GUI components (buttons, labels, text fields) and events to produce a given behavior.</p></li>
+</ul>
 
-                    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Lecture (11:30AM-12:20PM)
-                    <br/>
+<p>The following concepts will <strong>NOT</strong> be tested on the final:</p>
+<ul>
+	<li><p>Karel the Robot</p></li>
+	<li><p>Material from the "Life After CS 106A" lectures</p></li>
+	<li><p>Graphical shapes not used in lecture/section, such as <code>GArc</code> and <code>GPolygon</code>.</p></li>
+	<li><p>converting numbers to/from other bases, such as binary or hexadecimal</p></li>
+	<li><p><code>do</code> loops and the <code>continue</code> statement (<code>while</code> loops may be needed, though)</p></li>
+	<li><p>the <code>switch</code> statement</p></li>
+	<li><p><code>static</code> methods or data (other than <code>static final</code> constants)</p></li>
+	<li><p>throwing exceptions with the <code>throw</code> statement</p></li>
+	<li><p>any Stanford library functionality not explicitly taught in class, section or homeworks</p></li>
+	<li><p>anything else not explicitly covered in lecture, section or homeworks</p></li>
+</ul>
 
-                    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> NVIDIA Auditorium
-                    <br/>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- Topics -->
-<!--<div class="row">
-	<div class="col-sm-12">
-		<h1>Topics</h1>
-		<p>The midterm covers the material presented in class through the lecture on TBD.  Specifically, you will be responsible for:</p>
 
-		<ol>
-			<li>Topic 1</li>
-			<li>Topic 2</li>
-		</ol>
-
-		<p>
-			The bulk of the midterm will be build on the concepts you covered in the assignments you have completed up to this point in the course.
-		</p>
-
-		<p>
-			There will be four or five questions on the exam. The first question will ask you to trace a mystery function and determine runtime Big-O. The remainder will be programming tasks (where you write your solutions by hand). 
-		</p>
-
-		<p>
-			Things that will <b>not</b> be on the midterm: structs, pointers, defining classes or linked lists. 
-		</p>
-		<hr/>
-	</div>
-</div>-->
-
-<!-- Strategies -->
-<!--<div class="row">
-	<div class="col-sm-12">
-		<h1>Strategies</h1>
-		<p>
-			Exams are exciting, and a good chance to learn. Sometimes they can feel competitive. Remember though that in the long term you aren't competing against the other people in the classroom. In fact they will probably be your teammates in the post-Stanford world. The only race is with yourself. We don't curve the exam. If everyone does a great job of demonstrating that they understand the material, everyone will get a better grade.
-		</p>
-
-		<p>Here is a printable handout with a complete list of all CS106B library functions you may find useful on the exam, and a handout on exam strategies:</p>
-
-		<p>
-			<div class="row">
-				<div class="col-sm-2">
-					<center>
-						<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/midterm/reference-sheet-midterm.pdf"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size: 5em;"></span><br/>
-							Reference Sheet</a>
-					</center>
-				</div>
-				<div class="col-sm-2">
-					<center>
-						<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/midterm/23J-ExamStrategies.pdf"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size: 5em;"></span><br/>
-							Exam Strategies</a>
-					</center>
-				</div>
-			</div>
-		</p>
-
-		<hr/>
-	</div>
-</div>-->
-
-<!-- Practice exams -->
-<!--<div class="row">
-	<div class="col-sm-12" id="practiceMidterms">
-		<h1>Practice Midterms</h1>
-		<p>
-			We will post more practice exams (and solutions) as we get closer to the exam. If you want more problems to work on, try the section problems. Most of them are old exam questions.
-		</p>
-
-		<p>
-			<div class="row">
-				<div class="col-sm-2">
-					<center>
-						<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/midterm/chris-practice-1.pdf"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size: 5em;"></span><br/>
-							Practice #1</a>
-					</center>
-				</div>
-				<div class="col-sm-2">
-					<center>
-						<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/midterm/chris-practice-1-soln.pdf"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size: 5em;"></span><br/>
-							Practice Soln #1</a>
-					</center>
-				</div>
-				<div class="col-sm-2">
-					<center>
-						<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/midterm/chris-practice-2.pdf"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size: 5em;"></span><br/>
-							Practice #2</a>
-					</center>
-				</div>
-
-				<div class="col-sm-2">
-					<center>
-						<a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/midterm/chris-practice-2-soln.pdf"><span class="glyphicon glyphicon-list-alt" aria-hidden="true" style="font-size: 5em;"></span><br/>
-							Practice Soln #2 (new)</a>
-					</center>
-				</div>
-			</div>
-		</p>
-	</div>
-</div>-->
+<!-- Exam Strategies -->
+<h2>Exam Strategies</h2>
+<p>The recommended exam strategies for the final exam are the same as for the midterm; please see <a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/exams/midterm.html#exam-strategies">the midterm exam strategies</a> section for more information.</p>
 			
 			<!-- Footer -->
 			<div class="row">
