@@ -3,6 +3,34 @@
 	<p class="subtleHeading">NEW ANNOUNCEMENTS</p>
 </div>
 
+<!-- Final Grades -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">Final Grades Posted</div>
+		<div class="moment">2017082323</div>
+	</div>
+
+	<p>
+		Final grades have been uploaded to Axess; please check your Stanford email for more information.  Thank you for a great quarter!  Have a great rest of the summer!
+	</p>
+</div>
+
+<!-- Final Results -->
+<div class="well">
+	<div class="newsfeedHeader">
+		<div class="newsfeedTitle">Final Exams Graded</div>
+		<div class="moment">2017082323</div>
+	</div>
+
+	<p>
+		The final exams have been graded, and individual scores have been released via <a href="https://www.gradescope.com">Gradescope</a>.  Please see the <a href="{{pathToRoot}}exams/final.html">final exam webpage</a> for more information about exam regrades, statistics and scores.  Regrade requests will be accepted until the end of the first week of Fall quarter, at <strong>11:59PM PST on Sunday, October 1, 2017.</strong>.
+	</p>
+</div>
+
+<div>
+	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
+</div>
+
 <!-- Final prep -->
 <div class="well">
 	<div class="newsfeedHeader">
@@ -66,10 +94,6 @@
 	<p>
 		If you're interested in exporting your Eclipse projects as runnable programs to share with family and friends, see the handout on "JAR Files" linked to from the Handouts dropdown above.  If you export your program as a JAR file, you can run it without Eclipse, just by double-clicking on it.
 	</p>
-</div>
-
-<div>
-	<p class="subtleHeading">OLD ANNOUNCEMENTS</p>
 </div>
 
 <!-- OH -->
