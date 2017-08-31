@@ -144,6 +144,21 @@ ASSIGNMENTS = [
 	}
 ]
 
+# Software
 SOFTWARE = "Eclipse"
 SOFTWARE_ICON = "eclipse-icon.png"
 SOFTWARE_LINK = "eclipse"
+
+# Stanford Library
+LIBRARY_DOCS_LINK = "http://stanford.edu/~stepp/acmdoc/"
+
+BLANK_PROJECTS = [
+	{
+		"NAME": "Blank Karel Project",
+		"URL": "/resources/BlankKarelProject.zip"
+	},
+	{
+		"NAME": "Blank Java Project",
+		"URL": "/resources/BlankJavaProject.zip"
+	}
+]

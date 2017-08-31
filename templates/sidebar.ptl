@@ -30,15 +30,14 @@
 	
 	<!-- Stanford library documentation -->
 	<img src="images/stanford-favicon.png" class="sidebaricon" alt="icon">
-	<a href="http://stanford.edu/~stepp/acmdoc/">Stanford Library Docs</a><br/>
-	
-	<!-- Blank Karel project -->		
-	<span class="sidebaricon glyphicon glyphicon-save" aria-hidden="true"></span>
-	<a href="{{pathToRoot}}/resources/BlankKarelProject.zip">Blank Karel Project</a> <br/>
+	<a href="{{courseInfo.LIBRARY_DOCS_LINK}}">Stanford Library Docs</a><br/>
 
-	<!-- Blank Java project -->
-	<span class="sidebaricon glyphicon glyphicon-save" aria-hidden="true"></span>
-	<a href="{{pathToRoot}}/resources/BlankJavaProject.zip">Blank Java Project</a> <br/>
+	<!-- Blank projects -->
+	% for project in courseInfo.BLANK_PROJECTS:
+		% url = project["URL"]
+		<span class="sidebaricon glyphicon glyphicon-save" aria-hidden="true"></span>
+		<a href="{{pathToRoot}}{{url}}">{{project["NAME"]}}</a> <br/>
+	% end
 </div>
 
 <hr/>
@@ -60,7 +59,7 @@
 
 <hr/>
 
-<!-- SCPD -->
+<!-- SCPD Office Hours -->
 % if len(courseInfo.SCPD_OFFICE_HOURS) > 0:
 	<div>
 		<p class="subtleHeading">SCPD OFFICE HOURS</p>
