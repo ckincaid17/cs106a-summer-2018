@@ -14,14 +14,13 @@
 
 <!-- Main course staff info and images -->
 <div class="row">
-    <div class="col-md-1 col-xs-0"></div>
 
     <% for staffInfo in courseInfo.STAFF_INFO:
         imageName = staffInfo["IMAGE"]
         staffName = staffInfo["NAME"]
         email = staffInfo["EMAIL"]
     %>
-        <div class="col-md-5 col-xs-6">
+        <div class="col-xs-6">
             <div class="thumbnail">
                 <img src="{{pathToRoot}}images/staff/{{imageName}}" alt="{{staffName}}">
                 <div class="caption">
@@ -32,12 +31,13 @@
                     <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_LOCATION"]}}<br/>
                     <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_DATETIME"]}}<br/>
 
+                    <hr />
+
                     <p>{{staffInfo["DESCRIPTION"]}}</p>
                 </div>
             </div>
         </div>
     % end
-    <div class="col-md-1 col-xs-0"></div>
 </div>
 
 <!-- Section Leaders -->
@@ -55,33 +55,8 @@
     </div>
 
     <!-- Generate HTML thumbnail elements for each SL -->
-    <%
-        sls = [
-            "Aleksander Dash (adash)",
-            "Canyon Robins (crobins)",
-            "Conner Smith (csmith95)",
-            "Emily Ling (eling8)",
-            "Farah Uraizee (farah)",
-            "Garrick Fernandez (gfaerr)",
-            "Gus Torres da Silva (gdasilva)",
-            "Guy Blanc (gblanc)",
-            "Jared Bitz (jbitz)",
-            "Jestin Ma (jestinm)",
-            "Kate Rydberg (rydbergk)",
-            "Katherine Erdman (kerdman)",
-            "Keanu Spies (keanus)",
-            "Michael Hazard (cmhazard)",
-            "Mirae Parker (miraep8)",
-            "Nick Negrete (nnegrete)",
-            "Nolan Handali (nolanh)",
-            "Pras Ramakrishnan (pras1712)",
-            "Regina Nguyen (renguyen)",
-            "Tobin Bell (trfbell)",
-            "Tyler Yep (tyep)",
-            "Wil Kautz (wkautz)"
-        ]
-        
-        for sl in sls:
+    <%  
+        for sl in courseInfo.SECTION_LEADERS:
             name = sl[0:sl.index("(") - 1]
             sunet = sl[sl.index("(") + 1: -1]
 

@@ -61,20 +61,20 @@
 <hr/>
 
 <!-- SCPD -->
-<div>
-	<p class="subtleHeading">SCPD OFFICE HOURS</p>
-	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Sun 5:30-7PM PST</p>
-	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Tues 9-11AM PST</p>
-	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Tues 8-9PM PST</p>
-	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Wed 8:30-10PM PST</p>
-	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Thurs 4-5PM PST</p>
-	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> Thurs 8:30-9:30PM PST</p>
+% if len(courseInfo.SCPD_OFFICE_HOURS) > 0:
+	<div>
+		<p class="subtleHeading">SCPD OFFICE HOURS</p>
+		% for officeHour in courseInfo.SCPD_OFFICE_HOURS:
+			<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{officeHour}}</p>
+		% end
+	
+		% scpdLink = courseInfo.SCPD_OFFICE_HOURS_LINK
+		<p>Sign up <a href="{{scpdLink}}">here</a>.</p>
+		<p>{{courseInfo.SCPD_OFFICE_HOURS_DESCRIPTION}}</p>
+	</div>
 
-	<br />
-	SCPD students can sign up for help on QueueStatus <a href="http://www.queuestatus.com/queues/122">here</a> at the times above (free QueueStatus account required).
-</div>
-
-<hr/>
+	<hr/>
+% end
 
 <!-- Staff -->
 <div class="row">

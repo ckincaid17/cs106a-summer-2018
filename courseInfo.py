@@ -32,9 +32,45 @@ STAFF_INFO = [
 		"EMAIL": "rbedi@stanford.edu",
 		"OFFICE_HOURS_LOCATION": "Gates B02",
 		"OFFICE_HOURS_DATETIME": "Tues. + Thurs. 9-11AM",
-		"DESCRIPTION": "The Head TA helps manage the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues."
+		"DESCRIPTION": "The Head TA manages the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Instructor."
 	}
 ]
+
+SECTION_LEADERS = [
+	"Aleksander Dash (adash)",
+	"Canyon Robins (crobins)",
+	"Conner Smith (csmith95)",
+	"Emily Ling (eling8)",
+	"Farah Uraizee (farah)",
+	"Garrick Fernandez (gfaerr)",
+	"Gus Torres da Silva (gdasilva)",
+	"Guy Blanc (gblanc)",
+	"Jared Bitz (jbitz)",
+	"Jestin Ma (jestinm)",
+	"Kate Rydberg (rydbergk)",
+	"Katherine Erdman (kerdman)",
+	"Keanu Spies (keanus)",
+	"Michael Hazard (cmhazard)",
+	"Mirae Parker (miraep8)",
+	"Nick Negrete (nnegrete)",
+	"Nolan Handali (nolanh)",
+	"Pras Ramakrishnan (pras1712)",
+	"Regina Nguyen (renguyen)",
+	"Tobin Bell (trfbell)",
+	"Tyler Yep (tyep)",
+	"Wil Kautz (wkautz)"
+]
+
+SCPD_OFFICE_HOURS = [
+	"Sun 5:30-7PM PST",
+	"Tues 9-11AM PST",
+	"Tues 8-9PM PST",
+	"Wed 8:30-10PM PST",
+	"Thurs 4-5PM PST",
+	"Thurs 8:30-9:30PM PST"
+]
+SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/122"
+SCPD_OFFICE_HOURS_DESCRIPTION = "SCPD students can sign up for help at the times above (free QueueStatus account required)."
 
 MIDTERM_INFO = {
 	"DATE": "Monday, July 24",
