@@ -1,20 +1,24 @@
+# General course information
 COURSE_NUMBER = "CS 106A"
 COURSE_NAME = "Programming Methodology"
 COURSE_TITLE = COURSE_NUMBER + ": " + COURSE_NAME
 CS198_NUMBER = 1 # B = 2, X = 3
 
+# General quarter information
 QUARTER_NUMBER = 1178
 QUARTER_NAME = "Summer"
 QUARTER_YEAR = "2017"
 QUARTER_FULL_NAME = QUARTER_NAME + " " + QUARTER_YEAR
 QUARTER_OVER = True
 
+# Lecture information
 LECTURE_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday"]
 LECTURE_TIME = "11:30AM-12:20PM PST"
 LECTURE_LOCATION = "NVIDIA Auditorium"
 LECTURE_LOCATION_LINK = "https://www.google.com/maps/place/NVIDIA+Auditorium/@37.4277284,-122.1763905,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb2ac97723cb:0xa6e8fc1a7a5f2c29!8m2!3d37.4277284!4d-122.1741965"
 LECTURE_FEEDBACK_LINK = "https://goo.gl/forms/viRkXgYxDRq0Uorm2" # Length > 0
 
+# Course staff
 STAFF_INFO = [
 	{
 		"POSITION": "Instructor",
@@ -61,6 +65,7 @@ SECTION_LEADERS = [
 	"Wil Kautz (wkautz)"
 ]
 
+# SCPD
 SCPD_OFFICE_HOURS = [
 	"Sun 5:30-7PM PST",
 	"Tues 9-11AM PST",
@@ -72,6 +77,7 @@ SCPD_OFFICE_HOURS = [
 SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/122"
 SCPD_OFFICE_HOURS_DESCRIPTION = "SCPD students can sign up for help at the times above (free QueueStatus account required)."
 
+# Exams
 MIDTERM_INFO = {
 	"DATE": "Monday, July 24",
 	"TIME": "7-9PM PST",
@@ -108,6 +114,7 @@ FINAL_EXAM_INFO = {
 	}
 }
 
+# Assignments
 STYLE_GUIDE = True
 PAIR_PROGRAMMING = True
 ASSIGNMENTS = [
@@ -136,3 +143,7 @@ ASSIGNMENTS = [
 		"URL": "namesurfer.html"
 	}
 ]
+
+SOFTWARE = "Eclipse"
+SOFTWARE_ICON = "eclipse-icon.png"
+SOFTWARE_LINK = "eclipse"

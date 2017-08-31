@@ -6,9 +6,9 @@
 	<span class="sidebaricon glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
 	<a href="https://mvideox.stanford.edu/">Lecture Videos</a> <br/>
 	
-	<!-- Eclipse -->		
-	<img src="images/icons/eclipse-icon.png" class="sidebaricon" alt="icon">
-	<a href="{{pathToRoot}}eclipse">Eclipse</a><br/>
+	<!-- Course software -->		
+	<img src="images/{{courseInfo.SOFTWARE_ICON}}" class="sidebaricon" alt="icon">
+	<a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}">{{courseInfo.SOFTWARE}}</a><br/>
 
 	<!-- Course Staff -->		
 	<span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
@@ -29,7 +29,7 @@
 	<a href="https://cs198.stanford.edu/lair/shifts">LaIR Help Hours</a> <br/>
 	
 	<!-- Stanford library documentation -->
-	<img src="images/icons/stanford-favicon.png" class="sidebaricon" alt="icon">
+	<img src="images/stanford-favicon.png" class="sidebaricon" alt="icon">
 	<a href="http://stanford.edu/~stepp/acmdoc/">Stanford Library Docs</a><br/>
 	
 	<!-- Blank Karel project -->		
