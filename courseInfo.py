@@ -120,27 +120,27 @@ PAIR_PROGRAMMING = True
 ASSIGNMENTS = [
 	{
 		"NAME": "Karel the Robot",
-		"URL": "karel.html"
+		"LINK": "karel.html"
 	},
 	{
 		"NAME": "Intro to Java",
-		"URL": "introToJava.html"
+		"LINK": "introToJava.html"
 	},
 	{
 		"NAME": "Hangman",
-		"URL": "hangman.html"
+		"LINK": "hangman.html"
 	},
 	{
 		"NAME": "Artistry and Breakout",
-		"URL": "breakout.html"
+		"LINK": "breakout.html"
 	},
 	{
 		"NAME": "ImageShop",
-		"URL": "imageshop.html"
+		"LINK": "imageshop.html"
 	},
 	{
 		"NAME": "NameSurfer",
-		"URL": "namesurfer.html"
+		"LINK": "namesurfer.html"
 	}
 ]
 
@@ -155,10 +155,10 @@ LIBRARY_DOCS_LINK = "http://stanford.edu/~stepp/acmdoc/"
 BLANK_PROJECTS = [
 	{
 		"NAME": "Blank Karel Project",
-		"URL": "/resources/BlankKarelProject.zip"
+		"LINK": "/resources/BlankKarelProject.zip"
 	},
 	{
 		"NAME": "Blank Java Project",
-		"URL": "/resources/BlankJavaProject.zip"
+		"LINK": "/resources/BlankJavaProject.zip"
 	}
 ]

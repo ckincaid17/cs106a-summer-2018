@@ -34,7 +34,7 @@
 
 	<!-- Blank projects -->
 	% for project in courseInfo.BLANK_PROJECTS:
-		% url = project["URL"]
+		% url = project["LINK"]
 		<span class="sidebaricon glyphicon glyphicon-save" aria-hidden="true"></span>
 		<a href="{{pathToRoot}}{{url}}">{{project["NAME"]}}</a> <br/>
 	% end

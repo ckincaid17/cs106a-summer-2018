@@ -50,7 +50,7 @@
 
                         <!-- Assignments list -->
                         % for i, assignment in enumerate(courseInfo.ASSIGNMENTS):
-                            % URL = assignment["URL"]
+                            % URL = assignment["LINK"]
                             <li><a href="{{pathToRoot}}assignments/{{URL}}">{{i+1}} - {{assignment["NAME"]}}</a></li>
                         % end
 
