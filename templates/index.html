@@ -1,29 +1,29 @@
-% rebase('templates/template.ptl', title='CS 106A')
+% rebase('templates/template.ptl')
 
 <!-- Home page header -->
 <div class="row" id="indexHead">
     <div class="col-xs-12">
         <div id="logo"><img id="logoImg" src="images/logo.gif" alt="Stanford Logo" /></div>
         <div id="headerText" style="padding-bottom:15px;">
-            <div id="title">
-                CS 106A: Programming Methodology
-            </div>
+            <div id="title">{{courseInfo.COURSE_TITLE}}</div>
+            <div>{{courseInfo.QUARTER_FULL_NAME}}</div>
             <div>
-                Summer 2017
-            </div>
-            <div>
-                Monday, Tuesday, Wednesday, Thursday 11:30AM to 12:20PM in <a href="https://www.google.com/maps/place/NVIDIA+Auditorium/@37.4277284,-122.1763905,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb2ac97723cb:0xa6e8fc1a7a5f2c29!8m2!3d37.4277284!4d-122.1741965">NVIDIA Auditorium</a>
+                {{", ".join(courseInfo.LECTURE_DAYS)}}
+                {{courseInfo.LECTURE_TIME}} in
+                <a href="{{courseInfo.LECTURE_LOCATION_LINK}}">{{courseInfo.LECTURE_LOCATION}}</a>
             </div>
         </div>
     </div>
 </div>
 
 <!-- rerouting alert for when course is archived -->
-<div class="row" >
-    <div class="col-xs-12" id="infoCol">
-        <div class="alert alert-warning"><b>NOTE: this website is out of date.</b> This is the course web site from a past quarter, Summer 2017. If you are a current student taking the course, you should visit the current class web site instead at https://cs106a.stanford.edu/. If you are already at https://cs106a.stanford.edu/, the web page may not be updated yet for the new quarter. Please be advised that courses' policies change with each new quarter and instructor, and any information on this out-of-date page may not apply to you.
+% if courseInfo.QUARTER_OVER:
+    <div class="row" >
+        <div class="col-xs-12" id="infoCol">
+            <div class="alert alert-warning"><b>NOTE: this website is out of date.</b> This is the course web site from a past quarter, {{courseInfo.QUARTER_FULL_NAME}}. If you are a current student taking the course, you should visit the current class web site instead. Please be advised that courses' policies change with each new quarter and instructor, and any information on this out-of-date page may not apply to you.
+        </div>
     </div>
-</div>
+% end
 <hr/>
 
 <!-- Home page body -->

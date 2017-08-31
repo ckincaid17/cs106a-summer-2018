@@ -27,6 +27,7 @@ import os.path
 from bottle.bottle import SimpleTemplate
 import sys
 import json
+import courseInfo
 
 TEMPLATE_DIR = 'templates'
 
@@ -35,7 +36,7 @@ HANDOUTS_DIR = 'handouts'
 SECTION_DIR = 'section'
 
 # The root URL at which this webpage is hosted
-ROOT = '//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/'
+ROOT = '//web.stanford.edu/class/archive/cs/cs106a/cs106a.' + str(courseInfo.QUARTER_NUMBER) + '/'
 
 # Use the -t flag if you want to compile for local tests
 DEPLOY = not '-t' in sys.argv
@@ -197,7 +198,8 @@ def compileTemplate(relativePath, scheduleData, handoutsData, sectionData):
     filePath = os.path.join(TEMPLATE_DIR, relativePath)
     templateText = open(filePath).read()
     compiledHtml = SimpleTemplate(templateText).render(pathToRoot=pathToRoot,
-        schedule=scheduleData, handouts=handoutsData, sections=sectionData)
+        schedule=scheduleData, handouts=handoutsData, sections=sectionData,
+        courseInfo=courseInfo)
     compiledHtml = compiledHtml.encode('utf8')
 
     relativePath = os.path.join(OUTPUT_DIR, relativePath)

@@ -19,8 +19,10 @@
 	<a href="{{pathToRoot}}textbooks.html">Textbooks</a><br/>
 
 	<!-- Pair Programming -->
-	<span class="sidebaricon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-	<a href="{{pathToRoot}}assignments/pair.html">Pair Programming</a> <br/>
+	% if courseInfo.PAIR_PROGRAMMING:
+		<span class="sidebaricon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+		<a href="{{pathToRoot}}assignments/pair.html">Pair Programming</a> <br/>
+	% end
 
 	<!-- LaIR schedule -->
 	<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
