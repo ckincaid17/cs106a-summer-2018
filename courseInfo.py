@@ -15,19 +15,26 @@ LECTURE_LOCATION = "NVIDIA Auditorium"
 LECTURE_LOCATION_LINK = "https://www.google.com/maps/place/NVIDIA+Auditorium/@37.4277284,-122.1763905,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb2ac97723cb:0xa6e8fc1a7a5f2c29!8m2!3d37.4277284!4d-122.1741965"
 LECTURE_FEEDBACK_LINK = "https://goo.gl/forms/viRkXgYxDRq0Uorm2" # Length > 0
 
-INSTRUCTOR_INFO = {
-	"NAME": "Nick Troccoli",
-	"EMAIL": "troccoli@stanford.edu",
-	"OFFICE_HOURS_LOCATION": "Gates B02",
-	"OFFICE_HOURS_DATETIME": "Wed. + Thurs. 2-4PM"
-}
-
-HEAD_TA_INFO = {
-	"NAME": "Rishi Bedi",
-	"EMAIL": "rbedi@stanford.edu",
-	"OFFICE_HOURS_LOCATION": "Gates B02",
-	"OFFICE_HOURS_DATETIME": "Tues. + Thurs. 9-11AM"
-}
+STAFF_INFO = [
+	{
+		"POSITION": "Instructor",
+		"NAME": "Nick Troccoli",
+		"IMAGE": "troccoli.jpg",
+		"EMAIL": "troccoli@stanford.edu",
+		"OFFICE_HOURS_LOCATION": "Gates B02",
+		"OFFICE_HOURS_DATETIME": "Wed. + Thurs. 2-4PM",
+		"DESCRIPTION": "The instructor teaches lectures and manages the overall course. Contact the instructor if you have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Head TA.  In addition to at his office hours, please feel free to ask Nick questions before/after any lecture."
+	},
+	{
+		"POSITION": "Head TA",
+		"NAME": "Rishi Bedi",
+		"IMAGE": "rbedi.jpg",
+		"EMAIL": "rbedi@stanford.edu",
+		"OFFICE_HOURS_LOCATION": "Gates B02",
+		"OFFICE_HOURS_DATETIME": "Tues. + Thurs. 9-11AM",
+		"DESCRIPTION": "The Head TA helps manage the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues."
+	}
+]
 
 MIDTERM_INFO = {
 	"DATE": "Monday, July 24",

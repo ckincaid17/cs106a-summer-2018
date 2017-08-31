@@ -80,18 +80,23 @@
 <div class="row">
 	<p class="subtleHeading col-xs-12">STAFF</p>
 
-	<!-- Instructor -->
-	<div class="staffBox col-xs-6 col-sm-12">
-		<img src="{{pathToRoot}}images/staff/troccoli.jpg" style="width:100%" alt="Nick Troccoli" />
-		Instructor: Nick Troccoli<br />
-		%include templates/sidebar/instructorInfo.ptl
-	</div>
+	<% for staffInfo in courseInfo.STAFF_INFO:
+		imageName = staffInfo["IMAGE"]
+		staffName = staffInfo["NAME"]
+		email = staffInfo["EMAIL"]
+	%>
 
-	<!-- Head TA -->
-	<div class="staffBox col-xs-6 col-sm-12">
-		<img src="{{pathToRoot}}images/staff/rbedi.jpg" style="width:100%" alt="Rishi Bedi" />
-		Head TA: Rishi Bedi<br />
-		%include templates/sidebar/headTAInfo.ptl
-	</div>
+		<div class="staffBox col-xs-6 col-sm-12">
+
+			<!-- Staff name/image -->
+			<img src="{{pathToRoot}}images/staff/{{imageName}}" style="width:100%" alt="{{staffName}}" />
+			{{staffInfo["POSITION"]}}: {{staffName}} <br />
+			
+			<!-- Email, office hours -->
+			<span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:{{email}}">{{email}}</a><br />
+			<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_LOCATION"]}}<br/>
+			<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_DATETIME"]}}<br/>
+		</div>
+	% end
 </div>
 <hr/>
