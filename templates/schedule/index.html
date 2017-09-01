@@ -1,4 +1,4 @@
-% rebase('templates/template.ptl', title='CS 106A | Schedule')
+% rebase('templates/template.ptl', title='Schedule')
 
 <!-- Header -->
 <div class="row">
@@ -16,7 +16,7 @@
         <p>
             This schedule is subject to change by the course staff at any time.
             <br />
-            <strong>Assignments are due at 11AM</strong> on the dates specified.
+            <strong>Assignments are due at {{courseInfo.ASSIGNMENT_DUE_TIME}}</strong> on the dates specified.
             <br />
             Listed readings go in tandem with that lecture's material.
         </p>

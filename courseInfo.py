@@ -148,6 +148,7 @@ ASSIGNMENTS = [
 		"LINK": "namesurfer.html"
 	}
 ]
+ASSIGNMENT_DUE_TIME = "11AM PST"
 
 # Software
 SOFTWARE = "Eclipse"
