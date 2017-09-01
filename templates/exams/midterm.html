@@ -1,70 +1,17 @@
-% rebase('templates/template.ptl', title='CS 106A | Midterm Exam')
+% rebase('templates/template.ptl', title='Midterm Exam')
 
 <!-- Header -->
 <div id="pageHeader">
     <h1>
-		Midterm Exam Information
+		Midterm Exam
 	</h1>
 </div>
 <hr/>
 
 <!-- Info/Dates -->
 <div class="row">
-
-	<div class="col-xs-6">
-	    <div class="well">
-	        <b>Exam</b>
-	        <br />
-	        <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Monday, July 24
-	        <br />
-
-	        <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 7-9PM PST
-	        <br />
-
-	        <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> Hewlett 200
-	        <br />
-	        <br />
-
-	        <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-	        <div class="google-maps">
-	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.345197243158!2d-122.1750263848679!3d37.42894923975373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ae177cc91%3A0x5351ffed56456da8!2sWilliam+R.+Hewlett+Teaching+Center%2C+370+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500400060838" width="600" height="450" style="border:0" allowfullscreen></iframe>
-	        </div>
-	    </div>
-	</div>
-	<div class="col-xs-6">
-	    <div class="well">
-	        <b>Review Session (recorded)</b>
-	        <br />
-	        <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Friday, July 21
-	        <br />
-
-	        <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 3:30-4:50PM PST
-	        <br />
-
-	        <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> Gates B03 (basement)
-	        <br />
-	        <br />
-	        <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-	        <div class="google-maps">
-	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783500653!2d-122.17568493444799!3d37.4301523298236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500425297459" width="600" height="450" style="border:0" allowfullscreen></iframe>
-	        </div>
-	    </div>
-	</div>
-
+	% include('templates/exams/eventWells.ptl', exam=courseInfo.MIDTERM)
 </div>
-
-<p style="margin-bottom: 2em">
-	<em>Updated 8/2: added scores and regrade information</em>
-	<br />
-	<br />
-	<em>Updated: added more common commands to syntax reference sheet</em>
-	<br />
-	<br />
-	<em>Updated 7/21 3PM PST: added review session slides</em>
-	<br />
-	<br />
-	<em>Updated 7/18 5PM PST: added Exam Strategies section, clarified that try/catch is covered on the midterm (see "Scanner and File Processing" in Material Covered), requested that if you use pencil on the exam, please write <i>firmly</i> so your work is readable (see "Grading" in Logistics), and added note that you may use sample code methods/classes included in the books by citing where the code is from (see "Grading" in Logistics).</em>
-</p>
 
 <!-- Answers -->
 <h2>Answers</h2>

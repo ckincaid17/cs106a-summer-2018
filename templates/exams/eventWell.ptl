@@ -1,0 +1,28 @@
+<!-- Displays a well containing information (title, date, time, location, map) about a single exam event.
+
+Expects the following parameters:
+    * title - the event title
+    * date - the event date string
+    * time - the event time string
+    * location - the event location string
+    * mapLink - a Google Maps URL for the location
+-->
+
+<div class="well">
+    <b>{{title}}</b>
+    <br />
+    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>{{date}}
+    <br />
+
+    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{time}}
+    <br />
+
+    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>{{location}}
+    <br />
+    <br />
+
+    <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+    <div class="google-maps">
+    	<iframe src="{{mapLink}}" width="600" height="450" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>

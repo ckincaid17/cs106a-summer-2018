@@ -1,9 +1,9 @@
-% rebase('templates/template.ptl', title='CS 106A | Final Exam')
+% rebase('templates/template.ptl', title='Final Exam')
 
 <!-- Header -->
 <div id="pageHeader">
     <h1>
-		Final Exam Information
+		Final Exam
 	</h1>
 </div>
 <hr/>
@@ -14,63 +14,7 @@
 
 <!-- Info/Dates -->
 <div class="row">
-	<div class="col-xs-6 col-sm-4">
-		<div class="well">
-    		<b>Exam: Last Names A-O</b>
-    		<br/>
-    		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Friday, August 18
-    		<br/>
-
-    		<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 12:15-3:15PM
-    		<br/>
-
-    		<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> NVIDIA Auditorium
-    		<br/>
-    		<br/>
-    		<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-	        <div class="google-maps">
-	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.396866793715!2d-122.17639054916224!3d37.42772837972516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ac97723cb%3A0xa6e8fc1a7a5f2c29!2sNVIDIA+Auditorium!5e0!3m2!1sen!2sus!4v1502919715852" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	        </div>
-		</div>
-	</div>
-	<div class="col-xs-6 col-sm-4">
-		<div class="well">
-    		<b>Exam: Last Names P-Z</b>
-    		<br/>
-    		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Friday, August 18
-    		<br/>
-
-    		<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 12:15-3:15PM
-    		<br/>
-
-    		<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> Gates B01 (Basement)
-    		<br/>
-    		<br/>
-    		<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-	        <div class="google-maps">
-	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783542567!2d-122.1756902991621!3d37.43015232972457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1502919669669" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	        </div>
-		</div>
-	</div>
-	<div class="col-xs-12 col-sm-4">
-		<div class="well">
-    		<b>Review Session</b>
-    		<br/>
-    		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span> Mon/Tue, August 14-15
-    		<br/>
-
-		    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span> 11:30AM-12:20PM
-    		<br/>
-
-   			<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span> NVIDIA Auditorium
-    		<br/>
-    		<br/>
-    		<div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-	        <div class="google-maps">
-	        	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.396866793715!2d-122.17639054916224!3d37.42772837972516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ac97723cb%3A0xa6e8fc1a7a5f2c29!2sNVIDIA+Auditorium!5e0!3m2!1sen!2sus!4v1502919715852" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-	        </div>
-		</div>
-	</div>
+	% include('templates/exams/eventWells.ptl', exam=courseInfo.FINAL_EXAM)
 </div>
 
 <!-- Answers -->
