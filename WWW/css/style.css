@@ -142,25 +142,6 @@ pre {tab-size: 3;}
   color:hsl(0, 0%, 60%);
 }
 
-/* Display the sidebar on the left for large screens, right for small */
-@media (min-width: 768px) {
-    div#sidebarRight {
-        display: none;
-    }
-    div#sidebarLeft {
-        display: block;
-    }
-}
-
-@media (max-width: 767px) {
-    div#sidebarRight {
-        display: block;
-    }
-    div#sidebarLeft {
-        display: none;
-    }
-}
-
 /* Code formatting */
 .code-comment {
   color: #008800;
