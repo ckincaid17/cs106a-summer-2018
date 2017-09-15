@@ -1,9 +1,12 @@
 <h2>Submitting Projects</h2>
 <p>
-    You submit all assignments directly through Eclipse. We check whether an assignment is turned in on time from the time we receive your electronic submission, which is timestamped in the submission process. That time is based on the time on the server that receives the assignment, so it pays to submit things with a few minutes to spare, particularly if you discover that your computer's clock is running slow.
+    You submit all assignments directly via Eclipse. We check whether an assignment is turned in on time from the time we receive your electronic submission, which is timestamped in the submission process. That time is based on the time on the server that receives the assignment, so it pays to submit things with a few minutes to spare, particularly if you discover that your computer's clock is running slow.
     <br /> To submit a project in Eclipse, follow these steps:
 </p>
 <ol>
+    <li>
+        <strong>Save your work!</strong>  Always remember to save all your work before submitting so you submit your most recent changes.
+    </li>
     <li>
         From the <strong>Stanford Menu</strong> dropdown at the top, select <strong>Submit Project</strong> (or look for an icon like the one below in the Eclipse toolbar).
         <br/>
@@ -13,7 +16,7 @@
         Enter your SUNet ID and password, and then click the <strong>Authenticate</strong> button. Then click <strong>Next</strong>.
     </li>
     <li>
-        (Written by Rishi, Head TA) On the next screen, you may encounter a field asking for an additional "passcode".  This passcode is an additional security step called "two-factor authentication", or "two-step", and is used university-wide.  It provides your account with additional security as it requires you to not only have your username and password, but also a unique code, usually uniquely generated each time via text message or app.  If you do not already have two-factor authentication set up, please see the Stanford <a href="https://uit.stanford.edu/service/webauth/twostep">online guide</a> for help setting it up, and for common questions.
+        On the next screen, you may encounter a field asking for an additional "passcode".  This passcode is an additional security step called "two-factor authentication", or "two-step", and is used university-wide.  It provides your account with additional security as it requires you to not only have your username and password, but also a unique code, usually uniquely generated each time via text message or app.  If you do not already have two-factor authentication set up, please see the Stanford <a href="https://uit.stanford.edu/service/webauth/twostep">online guide</a> for help setting it up, and for answers to common questions.
         <br/>
         <img style="width:50rem" src="{{pathToRoot}}images/eclipse/twoStep.png" alt="Stanford Two Step Auth" />
     </li>
@@ -39,5 +42,5 @@
     <br />
     <br />
 
-    <strong>IMPORTANT: remember to keep a backup copy of your work.</strong> Although we work hard to keep track of all assignment submissions, on occasion assignments are not received as expected, and we will ask you to resubmit. <strong>You are responsible for keeping a backup copy of your work, in the event that a resubmission is required</strong>. We highly recommend saving backup copies as well, using an external hard drive, a thumb drive, online storage services, etc. See <a href="https://stutech-help.stanford.edu/hc/en-us/articles/211752126-What-should-I-do-to-backup-my-computer-">here</a> for other recommended ways to back up your data.
+    <strong>IMPORTANT: remember to keep a backup copy of your work.</strong> Although we work hard to keep track of all assignment submissions, on occasion assignments are not received as expected, and we will ask you to resubmit. <strong>You are responsible for keeping a backup copy of your work, in the event that a resubmission is required</strong>. We highly recommend saving redundant backup copies as well, using an external hard drive, a thumb drive, online storage services, etc. See <a href="https://stutech-help.stanford.edu/hc/en-us/articles/211752126-What-should-I-do-to-backup-my-computer-">here</a> for other recommended ways to back up your data.
 </p>

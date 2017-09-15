@@ -1,11 +1,11 @@
 <h2>Importing and Running Projects</h2>
 <p>
-    Now that you have set up Eclipse, it's time to work on a project! For each CS 106A assignment, we will provide a skeletal framework called a <strong>starter project</strong>. Using starter projects makes your life much easier by allowing you to ignore the many details involved in creating a project from scratch. Therefore, for each assignment your first task will be to download the starter project from the class website and then import it into your workspace. Once you do that, you can work on your project.  These steps also apply to code from lecture, which will also be provided via a project you import.
+    Now that you have set up Eclipse, it's time to work on a project! For each CS 106A assignment, we will provide a skeletal framework called a <strong>starter project</strong>. Using starter projects makes your life much easier by allowing you to ignore the many details involved in creating a project from scratch. Therefore, for each assignment your first task will be to download the starter project from the class website and then import it into your workspace. Once you do that, you can work on your project.  These steps also apply to code from lecture, which will also be provided via a project on the Schedule page you can import.
 </p>
 <h3>Importing Projects</h3>
 <ol>
     <li>
-        Download the project you wish to import. For example, assignment starter projects are accessible via the "Assignments" dropdown at the top, while lecture code projects are accessible via the "Schedule" tab and section code projects at the end of each week via the "Section" dropdown.
+        Download the project you wish to import. For example, assignment starter projects are accessible via the "Assignments" dropdown at the top, lecture code projects are accessible via the "Schedule" tab and section code projects at the end of each week via the "Section" dropdown.
     </li>
     <li>
         The starter project will download as a zip file (e.g. <strong>Assignment1.zip</strong>). Expand the zip file. In some cases, this may happen automatically when you download it. Move the resulting folder to where you would like to save it on your computer.
@@ -30,20 +30,20 @@
         You should now see the project in the left "Package Explorer" sidebar, like in the image below. Double-click on the project folder to expand its contents.
         <br/>
         <img style="width:50rem" src="{{pathToRoot}}images/eclipse/importStep3.png" alt="Package Explorer" />
-        <br /> The <strong>lib</strong> folder contains the Stanford Library file, and the <strong>src</strong> folder contains the <strong>.java</strong> code files for this assignment. The <strong>res</strong> folder, if applicable, contains resources files such as images and sounds.  Karel projects also have a <strong>worlds</strong> folder containing the worlds for the project.
+        <br /> The <strong>lib</strong> folder contains the Stanford Library file, and the <strong>src</strong> folder contains the <strong>.java</strong> code files for this assignment. The <strong>res</strong> folder, if applicable, contains resources files such as images and sounds.  Karel projects also have a <strong>worlds</strong> folder containing the Karel worlds for the project.
     </li>
     <li>
         Double-click on <strong>src</strong>, and within that double-click on the <strong>default package</strong>, to show the code files for the assignment. Then double-click on any code file to open it in the main editor window.
         <br/>
         <img style="width:50rem" src="{{pathToRoot}}images/eclipse/importStep4.png" alt="Open code file" />
         <br /> 
-        Now go ahead and try running the project.  To do so, see the next section.
+        Now, see the next section for how to run a Java program.
     </li>
 </ol>
-<h3>Running Projects</h3>
+<h3>Running Programs</h3>
 <ol>
 	<li>
-	    To run a program in your project, look for the "running person" icons in the top toolbar.  <strong>Note: </strong>if you do not see these icons in your toolbar, please see the FAQ.
+	    A project can contain multiple programs.  To run a program in your project, look for the "running person" icons in the top toolbar.  <strong>Note: </strong>if you do not see these icons in your toolbar, please see the FAQ.
 	    <br/>
 	    <img style="width:25rem" src="{{pathToRoot}}images/eclipse/runIcons.png" alt="Run Icons" />
 	</li>
@@ -52,10 +52,10 @@
 		<br/>
 		<img style="width:50rem" src="{{pathToRoot}}images/eclipse/runProgram.png" alt="Run Program" />
 		<br/>
-		Note that a single project can contain several different programs.  Select the program you would like to run, and it will launch!
+		Select the program you would like to run, and it will launch!
 	</li>
     <li>
-        If you make changes to your code, you must <strong>re-run your program</strong> in order for the changes to take effect.  You cannot just click "Reset Program" and then start the program again.
+        If you make changes to your code, you must <strong>re-run your program</strong> in order for the changes to take effect.
     </li>
 </ol>
 <h3>Closing Projects</h3>
