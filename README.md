@@ -89,6 +89,7 @@ code (OPTIONAL): if false, does not show the "Code" link for this day
 slides (OPTIONAL): if false, does not show the "Slides" links for this day
 notes (OPTIONAL): a list of strings to display in gray on this calendar day,
 				 each on its own line.
+practice (OPTIONAL): a list of length-2 lists ([PROBLEM NAME, URL]) representing that day's practice problems. 
 ```
 
 Of note, `filename` is used as follows:
