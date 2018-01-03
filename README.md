@@ -8,9 +8,11 @@ follows:
 bottle/ - the source files for Bottle, the library used to compile templates
 templates/ - the uncompiled Bottle templates (.html represent actual pages,
 .ptl represent 'partials' that are used within other files)
-WWW/ - the output folder containing compiled pages and other static resources (for hosting on Stanford servers, it's easiest to symlink from the course's WWW/ folder to this WWW/ folder)
+WWW/ - the output folder containing compiled pages and other static resources
 compile.py - the template compilation script
 ```
+
+(Note: for hosting on Stanford servers, it's easiest to symlink from the course's WWW/ folder to the above WWW/ folder)
 
 ## Editing
 Within `templates`, there are subfolders for exam pages, assignment pages, and
