@@ -19,6 +19,8 @@ Within `templates`, there are subfolders for exam pages, assignment pages, and
 subparts of various pages.  Here are the relevant files for various tasks you
 may want to do:
 
+- **Initial setup and customization: ** see `courseInfo.py` for various constants you must specify containing information about your course offering.  These constants define content displayed on various pages; info about these constants is documented within the file.
+
 - **Posting announcements:** add a `<div class="well">` element to
 `templates/announcements.html` containing your announcement.  See existing
 announcements, as well as `templates/announcements-old.html`, for example
