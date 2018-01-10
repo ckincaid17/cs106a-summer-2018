@@ -100,6 +100,7 @@ def searchHandoutsDirectory():
         handoutName = nameList[0] + ' - ' + ' '.join(nameList[1:])
 
         handoutsData.append((handoutName, filePath))
+        handoutsData.sort(key=lambda x: x[0])
 
     return handoutsData 
 
