@@ -1,0 +1,81 @@
+% rebase('templates/template.ptl', title='Assignment 1')
+
+<!-- Header -->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="pageHeader">
+			<h1>Assignment 1: Karel the Robot</h1>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
+				Due: Wednesday, July 5th, 11AM
+			</p>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
+				Must be done individually
+			</p>
+		</div>
+		<hr/>
+	</div>
+</div>
+
+<!-- Image -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align: center;"><img alt="Karel the Robot" src="{{pathToRoot}}images/assignments/karel.jpg" /></p>
+	</div>
+</div>
+
+<!-- Caption -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align:center">
+			<i>Your first assignment consists of four Karel programs.</i>
+		</p>
+	</div>
+</div>
+
+<!-- Description -->
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Getting Started</h2>
+		<p>
+			There is a starter project including all of these problems that you can access using the link below. Since this is the first assignment, we will ask you a few questions about the Honor Code (which are required) before you can download the starter project. Once you have the starter code set up, edit the program files so that the assignment actually does what it’s supposed to do (see the assignment handout), which will involve a cycle of coding, testing, and debugging until everything works. The final step is to submit your assignment.
+		</p>
+		<p>
+			You should write the code for your solution on your own. This assignment is <b>not</b> a pair assignment.
+		</p>
+		<p><strong>Note:</strong> You may only use <strong>concepts covered in the Karel coursereader</strong> to solve these problems. In particular, you may not use Java concepts you may have learned previously such as variables, parameters, <strong>return</strong>, <strong>break</strong>, etc. If you have any questions about what is ok/not ok to use, please feel free to ask.
+		</p>
+	</div>
+</div>
+
+<!-- Assignment Files -->
+<h2>Assignment Files</h2>
+<div class="row">
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}handouts/assignments/Assignment1.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Handout</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSfEBeYV-BBv2dwYpVSis699CfZ-L6rHrT0YNeMp0luB5RWiJQ/viewform?usp=sf_link"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Honor Code Form / Starter Code</span></a>
+	</div>
+</div>
+<p><a href="{{pathToRoot}}resources/CS106A-Assignment1.zip">Click here</a> to redownload the starter code if you have already completed the Honor Code form.</p>
+
+<!-- Resources -->
+<h2>Other Resources</h2>
+<div class="row">
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>{{courseInfo.SOFTWARE}} Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/3-Programming-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Karel Handout</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/4-Debugging-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Debugging with Karel</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/2-The-Honor-Code.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>The Honor Code</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}resources/karel-the-robot-learns-java.pdf"><span class="glyphicon glyphicon-book" aria-hidden="true" style="font-size: 5em;"></span><br><span>Karel Coursereader</span></a>
+	</div>
+</div>
+
+<!-- FAQ -->
+<h2>F.A.Q.</h2>
+<dl>
+	% include('templates/assignments/faq.ptl', karel=True)
+</dl>

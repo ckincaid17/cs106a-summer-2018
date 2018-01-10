@@ -1,0 +1,49 @@
+<!--
+	A template used for every page - contains the header, nav bar, a container div, and the footer.
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="{{pathToRoot}}images/stanford-favicon.png" type="image/x-icon">
+		<title>{{courseInfo.COURSE_NUMBER}} {{' | ' + get('title', 'Home')}}</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="{{pathToRoot}}css/style.css" />
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="{{pathToRoot}}js/moment.min.js"></script>
+		<script type="text/javascript" src="{{pathToRoot}}js/index.js"></script>
+
+
+		<!-- Stanford -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
+		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
+	</head>
+
+	<body>
+		%include templates/navbar/navBar.ptl
+		<div class="container">
+			
+			{{!base}}
+			
+			<!-- Footer -->
+			<div class="row">
+				<div class="col-xs-12">
+					<hr>
+					<div class="footer">
+						<p class="text-center">
+							&#169; Stanford {{courseInfo.QUARTER_YEAR}} &#124; Created by Chris Piech and Nick Troccoli.<br/>
+							{{courseInfo.COURSE_NUMBER}} has been developed over time by many talented teachers. 
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

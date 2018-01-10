@@ -1,0 +1,417 @@
+{
+	"days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+	"weeks": [
+		[
+			{
+				"title": "Welcome to CS 106A",
+				"date": "June 26",
+				"filename": "Lecture1",
+				"code": false,
+				"notes": [
+					"Read: Karel Ch. 1-2"
+				]
+			},
+			{
+				"title": "Programming with Karel",
+				"date": "June 27",
+				"filename": "Lecture2",
+				"practice": [
+					["MeetKarel", "http://www.codestepbystep.com/problem/view/java/karel/MeetKarel"],
+					["ThreeBeepers", "http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers"],
+					["KarelLoop1", "http://www.codestepbystep.com/problem/view/java/karel/karelLoop1"],
+					["Sweeper", "http://www.codestepbystep.com/problem/view/java/karel/Sweeper"],
+					["Racetrack", "http://www.codestepbystep.com/problem/view/java/karel/Racetrack"],
+					["RoadRepair", "http://www.codestepbystep.com/problem/view/java/karel/RoadRepairKarel"]
+				],
+				"notes": [
+					"Read: Karel Ch. 3-4"
+				]
+			},
+			{
+				"title": "Problem-solving with Karel",
+				"date": "June 28",
+				"filename": "Lecture3",
+				"practice": [
+					["HurdleJumper", "http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper"],
+					["Roomba", "http://www.codestepbystep.com/problem/view/java/karel/Roomba"],
+					["BeeperCollector", "http://www.codestepbystep.com/problem/view/java/karel/BeeperCollector"],
+					["MazeRunner", "http://www.codestepbystep.com/problem/view/java/karel/MazeRunner"],
+					["DoubleBeepers", "http://www.codestepbystep.com/problem/view/java/karel/DoubleBeepers"]
+				],
+				"notes": [
+					"Read: Karel Ch. 5-6",
+					"Out: Assn. 1"
+				]
+			},
+			{
+				"title": "Introduction to Java",
+				"date": "June 29",
+				"filename": "Lecture4",
+				"practice": [
+					["FearTheTree", "http://www.codestepbystep.com/problem/view/java/basics/FearTheTree"],
+					["ExpressionsNumbers1", "http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&embedded=false&problem=expressionsNumbers1"],
+					["ExpressionsStrings1", "http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&embedded=false&problem=expressionsStrings1"],
+					["InchesToCentimeters", "http://www.codestepbystep.com/problem/view/java/basics/InchesToCentimeters"]
+				],
+				"notes": [
+					"Read: Java Ch. 1, 2.1-2.4, 3.1-3.4"
+				]
+			},
+			{
+				"type": "OFF",
+				"date": "June 30"
+			}
+		],
+		[
+			{
+				"title": "Booleans and Control Flow",
+				"date": "July 3",
+				"filename": "Lecture5",
+				"practice": [
+					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
+					["RangeOfNumbers", "http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers"],
+					["SentinelSum", "http://www.codestepbystep.com/problem/view/java/loops/SentinelSum"]
+				],
+				"notes": [
+					"Read: Java Ch. 3.4-4.6"
+				]
+			},
+			{
+				"type": "HOLIDAY",
+				"title": "July 4th",
+				"date": "July 4"
+			},
+			{
+				"title": "Control Flow and Parameters",
+				"date": "July 5",
+				"code": false,
+				"filename": "Lecture6",
+				"notes": [
+					"Read: Java Ch. 5.1-5.4",
+					"Due: Assn. 1",
+					"Out: Assn. 2"
+				],
+				"practice": [
+					["NumberSquare", "http://www.codestepbystep.com/problem/view/java/loops/NumberSquare"],
+					["numberLoops1", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops1"],
+					["numberLoops2", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops2"],
+					["numberLoops3", "http://www.codestepbystep.com/problem/view/java/loops/numberLoops3"],
+					["loopMysteryPrint1", "http://www.codestepbystep.com/problem/view/java/loops/loopMysteryPrint1"]
+				]
+			},
+			{
+				"title": "Parameters and Return",
+				"date": "July 6",
+				"notes": [
+					"Read: Java Ch. 5.1-5.4"
+				],
+				"practice": [
+					["boxOfStars", "http://www.codestepbystep.com/problem/view/java/parameters/boxOfStars"],
+					["triangle", "http://www.codestepbystep.com/problem/view/java/parameters/triangle"],
+					["ParameterMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ParameterMystery1"],
+					["sumOfRange", "http://www.codestepbystep.com/problem/view/java/parameters/sumOfRange"],
+					["factorial", "http://www.codestepbystep.com/problem/view/java/parameters/factorial"],
+					["ReturnMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ReturnMystery1"],
+					["isPrimeNumber", "http://www.codestepbystep.com/problem/view/java/parameters/isPrimeNumber"],
+					["threeConsecutive", "http://www.codestepbystep.com/problem/view/java/parameters/threeConsecutive"]
+				],
+				"filename": "Lecture7"
+			},
+			{
+				"type": "OFF",
+				"date": "July 7"
+			}
+		],
+		[
+			{
+				"title": "Characters and Strings",
+				"date": "July 10",
+				"notes": [
+					"Read: Java Ch. 8.1-8.4"
+				],
+				"code": false,
+				"filename": "Lecture8",
+				"practice": [
+					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"],
+					["Roulette", "http://www.codestepbystep.com/problem/view/java/parameters/Roulette"],
+					["convertToAltCaps", "http://www.codestepbystep.com/problem/view/java/strings/convertToAltCaps"],
+					["isVowel", "http://www.codestepbystep.com/problem/view/java/strings/isVowel"],
+					["repeat", "http://www.codestepbystep.com/problem/view/java/strings/repeat"],
+					["dracula", "http://www.codestepbystep.com/problem/view/java/strings/dracula"],
+					["marshallMathers", "http://www.codestepbystep.com/problem/view/java/strings/marshallMathers"]
+				]
+			},
+			{
+				"title": "Problem-Solving with Strings",
+				"date": "July 11",
+				"notes": [
+					"Read: Java Ch. 8.5"
+				],
+				"filename": "Lecture9",
+				"practice": [
+					["Reverse", "http://www.codestepbystep.com/problem/view/java/strings/reverse"],
+					["isPalindrome", "http://www.codestepbystep.com/problem/view/java/strings/isPalindrome"],
+					["CaesarCipher", "http://www.codestepbystep.com/problem/view/java/strings/CaesarCipher"],
+					["swapPairs", "http://www.codestepbystep.com/problem/view/java/strings/swapPairs"],
+					["containsTwice", "http://www.codestepbystep.com/problem/view/java/strings/containsTwice"],
+					["nameDiamond", "http://www.codestepbystep.com/problem/view/java/strings/nameDiamond"]
+				]
+			},
+			{
+				"title": "File Reading",
+				"date": "July 12",
+				"filename": "Lecture10",
+				"notes": [
+					"Read: Java Ch. 12.4",
+					"Due: Assn. 2",
+					"Out: Assn. 3"
+				],
+				"practice": [
+					["flipCoins", "http://www.codestepbystep.com/problem/view/java/fileio/flipCoins"],
+					["Weather", "http://www.codestepbystep.com/problem/view/java/fileio/Weather"],
+					["Election", "http://www.codestepbystep.com/problem/view/java/fileio/Election"],
+					["Hours", "http://www.codestepbystep.com/problem/view/java/fileio/Hours"]
+				]
+			},
+			{
+				"title": "Graphics",
+				"notes": [
+					"Read: Java Ch. 9.1-9.3"
+				],
+				"date": "July 13",
+				"filename": "Lecture11",
+				"practice": [
+					["SmileyFace", "http://www.codestepbystep.com/problem/view/java/graphics/SmileyFace"],
+					["CircleLoops", "http://www.codestepbystep.com/problem/view/java/graphics/CircleLoops"],
+					["PumpkinPie", "http://www.codestepbystep.com/problem/view/java/graphics/PumpkinPie"]
+				]
+			},
+			{
+				"type": "OFF",
+				"date": "July 14"
+			}
+		],
+		[
+			{
+				"title": "More Graphics",
+				"filename": "Lecture12",
+				"notes": [
+					"Read: Java Ch. 9.4"
+				],
+				"date": "July 17"
+			},
+			{
+				"title": "Animation",
+				"filename": "Lecture13",
+				"notes": [
+					"Read: Java Ch. 9"
+				],
+				"date": "July 18"
+			},
+			{
+				"title": "Events",
+				"date": "July 19",
+				"filename": "Lecture14",
+				"notes": [
+					"read: Java Ch. 10.1-10.4"
+				],
+				"practice": [
+					["GoogleyEyes", "http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes"],
+					["Frogger", "http://www.codestepbystep.com/problem/view/java/graphics/Frogger"],
+					["PicturePanel", "http://www.codestepbystep.com/problem/view/java/graphics/PicturePanel"],
+					["ShapeStamper", "http://www.codestepbystep.com/problem/view/java/graphics/ShapeStamper"],
+					["CircleJumper", "http://www.codestepbystep.com/problem/view/java/graphics/CircleJumper"],
+					["TicTacToe", "http://www.codestepbystep.com/problem/view/java/graphics/TicTacToe"]
+				]
+			},
+			{
+				"title": "Events and Memory",
+				"filename": "Lecture15",
+				"date": "July 20",
+				"notes": [
+					"Due: Assn. 3",
+					"Out: Assn. 4"
+				],
+				"practice": [
+					["UFOGame (see lecture code)", ""],
+					["GoogleyEyes", "http://www.codestepbystep.com/problem/view/java/graphics/GoogleyEyes"]
+				]
+			},
+			{
+				"type": "OFF",
+				"date": "July 21"
+			}
+		],
+		[
+			{
+				"type": "HOLIDAY",
+				"date": "July 24",
+				"title": "Exam Study Day (Midterm 7-9PM)"
+			},
+			{
+				"title": "Arrays",
+				"date": "July 25",
+				"notes": [
+					"read: Java Ch. 11.1-11.5"
+				],
+				"filename": "Lecture16",
+				"practice": [
+					["mystery1", "http://www.codestepbystep.com/problem/view/java/arrays/mystery1"],
+					["print", "http://www.codestepbystep.com/problem/view/java/arrays/print"],
+					["computeAverage", "http://www.codestepbystep.com/problem/view/java/arrays/computeAverage"],
+					["sorted", "http://www.codestepbystep.com/problem/view/java/arrays/sorted"],
+					["countDuplicates", "http://www.codestepbystep.com/problem/view/java/arrays/countDuplicates"],
+					["switchPairs", "http://www.codestepbystep.com/problem/view/java/arrays/switchPairs"]
+				]
+			},
+			{
+				"title": "2D Arrays",
+				"date": "July 26",
+				"notes": [
+					"read: Java Ch. 11.6-11.7"
+				],
+				"filename": "Lecture17",
+				"practice": [
+					["array2dMystery2", "http://www.codestepbystep.com/problem/view/java/arrays/2d/array2dMystery2"],
+					["isUnique", "http://www.codestepbystep.com/problem/view/java/arrays/2d/isUnique"],
+					["matrixSum", "http://www.codestepbystep.com/problem/view/java/arrays/2d/matrixSum"],
+					["wideFlip", "http://www.codestepbystep.com/problem/view/java/arrays/2d/wideFlip"]
+				]
+			},
+			{
+				"title": "More Arrays",
+				"date": "July 27",
+				"filename": "Lecture18"
+			},
+			{
+				"type": "OFF",
+				"date": "July 28"
+			}
+		],
+		[
+			{
+				"title": "ArrayLists",
+				"filename": "Lecture19",
+				"date": "July 31",
+				"practice": [
+					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
+					["switchPairs", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/switchPairs"],
+					["removeRange", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/removeRange"]
+				],
+				"notes": [
+					"read: Java Ch. 11.8",
+					"Due: Assn. 4",
+					"Out: Assn. 5"
+				]
+			},
+			{
+				"title": "HashMaps",
+				"filename": "Lecture20",
+				"practice": [
+					["collectionMystery1", "http://www.codestepbystep.com/problem/view/java/collections/map/collectionMystery1"],
+					["hasDuplicateValue", "http://www.codestepbystep.com/problem/view/java/collections/map/hasDuplicateValue"],
+					["rarestAge", "http://www.codestepbystep.com/problem/view/java/collections/map/rarestAge"]
+				],
+				"notes": [
+					"read: Java Ch. 13.2"
+				],
+				"date": "August 1"
+			},
+			{
+				"title": "Classes",
+				"filename": "Lecture21",
+				"notes": [
+					"read: Java Ch. 6"
+				],
+				"practice": [
+					["Circle", "http://www.codestepbystep.com/problem/view/java/classes/Circle"],
+					["Date", "http://www.codestepbystep.com/problem/view/java/classes/Date"]
+				],
+				"date": "August 2"
+			},
+			{
+				"title": "More Classes",
+				"notes": [
+					"read: Java Ch. 6"
+				],
+				"practice": [
+					["BankAccount-transactionFee", "http://www.codestepbystep.com/problem/view/java/classes/BankAccount%2DtransactionFee"],
+					["Clock-advance", "http://www.codestepbystep.com/problem/view/java/classes/Clock%2Dadvance"]
+				],
+				"filename": "Lecture22",
+				"date": "August 3"
+			},
+			{
+				"type": "OFF",
+				"date": "August 4"
+			}
+		],
+		[
+			{
+				"title": "GCanvas and Interactors",
+				"date": "August 7",
+				"filename": "Lecture23",
+				"notes": [
+					"read: Java Ch. 10.5-10.6",
+					"Due: Assn. 5",
+					"Out: Assn. 6"
+				]
+			},
+			{
+				"title": "Interactors and NameSurfer",
+				"filename": "Lecture24",
+				"practice": [
+					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
+				],
+				"notes": [
+					"read: Java Ch. 10.5-10.6"
+				],
+				"date": "August 8"
+			},
+			{
+				"title": "Life After CS106A, Part 1",
+				"date": "August 9",
+				"filename": "Lecture25"
+			},
+			{
+				"title": "Life After CS106A, Part 2",
+				"date": "August 10",
+				"filename": "Lecture26"
+			},
+			{
+				"type": "OFF",
+				"date": "August 11"
+			}
+		],
+		[
+			{
+				"title": "Final Exam Review 1",
+				"date": "August 14",
+				"filename": "Lecture27"
+			},
+			{
+				"title": "Final Exam Review 2 / Wrapup",
+				"date": "August 15",
+				"filename": "Lecture28",
+				"notes": [
+					"Due: Assn. 6"
+				]
+			},
+			{
+				"type": "HOLIDAY",
+				"date": "August 16",
+				"title": "Exam Study Day"
+			},
+			{
+				"type": "HOLIDAY",
+				"date": "August 17",
+				"title": "Exam Study Day"
+			},
+			{
+				"type": "OFF",
+				"date": "August 18",
+				"title": "Final Exam 12:15PM-3:15PM"
+			}
+		]
+	]
+}

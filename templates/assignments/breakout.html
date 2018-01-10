@@ -1,0 +1,102 @@
+% rebase('templates/template.ptl', title='Assignment 4')
+
+<!-- Header -->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="pageHeader">
+			<h1>Assignment 4: Artistry and Breakout</h1>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
+				Due: Monday, July 31st, 11AM PST
+			</p>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
+				May be done in pairs
+			</p>
+		</div>
+		<hr/>
+	</div>
+</div>
+
+<!-- Image -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align: center;"><img style="width: 100%;" alt="Hangman" src="{{pathToRoot}}images/assignments/breakout.png" /></p>
+	</div>
+</div>
+
+<!-- Caption -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align:center">
+			<i>Your fourth assignment is the classic arcade game Breakout that will give you practice with graphics, events, animation and instance variables.</i>
+		</p>
+	</div>
+</div>
+
+<!-- Description -->
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Getting Started</h2>
+		<p>
+			There is a starter project including all of these problems that you can access using the link below. Once you have the starter code set up, edit the program files so that the assignment actually does what it’s supposed to do (see the assignment handout), which will involve a cycle of coding, testing, and debugging until everything works. The final step is to submit your assignment.
+		</p>
+		<p>
+			This assignment may (optionally) be done in pairs.  <strong>As a reminder, you may only pair up with others with the same section time and location.</strong>
+		</p>
+		<p><strong>Note:</strong> In general, limit yourself to using Java syntax taught in lecture, and the parts of the textbook we have read, up through the release of this assignment (July 20). You may, however, use material covered in class past this date for any optional extensions. If you would like to implement any extensions, please implement them in a separate file, such as BreakoutExtra.java. Clearly comment at the top of this file what extensions you have implemented. Instructions on how to add files to the starter project are listed in the Eclipse page FAQ.
+		</p>
+	</div>
+</div>
+
+<!-- Assignment Files -->
+<h2>Assignment Files</h2>
+<p>To run the demo, download the JAR file below and double-click it to run.  If you are unable to run it by double-clicking (e.g. due to an error message on Macs), instead right-click on the demo JAR file and click "Open".</p>
+<div class="row">
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}handouts/assignments/Assignment4.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Handout</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment4.zip"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Starter Code</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment4-Demo.jar"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Demo</span></a>
+	</div>
+</div>
+
+<!-- Resources -->
+<h2>Other Resources</h2>
+<p>Note: the "Debugging with Karel" handout still provides valuable debugging tips for Java programs!  In particular, the debugger functions identically for Karel and Java programs.</p>
+<div class="row">
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>{{courseInfo.SOFTWARE}} Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}style/"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>Style Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/4-Debugging-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Debugging with Karel</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/2-The-Honor-Code.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>The Honor Code</span></a>
+	</div>
+</div>
+
+<!-- FAQ -->
+<h2>F.A.Q.</h2>
+<dl>
+	<dt id="bricksize">
+		Q: Why are my bricks the wrong size?
+	</dt>
+	<dd>
+		A: Are you using int sizes? Maybe you should use double for the highest precision. Also, are you sure your math is right? If there are 10 bricks per row, there are 9 gaps between them space at each side for centering. Also, are you sure you're using getWidth() and getHeight() to get the canvas size?
+	</dd>
+	<dt id="paddle">
+		Q: Why can't I see the paddle?
+	</dt>
+	<dd>
+		A: Are you sure you're using the right values for the width/height of the overall game window? You should use getWidth() and getHeight() for this.  Also try resizing the window larger to see if the paddle shows up.
+	</dd>
+	<dt id="numIvars">
+		Q: How many instance variables are ok to have?  Can ___ be an instance variable?
+	</dt>
+	<dd>
+		A: We don't want to answer exactly what instance variables are okay or not okay. That is part of the assignment, for you to decide what is appropriate. You should follow the guidelines we have taught you for deciding that. If a value must be used through multiple methods over time and it can't be easily solved using a parameter or return, that is a good candidate for an instance variable. You should minimize the number of instance variables in your program and only use them if something truly needs to be an instance variable for the program to function.
+	</dd>
+	
+	%include templates/assignments/faq.ptl
+</dl>

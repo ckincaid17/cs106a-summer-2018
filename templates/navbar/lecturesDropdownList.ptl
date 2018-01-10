@@ -1,0 +1,56 @@
+<!--
+	Generates a list of lecture links based on schedule.json.  Only renders up
+	to (and not including) the first lecture without a filename - it is assumed
+	that this marks the end of given lectures.  Adds a divider between each
+	week.  Skips holidays.
+	-->
+<%
+	lectureNumber = 1
+
+	# Find how many weeks we should show
+	maxWeekNum = -1
+	for week in schedule["weeks"]:
+		nonHolidays = [day for day in week if "type" not in day or (day["type"] != "HOLIDAY" and day["type"] != "OFF")]
+		weekFilenames = [day["filename"] if "filename" in day else None for day in nonHolidays]
+
+		# If this week has no lectures we need to add, stop here
+		if len(weekFilenames) == 0 or weekFilenames[0] == None:
+			break
+		# If this week has at least one lecture, but has an empty lecture, add and stop here
+		elif None in weekFilenames:
+			maxWeekNum += 1
+			break
+		# Otherwise add this week and keep going
+		else:
+			maxWeekNum += 1
+		end
+	end
+
+	# Render each week until we hit a not-given lecture
+	if maxWeekNum == -1:
+%>
+		<li><a>Coming soon!</a></li>
+<%	
+	else:
+		for i in range(maxWeekNum + 1):
+%>
+			<li class="dropdown-header">Week {{i+1}}</li>
+<%
+			for day in schedule["weeks"][i]:
+				if ("type" not in day or (day["type"] != "HOLIDAY")) and "filename" in day:
+					filename = day["filename"]
+					title = day["title"]
+%>
+					<li><a href="{{pathToRoot}}lectures/{{filename}}/{{filename}}.pdf">{{lectureNumber}} - {{title}}</a></li>
+<%
+					lectureNumber += 1
+				end
+			end
+			if i < maxWeekNum:
+%>
+				<li class="divider"></li>
+<%
+			end
+		end
+	end
+%>

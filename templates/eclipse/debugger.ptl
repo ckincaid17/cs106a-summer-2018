@@ -1,0 +1,59 @@
+<h2>The Eclipse Debugger</h2>
+<p>
+	When writing programs in Eclipse, you may run your program and have it behave in a way that you did not intend or expect.  In cases like this, you need to "debug", or remove unintended behavior, from your program.  Luckily, Eclipse comes with a built-in "debugger", or tools that can help you better understand what your code is doing.  Here's how to use it.
+</p>
+<ol>
+	<li>
+		When you want to further investigate the behavior of your program, you should add a "breakpoint" to your program.  A breakpoint tells Eclipse that you would like to have the program pause once it reaches a certain line so you can poke around.  To add a breakpoint, double-click in the margin on the line on which you would like to add a breakpoint.  A blue dot will appear, which symbolizes the breakpoint.  You can add one, or multiple breakpoints, in your program.  To remove a breakpoint, just double-click on it.
+		<br />
+		<img style="width:25rem" src="{{pathToRoot}}images/eclipse/breakpoint.png" alt="Breakpoint" />
+		<br />
+	</li>
+	<li>
+		Now, run your program as normal using the "Running person" icons.  When the program reaches a breakpoint, it will prompt you to enter debug mode; click "Yes".
+		<br />
+		<img style="width:100%;" src="{{pathToRoot}}images/eclipse/debugPrompt.png" alt="Debug Prompt" />
+		<br />
+	</li>
+	<li>
+		Eclipse will now enter Debugger mode; it's a similar view to the "Editor" mode you are used to, but with some additional information that may help in the debugging process.
+		<br />
+		<img style="width: 100%;" src="{{pathToRoot}}images/eclipse/debugger.png" alt="Eclipse Debugger" />
+		<br />
+		<ul>
+			<li><strong>RED: </strong> This is your program code, but you will see the line with the breakpoint highlighted in green.  This tells you that Eclipse is running your program, and has paused before executing this line, waiting for further instructions from you.</li>
+			<li><strong>BLUE: </strong>This is called the "stack trace".  This shows you where in your program you are currently paused (read from bottom to top), and why.  The first few commands (such as the "Karel.main" and "Program.main" in the image above) are from your program being launched, and you can ignore them.  The relevant lines start with <i>YOUR_PROGRAM_NAME</i> (e.g. BuggyRoomba in the image above).  These lines show what methods have been executed to get to the current point.  In this image, for instance, the program is paused in the run() method because of a breakpoint.</li>
+			<li><strong>PURPLE: </strong>This contains the debugger controls.  You will learn about these in the next step.</li>
+		</ul>
+	</li>
+	<li>
+		<img style="width:50rem" src="{{pathToRoot}}images/eclipse/debugControls.png" alt="Debug Controls" />
+		<br />
+		The debugger controls are, going from left to right:
+		<ul>
+			<li><strong>"Resume" Button</strong>: resumes execution of the program (until it hits another breakpoint, finishes, etc.).</li>
+			<li><strong>"Suspend" Button</strong>: (Currently grayed out) Pauses the program as if it had hit a breakpoint.</li>
+			<li><strong>"Terminate" Button</strong>: stops execution of the program.</li>
+			<li><strong>"Disconnect" Button</strong>: (Currently grayed out) you can ignore this.</li>
+			<li><strong>"Step Into" Button</strong>: Tells the debugger to go to the first line <i>within</i> the method that was previously highlighted and await further instructions.  This lets you "step into" a method and look further at <i>its</i> code.  If you click this button, notice that a new entry appears at the top of the stack trace reflecting that you are going "down" a level into a method.</li>
+			<li><strong>"Step Over" Button</strong>: Tells the debugger to execute the currently highlighted line <i>at the current level</i> (does not go into the command like "Step Into"), and move to the next line.  This is the option you will probably use most often.</li>
+			<li><strong>"Step Return" Button</strong>: Tells the debugger to finish executing the current method, and go back to the <i>method that called this method</i>.</li>
+		</ul>
+	</li>
+	<li>
+		Use these controls to execute commands step by step in order to better understand what your program is doing.  When you are finished, remember to remove the breakpoints you have added by double-clicking on them.  To switch back to the regular "Editor" mode, use the Stanford Menu.
+		<br />
+		<img style="width:25rem" src="{{pathToRoot}}images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
+		<br />
+		If your Eclipse window does not look like the windows shown in the screenshots, please see the FAQ below.
+	</li>
+	<li>
+		At some point while debugging, you might run into a view that looks like the following:
+		<br />
+		<img style="width:100%;" src="{{pathToRoot}}images/eclipse/karelCrash.png" alt="Karel Debugger Crash" />
+		<br />
+		You'll notice that, in the stack trace, it now just says "Suspended"; this means that the program halted unexpectedly on its own, not because of a breakpoint.  This happens when your program crashes.  Eclipse also opens up the file <strong>KarelProgram.class</strong>, but you can close this tab, as it's not useful for anything.  If you click the "Resume" button in the toolbar, you should see the Karel program pop up an error message with more information about the crash.
+	</li>
+</ol>
+<br />
+For a walkthrough of how to use these steps to debug a sample Karel program, see the "Debugging with Karel" handout in the "Handouts" dropdown in the navigation bar.

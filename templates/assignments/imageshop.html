@@ -1,0 +1,90 @@
+% rebase('templates/template.ptl', title='Assignment 5')
+
+<!-- Header -->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="pageHeader">
+			<h1>Assignment 5: ImageShop</h1>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
+				Due: Monday, August 7, 11AM PST
+			</p>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
+				May be done in pairs
+			</p>
+		</div>
+		<hr/>
+	</div>
+</div>
+
+<!-- Image -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align: center;"><img style="width: 100%;" alt="ImageShop" src="{{pathToRoot}}images/assignments/imageshop.png" /></p>
+	</div>
+</div>
+
+<!-- Caption -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align:center">
+			<i>Your fifth assignment is an image editing program that will give you practice with 1D and 2D arrays and image manipulation.</i>
+		</p>
+	</div>
+</div>
+
+<!-- Description -->
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Getting Started</h2>
+		<p>
+			There is a starter project including all of these problems that you can access using the link below. Once you have the starter code set up, edit the program files so that the assignment actually does what it’s supposed to do (see the assignment handout), which will involve a cycle of coding, testing, and debugging until everything works. The final step is to submit your assignment.
+		</p>
+		<p>
+			This assignment may (optionally) be done in pairs.  <strong>As a reminder, you may only pair up with others with the same section time and location.</strong>
+		</p>
+		<p><strong>Note:</strong> In general, limit yourself to using Java syntax taught in lecture, and the parts of the textbook we have read, up through the release of this assignment (July 31). You may, however, use material covered in class past this date for any optional extensions. If you would like to implement any extensions, please implement them in a separate file, such as <code>ImageShopAlgorithmsExtra.java</code>. Clearly comment at the top of this file what extensions you have implemented. Instructions on how to add files to the starter project are listed in the Eclipse page FAQ.
+		</p>
+	</div>
+</div>
+
+<!-- Assignment Files -->
+<h2>Assignment Files</h2>
+<p>To run the demo, download the JAR file below and double-click it to run.  If you are unable to run it by double-clicking (e.g. due to an error message on Macs), instead right-click on the demo JAR file and click "Open".</p>
+<div class="row">
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}handouts/assignments/Assignment5.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Handout</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment5.zip"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Starter Code</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment5-Demo.jar"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Demo</span></a>
+	</div>
+</div>
+
+<!-- Resources -->
+<h2>Other Resources</h2>
+<p>Note: the "Debugging with Karel" handout still provides valuable debugging tips for Java programs!  In particular, the debugger functions identically for Karel and Java programs.  You can also mouse over variables while the program is paused in the debugger to view their current value (super useful for arrays!)</p>
+<div class="row">
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>{{courseInfo.SOFTWARE}} Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}style/"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>Style Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/4-Debugging-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Debugging with Karel</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/2-The-Honor-Code.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>The Honor Code</span></a>
+	</div>
+</div>
+
+<!-- FAQ -->
+<h2>F.A.Q.</h2>
+<dl>
+	<dt id="println">
+		Q: I am trying to use println to debug my program, but it's not working.  Why not?
+	</dt>
+	<dd>
+		A: You can certainly debug using print statements in this assignment (or the debugger!), and we encourage it.  But <code>ImageShopAlgorithms.java</code> is not a <code>ConsoleProgram</code>, so you cannot call <code>println</code>.  To get around this, instead of writing just <code>println</code>, you need to write <code>System.out.println</code>, and the output will appear in the "Console" tab at the bottom of your Eclipse window.
+	</dd>
+	
+	%include templates/assignments/faq.ptl
+</dl>

@@ -1,0 +1,40 @@
+<!-- Displays a series of wells in columns where each
+	well displays either an exam sitting or a
+	review session.
+	-->
+
+<% 
+	events = [] + exam["LOCATIONS"]
+	if exam["REVIEW_SESSION"] != None:
+		events += [exam["REVIEW_SESSION"]]
+	end
+%>
+
+<!-- Displays an alert that info is coming later -->
+% if len(events) == 0:
+	<div class="col-xs-12">
+		<div class="alert alert-info">
+			<p><b>Check back later:</b> We will provide relevant exam details closer to the exam date.</p>
+		</div>
+	</div>
+
+<!-- Otherwise, calculate the column layout -->
+% else:
+% 	xsColSize = max(12 / len(events), 6)
+% 	smColSize = max(12 / len(events), 4)
+
+<!-- Add each exam event -->
+%	for examEvent in exam["LOCATIONS"]:
+		<div class="col-xs-{{xsColSize}} col-sm-{{smColSize}}">
+			% include('templates/exams/eventWell.ptl', title=examEvent["TITLE"], date=exam["DATE"], time=exam["TIME"], location=examEvent["LOCATION"], mapLink=examEvent["MAP_LINK"])
+		</div>
+%	end
+
+<!-- Add the review session, if any -->
+%	if exam["REVIEW_SESSION"] != None:
+		<div class="col-xs-{{xsColSize}} col-sm-{{smColSize}}">
+			% include('templates/exams/eventWell.ptl', title="Review Session", date=exam["REVIEW_SESSION"]["DATE"], time=exam["REVIEW_SESSION"]["TIME"], location=exam["REVIEW_SESSION"]["LOCATION"], mapLink=exam["REVIEW_SESSION"]["MAP_LINK"])
+		</div>
+%	end
+
+% end

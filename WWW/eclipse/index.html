@@ -1,0 +1,731 @@
+<!--
+	A template used for every page - contains the header, nav bar, a container div, and the footer.
+-->
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/stanford-favicon.png" type="image/x-icon">
+		<title>CS 106A  | Eclipse</title>
+
+		<!-- CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+		<link rel="stylesheet" type="text/css" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/css/style.css" />
+
+		<!-- JavaScript -->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/moment.min.js"></script>
+		<script type="text/javascript" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/js/index.js"></script>
+
+
+		<!-- Stanford -->
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css' />
+		<link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet' type='text/css' />
+	</head>
+
+	<body>
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand brand" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/">CS 106A</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+
+                <!-- Lectures dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						Lectures <span class="caret"></span>
+		  			</a>
+                    <ul class="dropdown-menu">
+<!--
+	Generates a list of lecture links based on schedule.json.  Only renders up
+	to (and not including) the first lecture without a filename - it is assumed
+	that this marks the end of given lectures.  Adds a divider between each
+	week.  Skips holidays.
+	-->
+			<li class="dropdown-header">Week 1</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture1/Lecture1.pdf">1 - Welcome to CS 106A</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture2/Lecture2.pdf">2 - Programming with Karel</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture3/Lecture3.pdf">3 - Problem-solving with Karel</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture4/Lecture4.pdf">4 - Introduction to Java</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 2</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture5/Lecture5.pdf">5 - Booleans and Control Flow</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture6/Lecture6.pdf">6 - Control Flow and Parameters</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture7/Lecture7.pdf">7 - Parameters and Return</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 3</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture8/Lecture8.pdf">8 - Characters and Strings</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture9/Lecture9.pdf">9 - Problem-Solving with Strings</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture10/Lecture10.pdf">10 - File Reading</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture11/Lecture11.pdf">11 - Graphics</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 4</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture12/Lecture12.pdf">12 - More Graphics</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture13/Lecture13.pdf">13 - Animation</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture14/Lecture14.pdf">14 - Events</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture15/Lecture15.pdf">15 - Events and Memory</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 5</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture16/Lecture16.pdf">16 - Arrays</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture17/Lecture17.pdf">17 - 2D Arrays</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture18/Lecture18.pdf">18 - More Arrays</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 6</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture19/Lecture19.pdf">19 - ArrayLists</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture20/Lecture20.pdf">20 - HashMaps</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture21/Lecture21.pdf">21 - Classes</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture22/Lecture22.pdf">22 - More Classes</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 7</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture23/Lecture23.pdf">23 - GCanvas and Interactors</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture24/Lecture24.pdf">24 - Interactors and NameSurfer</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture25/Lecture25.pdf">25 - Life After CS106A, Part 1</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture26/Lecture26.pdf">26 - Life After CS106A, Part 2</a></li>
+				<li class="divider"></li>
+			<li class="dropdown-header">Week 8</li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture27/Lecture27.pdf">27 - Final Exam Review 1</a></li>
+					<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/lectures/Lecture28/Lecture28.pdf">28 - Final Exam Review 2 / Wrapup</a></li>
+                            <li class="divider"></li>
+                            <li><a style="text-align: center;" href="https://goo.gl/forms/viRkXgYxDRq0Uorm2">Give Feedback</a></li>
+                    </ul>
+                </li>
+
+                <!-- Handouts dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+						Handouts <span class="caret"></span>
+		  			</a>
+                    <ul class="dropdown-menu">
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/1-General-Information.pdf">1 - General Information</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/1B-SCPD-Information.pdf">1B - SCPD Information</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/2-The-Honor-Code.pdf">2 - The Honor Code</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/3-Programming-with-Karel.pdf">3 - Programming with Karel</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/4-Debugging-with-Karel.pdf">4 - Debugging with Karel</a></li>
+                    	    <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/handouts/5-JAR-Files.pdf">5 - JAR Files</a></li>
+                    </ul>
+                </li>
+
+                <!-- Assignments dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    	Assignments <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+
+                        <!-- Assignments list -->
+                            <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/karel.html">1 - Karel the Robot</a></li>
+                            <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/introToJava.html">2 - Intro to Java</a></li>
+                            <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/hangman.html">3 - Hangman</a></li>
+                            <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/breakout.html">4 - Artistry and Breakout</a></li>
+                            <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/imageshop.html">5 - ImageShop</a></li>
+                            <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/assignments/namesurfer.html">6 - NameSurfer</a></li>
+
+                        <!-- Style guide -->
+                            <li class="divider"></li>
+                            <li><a style="text-align: center;" href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/style">Style Guide</a></li>
+                    </ul>
+                </li>
+
+                <!-- Section dropdown -->
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                    	Section <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+<!--
+Generates a list of section links based on the saved section materials.  Expects
+a 'sections' parameter of urls where sections[i] is the url to section i+1's
+materials.  See README for more info.
+-->
+<li class="dropdown-header">Section 1</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/1/Section1.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017063017><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/1/Section1-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017063017><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/1/Section1.zip">Code</a></li>
+
+		<li class="divider"></li>
+<li class="dropdown-header">Section 2</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/2/Section2.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017070717><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/2/Section2-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017070717><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/2/Section2.zip">Code</a></li>
+
+		<li class="divider"></li>
+<li class="dropdown-header">Section 3</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/3/Section3.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017071417><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/3/Section3-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017071417><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/3/Section3.zip">Code</a></li>
+
+		<li class="divider"></li>
+<li class="dropdown-header">Section 4</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/4/Section4.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017072117><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/4/Section4-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017072117><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/4/Section4.zip">Code</a></li>
+
+		<li class="divider"></li>
+<li class="dropdown-header">Section 5</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/5/Section5.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017072817><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/5/Section5-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017072817><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/5/Section5.zip">Code</a></li>
+
+		<li class="divider"></li>
+<li class="dropdown-header">Section 6</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/6/Section6.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017080417><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/6/Section6-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017080417><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/6/Section6.zip">Code</a></li>
+
+		<li class="divider"></li>
+<li class="dropdown-header">Section 7</li>
+<li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/7/Section7.pdf">Handout</a></li>
+<li class="section-solutions" data-solutions-release=2017081117><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/7/Section7-Solutions.pdf">Solutions</a></li>
+<li class="section-solutions" data-solutions-release=2017081117><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/section/7/Section7.zip">Code</a></li>
+
+                        <li class="divider"></li>
+                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/default.aspx">View My Section</a></li>
+                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/ViewSections.aspx?class=1">List of all section times/locations</a></li>
+                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/DropClass.aspx?class=1">Drop Section</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <!-- Schedule button -->
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/schedule"><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Schedule</a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>		<div class="container">
+			
+			
+<!-- Header -->
+<div class="row">
+    <div class="col-xs-12">
+        <div id="pageHeader">
+            <h1>
+            Eclipse
+        </h1>
+        </div>
+        <hr/>
+    </div>
+</div>
+
+<!-- Overview -->
+<div class="row">
+    <div class="col-xs-12">
+        <p>
+            In CS 106A, we'll be using Stanford's customized version of Eclipse to build our programs. Eclipse is an enormously popular industrial strength Java environment with many features. Fortunately, Eclipse is also open source -- anyone is free to change Eclipse to work the way they want. We have taken advantage of that freedom to install special Stanford features into Eclipse, tailoring it specifically for CS 106A. This document gives instructions on how to get started using Stanford Eclipse. Please pay close attention to these instructions and do not skip steps!
+            <br />
+            <br /> 
+            If you run into any trouble installing Eclipse, please feel free to stop by office hours or the LaIR, or ask before or after lecture.
+        </p>
+    </div>
+</div>
+
+<hr/>
+
+<!-- Show a 4-panel collapsible "accordion" containing various Eclipse instructions -->
+<div class="panel-group" id="eclipse-accordion" role="tablist" aria-multiselectable="true">
+
+
+        <!-- Mac Installation -->
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-0">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapse-0" aria-expanded="false" aria-controls="collapse-0">
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        Mac Installation
+                    </h4>
+                </a>
+            </div>
+            <div id="collapse-0" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-0">
+                <div class="panel-body">
+<!-- Mac-specific instructions -->
+<h2>Installing Eclipse on a Mac</h2>
+<p>
+	Our version of Eclipse will only work on macOS 10.6 (2009) or higher. If you don't have a supported version of the operating system, you'll need to either upgrade or do your class work on a cluster machine. You can check your version of macOS using <a href="https://support.apple.com/en-us/HT201260">these instructions</a>.
+</p>
+<ol>
+	<!-- These instructions are Mac-specific -->
+    <li>
+    	<a href="https://web.stanford.edu/dept/cs_edu/eclipse/jdk_mac.dmg">Download and install the Java SDK for Mac</a>
+    </li>
+    <li>
+    	<a href="https://web.stanford.edu/dept/cs_edu/eclipse/eclipse_mac.tar.gz">Download the Mac version of Eclipse</a>
+    </li>
+    <li>
+    	Click on the downloaded <strong>eclipse_mac.tar</strong> file to unarchive Eclipse (You can delete <strong>eclipse_mac.tar</strong> afterwards).
+    </li>
+    <li>
+    	Drag the Eclipse app into the Applications folder on your Mac.
+    </li>
+    <li>
+    	Drag the Eclipse icon from there to your Dock to create a shortcut.
+    </li>
+    <li>
+    	Click on the icon in the Dock to open Eclipse. If you see an error that says Eclipse "can't be opened because it is from an unidentified developer," right-click on the Eclipse icon and select "open" instead. You will be able to open Eclipse without right-clicking from now on.
+    </li>
+
+	<!-- These instructions are platform-agnostic -->
+<!-- Platform-agnostic instructions -->
+<li>
+    When you run Eclipse for the first time, you may get a screen that looks like this:
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/workspace.png" alt="Eclipse Workspace Launcher dialog" />
+    <br/> A workspace is just a directory that Eclipse will use to place new projects in. In CS 106A you won't have to make any new projects from scratch. We will always give you skeleton projects for your assignments, so you don't need to worry about where the workspace is. The suggested location is fine. Click the <strong>Use this as the default and do not ask again</strong> checkbox, and then click OK.
+</li>
+<li>
+    Now we need to install the "Stanford Plugin".  This is what adds the "Stanford Menu" to Eclipse, as well as the icons to run, import, and submit projects.  Once Eclipse has started, click Help -&gt; Install New Software.
+</li>
+<li>
+    In the "Work with" text box, type <strong>https://web.stanford.edu/dept/cs_edu/eclipse/plugin</strong> and press Enter.
+</li>
+<li>
+    Click "Select All," then click Next.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep1.png" alt="Eclipse Install Software dialog" />
+</li>
+<li>
+    Click Next again.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep2.png" alt="Eclipse Install Details dialog" />
+</li>
+<li>
+    Click "I accept the terms of the license agreement," then click Finish.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep3.png" alt="Eclipse License Agreement dialog" />
+</li>
+<li>
+    Click OK when you see the warning about installing unsigned content.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep4.png" alt="Eclipse Security Warning dialog" />
+</li>
+<li>
+    Click Yes when asked to restart Eclipse.
+</li>
+<li>
+    Finally, we need to change one Eclipse setting.  By default, Eclipse hides (or "folds") the program comment at the top of each code file; we want to have those always be visible.  To change this, first open <strong>Eclipse preferences</strong> (Eclipse -> Preferences on Mac or Windows -> Preferences on Windows).  In the filter text box, type <strong>folding</strong>.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/preferencesStep1.png" alt="Eclipse Preferences Pane" />
+</li>
+<li>
+    In the results on the left, underneath "Java>Editor", click <strong>Folding</strong>.  In the view that appears, make sure to uncheck <strong>Header Comments</strong>.  Then click <strong>Apply</strong> and <strong>OK</strong>.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/preferencesStep2.png" alt="Eclipse Preferences Pane - Code Folding" />
+</li>
+<li>
+    You're all set up!  To get started importing and running projects, check out the "Importing and Running Projects" section of this page.
+</li></ol>                </div>
+            </div>
+        </div>
+        <!-- Windows Installation -->
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-1">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapse-1" aria-expanded="false" aria-controls="collapse-1">
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        Windows Installation
+                    </h4>
+                </a>
+            </div>
+            <div id="collapse-1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-1">
+                <div class="panel-body">
+<!-- Windows-specific instructions -->
+<h2>Installing Eclipse in Windows</h2>
+<p>
+    (Note that these screenshots are for Windows, even though they were taken on a Mac) Our version of Eclipse will only work on Windows 7 (2009) or higher. If you don't have a supported version of the operating system, you'll need to either upgrade or do your class work on a cluster machine. You can check your version of Windows using <a href="https://support.microsoft.com/en-sg/help/13443/windows-which-operating-system">these instructions</a>.
+</p>
+<ol>
+	<!-- These instructions are Windows-specific -->
+    <li>
+        Remove any older copies of the Java Runtime Environment that may be installed on your system.
+        <ol type="a">
+            <li>
+                <strong>If you have Windows 10:</strong> click on <strong>Start</strong> (the Windows icon in the lower left-hand corner), click on <strong>Settings</strong> (the gear-shaped icon), then select <strong>Apps &amp; Features</strong>.
+                <br/>
+                <strong>Otherwise</strong>: Click on <strong>Start</strong>, then click on <strong>Control Panel</strong>, then select <strong>Programs and Features</strong>.
+            </li>
+            <li>
+                From the list of programs you see, uninstall any occurrences of Java/J2SE Runtime Environment, Java SDK, Java SE Development Kit or Java Update. Note that the exact program name may be slightly different or include a version number, but you generally want to remove anything that includes the text: Java/J2SE Runtime Environment, Java SDK, Java SE Development Kit or Java Update. To remove a program, click on the program name to highlight it and click the the <strong>Uninstall</strong> button.
+            </li>
+        </ol>
+    </li>
+    <li>
+        <a href="https://web.stanford.edu/dept/cs_edu/eclipse/jdk_win64.exe">Download and install the Java SDK for Windows</a>
+    </li>
+    <li>
+        <a href="https://web.stanford.edu/dept/cs_edu/eclipse/eclipse_win64.zip">Download the Windows version of Eclipse</a>
+    </li>
+    <li>
+        Extract the contents of the file by right-clicking on it, selecting the <strong>Extract All...</strong> option and typing <strong>C:\Program Files</strong> as the location to extract the files to. Then continue following the steps in the extraction process.
+    </li>
+    <li>
+        Create a shortcut to Eclipse on your Desktop for easy access: Open the <strong>C:\Program Files\eclipse</strong> directory, and right-click and drag the eclipse.exe file (the Eclipse application) to your desktop and then select the option <strong>Create shortcut here</strong>.
+    </li>
+    <li>
+        Double-click on the Desktop shortcut to open Eclipse.
+    </li>
+
+	<!-- These instructions are platform-agnostic -->
+<!-- Platform-agnostic instructions -->
+<li>
+    When you run Eclipse for the first time, you may get a screen that looks like this:
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/workspace.png" alt="Eclipse Workspace Launcher dialog" />
+    <br/> A workspace is just a directory that Eclipse will use to place new projects in. In CS 106A you won't have to make any new projects from scratch. We will always give you skeleton projects for your assignments, so you don't need to worry about where the workspace is. The suggested location is fine. Click the <strong>Use this as the default and do not ask again</strong> checkbox, and then click OK.
+</li>
+<li>
+    Now we need to install the "Stanford Plugin".  This is what adds the "Stanford Menu" to Eclipse, as well as the icons to run, import, and submit projects.  Once Eclipse has started, click Help -&gt; Install New Software.
+</li>
+<li>
+    In the "Work with" text box, type <strong>https://web.stanford.edu/dept/cs_edu/eclipse/plugin</strong> and press Enter.
+</li>
+<li>
+    Click "Select All," then click Next.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep1.png" alt="Eclipse Install Software dialog" />
+</li>
+<li>
+    Click Next again.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep2.png" alt="Eclipse Install Details dialog" />
+</li>
+<li>
+    Click "I accept the terms of the license agreement," then click Finish.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep3.png" alt="Eclipse License Agreement dialog" />
+</li>
+<li>
+    Click OK when you see the warning about installing unsigned content.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/pluginStep4.png" alt="Eclipse Security Warning dialog" />
+</li>
+<li>
+    Click Yes when asked to restart Eclipse.
+</li>
+<li>
+    Finally, we need to change one Eclipse setting.  By default, Eclipse hides (or "folds") the program comment at the top of each code file; we want to have those always be visible.  To change this, first open <strong>Eclipse preferences</strong> (Eclipse -> Preferences on Mac or Windows -> Preferences on Windows).  In the filter text box, type <strong>folding</strong>.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/preferencesStep1.png" alt="Eclipse Preferences Pane" />
+</li>
+<li>
+    In the results on the left, underneath "Java>Editor", click <strong>Folding</strong>.  In the view that appears, make sure to uncheck <strong>Header Comments</strong>.  Then click <strong>Apply</strong> and <strong>OK</strong>.
+    <br/>
+    <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/preferencesStep2.png" alt="Eclipse Preferences Pane - Code Folding" />
+</li>
+<li>
+    You're all set up!  To get started importing and running projects, check out the "Importing and Running Projects" section of this page.
+</li></ol>                </div>
+            </div>
+        </div>
+        <!-- Importing and Running Projects -->
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-2">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        Importing and Running Projects
+                    </h4>
+                </a>
+            </div>
+            <div id="collapse-2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-2">
+                <div class="panel-body">
+<h2>Importing and Running Projects</h2>
+<p>
+    Now that you have set up Eclipse, it's time to work on a project! For each CS 106A assignment, we will provide a skeletal framework called a <strong>starter project</strong>. Using starter projects makes your life much easier by allowing you to ignore the many details involved in creating a project from scratch. Therefore, for each assignment your first task will be to download the starter project from the class website and then import it into your workspace. Once you do that, you can work on your project.  These steps also apply to code from lecture, which will also be provided via a project on the Schedule page you can import.
+</p>
+<h3>Importing Projects</h3>
+<ol>
+    <li>
+        Download the project you wish to import. For example, assignment starter projects are accessible via the "Assignments" dropdown at the top, lecture code projects are accessible via the "Schedule" tab and section code projects at the end of each week via the "Section" dropdown.
+    </li>
+    <li>
+        The starter project will download as a zip file (e.g. <strong>Assignment1.zip</strong>). Expand the zip file. In some cases, this may happen automatically when you download it. Move the resulting folder to where you would like to save it on your computer.
+    </li>
+    <li>
+        Launch Eclipse, and from the Stanford Menu at the top select "Import Project" (or look for an icon like the one below in the Eclipse toolbar).  <strong>Note:</strong> if you do not see the Stanford Menu in Eclipse, please see the FAQ.
+        <br/>
+        <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="Stanford Menu Import" />
+    </li>
+    <li>
+        Select the project you would like to import by clicking the topmost <strong>Browse...</strong> button and navigating to the folder from the earlier steps. Then click <strong>OK</strong>.
+        <br/>
+        <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importStep1.png" alt="Import Project Find Project Folder" />
+    </li>
+    <li>
+        Now, make sure that the check box labeled "Copy projects into workspace" is <strong>unchecked</strong>, and then click the <strong>Finish</strong> button to import the project.  <strong>Note: </strong>if Eclipse does not let you import the project, please see the FAQ.
+        <br/>
+        <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importStep2.png" alt="Import Project Find Project Folder" />
+        <br />
+    </li>
+    <li>
+        You should now see the project in the left "Package Explorer" sidebar, like in the image below. Double-click on the project folder to expand its contents.
+        <br/>
+        <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importStep3.png" alt="Package Explorer" />
+        <br /> The <strong>lib</strong> folder contains the Stanford Library file, and the <strong>src</strong> folder contains the <strong>.java</strong> code files for this assignment. The <strong>res</strong> folder, if applicable, contains resources files such as images and sounds.  Karel projects also have a <strong>worlds</strong> folder containing the Karel worlds for the project.
+    </li>
+    <li>
+        Double-click on <strong>src</strong>, and within that double-click on the <strong>default package</strong>, to show the code files for the assignment. Then double-click on any code file to open it in the main editor window.
+        <br/>
+        <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importStep4.png" alt="Open code file" />
+        <br /> 
+        Now, see the next section for how to run a Java program.
+    </li>
+</ol>
+<h3>Running Programs</h3>
+<ol>
+	<li>
+	    A project can contain multiple programs.  To run a program in your project, look for the "running person" icons in the top toolbar.  <strong>Note: </strong>if you do not see these icons in your toolbar, please see the FAQ.
+	    <br/>
+	    <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/runIcons.png" alt="Run Icons" />
+	</li>
+	<li>
+		The "fast" running person immediately runs the most recently-run program (convenient when focusing on a single program), and the "slow" running person displays a list of all programs imported into Eclipse, like the following:
+		<br/>
+		<img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/runProgram.png" alt="Run Program" />
+		<br/>
+		Select the program you would like to run, and it will launch!
+	</li>
+    <li>
+        If you make changes to your code, you must <strong>re-run your program</strong> in order for the changes to take effect.
+    </li>
+</ol>
+<h3>Closing Projects</h3>
+<p>
+	When you are done with a project and no longer wish to edit or run it, you can <strong>close</strong> it.  Closing the project does not delete the project, but tells Eclipse to no longer display that project's programs in the list of programs you can choose to run.  This may be helpful later in the quarter when you have several projects imported.  To do this, right-click on the project in the sidebar and select <strong>Close Project</strong>.
+	<br/>
+	<img style="width:30rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/closeProject.png" alt="Close Project" />
+	<br/>
+	Its folder icon will change to a "closed" folder.  If you would like to reopen a project later, simply double-click on its folder in the sidebar again.
+</p>
+                </div>
+            </div>
+        </div>
+        <!-- Submitting Projects -->
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-3">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        Submitting Projects
+                    </h4>
+                </a>
+            </div>
+            <div id="collapse-3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-3">
+                <div class="panel-body">
+<h2>Submitting Projects</h2>
+<p>
+    You submit all assignments directly via Eclipse. We check whether an assignment is turned in on time from the time we receive your electronic submission, which is timestamped in the submission process. That time is based on the time on the server that receives the assignment, so it pays to submit things with a few minutes to spare, particularly if you discover that your computer's clock is running slow.
+    <br /> To submit a project in Eclipse, follow these steps:
+</p>
+<ol>
+    <li>
+        <strong>Save your work!</strong>  Always remember to save all your work before submitting so you submit your most recent changes.
+    </li>
+    <li>
+        From the <strong>Stanford Menu</strong> dropdown at the top, select <strong>Submit Project</strong> (or look for an icon like the one below in the Eclipse toolbar).
+        <br/>
+        <img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
+    </li>
+    <li>
+        Enter your SUNet ID and password, and then click the <strong>Authenticate</strong> button. Then click <strong>Next</strong>.
+    </li>
+    <li>
+        On the next screen, you may encounter a field asking for an additional "passcode".  This passcode is an additional security step called "two-factor authentication", or "two-step", and is used university-wide.  It provides your account with additional security as it requires you to not only have your username and password, but also a unique code, usually uniquely generated each time via text message or app.  If you do not already have two-factor authentication set up, please see the Stanford <a href="https://uit.stanford.edu/service/webauth/twostep">online guide</a> for help setting it up, and for answers to common questions.
+        <br/>
+        <img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/twoStep.png" alt="Stanford Two Step Auth" />
+    </li>
+    <li>
+        Select the assignment number for which you are making a submission, and then click <strong>Next</strong>.
+    </li>
+    <li>
+        Select the project in Eclipse you would like to submit by clicking <strong>Browse...</strong> and selecting from among the current open projects in Eclipse. Select the project you would like to submit and click <strong>OK</strong>. This will submit all files in this project together.
+    </li>
+    <li>
+        The name of your project should now appear in the box labeled "Project:". Click the <strong>Finish</strong> button to submit. It may take some time for your project to be fully submitted.
+    </li>
+    <li>
+        Once your project is submitted, you will get a message saying the submission was successful. Click <strong>OK</strong>.
+    </li>
+    <li>
+        <strong>IMPORTANT: always make sure that your files were successfully submitted.</strong> You can do this by going to <a href="https://paperless.stanford.edu">paperless.stanford.edu</a>; this will show the files your section leader will see when grading your submission. This is also where your section leader will post your assignment grades and comments. Remember that <strong>You are responsible for double-checking Paperless to make sure that your files were submitted properly.</strong> Note that Paperless's web viewer may only display your <strong>.java</strong> files; however, if you download the submission from Paperless you can confirm that your other files are submitted as well.
+    </li>
+</ol>
+
+<p>
+    You can submit as many times as you'd like - your section leader will grade your <i>most recent</i> submission.
+    <br />
+    <br />
+
+    <strong>IMPORTANT: remember to keep a backup copy of your work.</strong> Although we work hard to keep track of all assignment submissions, on occasion assignments are not received as expected, and we will ask you to resubmit. <strong>You are responsible for keeping a backup copy of your work, in the event that a resubmission is required</strong>. We highly recommend saving redundant backup copies as well, using an external hard drive, a thumb drive, online storage services, etc. See <a href="https://stutech-help.stanford.edu/hc/en-us/articles/211752126-What-should-I-do-to-backup-my-computer-">here</a> for other recommended ways to back up your data.
+</p>                </div>
+            </div>
+        </div>
+        <!-- Using the Debugger -->
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-4">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapse-4" aria-expanded="false" aria-controls="collapse-4">
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        Using the Debugger
+                    </h4>
+                </a>
+            </div>
+            <div id="collapse-4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-4">
+                <div class="panel-body">
+<h2>The Eclipse Debugger</h2>
+<p>
+	When writing programs in Eclipse, you may run your program and have it behave in a way that you did not intend or expect.  In cases like this, you need to "debug", or remove unintended behavior, from your program.  Luckily, Eclipse comes with a built-in "debugger", or tools that can help you better understand what your code is doing.  Here's how to use it.
+</p>
+<ol>
+	<li>
+		When you want to further investigate the behavior of your program, you should add a "breakpoint" to your program.  A breakpoint tells Eclipse that you would like to have the program pause once it reaches a certain line so you can poke around.  To add a breakpoint, double-click in the margin on the line on which you would like to add a breakpoint.  A blue dot will appear, which symbolizes the breakpoint.  You can add one, or multiple breakpoints, in your program.  To remove a breakpoint, just double-click on it.
+		<br />
+		<img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/breakpoint.png" alt="Breakpoint" />
+		<br />
+	</li>
+	<li>
+		Now, run your program as normal using the "Running person" icons.  When the program reaches a breakpoint, it will prompt you to enter debug mode; click "Yes".
+		<br />
+		<img style="width:100%;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/debugPrompt.png" alt="Debug Prompt" />
+		<br />
+	</li>
+	<li>
+		Eclipse will now enter Debugger mode; it's a similar view to the "Editor" mode you are used to, but with some additional information that may help in the debugging process.
+		<br />
+		<img style="width: 100%;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/debugger.png" alt="Eclipse Debugger" />
+		<br />
+		<ul>
+			<li><strong>RED: </strong> This is your program code, but you will see the line with the breakpoint highlighted in green.  This tells you that Eclipse is running your program, and has paused before executing this line, waiting for further instructions from you.</li>
+			<li><strong>BLUE: </strong>This is called the "stack trace".  This shows you where in your program you are currently paused (read from bottom to top), and why.  The first few commands (such as the "Karel.main" and "Program.main" in the image above) are from your program being launched, and you can ignore them.  The relevant lines start with <i>YOUR_PROGRAM_NAME</i> (e.g. BuggyRoomba in the image above).  These lines show what methods have been executed to get to the current point.  In this image, for instance, the program is paused in the run() method because of a breakpoint.</li>
+			<li><strong>PURPLE: </strong>This contains the debugger controls.  You will learn about these in the next step.</li>
+		</ul>
+	</li>
+	<li>
+		<img style="width:50rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/debugControls.png" alt="Debug Controls" />
+		<br />
+		The debugger controls are, going from left to right:
+		<ul>
+			<li><strong>"Resume" Button</strong>: resumes execution of the program (until it hits another breakpoint, finishes, etc.).</li>
+			<li><strong>"Suspend" Button</strong>: (Currently grayed out) Pauses the program as if it had hit a breakpoint.</li>
+			<li><strong>"Terminate" Button</strong>: stops execution of the program.</li>
+			<li><strong>"Disconnect" Button</strong>: (Currently grayed out) you can ignore this.</li>
+			<li><strong>"Step Into" Button</strong>: Tells the debugger to go to the first line <i>within</i> the method that was previously highlighted and await further instructions.  This lets you "step into" a method and look further at <i>its</i> code.  If you click this button, notice that a new entry appears at the top of the stack trace reflecting that you are going "down" a level into a method.</li>
+			<li><strong>"Step Over" Button</strong>: Tells the debugger to execute the currently highlighted line <i>at the current level</i> (does not go into the command like "Step Into"), and move to the next line.  This is the option you will probably use most often.</li>
+			<li><strong>"Step Return" Button</strong>: Tells the debugger to finish executing the current method, and go back to the <i>method that called this method</i>.</li>
+		</ul>
+	</li>
+	<li>
+		Use these controls to execute commands step by step in order to better understand what your program is doing.  When you are finished, remember to remove the breakpoints you have added by double-clicking on them.  To switch back to the regular "Editor" mode, use the Stanford Menu.
+		<br />
+		<img style="width:25rem" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
+		<br />
+		If your Eclipse window does not look like the windows shown in the screenshots, please see the FAQ below.
+	</li>
+	<li>
+		At some point while debugging, you might run into a view that looks like the following:
+		<br />
+		<img style="width:100%;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/karelCrash.png" alt="Karel Debugger Crash" />
+		<br />
+		You'll notice that, in the stack trace, it now just says "Suspended"; this means that the program halted unexpectedly on its own, not because of a breakpoint.  This happens when your program crashes.  Eclipse also opens up the file <strong>KarelProgram.class</strong>, but you can close this tab, as it's not useful for anything.  If you click the "Resume" button in the toolbar, you should see the Karel program pop up an error message with more information about the crash.
+	</li>
+</ol>
+<br />
+For a walkthrough of how to use these steps to debug a sample Karel program, see the "Debugging with Karel" handout in the "Handouts" dropdown in the navigation bar.                </div>
+            </div>
+        </div>
+</div>
+
+<hr/>
+
+<!-- FAQ -->
+<h2>FAQ</h2>
+<dl>
+    <dt id="libError">
+        Q: Eclipse is showing an error in the Console "Could not save C++ lib configuration file".  Do I need to worry about this?
+    </dt>
+    <dd>
+        A: No.  This error should not affect the running of your programs, and you can ignore it.
+    </dd>
+    <dt id="twostep">
+        Q: When trying to submit, after logging in with my SUNET ID and password, Eclipse is asking me for a "passcode".  What is this?
+    </dt>
+    <dd>
+        A: The submitter is asking for a two-step authentication passcode, as an additional form of security; please see the updated Eclipse submission instructions above.
+    </dd>
+    <dt id="newFile">
+        Q: I want to create another file/program within this project.  How do I do this?
+    </dt>
+    <dd>
+        A:
+        <ol>
+            <li>Right-click on "default package" within the <code>src</code> folder, and go to <strong>New -> Class</strong>.</li>
+            <li>
+                In the "Name" field, enter the name for your new class (do not include ".java").  Click "Finish".
+                <br />
+                <img style="width:50%;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/newClass.png" alt="Add New Class" />
+                <br />
+            </li>
+            <li>This will create a new file in your project.  Replace the code in that file with the code you would like to include.</li>
+        </ol>
+    </dd>
+    <dt id="plugin">
+        Q: Help!  I don't see the "running person", submit, import, etc. icons or the "Stanford Menu" in my Eclipse.
+    </dt>
+    <dd>
+        A: This means the Stanford Plugin is not installed; please repeat steps 8 onwards in either the Mac or Windows installation instructions above.
+    </dd>
+    <dt id="eclipsebroken">
+        Q: My Eclipse window doesn't look like the ones in the screenshots or in lecture.  I'm missing some of the panels (e.g. the sidebar showing all my projects).  Help!
+    </dt>
+    <dd>
+        A: Click the "Reset" button in the Stanford Menu to reset to the default view.
+        <br />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
+        <br />
+        You may also be in Debugger mode instead of Editor mode; use the Stanford Menu to go back to Editor mode.
+        <br />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/stanfordMenu.png" alt="View Toggle" />
+        <br />
+    </dd>
+    <dt id="importError">
+        Q: Help!  Eclipse is not letting me import a project.  It gives me a warning at the top that "Some projects cannot be imported".
+        <br />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/importError.png" alt="Import Error" />
+        <br />
+    </dt>
+    <dd>
+        A: This is because a project with that name is already imported into Eclipse. If you would like to import this project, you must first delete the existing project by right-clicking the project in the sidebar and selecting "Delete".  You can then choose whether to delete the project from your computer as well, or just delete the project from Eclipse.
+        <br />
+        <img style="width:25rem;" src="//web.stanford.edu/class/archive/cs/cs106a/cs106a.1178/images/eclipse/deleteProject.png" alt="Delete project" />
+        <br />
+    </dd>
+</dl>
+			
+			<!-- Footer -->
+			<div class="row">
+				<div class="col-xs-12">
+					<hr>
+					<div class="footer">
+						<p class="text-center">
+							&#169; Stanford 2017 &#124; Created by Chris Piech and Nick Troccoli.<br/>
+							CS 106A has been developed over time by many talented teachers. 
+						</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

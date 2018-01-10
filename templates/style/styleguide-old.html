@@ -1,0 +1,800 @@
+<style type="text/css">
+del {
+	color: #660000;
+}
+ins {
+	color: #006600;
+	text-decoration: none;
+}
+.comment {
+	color: #008800;
+}
+li {
+	overflow: hidden;
+}
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+pre {
+	padding: 0.2em;
+	background-color: #f8f8ff;
+	border: 1px dashed #ccccff;
+	border-radius: 4px;
+	margin: 0.25em 0;
+	min-width: 45%;
+}
+pre.bad {
+	background-color: #fff8f8;
+	background-color: #ffcccc;
+	float: left;
+	max-width: 45%;
+	margin-right: 1em;
+}
+pre.good {
+	background-color: #f8fff8;
+	background-color: #ccffcc;
+}
+pre.bad + pre.good {
+	float: left;
+	max-width: 45%;
+}
+pre.bad strong, pre.good strong {
+	color: #000099;
+}
+ul, li, dt, dd {
+	clear: left;
+}
+pre strong, pre em {
+	color: #000099;
+	font-weight: bold;
+	font-style: normal;
+}
+pre.bad strong, pre.bad em {
+	color: #660000;
+}
+ul, li, dt, dd {
+	clear: left;
+}
+dl dd > ul > li {
+	margin-bottom: 2em;
+}
+dt {
+	background-color: #f0f0f0;
+	font-size: larger;
+	margin-top: 3em;
+}
+</style>
+
+<h2>CS 106A Style Guide</h2>
+
+<p>
+	These are the general Java style qualities that we expect your programs to have in order to receive full credit.
+	Certainly it is possible to write good code that violates these guidelines, and you may feel free to contact us if you are unclear about or disagree with some of them.
+	But we do expect you to follow these rules (unless there is an error in this document).
+	In most professional work environments you are expected to follow that company's style standards.
+	Learning to carefully obey a style guide, and writing code with a group of other developers where the style is consistent among them, are valuable job skills.
+</p>
+
+<p>
+	Oracle/Sun's <a class="popup" href="http://www.oracle.com/technetwork/java/codeconvtoc-136057.html">Official Java Coding Conventions</a> are a more comprehensive guide to proper Java programming.
+	The practices outlined on their web site are encouraged for use in CS 106A.
+</p>
+
+<p style="margin-bottom: 2em">
+	This document is a work in progress. <br />
+	<em>Last updated Sun 2017/04/02</em>
+</p>
+
+<ul>
+	<li>
+		<a href="#whitespace">Whitespace and Indentation</a>
+	</li>
+	<li>
+		<a href="#naming">Naming</a>
+	</li>
+	<li>
+		<a href="#methods">Methods</a>
+	</li>
+	<li>
+		<a href="#javacontrol">Java Control Statements</a>
+	</li>
+	<li>
+		<a href="#comments">Comments</a>
+	</li>
+	<li>
+		<a href="#forbidden">Forbidden Java Features</a>
+	</li>
+</ul>
+
+<hr style="margin-bottom: 3em" />
+<div id="hw1style" class="delayed">
+<span class="showdate" style="display: none">Week1 Wed 12:00 PM</span>
+<h3>Homework 1 (Karel the Robot) Style Guide</h3>
+
+<dl>
+	<dt id="whitespace">
+		Whitespace and Indentation
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong>Indenting:</strong> Increase your indentation by one increment on each brace <code>{</code>, and decrease it once on each closing brace <code>}</code>.</p>
+			</li>
+			<li>
+				<p><strong>Always use {} on control statements:</strong> With Java's control statements such as <code>if</code> and <code>for</code>, the <code>{}</code> braces are technically optional if the body of the control statement contains only a single line.  Regardless of this, <em>always</em> use the <code>{}</code> braces.  Always.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (beepersPresent())
+    pickBeeper();
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+if (beepersPresent()) <em>{</em>
+    pickBeeper();
+<em>}</em>
+</pre>
+			</li>
+			<li>
+				<p>Place a line break after every <code>{</code> .</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (beepersPresent()) <em>{ pickBeeper(); }</em>
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+if (beepersPresent()) {
+    pickBeeper();
+}
+</pre>
+			</li>
+			<li>
+				<p>Do not place more than one statement on the same line.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+move();  move();  pickBeeper();
+</pre>
+				
+				<pre class="good">
+<span class="comment">// good</span>
+move();
+move();
+pickBeeper();
+</pre>
+			</li>
+			<li>
+				<p><strong>Long lines:</strong> Avoid lines longer than 100 characters.
+				In HW1 this would most likely be a comment line.
+				When you have a long line, break it into two shorter lines.</p>
+			</li>
+			<li>
+				<p><strong>Blank lines:</strong> Place a blank line between methods and between groups of statements.</p>
+				
+				<pre>
+public void foo() {
+    ...
+}
+                          <span class="comment">// this blank line here</span>
+public void bar() {
+    ...
+}
+</pre>
+			</li>
+		</ul>
+	</dd>
+
+	<dt id="naming">
+		Naming
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong>Names:</strong> Give methods descriptive names, such as <code>walkToEdge</code> or <code>grabAllBeepers</code>.
+				Avoid one-letter names or non-descriptive names, like <code>x</code> or <code>go</code> or <code>method1</code>.</p>
+			</li>
+			<li>
+				<p><strong>Capitalization:</strong> Name methods with camel-casing <code>likeThis</code>, and name classes with Pascal casing <code>LikeThis</code>.</p>
+			</li>
+			<li>
+				<p><strong><em>(HW1)</em> Do not use variables:</strong> In a Karel program, you should not use Java features that are not covered in the Karel reader.  Specifically, do not use variables, nor private "fields", nor "instance variables".</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+int steps = 42;
+
+private int count = 0;   <span class="comment">// bad</span>
+</pre>
+			</li>
+		</ul>
+	</dd>
+
+	<dt id="methods">
+		Methods
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong><code>run</code> as a concise summary:</strong> As much as possible, avoid directly calling Karel commands like <code>move</code> in your program's <code>run</code> method.  Instead, have <code>run</code> call other methods that perform the functionality.  In this way, <code>run</code> is easy to read and forms a concise summary of the overall behavior of the program.</p>
+			</li>
+			<li>
+				<p><strong>Minimize redundant code:</strong> If you repeat the same code two or more times, find a way to remove the redundant code so that it appears only once.
+				For example, you can place it into a method that is called from both places.</p>
+			</li>
+			<li>
+				<p><strong>Long methods:</strong> If you have a single method that is very long, break it apart into smaller sub-methods.
+				The definition of "very long" is vague, but let's say a method longer than 20-30 lines is pushing it.
+				If you try to describe the method's purpose and find yourself using the word "and" a lot, that probably means the method does too many things and should be split into sub-methods.</p>
+			</li>
+			<li>
+				<p><strong>Short methods:</strong> It is not useful to make a method that only calls one other existing Karel method.  But it can be useful to have a short method if, say, it wraps another method in an <code>if/else</code> statement in a way that is commonly used.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+public void makeLeftTurn() {
+    turnLeft();
+}
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+public void safePickup() {
+    if (beepersPresent()) {
+        pickBeeper();
+    }
+}
+</pre>
+			</li>
+
+			<li>
+				<p><strong>Mutual recursion:</strong> Recursion (which you'll learn about in CS 106B/X) is when methods call themselves.  Mutual recursion is where you have two methods that each call the other to form a cycle of calls.  In CS 106A assignments, mutual recursion is generally a bad algorithmic strategy that should be avoided.  In many cases the mutual recursion is being used to avoid a more appropriate usage of a <code>for</code> or <code>while</code> loop.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+public void methodOne() {
+    if (frontIsClear()) {
+        move();
+        <em>methodTwo();</em>
+    }
+}
+
+public void methodTwo() {
+    if (frontIsClear()) {
+        move();
+        <em>methodOne();</em>
+    }
+}
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+public void methodOne() {
+    <em>while (frontIsClear()) {</em>
+        move();
+    }
+}
+</pre>
+			</li>
+		</ul>
+	</dd>
+
+	<dt id="javacontrol">
+		Java Control Statements
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong>avoid empty if or else:</strong> When using <code>if/else</code> statements, don't ever have an if or else branch that is blank.  Rephrase your test to avoid this.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (frontIsBlocked()) {
+    <span class="comment">// do nothing</span>
+    
+} else {
+    move();
+}
+</pre>
+				
+				<pre class="good">
+<span class="comment">// good</span>
+if (<em>frontIsClear()</em>) {
+    move();
+}
+</pre>
+			</li>
+			<li>
+				<p><strong>for vs while:</strong> Use a <code>for</code> loop when the number of repetitions is known (definite); use a <code>while</code> loop when the number of repetitions is unknown (indefinite).</p>
+		
+				<pre class="bad">
+<span class="comment">// repeat until the front is blocked</span>
+<span class="comment">// (works for worlds up to size 1000)</span>
+for (int i = 0; i &lt; 1000; i++) {
+    if (frontIsClear()) {
+        ...
+    }
+}
+</pre>
+		
+				<pre class="good">
+<span class="comment">// repeat exactly 10 times</span>
+for (int i = 0; i &lt; 10; i++) {
+    ...
+}
+
+<span class="comment">// repeat until the front is blocked</span>
+while (frontIsClear()) {
+    ...
+}
+</pre>
+			</li>
+			<li id="break">
+				<p><strong><em>(HW1+)</em> break and continue:</strong>
+					The <code>break</code> or <code>continue</code> statements in loops should not be used on the assignment.
+				</p>
+			</li>
+			<li>
+				<p><strong>if/else factoring:</strong> Move common code out of <code>if/else</code> statements so that it is not redundantly repeated.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (beepersPresent()) {
+    <em>move();</em>
+    pickBeeper();
+    <em>move();
+    turnLeft();
+    turnLeft();
+    move();</em>
+} else {
+    <em>move();
+    move();
+    turnLeft();
+    turnLeft();
+    move();</em>
+}
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+<em>move();</em>
+if (beepersPresent()) {
+    pickBeeper();
+}
+<em>move();
+turnLeft();
+turnLeft();
+move();</em>
+</pre>
+			</li>
+
+			<li>
+				<p><strong>infinite loops:</strong> Avoid writing loops that never stop, such as the following.  An infinite loop will cause your program to never stop executing.  Replace an infinite loop with a loop that does terminate.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+while (<em>leftIsClear()</em>) {
+    if (frontIsClear()) {
+        move();
+    }
+}
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+while (<em>frontIsClear()</em>) {
+    move();
+}
+</pre>
+			</li>
+		</ul>
+	</dd>
+
+	<dt id="comments">
+		Comments
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong>Class header:</strong> Place a descriptive comment heading on the top of every file describing that file's purpose.
+				Assume that the reader of your comments is an intelligent programmer but not someone who has seen this assignment before.
+				Your comment header should include at least your name, course/section, and a brief description of that assignment or file.
+				If the assignment asks you to submit multiple files, each file's comment header should describe that file/class and its main purpose in the program.</p>
+			</li>
+			<li>
+				<p><strong>Method headers:</strong> Place a comment heading on each method of your class.
+				The heading should describe the method's behavior.</p>
+			</li>
+			<li>
+				<p><strong>Pre/Postconditions:</strong> If your method makes any assumptions (preconditions), mention this in your comments.  If it leaves the program in a certain state when it is done (postcondition), mention this as well.</p>
+			</li>
+			<li>
+				<p><strong>Inline comments:</strong> Inside the interiors of your various methods, if you have sections of code that are lengthy or complex or non-trivial, place a small amount of inline comments near these lines of complex code describing what they are doing.</p>
+			</li>
+			<li>
+				<p><strong>Implementation details:</strong> Comment headers at the top of a method or class should describe the method's behavior, but not great detail about how it is implemented.  Do not mention language-specific details like the fact that the method uses a <code>if/else</code> statement, that the method declares an array, that the method loops over a collection and counts various elements, etc.</p>
+			</li>
+			<li>
+				<p><strong>No trivial comments:</strong> Do not make obvious comments about the meaning of individual statements.  You should assume that the reader is familiar with Karel and Java in general.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+turnLeft();     <span class="comment">// turns Karel counter clockwise</span>
+
+move();         <span class="comment">// this tells Karel to move forward</span>
+</pre>
+			</li>
+			<li>
+				<p><strong>Wording:</strong> Your comment headers should be written in <strong>complete sentences</strong>, and should be written in <strong>your own words</strong>, not copied from other sources (such as copied verbatim from the homework spec document).</p>
+			</li>
+			<li>
+				<p><strong>TODOs:</strong> You should remove any <code><span class="comment">// TODO:</code> comments from a program before turning it in.</p></span>
+			</li>
+			<li>
+				<p><strong>Commented-out code:</strong> It is considered bad style to turn in a program with chunks of code "commented out".  It's fine to comment out code as you are working on a program, but if the program is done and such code is not needed, just remove it.</p>
+			</li>
+		</ul>
+		
+		<p>
+			Here is a decent overall example of a good comment header on a method.  Not every comment header needs to be this long, but since this method takes a parameter and returns something, it needs to mention several things.
+		</p>
+		
+<pre>
+<span class="comment">/*
+ * Jumps Karel over one hurdle of arbitrary height by walking north over it,
+ * and then back down to his original row.
+ * Pre:  Karel is next to a jumpable hurdle, facing east.
+ * Post: Karel will be over the hurdle, one column to the right, facing east.
+ */</span>
+public void jumpHurdle() {
+    ...
+}
+</pre>
+	</dd>
+</dl>
+
+	<dt id="forbidden">
+		<em>(HW1)</em> Forbidden Java Features
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong>Variables:</strong> On a Karel program, you must limit yourself to the Java features shown in the Karel reader document.  In particular, you should not use variables such as the following.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad (on HW1)</span>
+<em>int steps = 42;</em>
+while (steps &gt; 0) {
+	move();
+	turnLeft();
+	steps = steps - 1;
+}
+</pre>
+			</li>
+
+			<li>
+				<p><strong>Data fields:</strong> These are the 'private' data variables that are declared outside of methods.  These are just another form of variables and should not be used on HW1.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad (on HW1)</span>
+public class MyKarel extends Karel {
+    <em>private int count;</em>   <span class="comment">// bad bad bad</span>
+    
+    public void run() {
+        count = 5;
+        ...
+    }
+}
+</pre>
+			</li>
+
+			<li>
+				<p><strong>Infinite loops:</strong> One loop style, sometimes used as a way to fix a fencepost problem, is to use what is called an 'infinite loop' or a 'while true loop' with a <code>break</code> statement.  This is not shown in the Karel reader and is not permitted on HW1.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad (on HW1)</span>
+<em>while (true)</em> {
+    if (frontIsClear()) {
+        move();
+    } else {
+        <em>break;</em>
+    }
+}
+</pre>
+			</li>
+
+			<li>
+				<p><strong>Parameters:</strong> Java methods are able to accept parameters that affect their behavior.  This is not shown in the Karel reader and is not permitted on HW1.  Returning a value from a method (non-<code>void</code>) is similarly forbidden.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad (on HW1)</span>
+public void walk(<em>int numSteps)</em> {
+    for (int i = 0; i &lt; numSteps; i++) {
+        move();
+    }
+}
+</pre>
+			</li>
+
+			<li>
+				<p><strong>Other Java features:</strong> In general, you should not use any Java features on HW1 that are not in the Karel Learns Java document.  There are too many features to list them all, but in general you should match the Java features used in the sample programs in class and in the Karel reader and not use any Java features outside of those ones.</p>
+			</li>
+		</ul>
+	</dd>
+
+	<dt id="naming">
+		<em>(HW2+)</em> New Style Guidelines
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p><strong>Variable types:</strong> Choose appropriate data types for your variables.
+				If a given variable can store only integers, give it type <code>int</code> rather than <code>double</code>.</p>
+			</li>
+			<li>
+				<p><strong>Variable scope:</strong> Declare variables in the narrowest possible scope.
+				For example, if a variable is used only inside a specific <code>if</code> statement, declare it inside that <code>if</code> statement rather than at the top of the method or at the top of the file.</p>
+			</li>
+			<li>
+				<p><strong>Variable declaration/initialization:</strong> Never declare or initialize more than one variable in a single statement.
+				<pre class="bad">
+<span class="comment">// bad</span>
+int a = 7, b = -43, c = 19;
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+int a = 7;
+int b = -43;
+int c = 19;
+</pre>
+			</li>
+			<li>
+				<p><strong>Constants:</strong> If a particular constant value is used frequently in your code, declare it as a <code>final</code> constant, and always refer to the constant in the rest of your code rather than referring to the corresponding value.
+					Name final constants in uppercase with underscores between words <code>LIKE_THIS</code>.</p>
+				
+				<pre>
+private static final int VOTING_AGE = 18;
+</pre>
+			</li>
+			<li>
+				<p><strong>if/else patterns:</strong> When using <code>if/else</code> statements, properly choose between various <code>if</code> and <code>else</code> patterns depending on whether the conditions are related to each other.  Avoid redundant or unnecessary <code>if</code> tests.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (grade &gt;= 90) {
+    println(&quot;You got an A!&quot;);
+}
+if (grade &gt;= 80 &amp;&amp; grade &lt; 90) {
+    println(&quot;You got a B!&quot;);
+}
+if (grade &gt;= 70 &amp;&amp; grade &lt; 80) {
+    println(&quot;You got a C!&quot;);
+}
+...
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+if (grade &gt;= 90) {
+    println(&quot;You got an A!&quot;);
+} <strong>else if</strong> (grade &gt;= 80) {
+    println(&quot;You got a B!&quot;);
+} <strong>else if</strong> (grade &gt;= 70) {
+    println(&quot;You got a C!&quot;);
+}
+...
+</pre>
+			</li>
+			<li>
+				<p><strong>Minimize redundant code:</strong> If you repeat the same code two or more times, find a way to remove the redundant code so that it appears only once.
+				For example, place it into a helper function that is called from both places.
+				If the repeated code is nearly but not entirely the same, try making your helper function accept a parameter to represent the differing part.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+foo();
+x = 10;
+y++;
+...
+
+foo();
+x = 15;
+y++;
+</pre>
+				
+				<pre class="good">
+<span class="comment">// good</span>
+helper(10);
+helper(15);
+...
+
+void helper(int newX) {
+    foo();
+    x = newX;
+    y++;
+}
+</pre>
+			</li>
+			<li id="break2">
+				<p><strong>break and continue:</strong>
+					In general, you should avoid using the <code>break</code> or <code>continue</code> statements in loops unless absolutely necessary.
+					A <code>break</code> can often be avoided by rewriting the loop test or reordering the statements in/near the loop.
+				</p>
+			</li>
+			<li id="systemexit">
+				<p><strong><code>System.exit()</code>:</strong> Java contains a <code>System.exit</code> method that immediately exits your entire program.
+				You should never call this method in our assignments for any reason.
+				Your program should always exit naturally by reaching the end of your <code>run</code> function and returning.</p>
+			</li>
+			<li>
+				<p><strong>Boolean zen 1:</strong> If you have an <code>if/else</code> statement that returns a boolean value based on a test, just directly return the test's result instead.</p>
+				
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (score1 == score2) {
+    return true;
+} else {
+    return false;
+}
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+<strong>return score1 == score2</strong>;
+</pre>
+
+			</li>
+			<li>
+				<p><strong>Boolean zen 2:</strong> Don't ever test whether a <code>boolean</code> value is <code>==</code> or <code>!=</code> to <code>true</code> or <code>false</code>.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (x == true) {
+    ...
+} else if (x != true) {
+    ...
+}
+</pre>
+
+				<pre class="good">
+<span class="comment">// good</span>
+if (<strong>x</strong>) {
+    ...
+} else {
+    ...
+}
+</pre>
+			</li>
+			<li>
+				<p>
+					<strong>Save expensive call results in a variable:</strong>
+					If you are calling an expensive method and using its result multiple times, save that result in a variable rather than having to call the method multiple times.
+				</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+if (list.indexOf("abc") >= 0) {
+    list.remove(list.indexOf("abc"));
+}
+</pre>
+				
+				<pre class="good">
+<span class="comment">// good</span>
+<strong>int index = list.indexOf("abc");</strong>
+if (<strong>index</strong> >= 0) {
+    list.remove(<strong>index</strong>);
+}
+</pre>
+			</li>
+			<li>
+				<p><strong>Exception handling:</strong> Don't ever catch an exception with an empty <code>catch</code> block.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+try {
+    foo();
+    bar();
+} catch (NullPointerException e) <em>{}</em>
+</pre>
+				<p style="clear: both;">Also, don't use <code>try/catch</code> as a kludge to cover up an error that your program is generating.
+					Debug and sidestep the error to prevent it from happening instead.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+try {
+    myFunctionThatCrashesForSomeReason();
+} catch (IndexOutOfBoundsException e) {
+    <span class="comment">// LOL no crash now</span>
+}
+</pre>
+				<p style="clear: both;">Similarly, don't ever <code>catch (Exception)</code> unless told explicitly to do so, because this is overly inclusive and will suppress important system error messages.
+					You should instead catch a more specific subcategory of exceptions such as <code>IOException</code> or <code>SocketException</code>.</p>
+
+				<pre class="bad">
+<span class="comment">// bad</span>
+try {
+    foo();
+    bar();
+} catch (<em>Exception e</em>) {}
+</pre>
+			</li>
+		</ul>
+	</dd>
+	
+	<dt id="classdesign">
+		<em>(Later Assignments)</em> Class Design
+	</dt>
+	<dd>
+		<ul>
+			<li>
+				<p>Properly <strong>encapsulate</strong> your objects by making any data fields in your class <code>private</code>.</p>
+		
+				<pre>
+public class Student {
+    <strong>private</strong> int homeworkScore;
+    ...
+</pre>
+			</li>
+			<li>
+				<p><strong>Avoid unnecessary fields</strong>; use fields to store important data of your objects but not to store temporary values only used within a single call to one method.</p>
+			</li>
+			<li>
+				<p><strong>Initialize fields in constructors</strong>, not where they are declared.</p>
+		
+				<pre>
+public class Student {
+    <del>private int homeworkScore = 10;</del>
+    private int homeworkScore;
+    
+    public Student() {
+        <strong>homeworkScore = 10;</strong>
+    }
+</pre>
+			</li>
+			<li>
+				<p><strong>Avoid empty zero-argument constructors</strong>.  If you don't need to do anything to initialize your object, just omit the constructor.</p>
+		
+				<pre>
+public class Student {
+    ...
+    <del>public Student() {}</del>
+}
+</pre>
+			</li>
+			<li>
+				<p><strong>Helper methods:</strong> If you add a method to a class that is not part of the homework spec, make it <code>private</code> so that other external code cannot call it.</p>
+				
+				<pre>
+public class Student {
+    ...
+    <strong>private</strong> double computeTuitionHelper() {
+        ...
+    }
+</pre>
+			</li>
+			<li>
+				<p><strong>Instance vs. static:</strong> A static member of a class is a single occurrence shared by that class and all of its objects.
+					An instance member is one that is replicated into each object of that class.
+					When designing your class, any data that should be individual to each object should be non-static.
+					This still holds even if the assignment's client program only happens to construct one object of your class.</p>
+		
+				<pre>
+public class Student {
+    <del>private static int homeworkScore;</del>   <span class="comment"><span class="comment">// all students share one homework score (bad)</span></span>
+    <ins>private int homeworkScore;</ins>          <span class="comment"><span class="comment">// each student has his own homework score (good)</span></span>
+    
+    public Student() {
+        <strong>homeworkScore = 10;</strong>
+    }
+</pre>
+			</li>
+		</ul>
+	</dd>
+</dl>
+</div>
+
+<!--#include virtual="tail.html" -->

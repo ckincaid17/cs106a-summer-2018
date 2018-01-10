@@ -1,0 +1,49 @@
+<!-- Platform-agnostic instructions -->
+<li>
+    When you run Eclipse for the first time, you may get a screen that looks like this:
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/workspace.png" alt="Eclipse Workspace Launcher dialog" />
+    <br/> A workspace is just a directory that Eclipse will use to place new projects in. In CS 106A you won't have to make any new projects from scratch. We will always give you skeleton projects for your assignments, so you don't need to worry about where the workspace is. The suggested location is fine. Click the <strong>Use this as the default and do not ask again</strong> checkbox, and then click OK.
+</li>
+<li>
+    Now we need to install the "Stanford Plugin".  This is what adds the "Stanford Menu" to Eclipse, as well as the icons to run, import, and submit projects.  Once Eclipse has started, click Help -&gt; Install New Software.
+</li>
+<li>
+    In the "Work with" text box, type <strong>https://web.stanford.edu/dept/cs_edu/eclipse/plugin</strong> and press Enter.
+</li>
+<li>
+    Click "Select All," then click Next.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/pluginStep1.png" alt="Eclipse Install Software dialog" />
+</li>
+<li>
+    Click Next again.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/pluginStep2.png" alt="Eclipse Install Details dialog" />
+</li>
+<li>
+    Click "I accept the terms of the license agreement," then click Finish.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/pluginStep3.png" alt="Eclipse License Agreement dialog" />
+</li>
+<li>
+    Click OK when you see the warning about installing unsigned content.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/pluginStep4.png" alt="Eclipse Security Warning dialog" />
+</li>
+<li>
+    Click Yes when asked to restart Eclipse.
+</li>
+<li>
+    Finally, we need to change one Eclipse setting.  By default, Eclipse hides (or "folds") the program comment at the top of each code file; we want to have those always be visible.  To change this, first open <strong>Eclipse preferences</strong> (Eclipse -> Preferences on Mac or Windows -> Preferences on Windows).  In the filter text box, type <strong>folding</strong>.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/preferencesStep1.png" alt="Eclipse Preferences Pane" />
+</li>
+<li>
+    In the results on the left, underneath "Java>Editor", click <strong>Folding</strong>.  In the view that appears, make sure to uncheck <strong>Header Comments</strong>.  Then click <strong>Apply</strong> and <strong>OK</strong>.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/preferencesStep2.png" alt="Eclipse Preferences Pane - Code Folding" />
+</li>
+<li>
+    You're all set up!  To get started importing and running projects, check out the "Importing and Running Projects" section of this page.
+</li>

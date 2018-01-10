@@ -1,0 +1,99 @@
+% rebase('templates/template.ptl', title='Final Exam')
+
+<!-- Header -->
+<div id="pageHeader">
+    <h1>
+		Final Exam
+	</h1>
+</div>
+<hr/>
+
+<div class="alert alert-danger">
+	For a variety of reasons (including university policy), there will be <strong>no alternate time</strong> for the final exam (other than for OAE accommodations). Please make sure that you can attend the final exam at the specified time.
+</div>
+
+<!-- Info/Dates -->
+<div class="row">
+	% include('templates/exams/eventWells.ptl', exam=courseInfo.FINAL_EXAM)
+</div>
+
+<!-- Answers -->
+<h2>Answers</h2>
+<p><a href="{{pathToRoot}}resources/final/FinalExamQuestionBooklet.pdf">Final Exam</a> | <a href="{{pathToRoot}}resources/final/FinalExamSolutions.pdf">Solutions</a> | <a href="{{pathToRoot}}resources/final/CS106A-Final-Sum17.zip">Code</a> (Eclipse project for testing your answers)</p>
+
+<!-- Scores -->
+<h2>Scores and Graded Exams</h2>
+<p><strong>How do I find out my score?</strong> Like for the midterm, the scores have been released on <a href="https://www.gradescope.com">Gradescope</a>.  Log in to Gradescope to see your score.</p>
+
+<p>If you have questions about exactly what points you missed and why, please look over the grade and markings made by the grader, compare it with our answer key and Eclipse project, and then contact your Section Leader if you still have any questions.</p>
+
+<p><strong>How do I pick up my paper exam?</strong> A complete scan of your exam is available on Gradescope; we are not distributing paper exams to students.  If you would like to see the paper exam, they will be available by appointment only the first week of Fall quarter (September 25 - October 1).</p>
+
+<p>The statistics of the exam scores (out of 180, to the nearest whole number) were as follows:</p>
+<p><strong>Mean: </strong> 125</p>
+<p><strong>Median: </strong> 140 </p>
+<p><strong>Standard Deviation: </strong> 47 </p>
+
+<p>Here is a histogram of the exam scores (out of 180):</p>
+<img style="width: 100%;" alt="Final Exam Histogram" src="{{pathToRoot}}resources/final/histogram.png" />
+
+<!-- Regrades -->
+<h2>Regrade Policy</h2>
+<p>We work hard to grade consistently and correctly, but sometimes we make mistakes in grading.  If you believe part of your exam was incorrectly graded, please first <strong>download the Eclipse project linked to above and run your answer.</strong>  This is the easiest way to test your code.  If, after running your code, you still believe your grade is incorrect, submit a regrade request online using our <a href="https://goo.gl/forms/Ch7WmSqSm9CQEh1v2">CS 106A Final Exam Regrade Request</a> form.  Regrade requests need to point out the aspect of the problem that was correct, but for which points were taken off. We use a detailed rubric to grade exams, so simply requesting that an incorrect answer "should be worth more points" is not likely to result in additional points. You must also <strong>submit your typed Java code</strong> for the given problem (if applicable), and any other necessary code/content so that we can run and evaluate your code.</p>
+
+<p><strong>You must provide all the required information</strong> listed above and in the regrade request form in order for us to review your regrade request. Also, we reserve the right to re-grade the whole exam to make sure there are no other grading issues present - this may result in a lower total score.</p>
+
+<p>All regrade requests must be submitted by <strong>11:59PM PST on Sunday, October 1, 2017</strong>, which is <strong>7 days</strong> after the start of the next quarter, Fall Quarter (Fall Quarter starts on September 25).</p>
+
+<!-- Materials -->
+<h2>Practice Materials</h2>
+<p><a href="{{pathToRoot}}resources/final/SyntaxReferenceSheet.pdf">Syntax Reference Sheet</a></p>
+
+<p><a href="{{pathToRoot}}resources/final/PracticeFinalExam.pdf">Practice Final Exam</a> | <a href="{{pathToRoot}}resources/final/PracticeFinalExamSolution.pdf">Solution</a> | <a href="{{pathToRoot}}resources/final/PracticeFinal.zip">Code</a></p>
+
+<p><a href="{{pathToRoot}}resources/final/PracticeFinalExam2.pdf">Practice Final Exam 2</a> | <a href="{{pathToRoot}}resources/final/PracticeFinalExamSolution2.pdf">Solution</a> | <a href="{{pathToRoot}}resources/final/PracticeFinal2.zip">Code</a></p>
+
+<p>Sample final exam(s) posted here are intended to be similar to the actual final. The number of problems and type of problems on the actual exam will be relatively similar to what is seen on these practice exams, though we do not promise that it will be exactly the same in length or in difficulty.</p>
+<p>Section Handouts and CodeStepByStep lecture practice problems (on the schedule page) are also great ways to practice relevant material.</p>
+
+<!-- Logistics -->
+<h2>Logistics</h2>
+<p>
+	The logistics for the final exam are the same as for the midterm exam (except for the updated syntax reference sheet above); please see <a href="{{pathToRoot}}exams/midterm.html#logistics">the midterm logistics</a> section for more information.
+</p>
+
+
+<!-- Material Covered -->
+<h2>Material Covered</h2>
+<p>The final focuses on material taught since the time of the midterm, including the following concepts listed below.  However, programming is inherently cumulative in that new topics build upon old ones. So you may be asked to solve problems that involve, though not necessarily focus primarily upon, past topics such as strings, int, double, boolean, random numbers, loops, if/else, parameters, return, expressions, variables, constants, file input with Scanner, and so on.  Note that you may be asked to <i>read</i> code (look at a piece of existing code and answer questions about it, such as writing its output) and/or <i>write</i> code (write a piece of code such as a method or short program that solves a given problem).</p>
+
+<ul>
+	<li><p><strong>Pass-by-value vs. pass-by-reference:</strong> demonstrate your understanding of objects vs. primitive values (e.g. passing objects, primitives, or arrays as parameters)</p>
+	<li><p><strong>GraphicsPrograms:</strong> write Java code to implement a graphics program with certain behavior using Stanford's libraries; this may include drawing shapes such as GRect, GOval, etc., animation, and/or handling mouse events. (Though this topic was covered before the midterm, Breakout, which gave practice with this, was due after the midterm)</p></li>
+	<li><p><strong>Arrays:</strong> interpret/write code that uses a 1D array to solve a problem.</p></li>
+	<li><p><strong>2D Arrays:</strong> interpret/write code that uses a 2D array (possibly from the pixels of a graphical image, possibly not) to solve a problem.</p></li>
+	<li><p><strong>Collections:</strong> interpret/write code that uses the collections <code>ArrayList</code> and/or <code>HashMap</code> to solve a problem.</p></li>
+	<li><p><strong>Objects and Classes:</strong> interpret/write a class and/or add behavior to an existing class.</p></li>
+	<li><p><strong>Inheritance:</strong> interpret/write a class that extends another class, such as GCanvas.</p></li>
+	<li><p><strong>Interactors:</strong> interpret/write a program that uses GUI components (buttons, labels, text fields) and events to produce a given behavior.</p></li>
+</ul>
+
+<p>The following concepts will <strong>NOT</strong> be tested on the final:</p>
+<ul>
+	<li><p>Karel the Robot</p></li>
+	<li><p>Material from the "Life After CS 106A" lectures</p></li>
+	<li><p>Graphical shapes not used in lecture/section, such as <code>GArc</code> and <code>GPolygon</code>.</p></li>
+	<li><p>converting numbers to/from other bases, such as binary or hexadecimal</p></li>
+	<li><p><code>do</code> loops and the <code>continue</code> statement (<code>while</code> loops may be needed, though)</p></li>
+	<li><p>the <code>switch</code> statement</p></li>
+	<li><p><code>static</code> methods or data (other than <code>static final</code> constants)</p></li>
+	<li><p>throwing exceptions with the <code>throw</code> statement</p></li>
+	<li><p>any Stanford library functionality not explicitly taught in class, section or homeworks</p></li>
+	<li><p>anything else not explicitly covered in lecture, section or homeworks</p></li>
+</ul>
+
+
+
+<!-- Exam Strategies -->
+<h2>Exam Strategies</h2>
+<p>The recommended exam strategies for the final exam are the same as for the midterm; please see <a href="{{pathToRoot}}exams/midterm.html#exam-strategies">the midterm exam strategies</a> section for more information.</p>

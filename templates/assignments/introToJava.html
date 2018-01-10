@@ -1,0 +1,90 @@
+% rebase('templates/template.ptl', title='Assignment 2')
+
+<!-- Header -->
+<div class="row">
+	<div class="col-xs-12">
+		<div id="pageHeader">
+			<h1>Assignment 2: Intro to Java</h1>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
+				Due: Wednesday, July 12th, 11AM
+			</p>
+			<p class="subtleHeading" style="font-size: 12pt;"><span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
+				Must be done individually
+			</p>
+		</div>
+		<hr/>
+	</div>
+</div>
+
+<!-- Image -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align: center;"><img style="max-width: 50%;" alt="Java" src="{{pathToRoot}}images/assignments/java.png" /></p>
+	</div>
+</div>
+
+<!-- Caption -->
+<div class="row">
+	<div class="col-xs-12">
+		<p style="text-align:center">
+			<i>Your second assignment consists of five Java programs (fun fact: this picture is the offical Java mascot).</i>
+		</p>
+	</div>
+</div>
+
+<!-- Description -->
+<div class="row">
+	<div class="col-xs-12">
+		<h2>Getting Started</h2>
+		<p>
+			There is a starter project including all of these problems that you can access using the link below. Once you have the starter code set up, edit the program files so that the assignment actually does what it’s supposed to do (see the assignment handout), which will involve a cycle of coding, testing, and debugging until everything works. The final step is to submit your assignment.
+		</p>
+		<p>
+			You should write the code for your solution on your own. This assignment is <b>not</b> a pair assignment.
+		</p>
+		<p><strong>Note:</strong> You may only use <strong>concepts covered up through lecture on Wednesday, July 5, minus parameters,</strong> to solve these problems. In particular, you may not use Java concepts you may have learned previously such as parameters, instance variables, <strong>return</strong>, Strings, etc. As a general rule of thumb, any concepts mentioned in the readings <i>up to but not including Chapter 5</i> are ok to use.  If you have any questions about what is ok/not ok to use, please feel free to ask.
+		</p>
+	</div>
+</div>
+
+<!-- Assignment Files -->
+<h2>Assignment Files</h2>
+<p>To run the demo, download the file below and double-click to run.  If you are unable to run it by double-clicking, right-click on the demo file and click "Open".</p>
+<div class="row">
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}handouts/assignments/Assignment2.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Handout</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment2.zip"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Starter Code</span></a>
+	</div>
+	<div class="col-xs-3">
+		<a href="{{pathToRoot}}resources/CS106A-Assignment2-Demo.jar"><span class="glyphicon glyphicon-download" aria-hidden="true" style="font-size: 5em;"></span><br><span>Demo</span></a>
+	</div>
+</div>
+
+<!-- Resources -->
+<h2>Other Resources</h2>
+<p>Note: the "Debugging with Karel" handout still provides valuable debugging tips for Java programs!  In particular, the debugger functions identically for Karel and Java programs.</p>
+<div class="row">
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>{{courseInfo.SOFTWARE}} Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}style/"><span class="glyphicon glyphicon-link" aria-hidden="true" style="font-size: 5em;"></span><br><span>Style Guide</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/4-Debugging-with-Karel.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>Debugging with Karel</span></a>
+	</div>
+	<div class="col-sm-2 col-xs-3"><a href="{{pathToRoot}}handouts/2-The-Honor-Code.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true" style="font-size: 5em;"></span><br><span>The Honor Code</span></a>
+	</div>
+</div>
+
+<!-- FAQ -->
+<h2>F.A.Q.</h2>
+<dl>
+	<dt id="colors">
+		Q: I'm trying to print using colors, but I'm getting an error.  Help!
+	</dt>
+	<dd>
+		A: You must add <code>import java.awt.*;</code> to the top of your program file; this specifies where Eclipse should look to learn about Colors.
+	</dd>
+	
+	%include templates/assignments/faq.ptl
+</dl>

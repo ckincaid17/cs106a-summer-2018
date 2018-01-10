@@ -1,0 +1,159 @@
+% rebase('templates/template.ptl', title='Midterm Exam')
+
+<!-- Header -->
+<div id="pageHeader">
+    <h1>
+		Midterm Exam
+	</h1>
+</div>
+<hr/>
+
+<!-- Info/Dates -->
+<div class="row">
+	% include('templates/exams/eventWells.ptl', exam=courseInfo.MIDTERM)
+</div>
+
+<!-- Answers -->
+<h2>Answers</h2>
+<p><a href="{{pathToRoot}}resources/midterm/MidtermQuestionBooklet.pdf">Midterm</a> | <a href="{{pathToRoot}}resources/midterm/MidtermSolutions.pdf">Solutions</a> | <a href="{{pathToRoot}}resources/midterm/CS106A-Midterm-Sum17.zip">Code</a> (Eclipse project for testing your answers)</p>
+
+<!-- Scores -->
+<h2>Scores and Graded Exams</h2>
+<p><strong>How do I find out my score?</strong> The scores have been released on <a href="https://www.gradescope.com">Gradescope</a>, a website for grading course materials.  If you did not receive an invitation to join Gradescope (please check your spam folder!) please contact Rishi, the Head TA.  Log in to Gradescope to see your midterm score.</p>
+
+<p>If you have questions about exactly what points you missed and why, please look over the grade and markings made by the grader, compare it with our answer key and Eclipse project, and then contact your Section Leader if you still have any questions.</p>
+
+<p><strong>How do I pick up my paper exam?</strong> A complete scan of your exam is available on Gradescope; we are not distributing paper exams to students.  If you would like to see the paper exam, you may stop by Nick or Rishi's office hours and view it while there.</p>
+
+<p>The statistics of the exam scores (to the nearest whole number, out of 120) were as follows:</p>
+<p><strong>Mean: </strong> 74</p>
+<p><strong>Median: </strong> 75</p>
+<p><strong>Standard Deviation: </strong> 23</p>
+
+<p>Here is a histogram of the exam scores (out of 120):</p>
+<img style="width: 100%;" alt="Midterm Histogram" src="{{pathToRoot}}resources/midterm/histogram.png" />
+
+<!-- Regrades -->
+<h2>Regrade Policy</h2>
+<p>We work hard to grade consistently and correctly, but sometimes we make mistakes in grading.  If you believe part of your exam was incorrectly graded, please first <strong>download the Eclipse project linked to above and run your answer.</strong>  This is the easiest way to test your code.  If, after running your code, you still believe your grade is incorrect, submit a regrade request online using our <a href="https://goo.gl/forms/uZVTbhXeZiqGlV5J2">CS 106A Midterm Regrade Request</a> form.  Regrade requests need to point out the aspect of the problem that was correct, but for which points were taken off. We use a detailed rubric to grade exams, so simply requesting that an incorrect answer "should be worth more points" is not likely to result in additional points. You must also <strong>submit your typed Java code</strong> for the given problem (if applicable), and any other necessary code/content so that we can run and evaluate your code.</p>
+
+<p><strong>You must provide all the required information</strong> listed above and in the regrade request form in order for us to review your regrade request. Also, we reserve the right to re-grade the whole exam to make sure there are no other grading issues present - this may result in a lower total score.</p>
+
+<p>All midterm regrade requests must be submitted within <strong>7 days</strong> of the date when exam scores were posted.  Specifically, all regrade requests must be submitted by <strong>1PM on Wednesday, August 9, 2017.</strong></p>
+
+<!-- Practice Materials -->
+<h2>Practice Materials</h2>
+<p><a href="{{pathToRoot}}resources/midterm/PracticeMidterm.pdf">Practice Midterm</a> | <a href="{{pathToRoot}}resources/midterm/PracticeMidtermSolution.pdf">Solution</a> | <a href="{{pathToRoot}}resources/midterm/PracticeMidterm.zip">Code</a></p>
+
+<p><a href="{{pathToRoot}}resources/midterm/ReviewSession.pdf">Review Session Slides</a></p>
+
+<p>Section Handouts and CodeStepByStep lecture practice problems (on the schedule page) are also great ways to practice relevant material.</p>
+
+<!-- Logistics -->
+<h2 id="logistics">Logistics</h2>
+<ul>
+	<li><p><strong>The Honor Code:</strong> the exam is to be completed <strong>individually</strong> and without any assistance from a partner or other students.  Follow the <strong>Stanford Honor Code</strong> (see handout #2 in the Handouts dropdown) during the exam: submit only your own work, do not use unpermitted aids on the exam (see below for permitted aids), and say something to the instructors or students in question to prevent any inappropriate activity conducted by others surrounding the exam.
+	</p></li>
+	<li><p><strong>Permitted Materials:</strong> During the exam, you may use/reference:</p>
+	<ol>
+		<li><p><i>The Art &amp; Science of Java</i> textbook.</p></li>
+		<li><p><i>Karel the Robot Learns Java</i> coursereader</p></li>
+		<li><p><i>A syntax reference sheet</i>, provided during the exam (and linked <a href="{{pathToRoot}}resources/midterm/SyntaxReferenceSheet.pdf">here</a>)</p></li>
+	</ol>
+	<br />
+	<p>You can bring any editions of the textbooks, but not a digital copy and not a printout of the book on loose paper.  There may be 1 or 2 "loaner" books available at the front of the room, but you will have limited access to these at best.</p>
+	<p>You are <strong>not permitted to use any other materials</strong>, such as printouts (notes, slides, code, practice exams, etc.), other textbooks, or electronic devices (iPads, Kindles, calculators, music players, etc.).
+	</p></li>
+	<li><p><strong>Grading:</strong> Unless a question specifically mentions otherwise, the code you write will be graded purely on <i>functionality</i> (proper behavior and output) and not on <i>style</i>.  For instance, redundancy, variable names, commenting and decomposition will not impact your score.  <strong>However</strong>, we still encourage you to use good style in your code as oftentimes they are easier to write out (and modify if needed).</p>
+	
+	<p>Note that certain problems may have certain constraints (such as only using certain material, etc.) that you must follow to earn full credit.  We reserve the right to deduct points for extremely inelegant or inefficient code that dodges the spirit of the problem.</p>
+
+	<p>You are not required to write <code>import</code> statements on the exam.  Please do not <i>abbreviate</i> any code on the exam (such as writing "x2" next to code to copy it twice).  Abbreviated code will not be graded.</p>
+
+	<p><i>Pseudo-code</i> (writing English sentences and phrases instead of code) will typically earn little to no points.  For example, writing "In this part of the code, I want to open the file and read each line and print it" will not earn any points.</p>
+
+	<p>We will provide ample blank pages after every problem in which to write your solutions.  An answer to a problem not in the designated answer pages for that problem will <i>not receive any credit.</i></p>
+
+	<p>You may write in pencil or pen on the exam, however as we mention in the <i>Exam Strategies</i> section further down, we highly recommend you <i>write in pencil.</i>  <i>Please make sure to write firmly</i> so that your writing is not too light and can be easily read.</p>
+
+	<p>If you know of a method/class in the Karel coursereader or textbook that would help (for example, from an included sample problem or from sample code - this does not pertain to code <i>in</i> the Stanford Libraries such as turnAround(), getWidth(), setColor, etc.), you can simply cite what section/chapter it is from and use it. You do not need to rewrite it.</p></li>
+</ul>
+
+
+<!-- Material -->
+<h2>Material Covered</h2>
+<p>The midterm will cover all material up to the midterm (the Hangman assignment and all lectures/sections the week of Jul. 17).  This includes the following concepts listed below.  Note that you may be asked to <i>read</i> code (look at a piece of existing code and answer questions about it, such as writing its output) and/or <i>write</i> code (write a piece of code such as a method or short program that solves a given problem).</p>
+
+<ul>
+	<li><p><strong>Karel the Robot:</strong> given a piece of Java code that gives instructions to Karel the Robot, evaluate it and write/draw the resulting state of Karel's world; and/or, write a complete Karel program to accomplish a given result in Karel's world.</p></li>
+
+	<li><p><strong>ConsolePrograms:</strong> write Java code to perform console input/output using Stanford's libraries (readInt, println, etc.)</p></li>
+
+	<li><p><strong>Java Control Statements:</strong> given a piece of Java code using Java statements like <code>for</code> loops, <code>while</code> loops, <code>if/else</code>, etc., evaluate it and write its output/results; and/or, write Java code that uses Java control statements to solve a problem.</p></li>
+
+	<li><p><strong>Expressions and Variables:</strong> given some Java expressions with numbers, strings, logic, etc., evaluate them and write the results; and/or, write Java code that uses expressions and operators to solve a problem.</p></li>
+
+	<li><p><strong>Methods, Parameters, and Return:</strong> given a piece of Java code with several methods and parameters/returns, evaluate it and write its output/results; and/or, write Java methods that accept various parameters and/or return certain values.</p></li>
+
+	<li><p><strong>RandomGenerator:</strong> write Java code exhibiting random behavior using the RandomGenerator class.</p></li>
+
+	<li><p><strong>Strings and <code>char</code>:</strong> given a piece of Java code that interacts with text, evaluate it and write its output/results; and/or, write Java code that processes strings and characters to produce a given result.</p></li>
+
+	<li><p><strong>Scanner and File Processing:</strong> write Java code that uses a Scanner (and try/catch) to read data from a file in a given format and produce a particular result.</p></li>
+
+	<li><p><strong>GraphicsPrograms:</strong> write Java code to implement a graphics program with certain behavior using Stanford's libraries; this may include drawing shapes such as GRect, GOval, etc., animation, and/or handling mouse events.</p></li>
+</ul>
+
+<p>The following concepts will <strong>NOT</strong> be tested on the midterm:</p>
+<ul>
+	<li><p>Graphical shapes not used in lecture/section, such as <code>GArc</code> and <code>GPolygon</code>.</p></li>
+	<li><p>converting numbers to/from other bases, such as binary or hexadecimal</p></li>
+	<li><p><code>do</code> loops and the <code>continue</code> statement (<code>while</code> loops may be needed, though)</p></li>
+	<li><p>the <code>switch</code> statement</p></li>
+	<li><p>throwing exceptions with the <code>throw</code> statement</p></li>
+	<li><p>any Stanford library functionality not explicitly taught in class, section or homeworks</p></li>
+	<li><p>anything else not explicitly covered in lecture, section or homeworks</p></li>
+</ul>
+
+<!-- Exam Strategies -->
+<h2 id="exam-strategies">Exam Strategies</h2>
+<p>Hopefully you have been keeping up in lecture and doing well on the assignments, but may be unsure of how to make sure your skills will translate well to the exam setting. The practice midterms above give an idea of what to expect, but we also want to provide some general advice for how to prepare and approach the exam.</p>
+
+<h3>The Rationale Behind Pencil and Paper Exams</h3>
+<p>Students often wonder why the exam is not more like assignments: using a compiler (Eclipse), having code completion and searchable documentation, being able to run, test, and debug, etc. We choose not to do this, however, for three reasons: (1) there are large logistical and fairness challenges in offering an online exam, (2) we want you to focus on solving the problems and not getting caught up in small compiler errors or bugs when run that may be extremely minor, and (3) writing code by hand (due to it taking longer than typing) forces you to think through the solution thoroughly before beginning to write any code.  With regards to (3), we know that writing on paper is not the same as working with a compiler, and we account for that in how we design and grade the exam. We are assessing your ability to think logically and use appropriate problem-solving techniques. We expect you to express yourself in reasonably correct Java, but we will be lenient with errors that are syntactic rather than conceptual.</p>
+
+<h3>How to Prepare for the Exam</h3>
+<p><strong>"Open textbook" doesn't mean "don't study".</strong> The exam is open-textbook; bring along the Java textbook and Karel coursereader. We don’t expect you to memorize minute details and the exam will not focus on them. However, this doesn’t mean you shouldn’t prepare. There certainly isn’t enough time during the exam to learn the material. To do well, you must be experienced at working through problems efficiently and accurately, using relevant programming patterns, without needing to repeatedly refer to your resources.</p>
+
+<p><strong>Practice, practice, practice.</strong> A good way to study for the programming problems is to take a problem (lecture or section example, chapter exercise, sample exam problem) and write out your solution under test-like conditions (e.g., on blank paper, <i>not on a computer</i>, using a pencil with a short amount of time).  Don't fall into the trap of just practicing your exam problems on the computer. The computer compiles your code and provides immediate feedback that you won't have on the real exam. You want to practice under real exam conditions to become comfortable writing code on paper in a timed setting.   This is much more valuable than simply reviewing the exam, looking at the answers, and making sure you understand why they are correct - a much different task than having to write the solutions yourself.</p>
+
+<p><strong>Get your questions answered.</strong> If there is a concept you’re a bit fuzzy on, or you’d like to check your answer to something, or you wonder why a solution is written a particular way, swing by the LaIR, come to office hours, find Nick before/after any lecture, or email your Section Leader/grader; we are happy to help.</p>
+
+<h3>How to Take the Exam</h3>
+<p><strong>Scan the entire exam first.</strong> Quickly peruse all questions before starting on any one. This allows you to “multitask” — while working on one problem, your mind can be brainstorming strategies or ideas for another problem in the background. You can also sketch out how to allocate your time between questions in the first pass.  Speaking of which...</p>
+
+<p><strong>Spend your time wisely.</strong> There are only a handful of questions, and each is worth a significant amount. Don’t get stuck on any particular problem. There is much opportunity for partial credit, so it’s better to make good efforts on all problems than to perfect an answer to one leaving others untouched.</p>
+
+<p><strong>Consider the point value of each question.</strong> Divide the total minutes by the total number of points to figure the time per point and use that as guide when allocating your time across the problems. You may want to reserve a little time for checking your work at the end as well.</p>
+
+<p><strong>Leverage the materials you bring with you.</strong> If you know of a method/class in the Karel coursereader or textbook that would help (for example, from an included sample problem or from sample code - this does not pertain to code <i>in</i> the Stanford Libraries such as turnAround(), getWidth(), setColor, etc.), you can simply cite what section/chapter it is from and use it. You do not need to rewrite it.</p>
+
+<p><strong>Style and decomposition are secondary to correctness.</strong> Unlike the assignments where we hold you to high standards in all areas, for an exam, unless a question explicitly says otherwise, your responses will only be graded on functionality. Decomposition and style are thus somewhat de-emphasized. However, good design may make it easier for you to get the functionality correct and require less code, which takes less time and has fewer opportunities for errors. Moreover, when a solution is incorrect, good stylistic practices such as commenting may help us determine what you were trying to do and award partial credit.</p>
+
+<p><strong>Answer in pseudo-code, but only if you must.</strong> If the syntax of Java is somehow in your way, you can answer in pseudo-code ("code-like English") for a very small amount of partial credit. There is a wide variation in the scoring for pseudo-code. Some pseudo-code is vague and content-less and does little more than restate the problem description, and thus is worth next to nothing. The more details it provides, the better. But truthfully, very good pseudo-code contains so much information that it typically would have been easier and more concise to just write in Java in the first place.</p>
+
+<p><strong>Pay attention to specific instructions.</strong> A problem statement may include detailed constraints and hints such as “Karel must end up facing East.” You may want to underline or highlight these instructions to be sure you don’t overlook them. These constraints are not there to make things more difficult; typically we are trying to guide you in the direction of a straightforward and simple solution. If you disregard these instructions, you are likely to lose points, either for not meeting the problem specification and/or for errors introduced when attempting a more difficult alternative.</p>
+
+<p><strong>Syntax is not that important if it is clear what you mean.</strong> We won't trouble you about most small syntax errors (forgetting semi-colons, misspellings, etc.) as long as your intentions are clear. Having said that, if your syntax errors cause ambiguity, we might not get the correct meaning. For example, if we see a for statement followed by two lines, where both lines are vaguely indented or a third line has been added in after the fact, but you forgot curly braces, we may be confused. If there are braces around all the lines, it will be clear you intended both to be a part of the loop body, but without the braces, we can’t be sure and it may make your answer incorrect.</p>
+
+<p><strong>Write in (firm) pencil.</strong> CS exams done in pen are often messy. Your first draft may have “typos” (e.g., missing parameters in method call, statements out of order), and in pencil, you can easily erase to make the necessary corrections. In pen, it is hard to make such changes and still keep your intentions clear.  Make sure to write firmly so that your handwriting is not too light and can be read!</p>
+
+<p><strong>Cross out abandoned attempts rather than erasing them.</strong> As it usually turns out on a CS exam, you will have false starts on a problem — you try one strategy and hit a dead end. You try something else and then
+realize you actually were closer to the right solution the first time. If you haven’t erased your first attempt, you can always go back to it. Once you work out a better answer, cross out your earlier attempt. When you cross out work, please direct us to where you have written the solution you want graded instead. If you forget to cross out your bad attempt and hence appear to have two answers, we reserve the right to pick which one to grade.</p>
+
+<p><strong>Save a little time for checking your work.</strong> Before handing in your exam, reserve a few minutes to go back over your work. Check for missing initialization/return statements, correct parameters passed to functions, etc. We try not to deduct points for minor things if it is obvious what you meant, but sometimes it is difficult to decipher your true intention. You might save yourself a few lost points by tidying up the details at the end.</p>
+
+<h3>Final Thoughts</h3>
+<p>Always remember why you are at school. Learning and education tend to be a more fulfilling goal than just high grades. If you work hard, study lots and feel good about your understanding of computer science, that is an achievement to be proud of in itself — regardless of how many points you get relative to the other students in the class.  Moreover, for most (if not all) of you, this is your first exam <i>ever</i> in computer science; taking an exam in a brand-new subject doesn't happen very often!  Use this first and foremost as a "litmus test" of sorts to see how you are doing midway through the class, what you are understanding well, and what you can improve in future homework assignments and on the final exam.  Remember that computer science is not an easy endeavor, even for experienced computer scientists.</p>
+
+<h2 style="text-align: center;">You can do it!</h2>

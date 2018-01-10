@@ -1,0 +1,101 @@
+<!-- Resources -->
+<div>
+	<p class="subtleHeading">RESOURCES</p>
+
+	<!-- Videos -->
+	<span class="sidebaricon glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+	<a href="https://mvideox.stanford.edu/">Lecture Videos</a> <br/>
+	
+	<!-- Course software -->		
+	<img src="images/{{courseInfo.SOFTWARE_ICON}}" class="sidebaricon" alt="icon">
+	<a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}">{{courseInfo.SOFTWARE}}</a><br/>
+
+	<!-- Course Staff -->		
+	<span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
+	<a href="{{pathToRoot}}staff.html">Course Staff</a><br/>
+
+	<!-- Textbooks -->
+	<span class="sidebaricon glyphicon glyphicon-book" aria-hidden="true"></span>
+	<a href="{{pathToRoot}}textbooks.html">Textbooks</a><br/>
+
+	<!-- Pair Programming -->
+	% if courseInfo.PAIR_PROGRAMMING:
+		<span class="sidebaricon glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+		<a href="{{pathToRoot}}assignments/pair.html">Pair Programming</a> <br/>
+	% end
+
+	<!-- LaIR schedule -->
+	<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
+	<a href="https://cs198.stanford.edu/lair/shifts">LaIR Help Hours</a> <br/>
+	
+	<!-- Stanford library documentation -->
+	<img src="images/stanford-favicon.png" class="sidebaricon" alt="icon">
+	<a href="{{courseInfo.LIBRARY_DOCS_LINK}}">Stanford Library Docs</a><br/>
+
+	<!-- Blank projects -->
+	% for project in courseInfo.BLANK_PROJECTS:
+		% url = project["LINK"]
+		<span class="sidebaricon glyphicon glyphicon-save" aria-hidden="true"></span>
+		<a href="{{pathToRoot}}{{url}}">{{project["NAME"]}}</a> <br/>
+	% end
+</div>
+
+<hr/>
+
+<!-- Exams -->
+<div>
+	<p class="subtleHeading">EXAMS</p>
+	<p>
+		<a href="{{pathToRoot}}exams/midterm.html">Midterm</a><br/>
+		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>{{courseInfo.MIDTERM["DATE"]}}<br/>
+		<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{courseInfo.MIDTERM["TIME"]}}
+	</p>
+	<p>
+		<a href="{{pathToRoot}}exams/final.html">Final</a><br/>
+		<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>{{courseInfo.FINAL_EXAM["DATE"]}}<br/>
+		<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{courseInfo.FINAL_EXAM["TIME"]}}
+	</p>
+</div>
+
+<hr/>
+
+<!-- SCPD Office Hours -->
+% if len(courseInfo.SCPD_OFFICE_HOURS) > 0:
+	<div>
+		<p class="subtleHeading">SCPD OFFICE HOURS</p>
+		% for officeHour in courseInfo.SCPD_OFFICE_HOURS:
+			<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{officeHour}}</p>
+		% end
+	
+		% scpdLink = courseInfo.SCPD_OFFICE_HOURS_LINK
+		<p>Sign up <a href="{{scpdLink}}">here</a>.</p>
+		<p>{{courseInfo.SCPD_OFFICE_HOURS_DESCRIPTION}}</p>
+	</div>
+
+	<hr/>
+% end
+
+<!-- Staff -->
+<div class="row">
+	<p class="subtleHeading col-xs-12">STAFF</p>
+
+	<% for staffInfo in courseInfo.STAFF_INFO:
+		imageName = staffInfo["IMAGE"]
+		staffName = staffInfo["NAME"]
+		email = staffInfo["EMAIL"]
+	%>
+
+		<div class="staffBox col-xs-6 col-sm-12">
+
+			<!-- Staff name/image -->
+			<img src="{{pathToRoot}}images/staff/{{imageName}}" style="width:100%" alt="{{staffName}}" />
+			{{staffInfo["POSITION"]}}: {{staffName}} <br />
+			
+			<!-- Email, office hours -->
+			<span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:{{email}}">{{email}}</a><br />
+			<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_LOCATION"]}}<br/>
+			<span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_DATETIME"]}}<br/>
+		</div>
+	% end
+</div>
+<hr/>

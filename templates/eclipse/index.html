@@ -1,0 +1,67 @@
+% rebase('templates/template.ptl', title='Eclipse')
+
+<!-- Header -->
+<div class="row">
+    <div class="col-xs-12">
+        <div id="pageHeader">
+            <h1>
+            Eclipse
+        </h1>
+        </div>
+        <hr/>
+    </div>
+</div>
+
+<!-- Overview -->
+<div class="row">
+    <div class="col-xs-12">
+        <p>
+            In CS 106A, we'll be using Stanford's customized version of Eclipse to build our programs. Eclipse is an enormously popular industrial strength Java environment with many features. Fortunately, Eclipse is also open source -- anyone is free to change Eclipse to work the way they want. We have taken advantage of that freedom to install special Stanford features into Eclipse, tailoring it specifically for CS 106A. This document gives instructions on how to get started using Stanford Eclipse. Please pay close attention to these instructions and do not skip steps!
+            <br />
+            <br /> 
+            If you run into any trouble installing Eclipse, please feel free to stop by office hours or the LaIR, or ask before or after lecture.
+        </p>
+    </div>
+</div>
+
+<hr/>
+
+<!-- Show a 4-panel collapsible "accordion" containing various Eclipse instructions -->
+<div class="panel-group" id="eclipse-accordion" role="tablist" aria-multiselectable="true">
+
+    <%
+        # list of [TITLE, FILE] pairs to display in panels
+        panels = [
+            ["Mac Installation", "macInstallation"],
+            ["Windows Installation", "windowsInstallation"],
+            ["Importing and Running Projects", "importingRunning"],
+            ["Submitting Projects", "submitting"],
+            ["Using the Debugger", "debugger"]
+        ]
+    %>
+
+    % for i, panel in enumerate(panels):
+        <!-- {{panel[0]}} -->
+        <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="heading-{{i}}">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#eclipse-accordion" href="#collapse-{{i}}" aria-expanded="false" aria-controls="collapse-{{i}}">
+                    <h4 class="panel-title">
+                        <span class="glyphicon glyphicon-chevron-up"></span>
+                        {{panel[0]}}
+                    </h4>
+                </a>
+            </div>
+            <div id="collapse-{{i}}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-{{i}}">
+                <div class="panel-body">
+                    %include('templates/eclipse/' + panel[1] + '.ptl')
+                </div>
+            </div>
+        </div>
+    % end
+</div>
+
+<hr/>
+
+<!-- FAQ -->
+<h2>FAQ</h2>
+%include templates/eclipse/faq.ptl
