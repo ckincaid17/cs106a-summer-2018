@@ -1,6 +1,6 @@
-# CS106A Summer 2017 Website
+# CS106A Summer 2018 Website
 
-This is a pre-compiled, static website for the Summer 2017 offering of
+This is a pre-compiled, static website for the Summer 2018 offering of
 Stanford's CS106A introductory programming course.  This repository is structured as
 follows:
 
