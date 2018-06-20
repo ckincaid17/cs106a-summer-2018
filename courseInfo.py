@@ -5,9 +5,9 @@ COURSE_TITLE = COURSE_NUMBER + ": " + COURSE_NAME
 CS198_NUMBER = 1 # B = 2, X = 3
 
 # General quarter information
-QUARTER_NUMBER = 1178
+QUARTER_NUMBER = 1188
 QUARTER_NAME = "Summer"
-QUARTER_YEAR = "2017"
+QUARTER_YEAR = "2018"
 QUARTER_FULL_NAME = QUARTER_NAME + " " + QUARTER_YEAR
 QUARTER_OVER = True  # Set to True to add banner at the top redirecting to newer version of webpage
 
@@ -22,21 +22,21 @@ LECTURE_FEEDBACK_LINK = "https://goo.gl/forms/viRkXgYxDRq0Uorm2" # Length > 0
 STAFF_INFO = [
 	{
 		"POSITION": "Instructor",
-		"NAME": "Nick Troccoli",
-		"IMAGE": "troccoli.jpg",
-		"EMAIL": "troccoli@stanford.edu",
+		"NAME": "Colin Kincaid",
+		"IMAGE": "ckincaid.jpg",
+		"EMAIL": "ckincaid@stanford.edu",
 		"OFFICE_HOURS_LOCATION": "Gates B02",
 		"OFFICE_HOURS_DATETIME": "Wed. + Thurs. 2-4PM",
-		"DESCRIPTION": "The instructor teaches lectures and manages the overall course. Contact the instructor if you have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Head TA.  In addition to at his office hours, please feel free to ask Nick questions before/after any lecture."
+		"DESCRIPTION": "The instructor teaches lectures and manages the overall course. Contact the instructor if you have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Head TA.  In addition to at his office hours, please feel free to ask Colin questions before/after any lecture."
 	},
 	{
 		"POSITION": "Head TA",
-		"NAME": "Rishi Bedi",
-		"IMAGE": "rbedi.jpg",
-		"EMAIL": "rbedi@stanford.edu",
+		"NAME": "Annie Hu",
+		"IMAGE": "anniehu.jpg",
+		"EMAIL": "anniehu@stanford.edu",
 		"OFFICE_HOURS_LOCATION": "Gates B02",
 		"OFFICE_HOURS_DATETIME": "Tues. + Thurs. 9-11AM",
-		"DESCRIPTION": "The Head TA manages the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Instructor."
+		"DESCRIPTION": "The Head TA manages the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or instructor."
 	}
 ]
 
@@ -98,7 +98,7 @@ MIDTERM = {
 }
 
 FINAL_EXAM = {
-	"DATE": "Friday, August 18",
+	"DATE": "Friday, August 17",
 	"TIME": "12:15-3:15PM PST",
 	"LOCATIONS": [	# A list of objects containing TITLE, LOCATION, MAP_LINK
 		{

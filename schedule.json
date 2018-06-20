@@ -4,7 +4,7 @@
 		[
 			{
 				"title": "Welcome to CS 106A",
-				"date": "June 26",
+				"date": "June 25",
 				"filename": "Lecture1",
 				"code": false,
 				"notes": [
@@ -13,7 +13,7 @@
 			},
 			{
 				"title": "Programming with Karel",
-				"date": "June 27",
+				"date": "June 26",
 				"filename": "Lecture2",
 				"practice": [
 					["MeetKarel", "http://www.codestepbystep.com/problem/view/java/karel/MeetKarel"],
@@ -29,7 +29,7 @@
 			},
 			{
 				"title": "Problem-solving with Karel",
-				"date": "June 28",
+				"date": "June 27",
 				"filename": "Lecture3",
 				"practice": [
 					["HurdleJumper", "http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper"],
@@ -45,7 +45,7 @@
 			},
 			{
 				"title": "Introduction to Java",
-				"date": "June 29",
+				"date": "June 28",
 				"filename": "Lecture4",
 				"practice": [
 					["FearTheTree", "http://www.codestepbystep.com/problem/view/java/basics/FearTheTree"],
@@ -59,13 +59,13 @@
 			},
 			{
 				"type": "OFF",
-				"date": "June 30"
+				"date": "June 29"
 			}
 		],
 		[
 			{
 				"title": "Booleans and Control Flow",
-				"date": "July 3",
+				"date": "July 2",
 				"filename": "Lecture5",
 				"practice": [
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
@@ -77,13 +77,8 @@
 				]
 			},
 			{
-				"type": "HOLIDAY",
-				"title": "July 4th",
-				"date": "July 4"
-			},
-			{
 				"title": "Control Flow and Parameters",
-				"date": "July 5",
+				"date": "July 3",
 				"code": false,
 				"filename": "Lecture6",
 				"notes": [
@@ -100,8 +95,13 @@
 				]
 			},
 			{
+				"type": "HOLIDAY",
+				"title": "July 4th",
+				"date": "July 4"
+			},
+			{
 				"title": "Parameters and Return",
-				"date": "July 6",
+				"date": "July 5",
 				"notes": [
 					"Read: Java Ch. 5.1-5.4"
 				],
@@ -119,13 +119,13 @@
 			},
 			{
 				"type": "OFF",
-				"date": "July 7"
+				"date": "July 6"
 			}
 		],
 		[
 			{
 				"title": "Characters and Strings",
-				"date": "July 10",
+				"date": "July 9",
 				"notes": [
 					"Read: Java Ch. 8.1-8.4"
 				],
@@ -143,7 +143,7 @@
 			},
 			{
 				"title": "Problem-Solving with Strings",
-				"date": "July 11",
+				"date": "July 10",
 				"notes": [
 					"Read: Java Ch. 8.5"
 				],
@@ -159,7 +159,7 @@
 			},
 			{
 				"title": "File Reading",
-				"date": "July 12",
+				"date": "July 11",
 				"filename": "Lecture10",
 				"notes": [
 					"Read: Java Ch. 12.4",
@@ -178,7 +178,7 @@
 				"notes": [
 					"Read: Java Ch. 9.1-9.3"
 				],
-				"date": "July 13",
+				"date": "July 12",
 				"filename": "Lecture11",
 				"practice": [
 					["SmileyFace", "http://www.codestepbystep.com/problem/view/java/graphics/SmileyFace"],
@@ -188,7 +188,7 @@
 			},
 			{
 				"type": "OFF",
-				"date": "July 14"
+				"date": "July 13"
 			}
 		],
 		[
@@ -198,7 +198,7 @@
 				"notes": [
 					"Read: Java Ch. 9.4"
 				],
-				"date": "July 17"
+				"date": "July 16"
 			},
 			{
 				"title": "Animation",
@@ -206,11 +206,11 @@
 				"notes": [
 					"Read: Java Ch. 9"
 				],
-				"date": "July 18"
+				"date": "July 17"
 			},
 			{
 				"title": "Events",
-				"date": "July 19",
+				"date": "July 18",
 				"filename": "Lecture14",
 				"notes": [
 					"read: Java Ch. 10.1-10.4"
@@ -227,7 +227,7 @@
 			{
 				"title": "Events and Memory",
 				"filename": "Lecture15",
-				"date": "July 20",
+				"date": "July 19",
 				"notes": [
 					"Due: Assn. 3",
 					"Out: Assn. 4"
@@ -239,18 +239,18 @@
 			},
 			{
 				"type": "OFF",
-				"date": "July 21"
+				"date": "July 20"
 			}
 		],
 		[
 			{
 				"type": "HOLIDAY",
-				"date": "July 24",
+				"date": "July 23",
 				"title": "Exam Study Day (Midterm 7-9PM)"
 			},
 			{
 				"title": "Arrays",
-				"date": "July 25",
+				"date": "July 24",
 				"notes": [
 					"read: Java Ch. 11.1-11.5"
 				],
@@ -266,7 +266,7 @@
 			},
 			{
 				"title": "2D Arrays",
-				"date": "July 26",
+				"date": "July 25",
 				"notes": [
 					"read: Java Ch. 11.6-11.7"
 				],
@@ -280,19 +280,19 @@
 			},
 			{
 				"title": "More Arrays",
-				"date": "July 27",
+				"date": "July 26",
 				"filename": "Lecture18"
 			},
 			{
 				"type": "OFF",
-				"date": "July 28"
+				"date": "July 27"
 			}
 		],
 		[
 			{
 				"title": "ArrayLists",
 				"filename": "Lecture19",
-				"date": "July 31",
+				"date": "July 30",
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
 					["switchPairs", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/switchPairs"],
@@ -307,6 +307,7 @@
 			{
 				"title": "HashMaps",
 				"filename": "Lecture20",
+				"date": "July 31",
 				"practice": [
 					["collectionMystery1", "http://www.codestepbystep.com/problem/view/java/collections/map/collectionMystery1"],
 					["hasDuplicateValue", "http://www.codestepbystep.com/problem/view/java/collections/map/hasDuplicateValue"],
@@ -314,8 +315,7 @@
 				],
 				"notes": [
 					"read: Java Ch. 13.2"
-				],
-				"date": "August 1"
+				]
 			},
 			{
 				"title": "Classes",
@@ -327,7 +327,7 @@
 					["Circle", "http://www.codestepbystep.com/problem/view/java/classes/Circle"],
 					["Date", "http://www.codestepbystep.com/problem/view/java/classes/Date"]
 				],
-				"date": "August 2"
+				"date": "August 1"
 			},
 			{
 				"title": "More Classes",
@@ -339,17 +339,17 @@
 					["Clock-advance", "http://www.codestepbystep.com/problem/view/java/classes/Clock%2Dadvance"]
 				],
 				"filename": "Lecture22",
-				"date": "August 3"
+				"date": "August 2"
 			},
 			{
 				"type": "OFF",
-				"date": "August 4"
+				"date": "August 3"
 			}
 		],
 		[
 			{
 				"title": "GCanvas and Interactors",
-				"date": "August 7",
+				"date": "August 6",
 				"filename": "Lecture23",
 				"notes": [
 					"read: Java Ch. 10.5-10.6",
@@ -366,32 +366,32 @@
 				"notes": [
 					"read: Java Ch. 10.5-10.6"
 				],
-				"date": "August 8"
+				"date": "August 7"
 			},
 			{
 				"title": "Life After CS106A, Part 1",
-				"date": "August 9",
+				"date": "August 8",
 				"filename": "Lecture25"
 			},
 			{
 				"title": "Life After CS106A, Part 2",
-				"date": "August 10",
+				"date": "August 9",
 				"filename": "Lecture26"
 			},
 			{
 				"type": "OFF",
-				"date": "August 11"
+				"date": "August 10"
 			}
 		],
 		[
 			{
 				"title": "Final Exam Review 1",
-				"date": "August 14",
+				"date": "August 13",
 				"filename": "Lecture27"
 			},
 			{
-				"title": "Final Exam Review 2 / Wrapup",
-				"date": "August 15",
+				"title": "Final Exam Review 2 / Wrap-up",
+				"date": "August 14",
 				"filename": "Lecture28",
 				"notes": [
 					"Due: Assn. 6"
@@ -399,17 +399,17 @@
 			},
 			{
 				"type": "HOLIDAY",
-				"date": "August 16",
+				"date": "August 15",
 				"title": "Exam Study Day"
 			},
 			{
 				"type": "HOLIDAY",
-				"date": "August 17",
+				"date": "August 16",
 				"title": "Exam Study Day"
 			},
 			{
 				"type": "OFF",
-				"date": "August 18",
+				"date": "August 17",
 				"title": "Final Exam 12:15PM-3:15PM"
 			}
 		]
