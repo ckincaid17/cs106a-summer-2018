@@ -12,7 +12,7 @@ WWW/ - the output folder containing compiled pages and other static resources
 compile.py - the template compilation script
 ```
 
-(Note: for hosting on Stanford servers, it's easiest to symlink from the course's WWW/ folder to the above WWW/ folder)
+(Note: for hosting on Stanford servers, it's easiest to clone this whole folder in the AFS course directory and then symlink from the course's WWW/ folder to the cloned WWW/ folder)
 
 ## Editing
 Within `templates`, there are subfolders for exam pages, assignment pages, and
