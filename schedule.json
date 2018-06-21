@@ -82,9 +82,7 @@
 				"code": false,
 				"filename": "Lecture6",
 				"notes": [
-					"Read: Java Ch. 5.1-5.4",
-					"Due: Assn. 1",
-					"Out: Assn. 2"
+					"Read: Java Ch. 5.1-5.4"
 				],
 				"practice": [
 					["NumberSquare", "http://www.codestepbystep.com/problem/view/java/loops/NumberSquare"],
@@ -103,7 +101,9 @@
 				"title": "Parameters and Return",
 				"date": "July 5",
 				"notes": [
-					"Read: Java Ch. 5.1-5.4"
+					"Read: Java Ch. 5.1-5.4",
+					"Due: Assn. 1",
+					"Out: Assn. 2"
 				],
 				"practice": [
 					["boxOfStars", "http://www.codestepbystep.com/problem/view/java/parameters/boxOfStars"],
