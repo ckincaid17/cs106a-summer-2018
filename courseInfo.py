@@ -42,45 +42,46 @@ STAFF_INFO = [
 
 # Note: section leader names MUST be formatted "NAME (SUNET)" as the image for a given Section Leader is assumed to be SUNET.jpg.
 SECTION_LEADERS = [
-	"Aleksander Dash (adash)",
-	"Canyon Robins (crobins)",
-	"Conner Smith (csmith95)",
-	"Emily Ling (eling8)",
-	"Farah Uraizee (farah)",
-	"Garrick Fernandez (gfaerr)",
-	"Gus Torres da Silva (gdasilva)",
-	"Guy Blanc (gblanc)",
-	"Jared Bitz (jbitz)",
-	"Jestin Ma (jestinm)",
-	"Kate Rydberg (rydbergk)",
-	"Katherine Erdman (kerdman)",
-	"Keanu Spies (keanus)",
-	"Michael Hazard (cmhazard)",
-	"Mirae Parker (miraep8)",
-	"Nick Negrete (nnegrete)",
-	"Nolan Handali (nolanh)",
-	"Pras Ramakrishnan (pras1712)",
-	"Regina Nguyen (renguyen)",
-	"Tobin Bell (trfbell)",
-	"Tyler Yep (tyep)",
-	"Wil Kautz (wkautz)"
+	# "Aleksander Dash (adash)",
+	# "Canyon Robins (crobins)",
+	# "Conner Smith (csmith95)",
+	# "Emily Ling (eling8)",
+	# "Farah Uraizee (farah)",
+	# "Garrick Fernandez (gfaerr)",
+	# "Gus Torres da Silva (gdasilva)",
+	# "Guy Blanc (gblanc)",
+	# "Jared Bitz (jbitz)",
+	# "Jestin Ma (jestinm)",
+	# "Kate Rydberg (rydbergk)",
+	# "Katherine Erdman (kerdman)",
+	# "Keanu Spies (keanus)",
+	# "Michael Hazard (cmhazard)",
+	# "Mirae Parker (miraep8)",
+	# "Nick Negrete (nnegrete)",
+	# "Nolan Handali (nolanh)",
+	# "Pras Ramakrishnan (pras1712)",
+	# "Regina Nguyen (renguyen)",
+	# "Tobin Bell (trfbell)",
+	# "Tyler Yep (tyep)",
+	# "Wil Kautz (wkautz)"
 ]
 
 # SCPD (listed in left sidebar)
 SCPD_OFFICE_HOURS = [
-	"Sun 5:30-7PM PST",
-	"Tues 9-11AM PST",
-	"Tues 8-9PM PST",
-	"Wed 8:30-10PM PST",
-	"Thurs 4-5PM PST",
-	"Thurs 8:30-9:30PM PST"
+	"TBD",
+	# "Sun 5:30-7PM PST",
+	# "Tues 9-11AM PST",
+	# "Tues 8-9PM PST",
+	# "Wed 8:30-10PM PST",
+	# "Thurs 4-5PM PST",
+	# "Thurs 8:30-9:30PM PST"
 ]
 SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/122"
 SCPD_OFFICE_HOURS_DESCRIPTION = "SCPD students can sign up for help at the times above (free QueueStatus account required)."
 
 # Exams (displayed in left sidebar, but locations and review session are only displayed on exam subpages)
 MIDTERM = {
-	"DATE": "Monday, July 24",
+	"DATE": "Monday, July 23",
 	"TIME": "7-9PM PST",
 	"LOCATIONS": [ 	# A list of objects containing TITLE, LOCATION, MAP_LINK
 		{
