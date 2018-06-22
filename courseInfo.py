@@ -9,7 +9,7 @@ QUARTER_NUMBER = 1188
 QUARTER_NAME = "Summer"
 QUARTER_YEAR = "2018"
 QUARTER_FULL_NAME = QUARTER_NAME + " " + QUARTER_YEAR
-QUARTER_OVER = True  # Set to True to add banner at the top redirecting to newer version of webpage
+QUARTER_OVER = False  # Set to True to add banner at the top redirecting to newer version of webpage
 
 # Lecture information (displayed at top of home page)
 LECTURE_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday"]
@@ -35,7 +35,7 @@ STAFF_INFO = [
 		"IMAGE": "anniehu.jpg",
 		"EMAIL": "anniehu@stanford.edu",
 		"OFFICE_HOURS_LOCATION": "Gates B02",
-		"OFFICE_HOURS_DATETIME": "Tues. + Thurs. 9-11AM",
+		"OFFICE_HOURS_DATETIME": "TBD",
 		"DESCRIPTION": "The Head TA manages the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or instructor."
 	}
 ]
@@ -124,30 +124,30 @@ FINAL_EXAM = {
 STYLE_GUIDE = True
 PAIR_PROGRAMMING = True
 ASSIGNMENTS = [
-	{
-		"NAME": "Karel the Robot",
-		"LINK": "karel.html"
-	},
-	{
-		"NAME": "Intro to Java",
-		"LINK": "introToJava.html"
-	},
-	{
-		"NAME": "Hangman",
-		"LINK": "hangman.html"
-	},
-	{
-		"NAME": "Artistry and Breakout",
-		"LINK": "breakout.html"
-	},
-	{
-		"NAME": "ImageShop",
-		"LINK": "imageshop.html"
-	},
-	{
-		"NAME": "NameSurfer",
-		"LINK": "namesurfer.html"
-	}
+	# {
+	# 	"NAME": "Karel the Robot",
+	# 	"LINK": "karel.html"
+	# },
+	# {
+	# 	"NAME": "Intro to Java",
+	# 	"LINK": "introToJava.html"
+	# },
+	# {
+	# 	"NAME": "Hangman",
+	# 	"LINK": "hangman.html"
+	# },
+	# {
+	# 	"NAME": "Artistry and Breakout",
+	# 	"LINK": "breakout.html"
+	# },
+	# {
+	# 	"NAME": "ImageShop",
+	# 	"LINK": "imageshop.html"
+	# },
+	# {
+	# 	"NAME": "NameSurfer",
+	# 	"LINK": "namesurfer.html"
+	# }
 ]
 ASSIGNMENT_DUE_TIME = "11AM PST"
 

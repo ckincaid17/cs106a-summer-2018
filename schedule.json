@@ -5,7 +5,7 @@
 			{
 				"title": "Welcome to CS 106A",
 				"date": "June 25",
-				"filename": "Lecture1",
+				"filename": null,
 				"code": false,
 				"notes": [
 					"Read: Karel Ch. 1-2"
@@ -14,7 +14,7 @@
 			{
 				"title": "Programming with Karel",
 				"date": "June 26",
-				"filename": "Lecture2",
+				"filename": null,
 				"practice": [
 					["MeetKarel", "http://www.codestepbystep.com/problem/view/java/karel/MeetKarel"],
 					["ThreeBeepers", "http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers"],
@@ -30,7 +30,7 @@
 			{
 				"title": "Problem-solving with Karel",
 				"date": "June 27",
-				"filename": "Lecture3",
+				"filename": null,
 				"practice": [
 					["HurdleJumper", "http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper"],
 					["Roomba", "http://www.codestepbystep.com/problem/view/java/karel/Roomba"],
@@ -46,7 +46,7 @@
 			{
 				"title": "Introduction to Java",
 				"date": "June 28",
-				"filename": "Lecture4",
+				"filename": null,
 				"practice": [
 					["FearTheTree", "http://www.codestepbystep.com/problem/view/java/basics/FearTheTree"],
 					["ExpressionsNumbers1", "http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&embedded=false&problem=expressionsNumbers1"],
@@ -66,7 +66,7 @@
 			{
 				"title": "Booleans and Control Flow",
 				"date": "July 2",
-				"filename": "Lecture5",
+				"filename": null,
 				"practice": [
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
 					["RangeOfNumbers", "http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers"],
@@ -80,7 +80,7 @@
 				"title": "Control Flow and Parameters",
 				"date": "July 3",
 				"code": false,
-				"filename": "Lecture6",
+				"filename": null,
 				"notes": [
 					"Read: Java Ch. 5.1-5.4"
 				],
@@ -100,6 +100,7 @@
 			{
 				"title": "Parameters and Return",
 				"date": "July 5",
+				"filename": null,
 				"notes": [
 					"Read: Java Ch. 5.1-5.4",
 					"Due: Assn. 1",
@@ -114,8 +115,7 @@
 					["ReturnMystery1", "http://www.codestepbystep.com/problem/view/java/parameters/ReturnMystery1"],
 					["isPrimeNumber", "http://www.codestepbystep.com/problem/view/java/parameters/isPrimeNumber"],
 					["threeConsecutive", "http://www.codestepbystep.com/problem/view/java/parameters/threeConsecutive"]
-				],
-				"filename": "Lecture7"
+				]
 			},
 			{
 				"type": "OFF",
@@ -130,7 +130,7 @@
 					"Read: Java Ch. 8.1-8.4"
 				],
 				"code": false,
-				"filename": "Lecture8",
+				"filename": null,
 				"practice": [
 					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"],
 					["Roulette", "http://www.codestepbystep.com/problem/view/java/parameters/Roulette"],
@@ -147,7 +147,7 @@
 				"notes": [
 					"Read: Java Ch. 8.5"
 				],
-				"filename": "Lecture9",
+				"filename": null,
 				"practice": [
 					["Reverse", "http://www.codestepbystep.com/problem/view/java/strings/reverse"],
 					["isPalindrome", "http://www.codestepbystep.com/problem/view/java/strings/isPalindrome"],
@@ -160,7 +160,7 @@
 			{
 				"title": "File Reading",
 				"date": "July 11",
-				"filename": "Lecture10",
+				"filename": null,
 				"notes": [
 					"Read: Java Ch. 12.4",
 					"Due: Assn. 2",
@@ -179,7 +179,7 @@
 					"Read: Java Ch. 9.1-9.3"
 				],
 				"date": "July 12",
-				"filename": "Lecture11",
+				"filename": null,
 				"practice": [
 					["SmileyFace", "http://www.codestepbystep.com/problem/view/java/graphics/SmileyFace"],
 					["CircleLoops", "http://www.codestepbystep.com/problem/view/java/graphics/CircleLoops"],
@@ -194,7 +194,7 @@
 		[
 			{
 				"title": "More Graphics",
-				"filename": "Lecture12",
+				"filename": null,
 				"notes": [
 					"Read: Java Ch. 9.4"
 				],
@@ -202,7 +202,7 @@
 			},
 			{
 				"title": "Animation",
-				"filename": "Lecture13",
+				"filename": null,
 				"notes": [
 					"Read: Java Ch. 9"
 				],
@@ -211,7 +211,7 @@
 			{
 				"title": "Events",
 				"date": "July 18",
-				"filename": "Lecture14",
+				"filename": null,
 				"notes": [
 					"read: Java Ch. 10.1-10.4"
 				],
@@ -226,8 +226,8 @@
 			},
 			{
 				"title": "Events and Memory",
-				"filename": "Lecture15",
 				"date": "July 19",
+				"filename": null,
 				"notes": [
 					"Due: Assn. 3",
 					"Out: Assn. 4"
@@ -254,7 +254,7 @@
 				"notes": [
 					"read: Java Ch. 11.1-11.5"
 				],
-				"filename": "Lecture16",
+				"filename": null,
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/arrays/mystery1"],
 					["print", "http://www.codestepbystep.com/problem/view/java/arrays/print"],
@@ -270,7 +270,7 @@
 				"notes": [
 					"read: Java Ch. 11.6-11.7"
 				],
-				"filename": "Lecture17",
+				"filename": null,
 				"practice": [
 					["array2dMystery2", "http://www.codestepbystep.com/problem/view/java/arrays/2d/array2dMystery2"],
 					["isUnique", "http://www.codestepbystep.com/problem/view/java/arrays/2d/isUnique"],
@@ -281,7 +281,7 @@
 			{
 				"title": "More Arrays",
 				"date": "July 26",
-				"filename": "Lecture18"
+				"filename": null
 			},
 			{
 				"type": "OFF",
@@ -291,7 +291,7 @@
 		[
 			{
 				"title": "ArrayLists",
-				"filename": "Lecture19",
+				"filename": null,
 				"date": "July 30",
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
@@ -306,7 +306,7 @@
 			},
 			{
 				"title": "HashMaps",
-				"filename": "Lecture20",
+				"filename": null,
 				"date": "July 31",
 				"practice": [
 					["collectionMystery1", "http://www.codestepbystep.com/problem/view/java/collections/map/collectionMystery1"],
@@ -319,7 +319,7 @@
 			},
 			{
 				"title": "Classes",
-				"filename": "Lecture21",
+				"filename": null,
 				"notes": [
 					"read: Java Ch. 6"
 				],
@@ -338,7 +338,7 @@
 					["BankAccount-transactionFee", "http://www.codestepbystep.com/problem/view/java/classes/BankAccount%2DtransactionFee"],
 					["Clock-advance", "http://www.codestepbystep.com/problem/view/java/classes/Clock%2Dadvance"]
 				],
-				"filename": "Lecture22",
+				"filename": null,
 				"date": "August 2"
 			},
 			{
@@ -350,7 +350,7 @@
 			{
 				"title": "GCanvas and Interactors",
 				"date": "August 6",
-				"filename": "Lecture23",
+				"filename": null,
 				"notes": [
 					"read: Java Ch. 10.5-10.6",
 					"Due: Assn. 5",
@@ -359,7 +359,7 @@
 			},
 			{
 				"title": "Interactors and NameSurfer",
-				"filename": "Lecture24",
+				"filename": null,
 				"practice": [
 					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
 				],
@@ -371,12 +371,12 @@
 			{
 				"title": "Life After CS106A, Part 1",
 				"date": "August 8",
-				"filename": "Lecture25"
+				"filename": null
 			},
 			{
 				"title": "Life After CS106A, Part 2",
 				"date": "August 9",
-				"filename": "Lecture26"
+				"filename": null
 			},
 			{
 				"type": "OFF",
@@ -387,12 +387,12 @@
 			{
 				"title": "Final Exam Review 1",
 				"date": "August 13",
-				"filename": "Lecture27"
+				"filename": null
 			},
 			{
 				"title": "Final Exam Review 2 / Wrap-up",
 				"date": "August 14",
-				"filename": "Lecture28",
+				"filename": null,
 				"notes": [
 					"Due: Assn. 6"
 				]
