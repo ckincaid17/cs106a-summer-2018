@@ -37,7 +37,7 @@
 					<hr>
 					<div class="footer">
 						<p class="text-center">
-							&#169; Stanford {{courseInfo.QUARTER_YEAR}} &#124; Created by Chris Piech and Nick Troccoli.<br/>
+							&#169; Stanford {{courseInfo.QUARTER_YEAR}} &#124; Created by Chris Piech, Nick Troccoli, and Colin Kincaid.<br/>
 							{{courseInfo.COURSE_NUMBER}} has been developed over time by many talented teachers. 
 						</p>
 					</div>
