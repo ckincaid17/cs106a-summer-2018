@@ -134,110 +134,32 @@ materials.  See README for more info.
 
 
 <!-- Displays an alert that info is coming later -->
+	<div class="col-xs-12">
+		<div class="alert alert-info">
+			<p><b>Check back later:</b> We will provide relevant exam details closer to the exam date.</p>
+		</div>
+	</div>
 
-<!-- Add each exam event -->
-		<div class="col-xs-6 col-sm-6">
-<!-- Displays a well containing information (title, date, time, location, map) about a single exam event.
-
-Expects the following parameters:
-    * title - the event title
-    * date - the event date string
-    * time - the event time string
-    * location - the event location string
-    * mapLink - a Google Maps URL for the location
--->
-
-<div class="well">
-    <b>Exam</b>
-    <br />
-    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Monday, July 23
-    <br />
-
-    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>7-9PM PST
-    <br />
-
-    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>Hewlett 200
-    <br />
-    <br />
-
-    <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-    <div class="google-maps">
-    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.345197243158!2d-122.1750263848679!3d37.42894923975373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ae177cc91%3A0x5351ffed56456da8!2sWilliam+R.+Hewlett+Teaching+Center%2C+370+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500400060838" width="600" height="450" style="border:0" allowfullscreen></iframe>
-    </div>
-</div>		</div>
-
-<!-- Add the review session, if any -->
-		<div class="col-xs-6 col-sm-6">
-<!-- Displays a well containing information (title, date, time, location, map) about a single exam event.
-
-Expects the following parameters:
-    * title - the event title
-    * date - the event date string
-    * time - the event time string
-    * location - the event location string
-    * mapLink - a Google Maps URL for the location
--->
-
-<div class="well">
-    <b>Review Session</b>
-    <br />
-    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Friday, July 21
-    <br />
-
-    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>3:30-4:50PM PST
-    <br />
-
-    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>Gates B03 (basement)
-    <br />
-    <br />
-
-    <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
-    <div class="google-maps">
-    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783500653!2d-122.17568493444799!3d37.4301523298236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500425297459" width="600" height="450" style="border:0" allowfullscreen></iframe>
-    </div>
-</div>		</div>
-
+<!-- Otherwise, calculate the column layout -->
 </div>
 
-<!-- Answers -->
-<h2>Answers</h2>
-<p><a href="./../resources/midterm/MidtermQuestionBooklet.pdf">Midterm</a> | <a href="./../resources/midterm/MidtermSolutions.pdf">Solutions</a> | <a href="./../resources/midterm/CS106A-Midterm-Sum17.zip">Code</a> (Eclipse project for testing your answers)</p>
-
-<!-- Scores -->
-<h2>Scores and Graded Exams</h2>
-<p><strong>How do I find out my score?</strong> The scores have been released on <a href="https://www.gradescope.com">Gradescope</a>, a website for grading course materials.  If you did not receive an invitation to join Gradescope (please check your spam folder!) please contact Rishi, the Head TA.  Log in to Gradescope to see your midterm score.</p>
-
-<p>If you have questions about exactly what points you missed and why, please look over the grade and markings made by the grader, compare it with our answer key and Eclipse project, and then contact your Section Leader if you still have any questions.</p>
-
-<p><strong>How do I pick up my paper exam?</strong> A complete scan of your exam is available on Gradescope; we are not distributing paper exams to students.  If you would like to see the paper exam, you may stop by Nick or Rishi's office hours and view it while there.</p>
-
-<p>The statistics of the exam scores (to the nearest whole number, out of 120) were as follows:</p>
-<p><strong>Mean: </strong> 74</p>
-<p><strong>Median: </strong> 75</p>
-<p><strong>Standard Deviation: </strong> 23</p>
-
-<p>Here is a histogram of the exam scores (out of 120):</p>
-<img style="width: 100%;" alt="Midterm Histogram" src="./../resources/midterm/histogram.png" />
-
-<!-- Regrades -->
-<h2>Regrade Policy</h2>
-<p>We work hard to grade consistently and correctly, but sometimes we make mistakes in grading.  If you believe part of your exam was incorrectly graded, please first <strong>download the Eclipse project linked to above and run your answer.</strong>  This is the easiest way to test your code.  If, after running your code, you still believe your grade is incorrect, submit a regrade request online using our <a href="https://goo.gl/forms/uZVTbhXeZiqGlV5J2">CS 106A Midterm Regrade Request</a> form.  Regrade requests need to point out the aspect of the problem that was correct, but for which points were taken off. We use a detailed rubric to grade exams, so simply requesting that an incorrect answer "should be worth more points" is not likely to result in additional points. You must also <strong>submit your typed Java code</strong> for the given problem (if applicable), and any other necessary code/content so that we can run and evaluate your code.</p>
-
-<p><strong>You must provide all the required information</strong> listed above and in the regrade request form in order for us to review your regrade request. Also, we reserve the right to re-grade the whole exam to make sure there are no other grading issues present - this may result in a lower total score.</p>
-
-<p>All midterm regrade requests must be submitted within <strong>7 days</strong> of the date when exam scores were posted.  Specifically, all regrade requests must be submitted by <strong>1PM on Wednesday, August 9, 2017.</strong></p>
-
 <!-- Practice Materials -->
-<h2>Practice Materials</h2>
+<!-- <h2>Practice Materials</h2>
 <p><a href="./../resources/midterm/PracticeMidterm.pdf">Practice Midterm</a> | <a href="./../resources/midterm/PracticeMidtermSolution.pdf">Solution</a> | <a href="./../resources/midterm/PracticeMidterm.zip">Code</a></p>
 
 <p><a href="./../resources/midterm/ReviewSession.pdf">Review Session Slides</a></p>
 
-<p>Section Handouts and CodeStepByStep lecture practice problems (on the schedule page) are also great ways to practice relevant material.</p>
+<p>Section Handouts and CodeStepByStep lecture practice problems (on the schedule page) are also great ways to practice relevant material.</p> -->
 
 <!-- Logistics -->
 <h2 id="logistics">Logistics</h2>
-<ul>
+<p>
+    The CS106A midterm exam is Monday, July 23 from 7PM to 9PM. We will provide more details (what the exam covers, practice exams) closer to the exam.
+</p>
+<p>
+    If you have OAE accommodations, or if you have an academic or University conflict with this time, and absolutely cannot make the regularly scheduled midterm, you must fill out <a href="https://goo.gl/forms/tbqEOO6tuZ5w3FGh2">this form</a> by 5:00PM on Monday, July 16 to arrange an alternate exam time. 
+</p>
+<!-- <ul>
 	<li><p><strong>The Honor Code:</strong> the exam is to be completed <strong>individually</strong> and without any assistance from a partner or other students.  Follow the <strong>Stanford Honor Code</strong> (see handout #2 in the Handouts dropdown) during the exam: submit only your own work, do not use unpermitted aids on the exam (see below for permitted aids), and say something to the instructors or students in question to prevent any inappropriate activity conducted by others surrounding the exam.
 	</p></li>
 	<li><p><strong>Permitted Materials:</strong> During the exam, you may use/reference:</p>
@@ -263,11 +185,11 @@ Expects the following parameters:
 	<p>You may write in pencil or pen on the exam, however as we mention in the <i>Exam Strategies</i> section further down, we highly recommend you <i>write in pencil.</i>  <i>Please make sure to write firmly</i> so that your writing is not too light and can be easily read.</p>
 
 	<p>If you know of a method/class in the Karel coursereader or textbook that would help (for example, from an included sample problem or from sample code - this does not pertain to code <i>in</i> the Stanford Libraries such as turnAround(), getWidth(), setColor, etc.), you can simply cite what section/chapter it is from and use it. You do not need to rewrite it.</p></li>
-</ul>
+</ul> -->
 
 
 <!-- Material -->
-<h2>Material Covered</h2>
+<!-- <h2>Material Covered</h2>
 <p>The midterm will cover all material up to the midterm (the Hangman assignment and all lectures/sections the week of Jul. 17).  This includes the following concepts listed below.  Note that you may be asked to <i>read</i> code (look at a piece of existing code and answer questions about it, such as writing its output) and/or <i>write</i> code (write a piece of code such as a method or short program that solves a given problem).</p>
 
 <ul>
@@ -299,10 +221,10 @@ Expects the following parameters:
 	<li><p>throwing exceptions with the <code>throw</code> statement</p></li>
 	<li><p>any Stanford library functionality not explicitly taught in class, section or homeworks</p></li>
 	<li><p>anything else not explicitly covered in lecture, section or homeworks</p></li>
-</ul>
+</ul> -->
 
 <!-- Exam Strategies -->
-<h2 id="exam-strategies">Exam Strategies</h2>
+<!-- <h2 id="exam-strategies">Exam Strategies</h2>
 <p>Hopefully you have been keeping up in lecture and doing well on the assignments, but may be unsure of how to make sure your skills will translate well to the exam setting. The practice midterms above give an idea of what to expect, but we also want to provide some general advice for how to prepare and approach the exam.</p>
 
 <h3>The Rationale Behind Pencil and Paper Exams</h3>
@@ -340,9 +262,9 @@ realize you actually were closer to the right solution the first time. If you ha
 <p><strong>Save a little time for checking your work.</strong> Before handing in your exam, reserve a few minutes to go back over your work. Check for missing initialization/return statements, correct parameters passed to functions, etc. We try not to deduct points for minor things if it is obvious what you meant, but sometimes it is difficult to decipher your true intention. You might save yourself a few lost points by tidying up the details at the end.</p>
 
 <h3>Final Thoughts</h3>
-<p>Always remember why you are at school. Learning and education tend to be a more fulfilling goal than just high grades. If you work hard, study lots and feel good about your understanding of computer science, that is an achievement to be proud of in itself — regardless of how many points you get relative to the other students in the class.  Moreover, for most (if not all) of you, this is your first exam <i>ever</i> in computer science; taking an exam in a brand-new subject doesn't happen very often!  Use this first and foremost as a "litmus test" of sorts to see how you are doing midway through the class, what you are understanding well, and what you can improve in future homework assignments and on the final exam.  Remember that computer science is not an easy endeavor, even for experienced computer scientists.</p>
+<p>Always remember why you are at school. Learning and education tend to be a more fulfilling goal than just high grades. If you work hard, study lots and feel good about your understanding of computer science, that is an achievement to be proud of in itself — regardless of how many points you get relative to the other students in the class.  Moreover, for most (if not all) of you, this is your first exam <i>ever</i> in computer science; taking an exam in a brand-new subject doesn't happen very often!  Use this first and foremost as a "litmus test" of sorts to see how you are doing midway through the class, what you are understanding well, and what you can improve in future homework assignments and on the final exam.  Remember that computer science is not an easy endeavor, even for experienced computer scientists.</p> -->
 
-<h2 style="text-align: center;">You can do it!</h2>
+<!-- <h2 style="text-align: center;">You can do it!</h2> -->
 			
 			<!-- Footer -->
 			<div class="row">
