@@ -197,18 +197,6 @@
 </div> -->
 
 <!-- Midterm -->
-<!-- <div class="well">
-	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">Midterm</div>
-		<div class="moment">2017071809</div>
-	</div>
-	% midtermInfoString = courseInfo.MIDTERM["DATE"] + " " + courseInfo.MIDTERM["TIME"]
-	% reviewInfoString = courseInfo.MIDTERM["REVIEW_SESSION"]["DATE"] + " " + courseInfo.MIDTERM["REVIEW_SESSION"]["TIME"]
-	% reviewLocationString = courseInfo.MIDTERM["REVIEW_SESSION"]["LOCATION"]
-	<p>
-		The midterm is coming up on <strong>{{midtermInfoString}}</strong>, and a review session will be held on <strong>{{reviewInfoString}} in {{reviewLocationString}}</strong>.  For detailed information, including exam location, material to study, exam policies, and practice material, please see the midterm info webpage, linked to in the sidebar at left.
-	</p>
-</div> -->
 
 <!-- Assignment 3 -->
 <!-- <div class="well">
