@@ -66,6 +66,9 @@ SECTION_LEADERS = [
 	# "Wil Kautz (wkautz)"
 ]
 
+# LaIR (listed in left sidebar)
+LAIR_HOURS = "Sun-Wed, 7-11pm"
+
 # SCPD (listed in left sidebar)
 SCPD_OFFICE_HOURS = [
 	"TBD",

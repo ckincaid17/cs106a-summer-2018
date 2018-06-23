@@ -24,10 +24,6 @@
 		<a href="{{pathToRoot}}assignments/pair.html">Pair Programming</a> <br/>
 	% end
 
-	<!-- LaIR schedule -->
-	<span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>
-	<a href="https://cs198.stanford.edu/lair/shifts">LaIR Help Hours</a> <br/>
-	
 	<!-- Stanford library documentation -->
 	<img src="images/stanford-favicon.png" class="sidebaricon" alt="icon">
 	<a href="{{courseInfo.LIBRARY_DOCS_LINK}}">Stanford Library Docs</a><br/>
@@ -58,6 +54,15 @@
 </div>
 
 <hr/>
+
+<!-- LaIR Help Hours -->
+<div>
+	<p class="subtleHeading">LaIR HELP HOURS</p>
+	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{courseInfo.LAIR_HOURS}}</p>
+</div>
+
+<hr/>
+
 
 <!-- SCPD Office Hours -->
 % if len(courseInfo.SCPD_OFFICE_HOURS) > 0:
