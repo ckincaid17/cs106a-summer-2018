@@ -79,7 +79,7 @@ SCPD_OFFICE_HOURS = [
 	# "Thurs 4-5PM PST",
 	# "Thurs 8:30-9:30PM PST"
 ]
-SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/122"
+SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/225"
 SCPD_OFFICE_HOURS_DESCRIPTION = "SCPD students can sign up for help at the times above (free QueueStatus account required)."
 
 # Exams (displayed in left sidebar, but locations and review session are only displayed on exam subpages)
