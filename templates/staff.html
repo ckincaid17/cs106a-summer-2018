@@ -53,15 +53,18 @@
 
     <!-- Generate HTML thumbnail elements for each SL -->
     <%  
-        for sl in courseInfo.SECTION_LEADERS:
+        for i in courseInfo.SL_INDEX:
+            sl = courseInfo.SECTION_LEADERS[i]
             name = sl[0:sl.index("(") - 1]
             sunet = sl[sl.index("(") + 1: -1]
-
     %>
             <!-- Thumbnail box that displays the photo and info for a single section leader.
             Requires a name, pathToRoot and sunet parameter. Assumes an image for this
             person is stored in images/staff/SUNET.jpg. -->
-            <div class="col-md-3 col-sm-4 col-xs-6 thumb">
+            % if i % 4 == 0:
+                <div class="row">
+            % end
+            <div class="col-md-3 col-sm-4 col-xs-6 nopadding">
                 <div class="thumbnail">
                     <img style="width:112px;" class="img-circle" src="{{pathToRoot}}images/staff/{{sunet}}.jpg" alt="{{name}}">
                     <div>
@@ -72,5 +75,8 @@
                     </div>
                 </div>
             </div>
+            % if i % 4 == 3:
+                </div>
+            % end
         %end
 </div>
