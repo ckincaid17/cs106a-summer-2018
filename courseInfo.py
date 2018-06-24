@@ -43,29 +43,29 @@ STAFF_INFO = [
 
 # Note: section leader names MUST be formatted "NAME (SUNET)" as the image for a given Section Leader is assumed to be SUNET.jpg.
 SECTION_LEADERS = [
-	# "Aleksander Dash (adash)",
-	# "Canyon Robins (crobins)",
-	# "Conner Smith (csmith95)",
-	# "Emily Ling (eling8)",
-	# "Farah Uraizee (farah)",
-	# "Garrick Fernandez (gfaerr)",
-	# "Gus Torres da Silva (gdasilva)",
-	# "Guy Blanc (gblanc)",
-	# "Jared Bitz (jbitz)",
-	# "Jestin Ma (jestinm)",
-	# "Kate Rydberg (rydbergk)",
-	# "Katherine Erdman (kerdman)",
-	# "Keanu Spies (keanus)",
-	# "Michael Hazard (cmhazard)",
-	# "Mirae Parker (miraep8)",
-	# "Nick Negrete (nnegrete)",
-	# "Nolan Handali (nolanh)",
-	# "Pras Ramakrishnan (pras1712)",
-	# "Regina Nguyen (renguyen)",
-	# "Tobin Bell (trfbell)",
-	# "Tyler Yep (tyep)",
-	# "Wil Kautz (wkautz)"
+	"Alex Mallery (amallery)",
+	"Arjun Sawhney (sawhneya)",
+	"Avery Wang (awvry952)",
+	"Belce Dogru (belce)",
+	"Diego Hernandez (diegoh)",
+	"Garrick Fernandez (gfaerr)",
+	"Jared Bitz (jbitz)",
+	"Jennie Yang (jenniey)",
+	"Jesse Doan (jdoan21)",
+	"Jonathan Gomes Selman (jgs8)",
+	"Matthew Katzman (mkatzman)",
+	"Meng Zhang (mz315)",
+	"Michelle McGhee (mmcghee)",
+	"Ruiqi Chen (rchensix)",
+	"Shanon Reckinger (mcintyrs)",
+	"Yoni Lerner (yonlern)",
+	"Allison Tielking (atielkin)",
+	"Connor Meany (cmeany)",
+	"Deanna Garcia (dgarcia5)",
+	"Greg Ramel (gramel)"
 ]
+
+SL_INDEX = range(len(SECTION_LEADERS))
 
 # LaIR (listed in left sidebar)
 LAIR_HOURS = "Sun-Wed, 7-11pm"
