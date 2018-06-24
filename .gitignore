@@ -1,3 +1,5 @@
 .DS_Store
 *.pyc
 WWW/restricted
+feedback/sunets.txt
+feedback/daily-assignments.txt
