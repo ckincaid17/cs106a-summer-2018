@@ -71,7 +71,6 @@ LAIR_HOURS = "Sun-Wed, 7-11pm"
 
 # SCPD (listed in left sidebar)
 SCPD_OFFICE_HOURS = [
-	"TBD",
 	# "Sun 5:30-7PM PST",
 	# "Tues 9-11AM PST",
 	# "Tues 8-9PM PST",

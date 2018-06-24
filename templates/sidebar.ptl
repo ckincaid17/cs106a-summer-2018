@@ -78,6 +78,13 @@
 	</div>
 
 	<hr/>
+% else:
+	<div>
+		<p class="subtleHeading">SCPD OFFICE HOURS</p>
+		<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>TBD</p>
+	</div>
+
+	<hr/>
 % end
 
 <!-- Staff -->
