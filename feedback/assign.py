@@ -36,8 +36,8 @@ def assignLectures(i, sunetList, assignmentsByDay, assignmentsByHash):
             m.update(student)
             sunetHashStr = m.digest()
             sunetHash = ''.join(c.encode('hex') for c in sunetHashStr)
-            # IMPORTANT NOTE: This uses lowercase letters. The program
-            # that checks attendance should be case-insensitive.
+            # store hash as all-uppercase
+            sunetHash = sunetHash.upper()
             if sunetHash not in assignmentsByHash:
                 assignmentsByHash[sunetHash] = [lectureNum]
             else:
