@@ -19,6 +19,7 @@ import hashlib
 NUM_LECTURES = 28
 NUM_FEEDBACK_OCCURENCES = 2
 NUM_LECTURES_PER_ROUND = NUM_LECTURES / NUM_FEEDBACK_OCCURENCES
+INSTRUCTIONS = "You can locate yourself in this list by going to http://passwordsgenerator.net/md5-hash-generator/ and entering your SUNet ID (e.g., ckincaid). Search for the MD5 hash result in this list to find the numbers of the lectures for which you should give feedback. Refer to the schedule (cs106a.stanford.edu/schedule) to see the date that corresponds to each lecture number. If you cannot find your hash in this list, please go to https://cs198.stanford.edu/cs198/auth/Profile.aspx to confirm that the SUNet ID that we have on file for you is the one you tried to use. If you still cannot find yourself, please email the head TA.\n\nOn your assigned lecture days (and other days if you feel so inclined), please submit feedback at https://goo.gl/forms/B4r5slzkdJxpdrEf1.\n\n"
 
 def assignLectures(i, sunetList, assignmentsByDay, assignmentsByHash):
     lecturesLeftToAssign = NUM_LECTURES_PER_ROUND
@@ -62,6 +63,7 @@ def main():
             dailyAssignmentFile.write('%d: %s\n' % (lectureNum, students))
 
     with open('hashed-assignments.txt', 'w') as hashedAssignmentFile:
+        hashedAssignmentFile.write(INSTRUCTIONS)
         for sunetHash, lectureNums in assignmentsByHash.iteritems():
             hashedAssignmentFile.write('%s: %s\n' % (sunetHash, lectureNums))
 
