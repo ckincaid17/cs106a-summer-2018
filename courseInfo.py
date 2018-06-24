@@ -16,6 +16,7 @@ LECTURE_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday"]
 LECTURE_TIME = "11:30AM-12:20PM PST"
 LECTURE_LOCATION = "NVIDIA Auditorium"
 LECTURE_LOCATION_LINK = "https://www.google.com/maps/place/NVIDIA+Auditorium/@37.4277284,-122.1763905,17z/data=!3m1!4b1!4m5!3m4!1s0x808fbb2ac97723cb:0xa6e8fc1a7a5f2c29!8m2!3d37.4277284!4d-122.1741965"
+LECTURE_ASSIGNMENTS_LINK = "hashed-assignments.txt"
 LECTURE_FEEDBACK_LINK = "TBD" # Length > 0
 
 # Course staff (displayed in left sidebar and on staff page)
