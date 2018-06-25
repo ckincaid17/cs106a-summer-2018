@@ -9,10 +9,10 @@
     	<a href="https://web.stanford.edu/dept/cs_edu/eclipse/jdk_mac.dmg">Download and install the Java SDK for Mac</a>
     </li>
     <li>
-    	<a href="https://web.stanford.edu/dept/cs_edu/eclipse/eclipse_mac.tar.gz">Download the Mac version of Eclipse</a>
+    	<a href="https://web.stanford.edu/dept/cs_edu/eclipse/eclipse_mac.dmg">Download the Mac version of Eclipse</a>
     </li>
     <li>
-    	Click on the downloaded <strong>eclipse_mac.tar</strong> file to unarchive Eclipse (You can delete <strong>eclipse_mac.tar</strong> afterwards).
+    	Click on the downloaded <strong>eclipse_mac.dmg</strong> file to open the Eclipse disk image.
     </li>
     <li>
     	Drag the Eclipse app into the Applications folder on your Mac.
@@ -22,6 +22,9 @@
     </li>
     <li>
     	Click on the icon in the Dock to open Eclipse. If you see an error that says Eclipse "can't be opened because it is from an unidentified developer," right-click on the Eclipse icon and select "open" instead. You will be able to open Eclipse without right-clicking from now on.
+    </li>
+    <li>
+        You can now delete <strong>eclipse_mac.dmg</strong> and eject the Eclipse disk image from your desktop.
     </li>
 
 	<!-- These instructions are platform-agnostic -->
