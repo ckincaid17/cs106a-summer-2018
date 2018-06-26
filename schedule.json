@@ -14,6 +14,7 @@
 			{
 				"title": "Programming with Karel",
 				"date": "June 26",
+				"filename": "Lecture2",
 				"practice": [
 					["MeetKarel", "http://www.codestepbystep.com/problem/view/java/karel/MeetKarel"],
 					["ThreeBeepers", "http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers"],
