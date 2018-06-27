@@ -1,7 +1,8 @@
 <h2>Submitting Projects</h2>
 <p>
-    You submit all assignments directly via Eclipse. We check whether an assignment is turned in on time from the time we receive your electronic submission, which is timestamped in the submission process. That time is based on the time on the server that receives the assignment, so it pays to submit things with a few minutes to spare, particularly if you discover that your computer's clock is running slow.
-    <br /> To submit a project in Eclipse, follow these steps:
+All assignments are submitted electronically using Eclipse and Paperless. Eclipse exports your entire assignment as a single zip file, and you must then submit this zip online at paperless.stanford.edu.
+We check whether an assignment is turned in on time from the time we receive your electronic submission, which is timestamped in the submission process. That time is based on the time on the server that receives the assignment, so it pays to submit things with a few minutes to spare, particularly if you discover that your computer's clock is running slow.
+<br /> To submit a project in Eclipse, follow these steps:
 </p>
 <ol>
     <li>
@@ -13,27 +14,43 @@
         <img style="width:25rem" src="{{pathToRoot}}images/eclipse/stanfordMenu.png" alt="Stanford Menu" />
     </li>
     <li>
-        Enter your SUNet ID and password, and then click the <strong>Authenticate</strong> button. Then click <strong>Next</strong>.
+        Select the Eclipse project you would like to submit, then click <strong>Ok</strong>.
     </li>
     <li>
-        On the next screen, you may encounter a field asking for an additional "passcode".  This passcode is an additional security step called "two-factor authentication", or "two-step", and is used university-wide.  It provides your account with additional security as it requires you to not only have your username and password, but also a unique code, usually uniquely generated each time via text message or app.  If you do not already have two-factor authentication set up, please see the Stanford <a href="https://uit.stanford.edu/service/webauth/twostep">online guide</a> for help setting it up, and for answers to common questions.
-        <br/>
-        <img style="width:50rem" src="{{pathToRoot}}images/eclipse/twoStep.png" alt="Stanford Two Step Auth" />
+        You should then select where you would like to save your zipped assignment. Then
+      click <strong>Save</strong>. This will export your entire Eclipse project, including all code files,
+      and any world, image, or other resource files that it may contain, to a single zip file.
     </li>
     <li>
-        Select the assignment number for which you are making a submission, and then click <strong>Next</strong>.
+        Once Eclipse saves the zipped project to your computer, it will tell you to upload
+this zip to Paperless. Click <strong>Ok</strong> to be automatically redirected to Paperless in your
+web browser.
     </li>
     <li>
-        Select the project in Eclipse you would like to submit by clicking <strong>Browse...</strong> and selecting from among the current open projects in Eclipse. Select the project you would like to submit and click <strong>OK</strong>. This will submit all files in this project together.
+        Once on Paperless, click CS106A.
     </li>
     <li>
-        The name of your project should now appear in the box labeled "Project:". Click the <strong>Finish</strong> button to submit. It may take some time for your project to be fully submitted.
+        Click “Submit Assignment” in the top-right.
     </li>
     <li>
-        Once your project is submitted, you will get a message saying the submission was successful. Click <strong>OK</strong>.
+        Select which assignment you would like to submit from the dropdown. Once you
+do this, an area should appear where you may upload your assignment zip.
+    <br/>
+    <img style="width:50rem" src="{{pathToRoot}}images/eclipse/upload.png" alt="Paperless Upload" />
     </li>
     <li>
-        <strong>IMPORTANT: always make sure that your files were successfully submitted.</strong> You can do this by going to <a href="https://paperless.stanford.edu">paperless.stanford.edu</a>; this will show the files your section leader will see when grading your submission. This is also where your section leader will post your assignment grades and comments. Remember that <strong>You are responsible for double-checking Paperless to make sure that your files were submitted properly.</strong> Note that Paperless's web viewer may only display your <strong>.java</strong> files; however, if you download the submission from Paperless you can confirm that your other files are submitted as well.
+      Drag and drop your assignment zip into the area marked “Files”. Once you do this,
+it should be added to the list of files to upload. Then click “Submit Assignment”.
+    </li>
+    <li>
+      Once your project is submitted, you will be taken back to the main Paperless page.
+    </li>
+    <li>
+      Confirm that your files were properly submitted. You can view your submission on
+      the Paperless website, which is what your Section Leader will see when grading
+      your submission, by clicking on the “Assignments” tab at the top. <strong>You are
+      responsible for double-checking Paperless to make sure that your files were
+      submitted properly. Always double-check!</strong>
     </li>
 </ol>
 
