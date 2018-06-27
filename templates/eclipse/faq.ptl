@@ -5,12 +5,6 @@
     <dd>
         A: No.  This error should not affect the running of your programs, and you can ignore it.
     </dd>
-    <dt id="twostep">
-        Q: When trying to submit, after logging in with my SUNET ID and password, Eclipse is asking me for a "passcode".  What is this?
-    </dt>
-    <dd>
-        A: The submitter is asking for a two-step authentication passcode, as an additional form of security; please see the updated Eclipse submission instructions above.
-    </dd>
     <dt id="newFile">
         Q: I want to create another file/program within this project.  How do I do this?
     </dt>
