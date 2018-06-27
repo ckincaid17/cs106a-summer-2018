@@ -30,6 +30,7 @@
 			{
 				"title": "Problem-solving with Karel",
 				"date": "June 27",
+				"filename": "Lecture3",
 				"practice": [
 					["HurdleJumper", "http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper"],
 					["Roomba", "http://www.codestepbystep.com/problem/view/java/karel/Roomba"],
