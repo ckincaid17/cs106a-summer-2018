@@ -75,7 +75,7 @@
 	<p>
 		Students must swipe themselves in, but anyone is welcome, even those without meal plans.  If you have any financial concerns about attending, please contact Nick or Rishi.  Please meet at the entrance in each dining hall where you swipe in.
 	</p>
-	<p>	
+	<p>
 		If you are planning on coming, we would appreciate you filling out <a href="https://goo.gl/forms/NTrRtrZD1lxVfnRz2">this form</a> so we can get a sense of how many students are interested (though this is not required to attend).  We hope to see you there!
 	</p>
 </div> -->
@@ -211,7 +211,7 @@
 				<img class="media-object" alt="Hangman" src="{{pathToRoot}}images/assignments/hangman.png" style="width:80px" />
 			</div>
 		</div>
-		
+
 		<div class="media-body">
 			<p>
 				For your third assignment, you will write a console program to play the game "Hangman". This program will give you practice with methods, parameters, return, Strings, and file-reading.  See the <a href="{{pathToRoot}}assignments/hangman.html">assignment page</a> for more details.  <strong>This assignment may optionally be completed in pairs.</strong>
@@ -246,7 +246,7 @@
 				<img class="media-object" alt="Java" src="{{pathToRoot}}images/assignments/java.png" style="width:80px" />
 			</div>
 		</div>
-		
+
 		<div class="media-body">
 			<p>
 				For your second assignment, you will write a series of Java console programs. These programs will give you practice with concepts like variables, methods, control flow, and more.  See the <a href="{{pathToRoot}}assignments/introToJava.html">assignment page</a> for more details.
@@ -302,20 +302,19 @@
 		As a reminder, LaIR helper hours and office hours started yesterday, and are available if you need help on your first assignment, or if you have any questions about the material.  The LaIR is in the first floor of Tresidder Union (in the food court area - sign up for help at the computer in the back) and is open <strong>Sun - Wed 7PM-11PM</strong>.  Rishi and Nick's office hours times are listed in the sidebar to the left.
 		<br />
 		<br />
-		If you visit the LaIR, you will have the option to sign up for 3 different <strong>queues</strong> to most efficiently get help:
+		If you visit the LaIR, you will have the option to sign up for 2 different <strong>queues</strong> to most efficiently get help:
 	</p>
 	<ul>
-		<li><strong>2-minute queue:</strong> Sign up for the 2 minute queue if you have a quick 2-minute question a course staff member can help you with.</li>
 		<li><strong>CLaIR queue:</strong> Sign up for the "Conceptual LaIR" (CLaIR) queue if you have a conceptual question about an assignment or material.  Note that <i>you are not allowed to ask questions about your code</i> (e.g. debugging questions) in the CLaIR queue; only conceptual questions.</li>
 		<li><strong>Standard queue:</strong> Sign up for the standard queue if you have a question that does not fit in the above categories, such as a more in-depth debugging question about your code.
 	</ul>
 </div> -->
 
 <!-- Assignment 1 -->
-<!-- <div class="well">
+<div class="well">
 	<div class="newsfeedHeader">
 		<div class="newsfeedTitle">Assignment 1: Karel the Robot</div>
-		<div class="moment">2017062812</div>
+		<div class="moment">2018062715</div>
 	</div>
 
 	<div class="media">
@@ -324,15 +323,15 @@
 				<img class="media-object" alt="Karel the Robot" src="{{pathToRoot}}images/assignments/karel.png" style="width:80px" />
 			</div>
 		</div>
-		
+
 		<div class="media-body">
 			<p>
 				For your first assignment, you will write a series of Karel the Robot programs. See the <a href="{{pathToRoot}}assignments/karel.html">assignment page</a> for more details.
-				The assignment is due Wednesday, July 5th, but make sure to get started early. Though Karel is a fun, simple robot, some of the questions can be tricky!
+				The assignment is due <strong>Thursday, July 5th</strong>, but make sure to get started early. Though Karel is a fun, simple robot, some of the questions can be tricky!
 			</p>
 		</div>
 	</div>
-</div> -->
+</div>
 
 <!-- Section results -->
 <div class="well">
