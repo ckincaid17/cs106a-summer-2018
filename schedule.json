@@ -5,7 +5,7 @@
 			{
 				"title": "Welcome to CS 106A",
 				"date": "June 25",
-				"filename": null,
+				"filename": "Lecture1",
 				"code": false,
 				"notes": [
 					"Read: Karel Ch. 1-2"
@@ -14,7 +14,7 @@
 			{
 				"title": "Programming with Karel",
 				"date": "June 26",
-				"filename": null,
+				"filename": "Lecture2",
 				"practice": [
 					["MeetKarel", "http://www.codestepbystep.com/problem/view/java/karel/MeetKarel"],
 					["ThreeBeepers", "http://www.codestepbystep.com/problem/view/java/karel/ThreeBeepers"],
@@ -30,7 +30,6 @@
 			{
 				"title": "Problem-solving with Karel",
 				"date": "June 27",
-				"filename": null,
 				"practice": [
 					["HurdleJumper", "http://www.codestepbystep.com/problem/view/java/karel/HurdleJumper"],
 					["Roomba", "http://www.codestepbystep.com/problem/view/java/karel/Roomba"],
@@ -46,7 +45,6 @@
 			{
 				"title": "Introduction to Java",
 				"date": "June 28",
-				"filename": null,
 				"practice": [
 					["FearTheTree", "http://www.codestepbystep.com/problem/view/java/basics/FearTheTree"],
 					["ExpressionsNumbers1", "http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&embedded=false&problem=expressionsNumbers1"],
@@ -66,7 +64,6 @@
 			{
 				"title": "Booleans and Control Flow",
 				"date": "July 2",
-				"filename": null,
 				"practice": [
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
 					["RangeOfNumbers", "http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers"],
@@ -80,7 +77,6 @@
 				"title": "Control Flow and Parameters",
 				"date": "July 3",
 				"code": false,
-				"filename": null,
 				"notes": [
 					"Read: Java Ch. 5.1-5.4"
 				],
@@ -100,7 +96,6 @@
 			{
 				"title": "Parameters and Return",
 				"date": "July 5",
-				"filename": null,
 				"notes": [
 					"Read: Java Ch. 5.1-5.4",
 					"Due: Assn. 1",
@@ -130,7 +125,6 @@
 					"Read: Java Ch. 8.1-8.4"
 				],
 				"code": false,
-				"filename": null,
 				"practice": [
 					["RollTwoDice", "http://www.codestepbystep.com/problem/view/java/loops/RollTwoDice"],
 					["Roulette", "http://www.codestepbystep.com/problem/view/java/parameters/Roulette"],
@@ -147,7 +141,6 @@
 				"notes": [
 					"Read: Java Ch. 8.5"
 				],
-				"filename": null,
 				"practice": [
 					["Reverse", "http://www.codestepbystep.com/problem/view/java/strings/reverse"],
 					["isPalindrome", "http://www.codestepbystep.com/problem/view/java/strings/isPalindrome"],
@@ -160,7 +153,6 @@
 			{
 				"title": "File Reading",
 				"date": "July 11",
-				"filename": null,
 				"notes": [
 					"Read: Java Ch. 12.4",
 					"Due: Assn. 2",
@@ -179,7 +171,6 @@
 					"Read: Java Ch. 9.1-9.3"
 				],
 				"date": "July 12",
-				"filename": null,
 				"practice": [
 					["SmileyFace", "http://www.codestepbystep.com/problem/view/java/graphics/SmileyFace"],
 					["CircleLoops", "http://www.codestepbystep.com/problem/view/java/graphics/CircleLoops"],
@@ -194,7 +185,6 @@
 		[
 			{
 				"title": "More Graphics",
-				"filename": null,
 				"notes": [
 					"Read: Java Ch. 9.4"
 				],
@@ -202,7 +192,6 @@
 			},
 			{
 				"title": "Animation",
-				"filename": null,
 				"notes": [
 					"Read: Java Ch. 9"
 				],
@@ -211,7 +200,6 @@
 			{
 				"title": "Events",
 				"date": "July 18",
-				"filename": null,
 				"notes": [
 					"read: Java Ch. 10.1-10.4"
 				],
@@ -227,7 +215,6 @@
 			{
 				"title": "Events and Memory",
 				"date": "July 19",
-				"filename": null,
 				"notes": [
 					"Due: Assn. 3",
 					"Out: Assn. 4"
@@ -254,7 +241,6 @@
 				"notes": [
 					"read: Java Ch. 11.1-11.5"
 				],
-				"filename": null,
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/arrays/mystery1"],
 					["print", "http://www.codestepbystep.com/problem/view/java/arrays/print"],
@@ -270,7 +256,6 @@
 				"notes": [
 					"read: Java Ch. 11.6-11.7"
 				],
-				"filename": null,
 				"practice": [
 					["array2dMystery2", "http://www.codestepbystep.com/problem/view/java/arrays/2d/array2dMystery2"],
 					["isUnique", "http://www.codestepbystep.com/problem/view/java/arrays/2d/isUnique"],
@@ -280,8 +265,7 @@
 			},
 			{
 				"title": "More Arrays",
-				"date": "July 26",
-				"filename": null
+				"date": "July 26"
 			},
 			{
 				"type": "OFF",
@@ -291,7 +275,6 @@
 		[
 			{
 				"title": "ArrayLists",
-				"filename": null,
 				"date": "July 30",
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
@@ -306,7 +289,6 @@
 			},
 			{
 				"title": "HashMaps",
-				"filename": null,
 				"date": "July 31",
 				"practice": [
 					["collectionMystery1", "http://www.codestepbystep.com/problem/view/java/collections/map/collectionMystery1"],
@@ -319,7 +301,6 @@
 			},
 			{
 				"title": "Classes",
-				"filename": null,
 				"notes": [
 					"read: Java Ch. 6"
 				],
@@ -338,7 +319,6 @@
 					["BankAccount-transactionFee", "http://www.codestepbystep.com/problem/view/java/classes/BankAccount%2DtransactionFee"],
 					["Clock-advance", "http://www.codestepbystep.com/problem/view/java/classes/Clock%2Dadvance"]
 				],
-				"filename": null,
 				"date": "August 2"
 			},
 			{
@@ -350,7 +330,6 @@
 			{
 				"title": "GCanvas and Interactors",
 				"date": "August 6",
-				"filename": null,
 				"notes": [
 					"read: Java Ch. 10.5-10.6",
 					"Due: Assn. 5",
@@ -359,7 +338,6 @@
 			},
 			{
 				"title": "Interactors and NameSurfer",
-				"filename": null,
 				"practice": [
 					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
 				],
@@ -370,13 +348,11 @@
 			},
 			{
 				"title": "Life After CS106A, Part 1",
-				"date": "August 8",
-				"filename": null
+				"date": "August 8"
 			},
 			{
 				"title": "Life After CS106A, Part 2",
-				"date": "August 9",
-				"filename": null
+				"date": "August 9"
 			},
 			{
 				"type": "OFF",
@@ -386,13 +362,11 @@
 		[
 			{
 				"title": "Final Exam Review 1",
-				"date": "August 13",
-				"filename": null
+				"date": "August 13"
 			},
 			{
 				"title": "Final Exam Review 2 / Wrap-up",
 				"date": "August 14",
-				"filename": null,
 				"notes": [
 					"Due: Assn. 6"
 				]

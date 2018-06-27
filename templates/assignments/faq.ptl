@@ -2,7 +2,7 @@
 	Q: I'm having trouble getting Eclipse to work!  Help!
 </dt>
 <dd>
-	A: Please make sure you followed the instructions in our Eclipse Guide above.  If you are still having trouble, please come to Nick or Rishi's office hours, or stop by the LaIR.
+	A: Please make sure you followed the instructions in our Eclipse Guide above.  If you are still having trouble, please come to Colin or Annie's office hours, or stop by the LaIR.
 </dd>
 <dt id="eclipserefresh">
 	Q: Eclipse is giving me a strange message about a file being "out of sync" with the file system.
@@ -31,7 +31,7 @@
 		Q: Why doesn't my Karel program say "finished running" at the bottom when it is done?
 	</dt>
 	<dd>
-		A: This is often because your program contains an infinite loop. For example, the following loop walks Karel from (1,1) all the way to the right edge, but when he gets there, the loop doesn't stop:
+		A: This is often because your program contains an infinite loop. For example, the following loop walks Karel from (1,1) all the way to the right edge, but when she gets there, the loop doesn't stop:
 		<pre>while (leftIsClear()) {
     if (frontIsClear()) {
         move();

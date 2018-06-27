@@ -24,7 +24,7 @@
                         %include templates/navbar/lecturesDropdownList.ptl
                         % if len(courseInfo.LECTURE_FEEDBACK_LINK) > 0:
                             <li class="divider"></li>
-                            <li><a href="{{pathToRoot}}assignments/{{courseInfo.LECTURE_ASSIGNMENTS_LINK}}">Lecture Assignments</a></li>
+                            <li><a style="text-align: center;" href="{{pathToRoot}}assignments/{{courseInfo.LECTURE_ASSIGNMENTS_LINK}}">Lecture Assignments</a></li>
                             <li><a style="text-align: center;" href="{{courseInfo.LECTURE_FEEDBACK_LINK}}">Give Feedback</a></li>
                         % end
                     </ul>
