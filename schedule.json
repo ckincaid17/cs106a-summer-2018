@@ -46,6 +46,7 @@
 			{
 				"title": "Introduction to Java",
 				"date": "June 28",
+				"filename": "Lecture4",
 				"practice": [
 					["FearTheTree", "http://www.codestepbystep.com/problem/view/java/basics/FearTheTree"],
 					["ExpressionsNumbers1", "http://www.codestepbystep.com/problem/view?category=java%2Fexpressions&embedded=false&problem=expressionsNumbers1"],
