@@ -5,12 +5,12 @@
 	<!-- Videos -->
 	<span class="sidebaricon glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
 	<a href="https://mvideox.stanford.edu/">Lecture Videos</a> <br/>
-	
-	<!-- Course software -->		
+
+	<!-- Course software -->
 	<img src="images/{{courseInfo.SOFTWARE_ICON}}" class="sidebaricon" alt="icon">
 	<a href="{{pathToRoot}}{{courseInfo.SOFTWARE_LINK}}">{{courseInfo.SOFTWARE}}</a><br/>
 
-	<!-- Course Staff -->		
+	<!-- Course Staff -->
 	<span class="sidebaricon glyphicon glyphicon-user" aria-hidden="true"></span>
 	<a href="{{pathToRoot}}staff.html">Course Staff</a><br/>
 
@@ -69,9 +69,6 @@
 	<p class="subtleHeading">SCPD OFFICE HOURS</p>
 	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span><a href="{{pathToRoot}}scpd.html">Schedule</a></p>
 	<p>Hours may change each week, please check this calendar!</p>
-
-	% scpdLink = courseInfo.SCPD_OFFICE_HOURS_LINK
-	<p>Sign up <a href="{{scpdLink}}">here</a> {{courseInfo.SCPD_OFFICE_HOURS_DESCRIPTION}}</p>
 </div>
 
 <hr/>
@@ -91,7 +88,7 @@
 			<!-- Staff name/image -->
 			<img src="{{pathToRoot}}images/staff/{{imageName}}" style="width:100%" alt="{{staffName}}" />
 			{{staffInfo["POSITION"]}}: {{staffName}} <br />
-			
+
 			<!-- Email, office hours -->
 			<span class="sidebaricon glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:{{email}}">{{email}}</a><br />
 			<span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>{{staffInfo["OFFICE_HOURS_LOCATION"]}}<br/>

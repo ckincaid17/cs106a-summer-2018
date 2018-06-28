@@ -80,7 +80,7 @@ SCPD_OFFICE_HOURS = [
 	# "Thurs 8:30-9:30PM PST"
 ]
 SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/225"
-SCPD_OFFICE_HOURS_DESCRIPTION = "for help during the times above (free QueueStatus account required)."
+SCPD_OFFICE_HOURS_DESCRIPTION = "for help during the times below (free QueueStatus account required)."
 
 # Exams (displayed in left sidebar, but locations and review session are only displayed on exam subpages)
 MIDTERM = {
