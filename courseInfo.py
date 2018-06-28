@@ -118,10 +118,10 @@ FINAL_EXAM = {
 STYLE_GUIDE = True
 PAIR_PROGRAMMING = True
 ASSIGNMENTS = [
-	# {
-	# 	"NAME": "Karel the Robot",
-	# 	"LINK": "karel.html"
-	# },
+	{
+		"NAME": "Karel the Robot",
+		"LINK": "karel.html"
+	},
 	# {
 	# 	"NAME": "Intro to Java",
 	# 	"LINK": "introToJava.html"
