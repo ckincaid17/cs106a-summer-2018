@@ -65,27 +65,16 @@
 
 
 <!-- SCPD Office Hours -->
-% if len(courseInfo.SCPD_OFFICE_HOURS) > 0:
-	<div>
-		<p class="subtleHeading">SCPD OFFICE HOURS</p>
-		% for officeHour in courseInfo.SCPD_OFFICE_HOURS:
-			<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>{{officeHour}}</p>
-		% end
-	
-		% scpdLink = courseInfo.SCPD_OFFICE_HOURS_LINK
-		<p>Sign up <a href="{{scpdLink}}">here</a>.</p>
-		<p>{{courseInfo.SCPD_OFFICE_HOURS_DESCRIPTION}}</p>
-	</div>
+<div>
+	<p class="subtleHeading">SCPD OFFICE HOURS</p>
+	<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span><a href="{{pathToRoot}}scpd.html">Schedule</a></p>
+	<p>Hours may change each week, please check this calendar!</p>
 
-	<hr/>
-% else:
-	<div>
-		<p class="subtleHeading">SCPD OFFICE HOURS</p>
-		<p><span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>TBD</p>
-	</div>
+	% scpdLink = courseInfo.SCPD_OFFICE_HOURS_LINK
+	<p>Sign up <a href="{{scpdLink}}">here</a> {{courseInfo.SCPD_OFFICE_HOURS_DESCRIPTION}}</p>
+</div>
 
-	<hr/>
-% end
+<hr/>
 
 <!-- Staff -->
 <div class="row">
