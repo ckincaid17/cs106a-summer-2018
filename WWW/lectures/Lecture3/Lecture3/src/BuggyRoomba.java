@@ -11,7 +11,9 @@ public class BuggyRoomba extends SuperKarel {
 	// Karel cleans up a field of beepers, one row at a time.
 	public void run() {
 		sweep();
+		int i = 0;
 		while (leftIsClear()) {
+			i = i + 1;
 			moveUpRight();
 			sweep();
 			if (rightIsClear()) {
