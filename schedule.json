@@ -66,6 +66,7 @@
 			{
 				"title": "Booleans and Control Flow",
 				"date": "July 2",
+				"filename": "Lecture5",
 				"practice": [
 					["ComputeSumOfDigits", "http://www.codestepbystep.com/problem/view/java/loops/ComputeSumOfDigits"],
 					["RangeOfNumbers", "http://www.codestepbystep.com/problem/view/java/loops/RangeOfNumbers"],
