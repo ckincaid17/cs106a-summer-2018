@@ -71,8 +71,6 @@
                     <ul class="dropdown-menu">
                         %include templates/navbar/sectionMaterialsDropdownList.ptl
                         <li class="divider"></li>
-                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/SwitchSection.aspx?class=1">Late Section Signup / Individual Section Swap</a></li>
-                        <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/RemoteSignup.aspx?class=1">Late SCPD Signup</a></li>
                         <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/default.aspx">View My Section</a></li>
                         <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/ViewSections.aspx?class={{courseInfo.CS198_NUMBER}}">List of all section times/locations</a></li>
                         <li><a style="text-align: center;" href="https://cs198.stanford.edu/cs198/auth/section/DropClass.aspx?class={{courseInfo.CS198_NUMBER}}">Drop Section</a></li>
