@@ -122,10 +122,10 @@ ASSIGNMENTS = [
 		"NAME": "Karel the Robot",
 		"LINK": "karel.html"
 	},
-	# {
-	# 	"NAME": "Intro to Java",
-	# 	"LINK": "introToJava.html"
-	# },
+	{
+		"NAME": "Intro to Java",
+		"LINK": "introToJava.html"
+	},
 	# {
 	# 	"NAME": "Hangman",
 	# 	"LINK": "hangman.html"
