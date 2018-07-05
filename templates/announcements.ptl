@@ -250,7 +250,10 @@
 		<div class="media-body">
 			<p>
 				For your second assignment, you will write a series of Java console programs. These programs will give you practice with concepts like variables, methods, control flow, and more.  See the <a href="{{pathToRoot}}assignments/introToJava.html">assignment page</a> for more details.
-				The assignment is due Wednesday, July 11th, so make sure to get started early!
+				The assignment is due <strong>Wednesday, July 11th</strong>, so make sure to get started early.
+			</p>
+			<p>
+				There will be YEAH (“Your Early Assignment Help”) hours <strong>tomorrow, 1:30-2:20pm in Gates B01</strong>. This is an optional session meant to provide additional help getting started with the assignment. We hope to see you there!
 			</p>
 		</div>
 	</div>
