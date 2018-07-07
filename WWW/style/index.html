@@ -290,7 +290,7 @@ pickBeeper();	</pre>
 		Avoid Long Lines
 	</dt>
 	<dd>
-		<p>Avoid lines longer than 100 characters.  When you have a long line, break it into two shorter lines.</p>
+		<p>Avoid lines longer than 80 characters.  When you have a long line, break it into two shorter lines.</p>
 	</dd>
 
 	<!-- Spacing -->
@@ -865,7 +865,7 @@ pickBeeper();	</pre>
 		Avoid Long Lines
 	</dt>
 	<dd>
-		<p>Avoid lines longer than 100 characters.  When you have a long line, break it into two shorter lines.</p>
+		<p>Avoid lines longer than 80 characters.  When you have a long line, break it into two shorter lines.</p>
 	</dd>
 
 	<!-- Spacing -->
@@ -1170,7 +1170,35 @@ while (<em>frontIsClear()</em>) {
 		break and continue
 	</dt>
 	<dd>
-		 In general, you should avoid using the <code>break</code> or <code>continue</code> statements in loops unless absolutely necessary. A <code>break</code> can often be avoided by rewriting the loop test or reordering the statements in/near the loop.
+         It is appropriate to use the <code>break</code> statement to solve the loop-and-a-half problem.  In general, you should avoid other uses of the <code>break</code> statement and any use of the <code>continue</code> statement.
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-bad">
+<span class="code-comment">// bad use of break</span>
+while (true) {
+    if (frontIsClear()) {
+        move();
+    } else {
+        break;
+    }
+}
+</pre>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-good">
+<span class="code-comment">// good use of break</span>
+while (true) {
+    int num = readInt("Please enter a number (-1 to quit) ");
+    if (num == -1) {
+        break;
+    }
+    // process num
+    ...
+}
+</pre>
+            </div>
+        </div>
 	</dd>
 
 	<!-- if/else patterns -->
@@ -1531,7 +1559,7 @@ pickBeeper();	</pre>
 		Avoid Long Lines
 	</dt>
 	<dd>
-		<p>Avoid lines longer than 100 characters.  When you have a long line, break it into two shorter lines.</p>
+		<p>Avoid lines longer than 80 characters.  When you have a long line, break it into two shorter lines.</p>
 	</dd>
 
 	<!-- Spacing -->
@@ -1901,7 +1929,35 @@ while (<em>frontIsClear()</em>) {
 		break and continue
 	</dt>
 	<dd>
-		 In general, you should avoid using the <code>break</code> or <code>continue</code> statements in loops unless absolutely necessary. A <code>break</code> can often be avoided by rewriting the loop test or reordering the statements in/near the loop.
+         It is appropriate to use the <code>break</code> statement to solve the loop-and-a-half problem.  In general, you should avoid other uses of the <code>break</code> statement and any use of the <code>continue</code> statement.
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-bad">
+<span class="code-comment">// bad use of break</span>
+while (true) {
+    if (frontIsClear()) {
+        move();
+    } else {
+        break;
+    }
+}
+</pre>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-good">
+<span class="code-comment">// good use of break</span>
+while (true) {
+    int num = readInt("Please enter a number (-1 to quit) ");
+    if (num == -1) {
+        break;
+    }
+    // process num
+    ...
+}
+</pre>
+            </div>
+        </div>
 	</dd>
 
 	<!-- if/else patterns -->
@@ -2362,7 +2418,7 @@ pickBeeper();	</pre>
 		Avoid Long Lines
 	</dt>
 	<dd>
-		<p>Avoid lines longer than 100 characters.  When you have a long line, break it into two shorter lines.</p>
+		<p>Avoid lines longer than 80 characters.  When you have a long line, break it into two shorter lines.</p>
 	</dd>
 
 	<!-- Spacing -->
@@ -2732,7 +2788,35 @@ while (<em>frontIsClear()</em>) {
 		break and continue
 	</dt>
 	<dd>
-		 In general, you should avoid using the <code>break</code> or <code>continue</code> statements in loops unless absolutely necessary. A <code>break</code> can often be avoided by rewriting the loop test or reordering the statements in/near the loop.
+         It is appropriate to use the <code>break</code> statement to solve the loop-and-a-half problem.  In general, you should avoid other uses of the <code>break</code> statement and any use of the <code>continue</code> statement.
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-bad">
+<span class="code-comment">// bad use of break</span>
+while (true) {
+    if (frontIsClear()) {
+        move();
+    } else {
+        break;
+    }
+}
+</pre>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-good">
+<span class="code-comment">// good use of break</span>
+while (true) {
+    int num = readInt("Please enter a number (-1 to quit) ");
+    if (num == -1) {
+        break;
+    }
+    // process num
+    ...
+}
+</pre>
+            </div>
+        </div>
 	</dd>
 
 	<!-- if/else patterns -->
@@ -3202,7 +3286,7 @@ pickBeeper();	</pre>
 		Avoid Long Lines
 	</dt>
 	<dd>
-		<p>Avoid lines longer than 100 characters.  When you have a long line, break it into two shorter lines.</p>
+		<p>Avoid lines longer than 80 characters.  When you have a long line, break it into two shorter lines.</p>
 	</dd>
 
 	<!-- Spacing -->
@@ -3572,7 +3656,35 @@ while (<em>frontIsClear()</em>) {
 		break and continue
 	</dt>
 	<dd>
-		 In general, you should avoid using the <code>break</code> or <code>continue</code> statements in loops unless absolutely necessary. A <code>break</code> can often be avoided by rewriting the loop test or reordering the statements in/near the loop.
+         It is appropriate to use the <code>break</code> statement to solve the loop-and-a-half problem.  In general, you should avoid other uses of the <code>break</code> statement and any use of the <code>continue</code> statement.
+
+         <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-bad">
+<span class="code-comment">// bad use of break</span>
+while (true) {
+    if (frontIsClear()) {
+        move();
+    } else {
+        break;
+    }
+}
+</pre>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <pre class="code-good">
+<span class="code-comment">// good use of break</span>
+while (true) {
+    int num = readInt("Please enter a number (-1 to quit) ");
+    if (num == -1) {
+        break;
+    }
+    // process num
+    ...
+}
+</pre>
+            </div>
+        </div>
 	</dd>
 
 	<!-- if/else patterns -->
