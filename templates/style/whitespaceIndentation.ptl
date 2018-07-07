@@ -81,7 +81,7 @@ pickBeeper();	</pre>
 		Avoid Long Lines
 	</dt>
 	<dd>
-		<p>Avoid lines longer than 100 characters.  When you have a long line, break it into two shorter lines.</p>
+		<p>Avoid lines longer than 80 characters.  When you have a long line, break it into two shorter lines.</p>
 	</dd>
 
 	<!-- Spacing -->
