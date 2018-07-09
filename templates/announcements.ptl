@@ -234,7 +234,7 @@
 </div> -->
 
 <!-- Updated console output tool -->
-<!-- <div class="well">
+<div class="well">
 	<div class="newsfeedHeader">
 		<div class="newsfeedTitle">Updated console output tool</div>
 		<div class="moment">2018070911</div>
@@ -243,7 +243,7 @@
 	<p>
 		We hope you are hard at work on Assignment 2! We have updated the starter project with a change to the console output tool to make it slightly more accurate. Once you download the new starter project, the only change you need to make to your existing project is to copy the "spl.jar" file from the new project's "lib" folder to the current project's "lib" folder, replacing the current "spl.jar" file. The changes to the tool will likely affect very few people, but we would recommend getting the new tool just in case. Happy testing!
 	</p>
-</div> -->
+</div>
 
 <!-- Assignment 2 -->
 <div class="well">
