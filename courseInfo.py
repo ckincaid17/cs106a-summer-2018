@@ -27,7 +27,7 @@ STAFF_INFO = [
 		"IMAGE": "ckincaid.jpg",
 		"EMAIL": "ckincaid@stanford.edu",
 		"OFFICE_HOURS_LOCATION": "Gates B02",
-		"OFFICE_HOURS_DATETIME": "M/T/W/Th 12:30-1:30PM",
+		"OFFICE_HOURS_DATETIME": "Monday, Thursday 12:30-2:30PM",
 		"DESCRIPTION": "The instructor teaches lectures and manages the overall course. Contact the instructor if you have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or Head TA.  In addition to at his office hours, please feel free to ask Colin questions before/after any lecture."
 	},
 	{
