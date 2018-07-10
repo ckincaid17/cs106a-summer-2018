@@ -20,9 +20,9 @@ public class Palindromes extends ConsoleProgram {
 	
 	// Returns true if str is a palindrome, false otherwise.
 	private boolean isPalindrome(String str) {
-		for(int i = 0; i < str.length() / 2; i++) {
+		for (int i = 0; i < str.length() / 2; i++) {
 			char leftChar = str.charAt(i);
-			int rightIndex = str.length() - i - 1;
+			int rightIndex = str.length() - 1 - i;
 			char rightChar = str.charAt(rightIndex);
 			if (leftChar != rightChar) {
 				return false;
@@ -39,7 +39,7 @@ public class Palindromes extends ConsoleProgram {
 	// Returns a reversed version of the string str
 	private String reverseString(String str) {
 		String result = "";
-		for(int i = 0; i < str.length(); i++ ) {
+		for (int i = 0; i < str.length(); i++) {
 			result = str.charAt(i) + result;
 		}
 		return result;
