@@ -208,7 +208,6 @@
 	<div class="media">
 		<div class="media-left">
 			<div style="width:80px;">
-				<!-- TODO: change this picture -->
 				<img class="media-object" alt="Hangman" src="{{pathToRoot}}images/assignments/hangman.png" style="width:80px" />
 			</div>
 		</div>
