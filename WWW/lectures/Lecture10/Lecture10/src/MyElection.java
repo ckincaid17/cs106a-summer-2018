@@ -13,6 +13,6 @@ import java.util.*;  // for Scanner
 
 public class MyElection extends ConsoleProgram {
 	public void run() {
-		
+		// TODO: Implement pseudocode from lecture slides
 	}
 }
