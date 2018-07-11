@@ -1,10 +1,11 @@
-CS 106A Hangman!
+CS 106A Snowman!
 I will think of a random word.
 You'll try to guess its letters.
 Every time you guess a letter
-that isn't in my word, a new body
-part of the hanging man appears.
-Guess correctly to avoid the gallows!
+that isn't in my word, a new
+piece of the snowman appears.
+Guess correctly to avoid 
+bringing him to life in the sun!
 
 Secret word : ----------
 Your guesses: 

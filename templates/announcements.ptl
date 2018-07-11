@@ -201,20 +201,20 @@
 <!-- Assignment 3 -->
 <!-- <div class="well">
 	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">Assignment 3: Hangman</div>
+		<div class="newsfeedTitle">Assignment 3: Snowman</div>
 		<div class="moment">2018071111</div>
 	</div>
 
 	<div class="media">
 		<div class="media-left">
 			<div style="width:80px;">
-				<img class="media-object" alt="Hangman" src="{{pathToRoot}}images/assignments/hangman.png" style="width:80px" />
+				<img class="media-object" alt="Snowman" src="{{pathToRoot}}images/assignments/snowman.png" style="width:80px" />
 			</div>
 		</div>
 
 		<div class="media-body">
 			<p>
-				For your third assignment, you will write a console program to play the game "Hangman". This program will give you practice with methods, parameters, return, Strings, and file-reading.  See the <a href="{{pathToRoot}}assignments/hangman.html">assignment page</a> for more details.  <strong>This assignment may optionally be completed in pairs.</strong>
+				For your third assignment, you will write a console program to play a variant on the game "Hangman". This program will give you practice with methods, parameters, return, Strings, and file-reading.  See the <a href="{{pathToRoot}}assignments/snowman.html">assignment page</a> for more details.  <strong>This assignment may optionally be completed in pairs.</strong>
 				The assignment is due Thursday, July 19th, but make sure to get started early!
 				<p>
 					There will be YEAH hours <strong>Friday, 1:30-2:20pm in Gates B01</strong>. We hope to see you there!
