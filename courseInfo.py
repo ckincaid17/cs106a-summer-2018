@@ -62,7 +62,8 @@ SECTION_LEADERS = [
 	"Allison Tielking (atielkin)",
 	"Connor Meany (cmeany)",
 	"Deanna Garcia (dgarcia5)",
-	"Greg Ramel (gramel)"
+	"Greg Ramel (gramel)",
+	"Drew Bassilakis (abass20)"
 ]
 
 SL_INDEX = range(len(SECTION_LEADERS))
