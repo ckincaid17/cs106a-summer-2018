@@ -72,14 +72,7 @@ SL_INDEX = range(len(SECTION_LEADERS))
 LAIR_HOURS = "Sun-Wed, 7-11PM"
 
 # SCPD (listed in left sidebar)
-SCPD_OFFICE_HOURS = [
-	# "Sun 5:30-7PM PST",
-	# "Tues 9-11AM PST",
-	# "Tues 8-9PM PST",
-	# "Wed 8:30-10PM PST",
-	# "Thurs 4-5PM PST",
-	# "Thurs 8:30-9:30PM PST"
-]
+SCPD_OFFICE_HOURS = []
 SCPD_OFFICE_HOURS_LINK = "http://www.queuestatus.com/queues/122"
 SCPD_OFFICE_HOURS_DESCRIPTION = "for help during the times below (free QueueStatus account required)."
 
@@ -88,13 +81,18 @@ MIDTERM = {
 	"DATE": "Monday, July 23",
 	"TIME": "7-9PM PST",
 	"LOCATIONS": [ 	# A list of objects containing TITLE, LOCATION, MAP_LINK
-		# {
-		# 	"TITLE": "Exam",
-		# 	"LOCATION": "TBD",
-		# 	"MAP_LINK": ""
-		# }
+		{
+			"TITLE": "Exam",
+			"LOCATION": "Hewlett 200",
+			"MAP_LINK": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.345197243158!2d-122.1750263848679!3d37.42894923975373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ae177cc91%3A0x5351ffed56456da8!2sWilliam+R.+Hewlett+Teaching+Center%2C+370+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500400060838"
+		}
 	],
-	"REVIEW_SESSION": None
+	"REVIEW_SESSION": {
+		"DATE": "Friday, July 20",
+		"TIME": "1:30-2:50PM PST",
+		"LOCATION": "Gates B01 (basement)",
+		"MAP_LINK": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783500653!2d-122.17568493444799!3d37.4301523298236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500425297459"
+	}
 }
 
 FINAL_EXAM = {
