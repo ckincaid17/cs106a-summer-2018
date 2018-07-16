@@ -175,13 +175,69 @@ materials.  See README for more info.
 
 
 <!-- Displays an alert that info is coming later -->
-	<div class="col-xs-12">
-		<div class="alert alert-info">
-			<p><b>Check back later:</b> We will provide relevant exam details closer to the exam date.</p>
-		</div>
-	</div>
 
-<!-- Otherwise, calculate the column layout -->
+<!-- Add each exam event -->
+		<div class="col-xs-6 col-sm-6">
+<!-- Displays a well containing information (title, date, time, location, map) about a single exam event.
+
+Expects the following parameters:
+    * title - the event title
+    * date - the event date string
+    * time - the event time string
+    * location - the event location string
+    * mapLink - a Google Maps URL for the location
+-->
+
+<div class="well">
+    <b>Exam</b>
+    <br />
+    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Monday, July 23
+    <br />
+
+    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>7-9PM PST
+    <br />
+
+    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>Hewlett 200
+    <br />
+    <br />
+
+    <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+    <div class="google-maps">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.345197243158!2d-122.1750263848679!3d37.42894923975373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ae177cc91%3A0x5351ffed56456da8!2sWilliam+R.+Hewlett+Teaching+Center%2C+370+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500400060838" width="600" height="450" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>		</div>
+
+<!-- Add the review session, if any -->
+		<div class="col-xs-6 col-sm-6">
+<!-- Displays a well containing information (title, date, time, location, map) about a single exam event.
+
+Expects the following parameters:
+    * title - the event title
+    * date - the event date string
+    * time - the event time string
+    * location - the event location string
+    * mapLink - a Google Maps URL for the location
+-->
+
+<div class="well">
+    <b>Review Session</b>
+    <br />
+    <span class="sidebaricon glyphicon glyphicon-calendar" aria-hidden="true"></span>Friday, July 20
+    <br />
+
+    <span class="sidebaricon glyphicon glyphicon-time" aria-hidden="true"></span>1:30-2:50PM PST
+    <br />
+
+    <span class="sidebaricon glyphicon glyphicon-home" aria-hidden="true"></span>Gates B01 (basement)
+    <br />
+    <br />
+
+    <div class="mapOverlay" onClick="style.pointerEvents='none'"></div>
+    <div class="google-maps">
+    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783500653!2d-122.17568493444799!3d37.4301523298236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500425297459" width="600" height="450" style="border:0" allowfullscreen></iframe>
+    </div>
+</div>		</div>
+
 </div>
 
 <!-- Practice Materials -->
