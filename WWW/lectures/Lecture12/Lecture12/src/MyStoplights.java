@@ -16,24 +16,6 @@ public class MyStoplights extends GraphicsProgram {
 	}
 	
 	private void addStoplight(/* TODO: add necessary parameters */) {
-		
+		// TODO
 	}
 }
-
-
-
-
-
-/* This method adds a stoplight that contains a RED-YELLOW-GREEN
- * "light" sequence represented by 3 colored GOvals,
- *  with the given x/y coordinates and width.
- */
-
-
-
-
-
-/* Adds a filled, colored circle to the canvas with
- * the given coordinates, diameter and fill color.
- */
-//private void addColoredCircle(int x, int y, int diameter, Color fillColor)
