@@ -1,8 +1,8 @@
 /*
  * File: WhackAMole.java
  * -----------------
- * This program plays the game Whack-A-Mole.  Every 1/2 second, a mole appears
- * somewhere random on the screen.  If the user clicks a mole, the mole disappears
+ * This program plays the game Whack-A-Mole. Every half second, a mole appears
+ * somewhere random on the screen. If the user clicks a mole, the mole disappears
  * and the user's score, displayed in the upper-left corner in a GLabel, increases by 1.
  * The game plays until the user gets 10 points.
  *
