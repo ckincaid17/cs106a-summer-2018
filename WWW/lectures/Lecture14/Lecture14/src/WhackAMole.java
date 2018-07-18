@@ -48,7 +48,7 @@ public class WhackAMole extends GraphicsProgram {
 			mole.setLocation(x, y);
 			add(mole);
 
-			pause (PAUSE_TIME);
+			pause(PAUSE_TIME);
 		}
 	}
 	

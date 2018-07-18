@@ -17,10 +17,10 @@ public class MouseTracker extends GraphicsProgram {
 	
 	// Private instance variable - accessible in run *and* in mouseMoved
 	// It lives outside of any method, so it gets created only once.
-	private GRect rect;
+//	private GRect rect;
 	
 	public void run() {
-		rect = new GRect(0, 0, 50, 50);
+		GRect rect = new GRect(0, 0, 50, 50);
 		rect.setFilled(true);
 		rect.setColor(Color.BLUE);
 		add(rect);
