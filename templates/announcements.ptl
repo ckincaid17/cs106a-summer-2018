@@ -177,10 +177,10 @@
 </div> -->
 
 <!-- Assignment 4 -->
-<!-- <div class="well">
+<div class="well">
 	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">Assignment 4: Artistry and Breakout</div>
-		<div class="moment">201707209</div>
+		<div class="newsfeedTitle">Assignment 4: Breakout</div>
+		<div class="moment">2018071911</div>
 	</div>
 
 	<p>
@@ -189,12 +189,12 @@
 
 	<p>
 		For your fourth assignment, you will implement the classic arcade game Breakout. This assignment will give you practice with concepts like graphics programs, events, animation and instance variables.  See the <a href="{{pathToRoot}}assignments/breakout.html">assignment page</a> for more details.
-		The assignment is due Monday, July 31st, but make sure to get started early!
+		The assignment is due <strong>Monday, July 30th</strong>, but make sure to get started early!
 	</p>
 	<p>
-		In particular, the material covered by this assignment is also covered by the midterm, so starting this assignment before the midterm can give you extra practice with graphics, events, animation and instance variables.
+		In particular, the material covered by this assignment is also covered by the midterm, so starting this assignment before the midterm can give you extra practice with graphics, events, animation and instance variables. Definitely prioritize preparing for the midterm, though :-)
 	</p>
-</div> -->
+</div>
 
 <!-- Midterm -->
 <div class="well">
