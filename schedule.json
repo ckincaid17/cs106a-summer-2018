@@ -267,6 +267,8 @@
 			{
 				"title": "2D Arrays",
 				"date": "July 25",
+				"filename": "Lecture17",
+				"code": false,
 				"notes": [
 					"read: Java Ch. 11.6-11.7"
 				],
