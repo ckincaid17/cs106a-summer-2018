@@ -14,6 +14,7 @@ import acm.util.*;
 public class MyGrayscale extends GraphicsProgram {
 	public void run() {
 		// grayscale images have r = g = b
+		// your code here!
 	}
 	
 	// Calculate the luminosity of a pixel using NTSC formula

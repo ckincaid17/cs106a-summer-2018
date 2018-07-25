@@ -15,11 +15,11 @@ public class MyBrighten extends GraphicsProgram {
 	private GImage image;
 	
 	public void run() {
-		
+		// your code here!
 	}
 	
 	// Every time the mouse is clicked, make the image slightly brighter
 	public void mouseClicked(MouseEvent e) {
-		
+		// your code here!
 	}
 }
