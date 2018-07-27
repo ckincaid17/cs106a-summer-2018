@@ -20,8 +20,10 @@ public class TicTacToe extends ConsoleProgram {
 		printBoard(board);
 		
 		// Step 3: play a single turn
+		// TODO on Monday
 
 		// Step 4: detect end of game
+		// TODO on Monday
 
 		println("Game over!");
 	}
