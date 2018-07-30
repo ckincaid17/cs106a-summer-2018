@@ -1,0 +1,13 @@
+prompt for board size
+create initial board
+print initial board
+
+repeat the following until game over:
+	prompt for X move
+	update board
+	print board
+	prompt for O move
+	update board
+	print board
+
+print game over

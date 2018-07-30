@@ -148,10 +148,10 @@
 </div> -->
 
 <!-- Assignment 5 -->
-<!-- <div class="well">
+<div class="well">
 	<div class="newsfeedHeader">
 		<div class="newsfeedTitle">Assignment 5: ImageShop</div>
-		<div class="moment">2017073122</div>
+		<div class="moment">2018073011</div>
 	</div>
 
 	<p>
@@ -159,10 +159,10 @@
 	</p>
 
 	<p>
-		For your fifth assignment, you will implement the algorithms for an image editing program.  This assignment will give you practice with concepts like 1D arrays, 2D arrays, and image manipulation.  See the <a href="{{pathToRoot}}assignments/imageshop.html">assignment page</a> for more details.
-		The assignment is due Monday, August 7th, but make sure to get started early!
+		For your fifth assignment, you will implement the algorithms for an image editing program. This assignment will give you practice with concepts like 1D arrays, 2D arrays, and image manipulation. See the <a href="{{pathToRoot}}assignments/imageshop.html">assignment page</a> for more details.
+		The assignment is due Monday, August 6th, but make sure to get started early!
 	</p>
-</div> -->
+</div>
 
 <!-- Midterm Links -->
 <div class="well">
