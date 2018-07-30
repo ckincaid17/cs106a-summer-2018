@@ -133,10 +133,10 @@ ASSIGNMENTS = [
 		"NAME": "Breakout",
 		"LINK": "breakout.html"
 	},
-	# {
-	# 	"NAME": "ImageShop",
-	# 	"LINK": "imageshop.html"
-	# },
+	{
+		"NAME": "ImageShop",
+		"LINK": "imageshop.html"
+	},
 	# {
 	# 	"NAME": "NameSurfer",
 	# 	"LINK": "namesurfer.html"
