@@ -24,15 +24,10 @@ public class MyTicTacToe extends ConsoleProgram {
 		printBoard();
 		
 		// Step 3: play a single turn
-//		playTurn('X');
+		// TODO on Monday
 		
 		// Step 4: detect end of game
-		while (!gameOver()) {
-			playTurn('X');
-			if (!gameOver()) {
-				playTurn('O');
-			}
-		}
+		// TODO on Monday
 
 		println("Game over!");
 	}
@@ -58,148 +53,12 @@ public class MyTicTacToe extends ConsoleProgram {
 	 */
 	private void printBoard() {
 		for (int row = 0; row < board.length; row++) {
-			print(board[row][0]);
+			print(EMPTY);
 			for (int col = 1; col < board[0].length; col++) {
-				print(" | " + board[row][col]);
+				print(" | " + EMPTY);
 			}
 			println();
 		}
-	}
-	
-	/* 
-	 * Step 3: This method plays a single turn for the given player.
-	 * It prompts the user until it gets a valid, empty square, and then
-	 * marks their symbol on that square.
-	 */
-	private void playTurn(char player) {
-		String turn = readLine("Move (" + player + "): ");
-		Scanner tokens = new Scanner(turn);
-		int userRow = tokens.nextInt();
-		int userCol = tokens.nextInt();
-		board[userRow][userCol] = player;
-		printBoard();
-	}
-	
-	/*
-	 * Step 4: This method returns true if the game is over, and false otherwise.
-	 * The game can end when either:
-	 * 	- a player has a single row with only their mark
-	 *	- a player has a single column with only their mark
-	 *	- a player has a single diagonal with only their mark
-	 *	- all squares have been filled
-	 */
-	private boolean gameOver() {
-		if (checkRows()) {
-			return true;
-		} else if (checkColumns()) {
-			return true;
-		} else if (checkDiagonals()) {
-			return true;
-		}
-		return isDraw();
-	}
-	
-	/*
-	 * This method checks all rows and returns true if any of them
-	 * are marked with all of a single player's markers (e.g. 3 in a row,
-	 * 4 in a row, etc.).  Otherwise, returns false.
-	 */
-	private boolean checkRows() {
-		int numRows = board.length;
-		int numCols = board[0].length;
-		for (int row = 0; row < numRows; row++) {
-			char mark = board[row][0];
-			if (mark != EMPTY) {
-				int markCount = 1;
-				for (int col = 1; col < numCols; col++) {
-					if (board[row][col] == mark) {
-						markCount++;
-					}
-				}
-				if (markCount == numCols) {
-					return true;
-				}
-			}
-		}
-		return false;
-	}
-
-	/*
-	 * This method checks all columns and returns true if any of them
-	 * are marked with all of a single player's markers (e.g. 3 in a col,
-	 * 4 in a col, etc.).  Otherwise, returns false.
-	 */
-	private boolean checkColumns() {
-		int numRows = board.length;
-		int numCols = board[0].length;
-		for (int col = 0; col < numRows; col++) {
-			char mark = board[0][col];
-			if (mark != EMPTY) {
-				int markCount = 1;
-				for (int row = 1; row < numCols; row++) {
-					if (board[row][col] == mark) {
-						markCount++;
-					}
-				}
-				if (markCount == numRows) {
-					return true;
-				}
-			}
-		}
-		return false;
-	}
-
-	/*
-	 * This method checks both diagonals and returns true if any of them
-	 * are marked with all of a single player's markers.
-	 * Otherwise, returns false.
-	 */
-	private boolean checkDiagonals() {
-		int numDiagEntries = board.length;
-		// top left to bottom right
-		char mark = board[0][0];
-		if (mark != EMPTY) {
-			int markCount = 1;
-			for (int i = 1; i < numDiagEntries; i++) {
-				if (board[i][i] == mark) {
-					markCount++;
-				}
-			}
-			if (markCount == numDiagEntries) {
-				return true;
-			}
-		}
-		
-		// bottom left to top right
-		mark = board[numDiagEntries - 1][0];
-		if (mark != EMPTY) {
-			int markCount = 1;
-			for (int i = 1; i < numDiagEntries; i++) {
-				if (board[numDiagEntries - 1 - i][i] == mark) {
-					markCount++;
-				}
-			}
-			if (markCount == numDiagEntries) {
-				return true;
-			}
-		}
-		return false;
-	}
-
-	/*
-	 * This method returns true if all squares are occupied, and
-	 * false otherwise.
-	 */
-	private boolean isDraw() {
-		for (int r = 0; r < board.length; r++) {
-			for (int c = 0; c < board[0].length; c++) {
-				if (board[r][c] == EMPTY) {
-					return false;
-				}
-			}
-		}
-
-		return true;
 	}
 }
 
