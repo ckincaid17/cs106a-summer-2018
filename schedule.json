@@ -293,6 +293,7 @@
 			{
 				"title": "ArrayLists",
 				"date": "July 30",
+				"filename": "Lecture19",
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
 					["switchPairs", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/switchPairs"],
