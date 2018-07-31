@@ -12,18 +12,20 @@ import acm.program.*;
 public class MyTicTacToe extends ConsoleProgram {
 
 	private static final char EMPTY = ' ';
+	
+	private char[][] board; 
 
 	public void run() {
 		// Step 1: create the 2D array for the board
 		int size = readInt("Enter board size: ");
-		char[][] board = createBoard(size);
+		board = createBoard(size);
 		
 		// Step 2: print out the initial board to the screen
-		printBoard(board);
+		printBoard();
 		
 		// Step 3: play a single turn
 		// TODO on Monday
-
+		
 		// Step 4: detect end of game
 		// TODO on Monday
 
@@ -32,13 +34,13 @@ public class MyTicTacToe extends ConsoleProgram {
 
 	// Step 1: This method returns a 2D array of the given size filled with EMPTY.
 	private char[][] createBoard(int size) {
-		char[][] board = new char[size][size];
+		char[][] newBoard = new char[size][size];
 		for (int row = 0; row < size; row++) {
 			for (int col = 0; col < size; col++) {
-				board[row][col] = EMPTY;
+				newBoard[row][col] = EMPTY;
 			}
 		}
-		return board;
+		return newBoard;
 	}
 
 	/*
@@ -49,7 +51,7 @@ public class MyTicTacToe extends ConsoleProgram {
 	 *  o |   |  
 	 *  x |   | o
 	 */
-	private void printBoard(char[][] board) {
+	private void printBoard() {
 		for (int row = 0; row < board.length; row++) {
 			print(EMPTY);
 			for (int col = 1; col < board[0].length; col++) {
