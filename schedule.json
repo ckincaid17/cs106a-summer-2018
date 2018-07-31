@@ -306,8 +306,9 @@
 				]
 			},
 			{
-				"title": "HashMaps",
+				"title": "ArrayLists and HashMaps",
 				"date": "July 31",
+				"filename": "Lecture20",
 				"practice": [
 					["collectionMystery1", "http://www.codestepbystep.com/problem/view/java/collections/map/collectionMystery1"],
 					["hasDuplicateValue", "http://www.codestepbystep.com/problem/view/java/collections/map/hasDuplicateValue"],
