@@ -47,8 +47,4 @@ public class MyPlanner extends ConsoleProgram {
 		println("Congrats! Your day is all planned out:");
 		// TODO print ordered tasks
 	}
-	
-	/* Returns the list of tasks the user wants to complete,
-	 * prompting until the user enters the empty string.
-	 */
 }
