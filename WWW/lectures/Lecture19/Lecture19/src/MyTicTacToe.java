@@ -1,0 +1,64 @@
+/* File: MyTicTacToe.java
+ * -------------------
+ * This program uses 2D arrays to play the game "Tic-Tac-Toe".
+ * -------------------
+ */
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+import acm.program.*;
+
+public class MyTicTacToe extends ConsoleProgram {
+
+	private static final char EMPTY = ' ';
+	
+	private char[][] board; 
+
+	public void run() {
+		// Step 1: create the 2D array for the board
+		int size = readInt("Enter board size: ");
+		board = createBoard(size);
+		
+		// Step 2: print out the initial board to the screen
+		printBoard();
+		
+		// Step 3: play a single turn
+		// TODO on Monday
+		
+		// Step 4: detect end of game
+		// TODO on Monday
+
+		println("Game over!");
+	}
+
+	// Step 1: This method returns a 2D array of the given size filled with EMPTY.
+	private char[][] createBoard(int size) {
+		char[][] newBoard = new char[size][size];
+		for (int row = 0; row < size; row++) {
+			for (int col = 0; col < size; col++) {
+				newBoard[row][col] = EMPTY;
+			}
+		}
+		return newBoard;
+	}
+
+	/*
+	 * Step 2: This method prints out the given 2D array as a tic-tac-toe board.
+	 * The print out looks something like the following (where size = 3):
+	 * 
+	 *  x | o | x
+	 *  o |   |  
+	 *  x |   | o
+	 */
+	private void printBoard() {
+		for (int row = 0; row < board.length; row++) {
+			print(EMPTY);
+			for (int col = 1; col < board[0].length; col++) {
+				print(" | " + EMPTY);
+			}
+			println();
+		}
+	}
+}
+

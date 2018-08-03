@@ -12,7 +12,7 @@
 	A: This happens if you edit/change your file outside of Eclipse. Just press F5 and Eclipse will show you the newest version of the file.
 </dd>
 <dt id="renamefiles">
-	Q: I didn't like the program name, such as <code>Hangman</code>, so I renamed it to my own name such as <code>DaveIsGreat</code>.
+	Q: I didn't like the program name, such as <code>Snowman</code>, so I renamed it to my own name such as <code>DaveIsGreat</code>.
 	That is okay, right?
 </dt>
 <dd>

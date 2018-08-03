@@ -194,6 +194,7 @@
 		[
 			{
 				"title": "More Graphics",
+				"filename": "Lecture12",
 				"notes": [
 					"Read: Java Ch. 9.4"
 				],
@@ -201,6 +202,7 @@
 			},
 			{
 				"title": "Animation",
+				"filename": "Lecture13",
 				"notes": [
 					"Read: Java Ch. 9"
 				],
@@ -209,6 +211,7 @@
 			{
 				"title": "Events",
 				"date": "July 18",
+				"filename": "Lecture14",
 				"notes": [
 					"read: Java Ch. 10.1-10.4"
 				],
@@ -224,6 +227,7 @@
 			{
 				"title": "Events and Memory",
 				"date": "July 19",
+				"filename": "Lecture15",
 				"notes": [
 					"Due: Assn. 3",
 					"Out: Assn. 4"
@@ -247,6 +251,7 @@
 			{
 				"title": "Arrays",
 				"date": "July 24",
+				"filename": "Lecture16",
 				"notes": [
 					"read: Java Ch. 11.1-11.5"
 				],
@@ -262,6 +267,7 @@
 			{
 				"title": "2D Arrays",
 				"date": "July 25",
+				"filename": "Lecture17",
 				"notes": [
 					"read: Java Ch. 11.6-11.7"
 				],
@@ -274,7 +280,9 @@
 			},
 			{
 				"title": "More Arrays",
-				"date": "July 26"
+				"date": "July 26",
+				"filename": "Lecture18"
+
 			},
 			{
 				"type": "OFF",
@@ -285,6 +293,7 @@
 			{
 				"title": "ArrayLists",
 				"date": "July 30",
+				"filename": "Lecture19",
 				"practice": [
 					["mystery1", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/mystery1"],
 					["switchPairs", "http://www.codestepbystep.com/problem/view/java/collections/arraylist/switchPairs"],
@@ -297,8 +306,9 @@
 				]
 			},
 			{
-				"title": "HashMaps",
+				"title": "ArrayLists and HashMaps",
 				"date": "July 31",
+				"filename": "Lecture20",
 				"practice": [
 					["collectionMystery1", "http://www.codestepbystep.com/problem/view/java/collections/map/collectionMystery1"],
 					["hasDuplicateValue", "http://www.codestepbystep.com/problem/view/java/collections/map/hasDuplicateValue"],
@@ -310,6 +320,7 @@
 			},
 			{
 				"title": "Classes",
+				"filename": "Lecture21",
 				"notes": [
 					"read: Java Ch. 6"
 				],
@@ -321,6 +332,7 @@
 			},
 			{
 				"title": "More Classes",
+				"filename": "Lecture22",
 				"notes": [
 					"read: Java Ch. 6"
 				],
