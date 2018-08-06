@@ -1,28 +1,41 @@
 from collections import defaultdict
 import csv
 import spacy
+import pickle
+import random
 
 nlp = spacy.load('en')
 
-FILE = 'ted_responses.csv'
-FEMALE_TERMS = ['she', 'her', 'woman', 'girl', 'lady']
-MALE_TERMS = ['he', 'him', 'man', 'boy', 'guy', 'dude']
-simple = False
+FILES = [
+	'facebook_congress_responses.csv',
+	'facebook_wiki_responses.csv',
+	'ted_responses.csv',
+	'fitocracy_responses.csv',
+	'reddit_responses.csv'
+]
+FEMALE_TERMS = ['she', 'her', 'woman', 'girl', 'lady', 'actress', 'mom', 'mother', 'sister', 'aunt', 'wife', 'waitress']
+MALE_TERMS = ['he', 'him', 'man', 'boy', 'guy', 'dude', 'actor', 'bachelor', 'dad', 'father', 'husband', 'uncle', 'waiter', 'brother']
+simple = True
 
-def parse_chunks(threshold):
+def parse_chunks(threshold, filename):
 	adjsF = defaultdict(int)
 	adjsM = defaultdict(int)
 	numlines = 0
-	with open(FILE) as f:
+	totallines = len(open(filename).readlines())
+	print('Selecting %d responses from %d total' % (threshold, totallines))
+	indices = random.sample(range(totallines), threshold)
+
+	with open(filename) as f:
 		reader = csv.DictReader(f)
 		for row in reader:
-			if threshold > 0 and numlines > threshold:
-				break
+			numlines += 1
 			if numlines % 100 == 0:
 				print(numlines)
+			if threshold > 0 and numlines not in indices:
+				continue
 
 			response = row['response_text']
-			doc = nlp(unicode(response, "utf-8"))
+			doc = nlp(response)
 			for chunk in doc.noun_chunks:
 				if chunk.root.lemma_ in FEMALE_TERMS:
 					for child in chunk.root.children:
@@ -32,45 +45,62 @@ def parse_chunks(threshold):
 					for child in chunk.root.children:
 						if child.dep_=='amod':
 							adjsM[child.lemma_] += 1
-			numlines += 1
 	return adjsF, adjsM
 
-def read_file(gender, threshold):
-	adjs = defaultdict(int)
+def read_file(threshold, filename):
+	adjsF = defaultdict(int)
+	adjsM = defaultdict(int)
 	numlines = 0
-	with open(FILE) as f:
+	totallines = len(open(filename).readlines())
+	print('Selecting %d responses from %d total' % (threshold, totallines))
+	# indices = random.sample(range(totallines), threshold)
+
+	with open(filename) as f:
 		reader = csv.DictReader(f)
 		for row in reader:
-			if row['op_gender'] != gender:
+			if threshold > 0 and random.random() > (1.0*threshold/totallines):
 				continue
-			if threshold > 0 and numlines > threshold:
-				break
 			if numlines % 100 == 0:
 				print(numlines)
 
-			response = row['response_text']
-			doc = nlp(unicode(response, "utf-8"))
+			response = unicode(row['response_text'], 'utf-8')
+			doc = nlp(response)
 			for token in doc:
 				if token.pos_ == 'ADJ' and token.lemma_.isalpha():
-						adjs[token.lemma_] += 1
+					if row['op_gender'] == 'W':
+						adjsF[token.lemma_] += 1
+					else:
+						adjsM[token.lemma_] += 1
 			numlines += 1
 
-	return adjs
+	return adjsF, adjsM
 
-if simple:
-	adjsF = read_file('W', 10000)
-	adjsM = read_file('M', 10000)
-else:
-	adjsF, adjsM = parse_chunks(-1)
+adjsF_all = defaultdict(dict)
+adjsM_all = defaultdict(dict)
+for filename in FILES:
+	print('parsing', filename)
+	if simple:
+		adjsF, adjsM = read_file(100000, filename)
+	else:
+		adjsF, adjsM = parse_chunks(1000000, filename)
+	print(len(adjsF), len(adjsM))
+	for adj, count in adjsF.items():
+		if adj not in adjsM:
+			continue
+		pickle.dump([adjsF, adjsM], open('out-' + filename[:-4] + '.pkl', 'wb'))
+		adjsF_all[adj][filename] = count
+		adjsM_all[adj][filename] = adjsM[adj]
 
-print(len(adjsF), len(adjsM))
+print(len(adjsF_all), len(adjsM_all))
 
-out = open('ted-data-chunks.txt', 'w')
+out = open('data-chunks-full.txt', 'w')
 
-for adj, count in adjsF.items():
-	if adj not in adjsM:
+for adj, adjsF in adjsF_all.items():
+	if adj not in adjsM_all:
 		continue
-	# if count + adjsM[count] < 50:
-	# 	continue
-	out.write(adj + ' ' + 'F' + ' ' + str(count) + '\n')
-	out.write(adj + ' ' + 'M' + ' ' + str(adjsM[adj]) + '\n')
+	countsF = []
+	countsM = []
+	for filename in FILES:
+		countsF.append(str(adjsF[filename]) if filename in adjsF else '0')
+		countsM.append(str(adjsM_all[adj][filename]) if filename in adjsM_all[adj] else '0')
+	out.write(' '.join([adj, 'W', ' '.join(countsF), 'M', ' '.join(countsM)]) + '\n')
