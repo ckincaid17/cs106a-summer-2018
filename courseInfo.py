@@ -138,8 +138,8 @@ ASSIGNMENTS = [
 		"LINK": "imageshop.html"
 	},
 	# {
-	# 	"NAME": "NameSurfer",
-	# 	"LINK": "namesurfer.html"
+	# 	"NAME": "BiasBars",
+	# 	"LINK": "biasbars.html"
 	# }
 ]
 ASSIGNMENT_DUE_TIME = "11AM PST"

@@ -122,16 +122,17 @@
 <!-- Assignment 6 -->
 <!-- <div class="well">
 	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">Assignment 6: NameSurfer</div>
-		<div class="moment">2017080709</div>
+		<div class="newsfeedTitle">Assignment 6: BiasBars</div>
+		<div class="moment">2018080613</div>
 	</div>
 
 	<p>
-		<img style="width:100%" alt="NameSurfer" src="{{pathToRoot}}images/assignments/namesurfer.png" />
+		<img style="width:100%" alt="BiasBars" src="{{pathToRoot}}images/assignments/biasbars.png" />
 	</p>
 
 	<p>
-		For your sixth assignment, you will implement a baby name graphing program that will give you practice with data structures, classes and interactors.  See the <a href="{{pathToRoot}}assignments/namesurfer.html">assignment page</a> for more details.  The assignment is due Tuesday, August 15th, but make sure to get started early!  Additionally, <strong>no late submissions (free late days or otherwise) will be accepted on this assignment.</strong>
+		For your sixth assignment, you will implement a program to graph gender biases in online comments that will give you practice with data structures, classes and interactors.  See the <a href="{{pathToRoot}}assignments/biasbars.html">assignment page</a> for more details.
+		The assignment is due Tuesday, August 14th, but make sure to get started early!  Additionally, <strong>no late submissions (free late days or otherwise) will be accepted on this assignment.</strong>
 	</p>
 </div> -->
 
