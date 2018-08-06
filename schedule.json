@@ -349,23 +349,24 @@
 		],
 		[
 			{
-				"title": "GCanvas and Interactors",
-				"date": "August 6",
+				"title": "Interactors and GCanvas",
+				"practice": [
+					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
+				],
+				"filename": "Lecture23",
 				"notes": [
 					"read: Java Ch. 10.5-10.6",
 					"Due: Assn. 5",
 					"Out: Assn. 6"
-				]
+				],
+				"date": "August 6"
 			},
 			{
-				"title": "Interactors and NameSurfer",
-				"practice": [
-					["SignMaker", "http://www.codestepbystep.com/problem/view/java/gui/SignMaker"]
-				],
+				"title": "GCanvas and BiasBars",
+				"date": "August 7",
 				"notes": [
 					"read: Java Ch. 10.5-10.6"
-				],
-				"date": "August 7"
+				]
 			},
 			{
 				"title": "Life After CS106A, Part 1",
