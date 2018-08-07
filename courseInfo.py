@@ -36,7 +36,7 @@ STAFF_INFO = [
 		"IMAGE": "anniehu.jpg",
 		"EMAIL": "anniehu@stanford.edu",
 		"OFFICE_HOURS_LOCATION": "Gates B02",
-		"OFFICE_HOURS_DATETIME": "Sun 3-5PM, Thu 7-9PM",
+		"OFFICE_HOURS_DATETIME": "Sun, Wed 5-7PM",
 		"DESCRIPTION": "The Head TA manages the section leaders and also oversees important course activities such as grading and section problems. Contact the Head TA if you need a regrade on an assignment, or have a question that cannot be answered by your section leader; the SLs are your primary email contact for all questions about homework or other course issues.  Please also cc your section leader and/or instructor."
 	}
 ]
