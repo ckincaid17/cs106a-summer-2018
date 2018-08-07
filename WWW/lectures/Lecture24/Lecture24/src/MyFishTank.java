@@ -21,14 +21,5 @@ public class MyFishTank extends GCanvas {
 		// TODO implement constructor
 	}
 	
-	/* This method adds our background image.
-	 * Note that we can't do this in the constructor because
-	 * we don't know the canvas size there!
-	 */
-	
-	/* This method adds one new Fish to our list of Fish.
-	 */
-	
-	/* This method moves each fish by a small amount.
-	 */
+	// TODO implement public methods as needed
 }
