@@ -27,7 +27,6 @@ public class MyAquarium extends Program {
 	
 	public void run() {
 		// TODO set up canvas
-		
 		// TODO animate!
 	}
 }
