@@ -373,7 +373,9 @@
 			},
 			{
 				"title": "Life After CS106A, Part 2",
-				"date": "August 9"
+				"date": "August 9",
+				"filename": "Lecture26",
+			  "code": false
 			},
 			{
 				"type": "OFF",
