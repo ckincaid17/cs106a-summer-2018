@@ -99,18 +99,18 @@ FINAL_EXAM = {
 	"DATE": "Friday, August 17",
 	"TIME": "12:15-3:15PM PST",
 	"LOCATIONS": [	# A list of objects containing TITLE, LOCATION, MAP_LINK
-		# {
-		# 	"TITLE": "Last Names A-O",
-		# 	"LOCATION": "NVIDIA Auditorium",
-		# 	"MAP_LINK": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.396866793715!2d-122.17639054916224!3d37.42772837972516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ac97723cb%3A0xa6e8fc1a7a5f2c29!2sNVIDIA+Auditorium!5e0!3m2!1sen!2sus!4v1502919715852"
-		# },
-		# {
-		# 	"TITLE": "Last Names P-Z",
-		# 	"LOCATION": "Gates B01 (Basement)",
-		# 	"MAP_LINK": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.2942783500653!2d-122.17568493444799!3d37.4301523298236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2b3f50f727%3A0xfd9cc3200ee97fda!2sGates+Computer+Science%2C+353+Serra+Mall%2C+Stanford%2C+CA+94305!5e0!3m2!1sen!2sus!4v1500425297459"
-		# }
+		{
+			"TITLE": "Exam",
+			"LOCATION": "Dinkelspiel Auditorium",
+			"MAP_LINK": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.551960752374!2d-122.17208698447611!3d37.42406357982489!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbad417d5a965%3A0xff6e238283d53800!2sDinkelspiel+Auditorium!5e0!3m2!1sen!2sus!4v1533930014794"
+		}
 	],
-	"REVIEW_SESSION": None
+	"REVIEW_SESSION": {
+		"DATE": "Mon/Tue, August 13/14",
+		"TIME": "11:30AM-12:20PM PST",
+		"LOCATION": "NVIDIA Auditorium",
+		"MAP_LINK": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.396866793715!2d-122.17639054916224!3d37.42772837972516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2ac97723cb%3A0xa6e8fc1a7a5f2c29!2sNVIDIA+Auditorium!5e0!3m2!1sen!2sus!4v1502919715852"
+	}
 }
 
 # Assignments (displayed in Assignments dropdown at the top)
