@@ -19,64 +19,11 @@
 <!-- <div class="well">
 	<div class="newsfeedHeader">
 		<div class="newsfeedTitle">Final Exams Graded</div>
-		<div class="moment">2017082315</div>
+		<div class="moment">2018082115</div>
 	</div>
 
 	<p>
-		The final exams have been graded, and individual scores have been released via <a href="https://www.gradescope.com">Gradescope</a>.  Please see the <a href="{{pathToRoot}}exams/final.html">final exam webpage</a> for more information about exam regrades, statistics and scores.  Regrade requests will be accepted until the end of the first week of Fall quarter, at <strong>11:59PM PST on Sunday, October 1, 2017</strong>.
-	</p>
-</div> -->
-
-<!-- Final prep -->
-<!-- <div class="well">
-	<div class="newsfeedHeader">
-		<div class="newsfeedTitle"><strong>UPDATED: </strong> Final Exam Information and Practice Materials</div>
-		<div class="moment">2017081700</div>
-	</div>
-
-	<p>
-		We have posted the final exam information page, including exam logistics, topics emphasized, and practice materials.  Click on the "final exam" link in the left sidebar for more information.
-	</p>
-	<p>
-		<strong>UPDATED: We have added an additional practice final exam, and have also listed the location of the final exam (which depends on your last name).</strong>
-	</p>
-</div> -->
-
-<!-- Office Hours -->
-<!-- <div class="well">
-	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">Section and Helper Hours the Week of 8/14</div>
-		<div class="moment">2017081516</div>
-	</div>
-
-	<p>
-		As we wrap up the quarter, we will be offering our last round of help hours this week.  Specifically, LaIR helper hours will end <strong>after Tuesday, 8/15</strong>.  Nick and Rishi will hold their usual office hours this week, and SCPD office hours will be offered as normal this week as well.
-	</p>
-	<p>
-		Additionally, there are no discussion sections this week.
-	</p>
-</div> -->
-
-<!-- Lunches -->
-<!-- <div class="well">
-	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">CS 106A Lunches</div>
-		<div class="moment">2017081516</div>
-	</div>
-
-	<p>
-		This week, we will be hosting "CS 106A lunches"!  These are informal lunches with the course staff to give you a chance to get lunch, hang out, and ask any questions you may have (about anything!).  Rishi and Nick will be attending, as well as various Section Leaders from both 106A and 106B (the followup course to CS 106A).  The lunches will be at the following times and locations:
-	</p>
-
-	<ol>
-		<li><strong>Wednesday, August 16, 11:30AM-12:30PM</strong> @ <a href="https://campus-map.stanford.edu/?id=06-250&lat=37.4254046&lng=-122.16406057&zoom=17&srch=arrillaga%20family">Arrillaga Family Dining Commons</a></li>
-		<li><strong>Thursday, August 17, 11:30AM-12:30PM</strong> @ <a href="https://campus-map.stanford.edu/?id=05-010G&lat=37.42469633&lng=-122.17638039&zoom=17&srch=lakeside%20dining">Lakeside (Lag) Dining</a></li>
-	</ol>
-	<p>
-		Students must swipe themselves in, but anyone is welcome, even those without meal plans.  If you have any financial concerns about attending, please contact Nick or Rishi.  Please meet at the entrance in each dining hall where you swipe in.
-	</p>
-	<p>
-		If you are planning on coming, we would appreciate you filling out <a href="https://goo.gl/forms/NTrRtrZD1lxVfnRz2">this form</a> so we can get a sense of how many students are interested (though this is not required to attend).  We hope to see you there!
+		The final exams have been graded, and individual scores have been released via <a href="https://www.gradescope.com">Gradescope</a>.  Please see the <a href="{{pathToRoot}}exams/final.html">final exam webpage</a> for more information about exam regrades, statistics and scores.  Regrade requests will be accepted until the end of the first week of Fall quarter, at <strong>11:59PM PST on Sunday, September 30, 2018</strong>.
 	</p>
 </div> -->
 
@@ -89,18 +36,6 @@
 
 	<p>
 		If you're interested in exporting your Eclipse projects as runnable programs to share with family and friends, see the handout on "JAR Files" linked to from the Handouts dropdown above.  If you export your program as a JAR file, you can run it without Eclipse, just by double-clicking on it.
-	</p>
-</div> -->
-
-<!-- Lunches -->
-<!-- <div class="well">
-	<div class="newsfeedHeader">
-		<div class="newsfeedTitle">CS 106A Lunches</div>
-		<div class="moment">2017080912</div>
-	</div>
-
-	<p>
-		Next week on <strong>Wednesday, 8/16 @ 12PM</strong> and <strong>Thursday, 8/17 @ 12PM</strong>, we will be hosting "CS 106A lunches"!  These are informal lunches with the course staff to give you a chance to get lunch, hang out, and ask any questions you may have (about anything!).  Rishi and Nick will be attending, as well as various Section Leaders from both 106A and 106B (the followup course to CS 106A).  Each lunch will be at a different dining hall on campus, and details will be announced early next week.  If you have any financial concerns about attending, please contact Nick or Rishi.
 	</p>
 </div> -->
 
