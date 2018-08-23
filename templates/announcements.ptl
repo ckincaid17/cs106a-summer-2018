@@ -16,16 +16,18 @@
 </div> -->
 
 <!-- Final Results -->
-<!-- <div class="well">
+<div class="well">
 	<div class="newsfeedHeader">
 		<div class="newsfeedTitle">Final Exams Graded</div>
-		<div class="moment">2018082115</div>
+		<div class="moment">2018082223</div>
 	</div>
 
 	<p>
-		The final exams have been graded, and individual scores have been released via <a href="https://www.gradescope.com">Gradescope</a>.  Please see the <a href="{{pathToRoot}}exams/final.html">final exam webpage</a> for more information about exam regrades, statistics and scores.  Regrade requests will be accepted until the end of the first week of Fall quarter, at <strong>11:59PM PST on Sunday, September 30, 2018</strong>.
+		The final exams have been graded, and individual scores have been released via <a href="https://www.gradescope.com">Gradescope</a>. Please see the <a href="{{pathToRoot}}exams/final.html">final exam webpage</a> for more information about exam regrades, statistics and scores. Regrade requests will be accepted until <strong>5:00PM PDT on Tuesday, August 28, 2018</strong>.
+		<br/><br/>
+		Thank you all for an amazing quarter, and have a great rest of the summer!
 	</p>
-</div> -->
+</div>
 
 <!-- JAR -->
 <!-- <div class="well">
@@ -140,7 +142,7 @@
 	</div>
 
 	<p>
-		The midterm is coming up <strong>Monday, July 23 7-9PM PST in Hewlett 200</strong>, and a recorded review session will be held on <strong>Friday, July 20 1:30-2:50PM PST in Gates B01</strong>.  For detailed information, including material to study, exam policies, and practice material, please see the midterm info webpage, linked to in the sidebar at left.
+		The midterm is coming up <strong>Monday, July 23 7-9PM PDT in Hewlett 200</strong>, and a recorded review session will be held on <strong>Friday, July 20 1:30-2:50PM PDT in Gates B01</strong>.  For detailed information, including material to study, exam policies, and practice material, please see the midterm info webpage, linked to in the sidebar at left.
 	</p>
 	<p>
 		<i>The midterm will be on your computer, so email Annie ASAP if you will need to borrow a laptop.</i>
@@ -363,7 +365,7 @@
 		If you missed regular section signups, you may sign up using the late signup form in the "Section" dropdown at the top.  Any SCPD students who missed the opportunity to sign up for a grader should do so also via the "Section" dropdown at the top.
 		<br />
 		<br />
-		If you would like to request a section swap, please <i>carefully follow the instructions below</i>.  The deadline to request a section swap is <strong>Tuesday, 7/3 @ 5PM PST</strong>:
+		If you would like to request a section swap, please <i>carefully follow the instructions below</i>.  The deadline to request a section swap is <strong>Tuesday, 7/3 @ 5PM PDT</strong>:
 	</p>
 	<ul>
 		<li>If you are an individual requesting a swap, you may do so via the "Section" dropdown at the top.</li>
