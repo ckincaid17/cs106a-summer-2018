@@ -9,7 +9,7 @@ QUARTER_NUMBER = 1188
 QUARTER_NAME = "Summer"
 QUARTER_YEAR = "2018"
 QUARTER_FULL_NAME = QUARTER_NAME + " " + QUARTER_YEAR
-QUARTER_OVER = False  # Set to True to add banner at the top redirecting to newer version of webpage
+QUARTER_OVER = True  # Set to True to add banner at the top redirecting to newer version of webpage
 
 # Lecture information (displayed at top of home page)
 LECTURE_DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday"]
